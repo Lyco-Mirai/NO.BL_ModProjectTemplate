@@ -1,0 +1,115 @@
+{
+  "modName": "bl_missiles",
+  "schemaVersion": 3,
+  "modVersion": "0.2.6",
+  "Patches": [
+    {
+      "GameAsset": {
+        "id": "hudIcon_missile|UnityEngine.Sprite, UnityEngine.CoreModule",
+        "asset": {
+          "locator": "hudIcon_missile",
+          "name": "hudIcon_missile",
+          "type": "UnityEngine.Sprite, UnityEngine.CoreModule"
+        }
+      },
+      "PatchLocations": [
+        {
+          "id": "BL_M_AGM_114A_Missile",
+          "asset": {
+            "locator": "Assets/BL/Missiles/BL_M_AGM_114/A/BL_M_AGM_114A_Missile.asset",
+            "name": "BL_M_AGM_114A_Missile",
+            "type": "MissileDefinition, Assembly-CSharp"
+          },
+          "hierarchyPath": "",
+          "componentType": "",
+          "componentIndex": 0,
+          "memberPath": "friendlyIcon"
+        },
+        {
+          "id": "BL_M_AGM_114A_Missile",
+          "asset": {
+            "locator": "Assets/BL/Missiles/BL_M_AGM_114/A/BL_M_AGM_114A_Missile.asset",
+            "name": "BL_M_AGM_114A_Missile",
+            "type": "MissileDefinition, Assembly-CSharp"
+          },
+          "hierarchyPath": "",
+          "componentType": "",
+          "componentIndex": 0,
+          "memberPath": "hostileIcon"
+        },
+        {
+          "id": "BL_M_AGM_114K_Missile",
+          "asset": {
+            "locator": "Assets/BL/Missiles/BL_M_AGM_114/K/BL_M_AGM_114K_Missile.asset",
+            "name": "BL_M_AGM_114K_Missile",
+            "type": "MissileDefinition, Assembly-CSharp"
+          },
+          "hierarchyPath": "",
+          "componentType": "",
+          "componentIndex": 0,
+          "memberPath": "friendlyIcon"
+        },
+        {
+          "id": "BL_M_AGM_114K_Missile",
+          "asset": {
+            "locator": "Assets/BL/Missiles/BL_M_AGM_114/K/BL_M_AGM_114K_Missile.asset",
+            "name": "BL_M_AGM_114K_Missile",
+            "type": "MissileDefinition, Assembly-CSharp"
+          },
+          "hierarchyPath": "",
+          "componentType": "",
+          "componentIndex": 0,
+          "memberPath": "hostileIcon"
+        },
+        {
+          "id": "BL_M_AGM_114L_Missile",
+          "asset": {
+            "locator": "Assets/BL/Missiles/BL_M_AGM_114/L/BL_M_AGM_114L_Missile.asset",
+            "name": "BL_M_AGM_114L_Missile",
+            "type": "MissileDefinition, Assembly-CSharp"
+          },
+          "hierarchyPath": "",
+          "componentType": "",
+          "componentIndex": 0,
+          "memberPath": "friendlyIcon"
+        },
+        {
+          "id": "BL_M_AGM_114L_Missile",
+          "asset": {
+            "locator": "Assets/BL/Missiles/BL_M_AGM_114/L/BL_M_AGM_114L_Missile.asset",
+            "name": "BL_M_AGM_114L_Missile",
+            "type": "MissileDefinition, Assembly-CSharp"
+          },
+          "hierarchyPath": "",
+          "componentType": "",
+          "componentIndex": 0,
+          "memberPath": "hostileIcon"
+        }
+      ]
+    }
+  ],
+  "Ops": [ 
+    { 
+      "opId": "OpAddToEncyclopedia",
+      "payloadJson": "{\"entries\":[{\"locator\":\"Assets/BL/Missiles/BL_M_AGM_114/A/BL_M_AGM_114A_Missile.asset\",\"name\":\"BL_M_AGM_114A_Missile\",\"type\":\"MissileDefinition, Assembly-CSharp\"}]}"
+    },
+    { 
+      "opId": "OpAddToEncyclopedia",
+      "payloadJson": "{\"entries\":[{\"locator\":\"Assets/BL/Missiles/BL_M_AGM_114/A/BL_M_AGM_114A_WpnPlyn_x1m.asset\",\"name\":\"BL_M_AGM_114A_WpnPlyn_x1m\",\"type\":\"WeaponMount, Assembly-CSharp\"}]}"
+    },
+    {
+      "opId": "OpAddWeaponMountToWeaponManager",
+      "payloadJson": "{\"bundleAsset\":{\"locator\":\"Assets/BL/Missiles/BL_M_AGM_114/A/BL_M_AGM_114A_WpnPlyn_x1m.asset\",\"name\":\"BL_M_AGM_114A_WpnPlyn_x1m\",\"type\":\"WeaponMount, Assembly-CSharp\"},\"weaponManagers\":[{\"gameAsset\":{\"locator\":\"BaseGame\",\"name\":\"COIN\",\"type\":\"WeaponManager, Assembly-CSharp\"},\"hardpointSetIndices\":[2,3,4,5]}]}"
+    },
+
+    { 
+      "opId": "OpAddToEncyclopedia",
+      "payloadJson": "{\"entries\":[{\"locator\":\"Assets/BL/Missiles/BL_M_AGM_114/K/BL_M_AGM_114K_Missile.asset\",\"name\":\"BL_M_AGM_114K_Missile\",\"type\":\"MissileDefinition, Assembly-CSharp\"}]}"
+    },
+    { 
+      "opId": "OpAddToEncyclopedia",
+      "payloadJson": "{\"entries\":[{\"locator\":\"Assets/BL/Missiles/BL_M_AGM_114/L/BL_M_AGM_114L_Missile.asset\",\"name\":\"BL_M_AGM_114L_Missile\",\"type\":\"MissileDefinition, Assembly-CSharp\"}]}"
+    }
+  ],
+  "Addressables": []
+}
