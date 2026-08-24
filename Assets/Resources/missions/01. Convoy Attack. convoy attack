@@ -1,0 +1,1086 @@
+{
+  "JsonVersion": 6,
+  "MapKey": {
+    "Type": "None",
+    "Path": ""
+  },
+  "missionSettings": {
+    "description": "Fly a T/A-30 Compass on a ground attack mission. Use missiles, rockets, bombs and guns to destroy a BDF convoy of lightly defended vehicles.",
+    "allowEventContent": false,
+    "Tags": [],
+    "playerMode": "Singleplayer",
+    "allowRespawn": false,
+    "playerStartingRank": 0,
+    "rankMultiplier": 1.0,
+    "successfulSortieBonus": 0.25,
+    "nuclearEscalationThreshold": 0.0,
+    "strategicEscalationThreshold": 0.0,
+    "minRankTacticalWarhead": 0,
+    "minRankStrategicWarhead": 0,
+    "cameraStartPosition": {
+      "IsOverride": false,
+      "Value": {
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        }
+      }
+    },
+    "missionRoads": {
+      "roads": []
+    },
+    "missionSeaLanes": {
+      "roads": []
+    },
+    "wrecksMaxNumber": 0,
+    "wrecksDecayTime": 0.0
+  },
+  "environment": {
+    "timeOfDay": 8.59547,
+    "timeFactor": 0.0,
+    "weatherIntensity": 0.516059,
+    "cloudAltitude": 971.21814,
+    "windSpeed": 0.0,
+    "windTurbulence": 0.0,
+    "windHeading": 0.0,
+    "windRandomHeading": 0.0,
+    "moonPhase": 14.0
+  },
+  "aircraft": [
+    {
+      "type": "trainer",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 12704.6982,
+        "y": 1677.03455,
+        "z": -13630.124
+      },
+      "rotation": {
+        "x": -1.08948621E-20,
+        "y": 0.03091919,
+        "z": -3.52197246E-19,
+        "w": 0.9995219
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "trainer",
+      "playerControlled": true,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gunpod_25mm_trainer"
+          },
+          {
+            "Key": "AGM1_triple"
+          },
+          {
+            "Key": "RocketPod1_single"
+          },
+          {
+            "Key": "bomb_250_single"
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 169.8794
+    },
+    {
+      "type": "trainer",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 12824.9443,
+        "y": 1648.58423,
+        "z": -13351.2266
+      },
+      "rotation": {
+        "x": 0.0168132521,
+        "y": -0.0306970738,
+        "z": 0.00733672,
+        "w": -0.9993605
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "trainer_1",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gunpod_25mm_trainer"
+          },
+          {
+            "Key": "gunpod_20mm"
+          },
+          {
+            "Key": "bomb_250_single"
+          },
+          {
+            "Key": "bomb_250_single"
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 999.5,
+      "startingSpeed": 169.879517
+    }
+  ],
+  "vehicles": [
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 13005.8232,
+        "y": 138.840881,
+        "z": -280.8131
+      },
+      "rotation": {
+        "x": -0.0147546278,
+        "y": 0.0610158145,
+        "z": 0.000202611947,
+        "w": -0.998027742
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-FT",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 7356.17969,
+            "y": 25.102005,
+            "z": 9752.139
+          },
+          "objective": "Unit Spawn"
+        }
+      ]
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 13022.4082,
+        "y": 139.50177,
+        "z": -240.727661
+      },
+      "rotation": {
+        "x": 0.0123899085,
+        "y": 0.0615083277,
+        "z": 0.00197139429,
+        "w": -0.998027742
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-FT_1",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 19123.4473,
+            "y": 133.729477,
+            "z": 12727.76
+          },
+          "objective": "Unit Spawn"
+        }
+      ]
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 13016.5313,
+        "y": 139.530792,
+        "z": -369.021851
+      },
+      "rotation": {
+        "x": -0.0132543286,
+        "y": 0.06134435,
+        "z": -0.00136520155,
+        "w": -0.998027742
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-FT_2",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 7356.17969,
+            "y": 25.102005,
+            "z": 9752.139
+          },
+          "objective": "Unit Spawn"
+        }
+      ]
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 13029.0732,
+        "y": 139.335846,
+        "z": -317.317322
+      },
+      "rotation": {
+        "x": 0.0106537445,
+        "y": 0.0617354251,
+        "z": 0.003988112,
+        "w": -0.998027742
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-FT_3",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 19123.4473,
+            "y": 133.729477,
+            "z": 12727.76
+          },
+          "objective": "Unit Spawn"
+        }
+      ]
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 13030.3633,
+        "y": 141.088959,
+        "z": -460.471161
+      },
+      "rotation": {
+        "x": -0.005861346,
+        "y": 0.0660317,
+        "z": 0.00730891433,
+        "w": -0.9977736
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-FT_4",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 7356.17969,
+            "y": 25.102005,
+            "z": 9752.139
+          },
+          "objective": "Unit Spawn"
+        }
+      ]
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 13038.7324,
+        "y": 140.382385,
+        "z": -405.011932
+      },
+      "rotation": {
+        "x": 0.0119485,
+        "y": 0.06561383,
+        "z": 0.000143605968,
+        "w": -0.9977736
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-FT_5",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 19123.4473,
+            "y": 133.729477,
+            "z": 12727.76
+          },
+          "objective": "Unit Spawn"
+        }
+      ]
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 13041.7256,
+        "y": 142.139038,
+        "z": -535.380554
+      },
+      "rotation": {
+        "x": -0.00208946387,
+        "y": 0.07841005,
+        "z": 0.000431041961,
+        "w": -0.9969189
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-FT_6",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 7356.17969,
+            "y": 25.102005,
+            "z": 9752.139
+          },
+          "objective": "Unit Spawn"
+        }
+      ]
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 13051.4,
+        "y": 140.856964,
+        "z": -495.727417
+      },
+      "rotation": {
+        "x": 0.005355296,
+        "y": 0.0780700147,
+        "z": -0.00546837552,
+        "w": -0.9969185
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-FT_7",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 19123.4473,
+            "y": 133.729477,
+            "z": 12727.76
+          },
+          "objective": "Unit Spawn"
+        }
+      ]
+    },
+    {
+      "type": "LaserTrailer1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18929.85,
+        "y": 134.845428,
+        "z": 12567.4072
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9514753,
+        "z": 0.0,
+        "w": 0.3077251
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LaserTrailer1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "6x6_1_AA",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18961.2051,
+        "y": 134.255447,
+        "z": 12588.5371
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9510678,
+        "z": 0.0,
+        "w": 0.308982283
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 3.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "6x6_1_AA",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 13060.0557,
+        "y": 144.284424,
+        "z": -648.769531
+      },
+      "rotation": {
+        "x": -0.003441307,
+        "y": 0.0587576851,
+        "z": 0.000975538045,
+        "w": -0.998265862
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 12.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC_2",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 7356.17969,
+            "y": 25.102005,
+            "z": 9752.139
+          },
+          "objective": "Unit Spawn"
+        }
+      ]
+    },
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 13066.6934,
+        "y": 144.559937,
+        "z": -605.039063
+      },
+      "rotation": {
+        "x": 0.00749290455,
+        "y": 0.09378445,
+        "z": 0.002298229,
+        "w": -0.9955617
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 12.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC_3",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 19123.4473,
+            "y": 133.729477,
+            "z": 12727.76
+          },
+          "objective": "Unit Spawn"
+        }
+      ]
+    },
+    {
+      "type": "6x6_1_AA",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 8048.85547,
+        "y": 12.5260315,
+        "z": 9857.872
+      },
+      "rotation": {
+        "x": -0.00544832554,
+        "y": 0.6673026,
+        "z": 0.0707544461,
+        "w": 0.7413983
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 3.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "6x6_1_AA_1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "6x6_1_AA",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 6983.54248,
+        "y": 12.9879761,
+        "z": 9765.535
+      },
+      "rotation": {
+        "x": -0.00264680572,
+        "y": 0.726654232,
+        "z": 0.03774019,
+        "w": -0.6859609
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 3.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "6x6_1_AA_2",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 12993.585,
+        "y": 140.138458,
+        "z": -161.257813
+      },
+      "rotation": {
+        "x": -0.00138146349,
+        "y": 0.05032816,
+        "z": 7.002344E-05,
+        "w": -0.9987318
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 12.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC_4",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 7356.17969,
+            "y": 25.102005,
+            "z": 9752.139
+          },
+          "objective": "Unit Spawn"
+        }
+      ]
+    },
+    {
+      "type": "AFV8_IFV",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 13004.0908,
+        "y": 139.952545,
+        "z": -135.650391
+      },
+      "rotation": {
+        "x": -0.00393370865,
+        "y": 0.07375535,
+        "z": -8.664581E-05,
+        "w": -0.9972686
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 9.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_IFV",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 13523.835,
+            "y": 152.472733,
+            "z": 1753.38672
+          },
+          "objective": "Unit Spawn"
+        }
+      ]
+    },
+    {
+      "type": "LCV45",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 13003.43,
+        "y": 140.309753,
+        "z": -210.227539
+      },
+      "rotation": {
+        "x": -4.47487218E-05,
+        "y": 0.07845082,
+        "z": 0.00036545904,
+        "w": -0.996917963
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 4.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LCV45",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 13843.1592,
+            "y": 145.919632,
+            "z": 1919.31506
+          },
+          "objective": "Unit Spawn"
+        }
+      ]
+    }
+  ],
+  "ships": [],
+  "buildings": [],
+  "scenery": [],
+  "containers": [],
+  "missiles": [],
+  "pilots": [],
+  "factions": [
+    {
+      "factionName": "Boscali",
+      "preventJoin": false,
+      "preventDonation": true,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 5.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    },
+    {
+      "factionName": "Primeva",
+      "preventJoin": false,
+      "preventDonation": true,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 5.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "airbases": [
+    {
+      "IsOverride": true,
+      "faction": "Primeva",
+      "UniqueName": "Dustbowl Highway Strip",
+      "DisplayName": "Dustbowl Highway Strip",
+      "Disabled": false,
+      "Capturable": false,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 746.0,
+      "Center": {
+        "x": 13326.0,
+        "y": 146.120026,
+        "z": -7450.0
+      },
+      "SelectionPosition": {
+        "x": 13351.44,
+        "y": 145.872009,
+        "z": -7709.05
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "K92 Highway Strip",
+      "DisplayName": "K92 Highway Strip",
+      "Disabled": false,
+      "Capturable": false,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 746.0,
+      "Center": {
+        "x": 18756.0,
+        "y": 136.159943,
+        "z": 12406.0
+      },
+      "SelectionPosition": {
+        "x": 18943.8867,
+        "y": 132.814972,
+        "z": 12574.958
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    }
+  ],
+  "objectives": [
+    {
+      "Type": "None",
+      "UniqueName": "Mission Start",
+      "Faction": "",
+      "DisplayName": "",
+      "Hidden": true,
+      "Outcomes": [
+        "StartingObjectives"
+      ]
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Search For Convoy",
+      "Faction": "Primeva",
+      "DisplayName": "Search For Convoy",
+      "Hidden": false,
+      "Outcomes": [],
+      "completeOrder": "InOrder",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 13434.2139,
+            "y": 136.69751,
+            "z": -1874.2334
+          },
+          "Range": 0.0
+        }
+      ]
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "WaitForMessage1",
+      "Faction": "Primeva",
+      "DisplayName": "WaitForMessage1",
+      "Hidden": false,
+      "Outcomes": [
+        "Message_1"
+      ],
+      "seconds": 1.0
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "WaitForMessage2",
+      "Faction": "Primeva",
+      "DisplayName": "WaitForMessage2",
+      "Hidden": false,
+      "Outcomes": [
+        "Message_2"
+      ],
+      "seconds": 12.0
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "WaitForMessage3",
+      "Faction": "Primeva",
+      "DisplayName": "WaitForMessage3",
+      "Hidden": false,
+      "Outcomes": [
+        "Message_3",
+        "StartSearch"
+      ],
+      "seconds": 25.0
+    },
+    {
+      "Type": "SpotUnit",
+      "UniqueName": "Spot Vehicles",
+      "Faction": "Primeva",
+      "DisplayName": "Spot Vehicles",
+      "Hidden": true,
+      "Outcomes": [
+        "Message_Spotted",
+        "StopSearch",
+        "StartDestroyVehicles"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "HLT-FT",
+        "HLT-FT_1",
+        "HLT-FT_2",
+        "HLT-FT_3",
+        "HLT-FT_4",
+        "HLT-FT_5",
+        "HLT-FT_6",
+        "HLT-FT_7",
+        "AFV8_APC_2",
+        "AFV8_APC_3",
+        "LCV45",
+        "AFV8_IFV",
+        "AFV8_APC_4"
+      ]
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "Destroy Vehicles",
+      "Faction": "Primeva",
+      "DisplayName": "Destroy Vehicles",
+      "Hidden": false,
+      "Outcomes": [
+        "Message_Destroy Convoy",
+        "Victory Outcome"
+      ],
+      "completeOrder": "InOrder",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "HLT-FT",
+        "HLT-FT_1",
+        "HLT-FT_2",
+        "HLT-FT_3",
+        "HLT-FT_4",
+        "HLT-FT_5",
+        "HLT-FT_6",
+        "HLT-FT_7",
+        "AFV8_APC_2",
+        "AFV8_APC_3",
+        "AFV8_APC_4",
+        "AFV8_IFV",
+        "LCV45"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartingObjectives",
+      "objectivesToStart": [
+        "Spot Vehicles",
+        "WaitForMessage1",
+        "WaitForMessage2",
+        "WaitForMessage3",
+        "Search For Convoy"
+      ]
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "Message_1",
+      "Message": "The BDF is on the run, and trying to evacuate as much fuel from the area as they can.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "Message_2",
+      "Message": "A large convoy of fuel trucks was last spotted about 5km north of Dustbowl. We're headed to the convoy's last known position.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "Message_3",
+      "Message": "Your aircraft's visual sensors can detect ground vehicles within a range of 6km. We are to locate and destroy the convoy.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "Message_Destroy Convoy",
+      "Message": "Excellent work, every convoy vehicle has been destroyed.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "EndGame",
+      "UniqueName": "Victory Outcome",
+      "endType": "Victory",
+      "endDelay": 6.443867
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartDestroyVehicles",
+      "objectivesToStart": [
+        "Destroy Vehicles"
+      ]
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "Message_Spotted",
+      "Message": "Convoy has been spotted. Lets get to work.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartSearch",
+      "objectivesToStart": [
+        "Spot Vehicles"
+      ]
+    },
+    {
+      "Type": "StopOrCompleteObjective",
+      "UniqueName": "StopSearch",
+      "options": "Complete",
+      "objectivesToStart": [
+        "Search For Convoy"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1068d80d46d674bb5ba8d372cacd329, type: 3}
+  m_Name: Primeva
+  m_EditorClassIdentifier:
+  LeaderboardOrder: 2
+  factionName: Primeva
+  factionTag: PALA
+  factionExtendedName: Primeva Armed Liberation Alliance
+  factionHeaderSprite: {fileID: 21300000, guid: 89958e173c05b494694999a90d63d5e7, type: 2}
+  factionGrayscaleLogo: {fileID: 21300000, guid: e9e0c6ae839685c42ab70d47f20e2d10, type: 2}
+  factionColorLogo: {fileID: 21300000, guid: e74526957fa572d4ab367bfb8ad84d27, type: 2}
+  color: {r: 1, g: 0.7228957, b: 0, a: 1}
+  selectedColor: {r: 1, g: 0, b: 0, a: 1}
+  theme: {fileID: 8300000, guid: 2fc6ccebb1e8140428209c2cb8cf6ac8, type: 3}
+  idleTheme: {fileID: 8300000, guid: 0b203e7fce076454198f5bad2e14f53c, type: 3}
+  convoyGroups:
+  - Name: PALA Tank Platoon
+    Constituents:
+    - Type: {fileID: 11400000, guid: 9830219aaddc1ef49b87c58032c201a2, type: 2}
+      Count: 3
+  - Name: PALA Mechanized Company Group
+    Constituents:
+    - Type: {fileID: 11400000, guid: 828397879e7f66f4d849bfaee5b82f58, type: 2}
+      Count: 3
+    - Type: {fileID: 11400000, guid: 89b120af47355bb4f9d19ad4d0bfe82c, type: 2}
+      Count: 5
+    - Type: {fileID: 11400000, guid: b97f2bab5af3593449794c9e593dd96b, type: 2}
+      Count: 1
+  - Name: PALA Armoured Company Group
+    Constituents:
+    - Type: {fileID: 11400000, guid: 9830219aaddc1ef49b87c58032c201a2, type: 2}
+      Count: 6
+    - Type: {fileID: 11400000, guid: a090fb41ec679284c92b6753c1e43e7e, type: 2}
+      Count: 1
+    - Type: {fileID: 11400000, guid: 89b120af47355bb4f9d19ad4d0bfe82c, type: 2}
+      Count: 3
+  - Name: PALA Combined Arms Company
+    Constituents:
+    - Type: {fileID: 11400000, guid: 33dd82ea5a7c9ca429c074541fd45805, type: 2}
+      Count: 1
+    - Type: {fileID: 11400000, guid: 9abe49ae07846ce419b68a453b482bbc, type: 2}
+      Count: 2
+    - Type: {fileID: 11400000, guid: 828397879e7f66f4d849bfaee5b82f58, type: 2}
+      Count: 3
+    - Type: {fileID: 11400000, guid: 89b120af47355bb4f9d19ad4d0bfe82c, type: 2}
+      Count: 6
+    - Type: {fileID: 11400000, guid: 9830219aaddc1ef49b87c58032c201a2, type: 2}
+      Count: 6
+    - Type: {fileID: 11400000, guid: 9a247c6744893464e9800ff24de48099, type: 2}
+      Count: 1
+    - Type: {fileID: 11400000, guid: 3617f32ff756afc4e8650e271f83a513, type: 2}
+      Count: 1
+    - Type: {fileID: 11400000, guid: 255401fc876107e46b592f90576af6b7, type: 2}
+      Count: 1
+    - Type: {fileID: 11400000, guid: 13c188089947bcf48aa5960c85cec0bb, type: 2}
+      Count: 1

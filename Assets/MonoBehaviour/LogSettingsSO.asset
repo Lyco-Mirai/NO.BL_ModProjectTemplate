@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 987579952, guid: 35c838180ffa3b627a4ee1e66ae78cec, type: 3}
+  m_Name: LogSettingsSO
+  m_EditorClassIdentifier:
+  LogLevels:
+  - Name: NetworkIdentity
+    Namespace: Mirage
+    logLevel: 2
+  - Name: NetworkBehaviour
+    Namespace: Mirage
+    logLevel: 2
+  - Name: WelcomeWindow
+    Namespace: Mirage
+    logLevel: 2
+  - Name: NetworkIdentityIdGenerator
+    Namespace: Mirage
+    logLevel: 2
+  - Name: NetworkScenePostProcess
+    Namespace: Mirage
+    logLevel: 2
+  - Name: NetworkServer
+    Namespace: Mirage
+    logLevel: 2
+  - Name: NetworkClient
+    Namespace: Mirage
+    logLevel: 2
+  - Name: ServerObjectManager
+    Namespace: Mirage
+    logLevel: 2
+  - Name: ClientObjectManager
+    Namespace: Mirage
+    logLevel: 2
+  - Name: AuthenticatorSettings
+    Namespace: Mirage.Authentication
+    logLevel: 2
+  - Name: NetworkWorld
+    Namespace: Mirage
+    logLevel: 2
+  - Name: NetworkTime
+    Namespace: Mirage
+    logLevel: 2
+  - Name: SyncVarSender
+    Namespace: Mirage
+    logLevel: 2
+  - Name: SyncVarReceiver
+    Namespace: Mirage
+    logLevel: 2
+  - Name: MessageHandler
+    Namespace: Mirage
+    logLevel: 2
+  - Name: NetworkWriterPool
+    Namespace: Mirage.Serialization
+    logLevel: 2
+  - Name: Peer
+    Namespace: Mirage.SocketLayer
+    logLevel: 2
+  - Name: NetworkPlayer
+    Namespace: Mirage
+    logLevel: 2
+  - Name: RpcHandler
+    Namespace: Mirage.RemoteCalls
+    logLevel: 2
+  - Name: NetworkReaderPool
+    Namespace: Mirage.Serialization
+    logLevel: 2
+  - Name: MatrixPoolLogger
+    Namespace: TerrainScatter
+    logLevel: 2
+  - Name: SceneDrawer
+    Namespace: Mirage
+    logLevel: 2
+  - Name: MirageTypesExtensions
+    Namespace: Mirage.Serialization
+    logLevel: 2
+  - Name: RemoteCallCollection
+    Namespace: Mirage.RemoteCalls
+    logLevel: 2
+  - Name: SteamSocket
+    Namespace: Mirage.SteamworksSocket
+    logLevel: 2
+  - Name: SteamSocket_Verbose
+    Namespace: Mirage.SteamworksSocket
+    logLevel: 2
+  - Name: PipePeerConnection
+    Namespace: Mirage
+    logLevel: 2
+  - Name: AutoPool<List`1>
+    Namespace: Mirage
+    logLevel: 2
+  - Name: ClientRpcSender
+    Namespace: Mirage.RemoteCalls
+    logLevel: 2
+  - Name: NetworkManagerNuclearOption
+    Namespace: NuclearOption.Networking
+    logLevel: 3
+  - Name: NetworkMission
+    Namespace:
+    logLevel: 2
+  - Name: HeadlessFrameLimiter
+    Namespace: Mirage
+    logLevel: 2
+  - Name: NetworkAnimator
+    Namespace: Mirage
+    logLevel: 2
+  - Name: OnlineOfflineScene
+    Namespace: Mirage
+    logLevel: 2
+  - Name: NetworkProximityChecker
+    Namespace: Mirage
+    logLevel: 2
+  - Name: NetworkSceneChecker
+    Namespace: Mirage
+    logLevel: 2
+  - Name: SceneVisibilityChecker
+    Namespace: Mirage
+    logLevel: 2
+  - Name: LobbyReady
+    Namespace: Mirage.Components
+    logLevel: 2
+  - Name: NetworkBehaviourInspector
+    Namespace: Mirage
+    logLevel: 2
+  - Name: CharacterSpawner
+    Namespace: Mirage
+    logLevel: 2
+  - Name: PlayerErrorFlags
+    Namespace: Mirage
+    logLevel: 3
+  - Name: NetworkSceneManager
+    Namespace: Mirage
+    logLevel: 2
+  - Name: CreateSession
+    Namespace: Mirage.Authenticators.SessionId
+    logLevel: 2
+  - Name: SessionIdAuthenticator
+    Namespace: Mirage.Authenticators.SessionId
+    logLevel: 2

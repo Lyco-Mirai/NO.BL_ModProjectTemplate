@@ -1,0 +1,904 @@
+{
+  "JsonVersion": 6,
+  "MapKey": {
+    "Type": "None",
+    "Path": ""
+  },
+  "missionSettings": {
+    "description": "",
+    "allowEventContent": false,
+    "Tags": [],
+    "playerMode": "SingleAndMultiplayer",
+    "allowRespawn": true,
+    "playerStartingRank": 6,
+    "rankMultiplier": 1.0,
+    "successfulSortieBonus": 0.25,
+    "nuclearEscalationThreshold": 0.0,
+    "strategicEscalationThreshold": 0.0,
+    "minRankTacticalWarhead": 0,
+    "minRankStrategicWarhead": 0,
+    "cameraStartPosition": {
+      "IsOverride": false,
+      "Value": {
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        }
+      }
+    },
+    "missionRoads": {
+      "roads": []
+    },
+    "missionSeaLanes": {
+      "roads": []
+    },
+    "wrecksMaxNumber": 0,
+    "wrecksDecayTime": 0.0
+  },
+  "environment": {
+    "timeOfDay": 9.576031,
+    "timeFactor": 0.0,
+    "weatherIntensity": 0.4769902,
+    "cloudAltitude": 1800.0,
+    "windSpeed": 0.0,
+    "windTurbulence": 0.0,
+    "windHeading": 0.0,
+    "windRandomHeading": 0.0,
+    "moonPhase": 14.0
+  },
+  "aircraft": [],
+  "vehicles": [
+    {
+      "type": "HLT-M",
+      "faction": "Primeva",
+      "UniqueName": "HLT-M",
+      "globalPosition": {
+        "x": 27705.3164,
+        "y": 136.084076,
+        "z": -19249.8125
+      },
+      "rotation": {
+        "x": -3.77243159E-05,
+        "y": 0.03424319,
+        "z": 0.0001346828,
+        "w": -0.99941355
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Primeva",
+      "UniqueName": "HLT-FT",
+      "globalPosition": {
+        "x": 27778.09,
+        "y": 136.375061,
+        "z": -19505.9063
+      },
+      "rotation": {
+        "x": -0.001219002,
+        "y": 0.643316031,
+        "z": -0.004810738,
+        "w": -0.765584648
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Primeva",
+      "UniqueName": "HLT-FT_1",
+      "globalPosition": {
+        "x": -661.085938,
+        "y": 139.383026,
+        "z": -27640.6484
+      },
+      "rotation": {
+        "x": 0.008712114,
+        "y": 0.4618971,
+        "z": 0.00645142933,
+        "w": 0.8868673
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Primeva",
+      "UniqueName": "HLT-FT_2",
+      "globalPosition": {
+        "x": 13379.7383,
+        "y": 146.768219,
+        "z": -7769.23633
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.5575666,
+        "z": 0.0,
+        "w": 0.8301323
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "UniqueName": "HLT-FT_3",
+      "globalPosition": {
+        "x": 13076.7119,
+        "y": 141.155914,
+        "z": 19462.8477
+      },
+      "rotation": {
+        "x": -0.00729341526,
+        "y": 0.485464275,
+        "z": -0.00356643018,
+        "w": -0.8742188
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "UniqueName": "HLT-FT_4",
+      "globalPosition": {
+        "x": -19439.42,
+        "y": 136.919571,
+        "z": 32066.2871
+      },
+      "rotation": {
+        "x": -0.00126778008,
+        "y": 0.195598409,
+        "z": 0.0004796306,
+        "w": 0.980683148
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "UniqueName": "HLT-FT_5",
+      "globalPosition": {
+        "x": -34112.5,
+        "y": 19.8105469,
+        "z": -12075.7207
+      },
+      "rotation": {
+        "x": 0.0009217951,
+        "y": 0.7425839,
+        "z": -0.0009074685,
+        "w": 0.6697519
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "UniqueName": "HLT-FT_6",
+      "globalPosition": {
+        "x": 18923.043,
+        "y": 133.715439,
+        "z": 12562.5957
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9521408,
+        "z": 0.0,
+        "w": 0.305659831
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Primeva",
+      "UniqueName": "HLT-FT_7",
+      "globalPosition": {
+        "x": -10334.8555,
+        "y": 137.241669,
+        "z": -6480.959
+      },
+      "rotation": {
+        "x": 3.37185047E-05,
+        "y": 0.0798044652,
+        "z": -0.000206645273,
+        "w": -0.9968105
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    }
+  ],
+  "ships": [
+    {
+      "type": "FleetCarrier1",
+      "faction": "Primeva",
+      "UniqueName": "FleetCarrier1_1",
+      "globalPosition": {
+        "x": -4590.865,
+        "y": 4.999939,
+        "z": -34297.9258
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.7984275,
+        "z": 0.0,
+        "w": 0.602091
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 100.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Corvette1",
+      "faction": "Primeva",
+      "UniqueName": "Corvette1_1",
+      "globalPosition": {
+        "x": -4234.74854,
+        "y": 6.51464844,
+        "z": -34552.7539
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.913215637,
+        "z": 0.0,
+        "w": -0.407476753
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Corvette1",
+      "faction": "Boscali",
+      "UniqueName": "Corvette1",
+      "globalPosition": {
+        "x": -36123.4336,
+        "y": 7.860901,
+        "z": -14917.9775
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.10158667,
+        "z": 0.0,
+        "w": -0.994826734
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AssaultCarrier1",
+      "faction": "Boscali",
+      "UniqueName": "AssaultCarrier1",
+      "globalPosition": {
+        "x": -36637.9727,
+        "y": 5.79260254,
+        "z": -14933.8262
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.389019936,
+        "z": 0.0,
+        "w": -0.921229362
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 50.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    }
+  ],
+  "buildings": [],
+  "scenery": [],
+  "containers": [],
+  "missiles": [],
+  "pilots": [],
+  "factions": [
+    {
+      "factionName": "Boscali",
+      "preventJoin": false,
+      "preventDonation": true,
+      "supplies": [
+        {
+          "UnitType": "COIN",
+          "Count": 99
+        },
+        {
+          "UnitType": "trainer",
+          "Count": 99
+        },
+        {
+          "UnitType": "AttackHelo1",
+          "Count": 99
+        },
+        {
+          "UnitType": "Fighter1",
+          "Count": 99
+        },
+        {
+          "UnitType": "SmallFighter1",
+          "Count": 99
+        },
+        {
+          "UnitType": "QuadVTOL1",
+          "Count": 99
+        },
+        {
+          "UnitType": "Multirole1",
+          "Count": 99
+        },
+        {
+          "UnitType": "EW1",
+          "Count": 99
+        },
+        {
+          "UnitType": "Darkreach",
+          "Count": 99
+        },
+        {
+          "UnitType": "UtilityHelo1",
+          "Count": 99
+        },
+        {
+          "UnitType": "CAS1",
+          "Count": 99
+        },
+        {
+          "UnitType": "FastBomber1",
+          "Count": 99
+        },
+        {
+          "UnitType": "VTOLTrainer1",
+          "Count": 99
+        }
+      ],
+      "startingBalance": 999999.0,
+      "playerJoinAllowance": 9999.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 0.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 999,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 0,
+      "AIAircraftLimit": 0,
+      "reduceAIPerFriendlyPlayer": 0.0,
+      "addAIPerEnemyPlayer": 0.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    },
+    {
+      "factionName": "Primeva",
+      "preventJoin": false,
+      "preventDonation": true,
+      "supplies": [
+        {
+          "UnitType": "COIN",
+          "Count": 99
+        },
+        {
+          "UnitType": "trainer",
+          "Count": 99
+        },
+        {
+          "UnitType": "AttackHelo1",
+          "Count": 99
+        },
+        {
+          "UnitType": "Fighter1",
+          "Count": 99
+        },
+        {
+          "UnitType": "SmallFighter1",
+          "Count": 99
+        },
+        {
+          "UnitType": "QuadVTOL1",
+          "Count": 99
+        },
+        {
+          "UnitType": "Multirole1",
+          "Count": 99
+        },
+        {
+          "UnitType": "EW1",
+          "Count": 99
+        },
+        {
+          "UnitType": "Darkreach",
+          "Count": 99
+        },
+        {
+          "UnitType": "UtilityHelo1",
+          "Count": 99
+        },
+        {
+          "UnitType": "CAS1",
+          "Count": 99
+        },
+        {
+          "UnitType": "FastBomber1",
+          "Count": 99
+        },
+        {
+          "UnitType": "VTOLTrainer1",
+          "Count": 99
+        }
+      ],
+      "startingBalance": 999999.0,
+      "playerJoinAllowance": 9999.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 0.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 999,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 0,
+      "AIAircraftLimit": 0,
+      "reduceAIPerFriendlyPlayer": 0.0,
+      "addAIPerEnemyPlayer": 0.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "airbases": [
+    {
+      "IsOverride": true,
+      "faction": "Boscali",
+      "UniqueName": "Maris Airport",
+      "DisplayName": "Maris Airport",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1473.0,
+      "Center": {
+        "x": 13045.3,
+        "y": 136.400986,
+        "z": 19568.5
+      },
+      "SelectionPosition": {
+        "x": 12654.53,
+        "y": 137.222,
+        "z": 19062.91
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Boscali",
+      "UniqueName": "North Boscali Airbase",
+      "DisplayName": "North Boscali Airbase",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1561.0,
+      "Center": {
+        "x": -18632.0,
+        "y": 138.76001,
+        "z": 32049.0
+      },
+      "SelectionPosition": {
+        "x": -18550.0,
+        "y": 137.057,
+        "z": 32192.7
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Boscali",
+      "UniqueName": "Vigil Cay Naval Airbase",
+      "DisplayName": "Vigil Cay Naval Airbase",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1332.0,
+      "Center": {
+        "x": -33994.5,
+        "y": 18.3999939,
+        "z": -12111.0
+      },
+      "SelectionPosition": {
+        "x": -34213.5664,
+        "y": 19.985,
+        "z": -12459.1035
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Primeva",
+      "UniqueName": "Agrapol Airbase",
+      "DisplayName": "Agrapol Airbase",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1463.0,
+      "Center": {
+        "x": -1131.0,
+        "y": 137.6,
+        "z": -26845.0
+      },
+      "SelectionPosition": {
+        "x": -1024.9,
+        "y": 139.414,
+        "z": -27258.9
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Primeva",
+      "UniqueName": "South Boscali General Aviation",
+      "DisplayName": "South Boscali General Aviation",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 900.0,
+      "Center": {
+        "x": -9875.6,
+        "y": 136.6,
+        "z": -6479.2
+      },
+      "SelectionPosition": {
+        "x": -10265.02,
+        "y": 136.43,
+        "z": -6532.09
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Primeva",
+      "UniqueName": "Sandrift Airbase",
+      "DisplayName": "Sandrift Airbase",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 975.0,
+      "Center": {
+        "x": 27807.69,
+        "y": 135.47345,
+        "z": -18910.1543
+      },
+      "SelectionPosition": {
+        "x": 27574.4785,
+        "y": 135.432465,
+        "z": -19351.6035
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Primeva",
+      "UniqueName": "Dustbowl Highway Strip",
+      "DisplayName": "Dustbowl Highway Strip",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 746.0,
+      "Center": {
+        "x": 13326.0,
+        "y": 146.12,
+        "z": -7450.0
+      },
+      "SelectionPosition": {
+        "x": 13351.44,
+        "y": 145.872009,
+        "z": -7709.05
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Boscali",
+      "UniqueName": "K92 Highway Strip",
+      "DisplayName": "K92 Highway Strip",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 746.0,
+      "Center": {
+        "x": 18756.0,
+        "y": 136.16,
+        "z": 12406.0
+      },
+      "SelectionPosition": {
+        "x": 18943.8867,
+        "y": 132.815,
+        "z": 12574.958
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    }
+  ],
+  "objectives": [
+    {
+      "Type": "None",
+      "UniqueName": "Mission Start",
+      "Faction": "",
+      "DisplayName": "",
+      "Hidden": true,
+      "Outcomes": [
+        "Start_Mission Start_1",
+        "Start_Mission Start_2"
+      ]
+    },
+    {
+      "Type": "None",
+      "UniqueName": "Mission Start_1",
+      "Faction": "Boscali",
+      "DisplayName": "Mission Start",
+      "Hidden": false,
+      "Outcomes": [
+        "SpawnUnits_Mission Start"
+      ]
+    },
+    {
+      "Type": "None",
+      "UniqueName": "Mission Start_2",
+      "Faction": "Primeva",
+      "DisplayName": "Mission Start",
+      "Hidden": false,
+      "Outcomes": [
+        "SpawnUnits_Mission Start_1"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "Type": "StartObjective",
+      "UniqueName": "Start_Mission Start_1",
+      "objectivesToStart": [
+        "Mission Start_1"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "Start_Mission Start_2",
+      "objectivesToStart": [
+        "Mission Start_2"
+      ]
+    },
+    {
+      "Type": "SpawnUnit",
+      "UniqueName": "SpawnUnits_Mission Start",
+      "UnitsToSpawn": [
+        "HLT-M",
+        "HLT-FT",
+        "HLT-FT_1",
+        "HLT-FT_2",
+        "HLT-FT_3",
+        "HLT-FT_4",
+        "HLT-FT_5",
+        "HLT-FT_6",
+        "HLT-FT_7"
+      ]
+    },
+    {
+      "Type": "SpawnUnit",
+      "UniqueName": "SpawnUnits_Mission Start_1",
+      "UnitsToSpawn": [
+        "HLT-M",
+        "HLT-FT",
+        "HLT-FT_1",
+        "HLT-FT_2",
+        "HLT-FT_3",
+        "HLT-FT_4",
+        "HLT-FT_5",
+        "HLT-FT_6",
+        "HLT-FT_7"
+      ]
+    }
+  ]
+}

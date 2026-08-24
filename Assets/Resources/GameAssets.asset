@@ -1,0 +1,466 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0e64c4ba491ffc1e9683f1a3cf58025, type: 3}
+  m_Name: GameAssets
+  m_EditorClassIdentifier:
+  playerNameFont: {fileID: 11400000, guid: 6ac6b09e6894a5446b8ebdec6fa385de, type: 2}
+  missionEditor: {fileID: 1709254077376921, guid: 53161ae70b28b104c8184c10edc2182c, type: 2}
+  splash_large: {fileID: 1709254077376921, guid: 2a927491ada85934796821c19c2192de, type: 2}
+  nightSky: {fileID: 2100000, guid: 7fbf120d0eea2cf4db455b6954e072fe, type: 2}
+  daySky: {fileID: 2100000, guid: 26314fb0bcfc3ff4d8213169c23ff94b, type: 2}
+  blackSky: {fileID: 2100000, guid: 7fbf120d0eea2cf4db455b6954e072fe, type: 2}
+  cloudySky: {fileID: 0}
+  fogColor:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 0.089411765, g: 0.118187964, b: 0.14901961, a: 1}
+    key2: {r: 0.6132076, g: 0.57892764, b: 0.54668033, a: 0}
+    key3: {r: 0.7490196, g: 0.8745098, b: 1, a: 0}
+    key4: {r: 0.7490196, g: 0.8745098, b: 1, a: 0}
+    key5: {r: 0.6117647, g: 0.5803922, b: 0.54509807, a: 0}
+    key6: {r: 0.09019608, g: 0.11764706, b: 0.14901961, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 13107
+    ctime1: 15073
+    ctime2: 17039
+    ctime3: 18350
+    ctime4: 47185
+    ctime5: 48496
+    ctime6: 50462
+    ctime7: 52428
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 8
+    m_NumAlphaKeys: 2
+  fogColorAltitude:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 0.85, g: 0.9735853, b: 1, a: 1}
+    key2: {r: 0.80392164, g: 0.9176471, b: 0.9450981, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0.0375, g: 0.09078946, b: 0.15, a: 0}
+    key5: {r: 0.0375, g: 0.09078946, b: 0.15, a: 0}
+    key6: {r: 0.0375, g: 0.09078946, b: 0.15, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 14418
+    ctime1: 19661
+    ctime2: 46929
+    ctime3: 50961
+    ctime4: 52428
+    ctime5: 52428
+    ctime6: 52428
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 2
+  skyColor:
+    serializedVersion: 2
+    key0: {r: 0.10961539, g: 0.12115387, b: 0.15, a: 1}
+    key1: {r: 0.24000001, g: 0.49766865, b: 0.8, a: 1}
+    key2: {r: 0.632, g: 0.785, b: 0.925, a: 0}
+    key3: {r: 0.632, g: 0.785, b: 0.925, a: 0}
+    key4: {r: 0.18039216, g: 0.37647063, b: 0.6039216, a: 0}
+    key5: {r: 0.10961539, g: 0.12115387, b: 0.15, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 13107
+    ctime1: 16384
+    ctime2: 19661
+    ctime3: 45875
+    ctime4: 49151
+    ctime5: 52245
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 6
+    m_NumAlphaKeys: 2
+  skyColorAltitude:
+    serializedVersion: 2
+    key0: {r: 0.029503377, g: 0.049098182, b: 0.122641504, a: 1}
+    key1: {r: 0, g: 0, b: 0, a: 1}
+    key2: {r: 0, g: 0, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0.03137255, g: 0.050980397, b: 0.121568635, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 13107
+    ctime1: 16384
+    ctime2: 19661
+    ctime3: 45875
+    ctime4: 49037
+    ctime5: 52428
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 6
+    m_NumAlphaKeys: 2
+  horizonColor:
+    serializedVersion: 2
+    key0: {r: 0.061538465, g: 0.07692308, b: 0.1, a: 1}
+    key1: {r: 0.11764706, g: 0.15666622, b: 0.2, a: 1}
+    key2: {r: 0.68989104, g: 0.7036046, b: 0.7188345, a: 0}
+    key3: {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 0}
+    key4: {r: 0.83249974, g: 0.8380831, b: 0.85622895, a: 0}
+    key5: {r: 0.11764705, g: 0.15686274, b: 0.20000005, a: 0}
+    key6: {r: 0.061538465, g: 0.07692308, b: 0.1, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 14665
+    ctime1: 16384
+    ctime2: 24381
+    ctime3: 32768
+    ctime4: 41154
+    ctime5: 49151
+    ctime6: 51117
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 7
+    m_NumAlphaKeys: 2
+  groundColor:
+    serializedVersion: 2
+    key0: {r: 0.1, g: 0.1, b: 0.1, a: 1}
+    key1: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 1}
+    key2: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 0}
+    key3: {r: 0.2509804, g: 0.2509804, b: 0.2509804, a: 0}
+    key4: {r: 0.1, g: 0.1, b: 0.1, a: 0}
+    key5: {r: 0.03137255, g: 0.050980397, b: 0.121568635, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 13199
+    ctime1: 19661
+    ctime2: 32768
+    ctime3: 45875
+    ctime4: 52428
+    ctime5: 52428
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 5
+    m_NumAlphaKeys: 2
+  groundColorAltitude:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 0.8, g: 0.9230769, b: 1, a: 1}
+    key2: {r: 0.8, g: 0.9230769, b: 1, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0.03137255, g: 0.050980397, b: 0.121568635, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 13107
+    ctime1: 19661
+    ctime2: 45875
+    ctime3: 52428
+    ctime4: 52428
+    ctime5: 52428
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 4
+    m_NumAlphaKeys: 2
+  sunColor:
+    serializedVersion: 2
+    key0: {r: 0, g: 0, b: 0, a: 1}
+    key1: {r: 1, g: 0.41822243, b: 0, a: 1}
+    key2: {r: 1, g: 0.9568628, b: 0.83921576, a: 0}
+    key3: {r: 1, g: 1, b: 1, a: 0}
+    key4: {r: 1, g: 0.9568628, b: 0.83921576, a: 0}
+    key5: {r: 1, g: 0.44493127, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 16384
+    ctime1: 16711
+    ctime2: 22937
+    ctime3: 32768
+    ctime4: 42598
+    ctime5: 48824
+    ctime6: 49151
+    ctime7: 49151
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 7
+    m_NumAlphaKeys: 2
+  redGreenGradient:
+    serializedVersion: 2
+    key0: {r: 1, g: 0, b: 0, a: 1}
+    key1: {r: 1, g: 0.9465649, b: 0, a: 1}
+    key2: {r: 0, g: 1, b: 0, a: 0}
+    key3: {r: 0, g: 0, b: 0, a: 0}
+    key4: {r: 0, g: 0, b: 0, a: 0}
+    key5: {r: 0, g: 0, b: 0, a: 0}
+    key6: {r: 0, g: 0, b: 0, a: 0}
+    key7: {r: 0, g: 0, b: 0, a: 0}
+    ctime0: 0
+    ctime1: 33095
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_ColorSpace: -1
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  airDensityAltitude:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 4.2213942E-05
+      value: 1.2249788
+      inSlope: -0.09815158
+      outSlope: -0.09815158
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.13182843
+    - serializedVersion: 3
+      time: 9.982767
+      value: 0.40307993
+      inSlope: -0.058883943
+      outSlope: -0.058883943
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.17170595
+    - serializedVersion: 3
+      time: 14.996232
+      value: 0.19215366
+      inSlope: -0.03195763
+      outSlope: -0.03195763
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 19.989515
+      value: 0.08328797
+      inSlope: -0.015309881
+      outSlope: -0.015309881
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.078706115
+    - serializedVersion: 3
+      time: 34.98966
+      value: 0.0005263173
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  ambientIntensity:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.2006364
+      value: 0.5
+      inSlope: 123.829185
+      outSlope: 123.829185
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.0607355
+    - serializedVersion: 3
+      time: 0.25088456
+      value: 2.9985766
+      inSlope: 1.1053399
+      outSlope: 1.1053399
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.2910137
+      outWeight: 0.07105892
+    - serializedVersion: 3
+      time: 0.7478301
+      value: 3.0043025
+      inSlope: -1.0989664
+      outSlope: -1.0989664
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.06807633
+      outWeight: 0.39690986
+    - serializedVersion: 3
+      time: 0.8009186
+      value: 0.5
+      inSlope: -62.758068
+      outSlope: -62.758068
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.059204403
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  debugArrow: {fileID: 1709254077376921, guid: f5088d8d075db254ca5ed6a676e0cadb, type: 2}
+  debugArrowGreen: {fileID: 1709254077376921, guid: 751065199428199488973265321e4f6f, type: 2}
+  debugArrowFlat: {fileID: 1709254077376921, guid: d2d3ce15385fad6488d752792a3a37c4, type: 2}
+  debugControlInputsDisplay: {fileID: 114061268324235159, guid: 000c96f870fc32146953b775a7b8d937, type: 2}
+  debugPoint: {fileID: 1709254077376921, guid: 6dc2b48ced4750d429b95c4f952eb282, type: 2}
+  debugText: {fileID: 114243736805655561, guid: 0d2fce64782f16c48850a85cbde5d9ea, type: 2}
+  debugSphere: {fileID: 1709254077376921, guid: 24b91776bede2c24d8b76ab6d37f679f, type: 2}
+  blastRadiusDebug: {fileID: 1709254077376921, guid: 81c000121171a074a8d625d32d69be4f, type: 2}
+  waypointDebug: {fileID: 1709254077376921, guid: 7ee1b7c04addc034ebaa621f5fe21775, type: 2}
+  settingsMenu: {fileID: 1709254077376921, guid: f1ddbeda8bbc381469adad76ac81025d, type: 2}
+  loadingScreenPrefab: {fileID: 114977153420339851, guid: dd6f53e8525823640acc199bdebf52b8, type: 2}
+  lobbyPasswordPrompt: {fileID: 1709254077376921, guid: df7caced4cbdcf241a89d6c887cace20, type: 2}
+  flashErrorMessage: {fileID: 1709254077376921, guid: 0a10e7afe63f31b4899030a48cb2d19f, type: 2}
+  noWeapons: {fileID: 0}
+  BSOD: {fileID: 2100000, guid: a6f7ffa46261eec47af69034f2fb1b82, type: 2}
+  pilotDismounted: {fileID: 1709254077376921, guid: 3f718255a2635cc4dbcd047708ee21ff, type: 2}
+  targetScreenCanvas: {fileID: 1709254077376921, guid: e8a92716c9b0f974da2ffd7b290c1aa7, type: 2}
+  LandingScreenCanvas: {fileID: 1709254077376921, guid: 3465d3cc174a93a4eb3234d79f80ba88, type: 2}
+  terrainMaterial: {fileID: 13400000, guid: 650c4f4c463451a4d994e59110d02f02, type: 2}
+  debrisMaterial: {fileID: 13400000, guid: 6e74795840c06a74ca3003a54b4db5c4, type: 2}
+  frictionlessMaterial: {fileID: 13400000, guid: c1ac3ee118df05b4781911b8abbb0088, type: 2}
+  WaterMaterial: {fileID: 13400000, guid: e326a65774ea02243b02b53563074af0, type: 2}
+  targetScreenMatOn: {fileID: 2100000, guid: 3ac3fda523da0844490008c9ba248539, type: 2}
+  targetScreenMatOff: {fileID: 2100000, guid: e8fcd902b133d8941812f6139e434543, type: 2}
+  targetCam: {fileID: 1709254077376921, guid: 8f2b0d1d312615a459f6c624f0f6a807, type: 2}
+  tacScreen: {fileID: 1709254077376921, guid: e92140dcc053a4c49be0cbbd60cb5b05, type: 2}
+  airbaseSprite: {fileID: 21300000, guid: a70e6ce60d243f14c83c8cb62b900195, type: 2}
+  hangarSprite_helipad: {fileID: 21300000, guid: 056baae27fc1ebd4ca957287db004a7d, type: 2}
+  hangarSprite_revetment: {fileID: 21300000, guid: a6692f4f8f39f18408e38d9d8df34eb5, type: 2}
+  hangarSprite_medium: {fileID: 21300000, guid: 7682c2fa28260444bbfa29706864f272, type: 2}
+  hangarSprite_shelter: {fileID: 21300000, guid: f785bea978f222e459ec266bb7af017c, type: 2}
+  hangarSprite_carrier: {fileID: 21300000, guid: adb8468a69f095e4fabced8a2659e974, type: 2}
+  targetUnitSprite: {fileID: 21300000, guid: 03e974edad554844d84e1b59c05838d7, type: 2}
+  targetUnitSpriteFriendly: {fileID: 21300000, guid: 6f49625a0d177c947a98a75e9d86e1c4, type: 2}
+  targetUnitSpriteOld: {fileID: 21300000, guid: a43810a5d8d7a2741b3a76dc9e2ad5b3, type: 2}
+  targetUnitSpriteJammed: {fileID: 21300000, guid: 2158f298c8c25954eafd6bde26e08618, type: 2}
+  missileWarningSprite: {fileID: 21300000, guid: 9c03d65a4680dd74f87808e65900d622, type: 2}
+  warheadSprite: {fileID: 21300000, guid: 1973e4ad8ffec9046a1df3886712fae6, type: 2}
+  aircraftSprite: {fileID: 21300000, guid: 1eec794c3567a654a935f6805ca905a6, type: 2}
+  closestAircraftSprite: {fileID: 21300000, guid: e7310405b92313a4c9c80bea3db88272, type: 2}
+  tracer: {fileID: 1709254077376921, guid: bd6435b10823359419853121e02c9443, type: 2}
+  scorchMarkDecal: {fileID: 1709254077376921, guid: 34ffc3ca6ab9d454bb28c489e23d8f8e, type: 2}
+  HUDFriendly: {r: 0, g: 0.5595119, b: 1, a: 1}
+  HUDHostile: {r: 1, g: 0.078431375, b: 0.039215688, a: 1}
+  HUDNeutral: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  HUDFriendlySelected: {r: 0, g: 1, b: 0, a: 1}
+  HUDHostileSelected: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  HUDNeutralSelected: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  HUDAirbaseNotAvailable: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  contactSmoke: {fileID: 1709254077376921, guid: eb16ca6f60cee284f8a6d020356b8d89, type: 2}
+  contactDust: {fileID: 1709254077376921, guid: 5a519c762bb047a4d87113730176c38b, type: 2}
+  PIDTuner: {fileID: 1709254077376921, guid: 60b3d5e45140e1d49bed16e1fea51fcf, type: 2}
+  controlsFilterTuner: {fileID: 1709254077376921, guid: 458a0f1b20f127b4d8c47d6c919483a3, type: 2}
+  trimDebug: {fileID: 1709254077376921, guid: 4a568a352dc98b74ba418ba404257f37, type: 2}
+  aircraftActionsReport: {fileID: 1709254077376921, guid: d3eccd37f55e8424aac8165c0b941368, type: 2}
+  killDisplay: {fileID: 1709254077376921, guid: 1f3bbf676981f7640abf359e961b1eb2, type: 2}
+  radioStatic: {fileID: 8300000, guid: 185385619f7048644920d5f367acb97b, type: 3}
+  deathSound: {fileID: 8300000, guid: 6a4d71f550d1d7d45be6cb147fc04cf4, type: 3}
+  missionFailedMusic: {fileID: 8300000, guid: d6530a58e8fe36a4e9d348d55aab4980, type: 3}
+  missionSuccessMusic: {fileID: 8300000, guid: 1e152bd45bf177f49a01140efae5f0c1, type: 3}
+  nuclearEscalationMusic: {fileID: 8300000, guid: a5c2a8044fab66f4bbd1fe5e8a5fd01f, type: 3}
+  hitMarkerSound: {fileID: 8300000, guid: 9b8c7c4b8386dd94a8a6dc055ad8897d, type: 3}
+  sonicBoom: {fileID: 8300000, guid: 266d6a65c2c41804aac14b0de321f2b0, type: 3}
+  errorTone: {fileID: 8300000, guid: 8fc303ce65f770e4ea831c0f72a422de, type: 3}
+  exclusionZoneDisplay: {fileID: 1709254077376921, guid: d0211840731d0b44084dbe213c61ef9c, type: 2}
+  groundImpacts:
+  - {fileID: 1709254077376921, guid: aa1334d227fa09f4f826308af5903002, type: 2}
+  URPAsset: {fileID: 11400000, guid: 28f95e4166af0da4fa2cb8d4050e96e9, type: 2}
+  airbasePrefab: {fileID: 1709254077376921, guid: a443b8c458aeca24eaf3c50a66f01e05, type: 2}
+  defaultFactions:
+  - {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+  - {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+  rotorStrike_solid: {fileID: 1709254077376921, guid: 211cac2e2b3477b44b5d2944f180d5f7, type: 2}
+  rotorStrike_dirt: {fileID: 1709254077376921, guid: cef6128e0d10f8e4cbcc86c6358ff859, type: 2}
+  rotorStrike_water: {fileID: 1709254077376921, guid: 30d7f40fa164c274c8f8d70db9d67ae0, type: 2}
+  vehicleWreckDestroyed: {fileID: 1709254077376921, guid: ea844c7c1494b234f8c22e2b78f4c004, type: 2}
+  wheelRollingRoad: {fileID: 8300000, guid: b8585930cfd94974d9f0ff8a35b9c57e, type: 3}
+  wheelSlidingRoad: {fileID: 8300000, guid: b5eb5c9aa788c1949a1bc7f11283c18b, type: 3}
+  wheelRollingDirt: {fileID: 8300000, guid: 82a16512f9fe3374f864c289eafd03f2, type: 3}
+  wheelSlidingDirt: {fileID: 8300000, guid: 54495d04c0d7bd94e85780022ecd7bed, type: 3}
+  FrustumCullingCompute: {fileID: 7200000, guid: 6e287621c23b7074989111f0461a4384, type: 2}
+  GroupCountCompute: {fileID: 7200000, guid: 2c08b9fe28c14954dbc42e72364dcda5, type: 2}

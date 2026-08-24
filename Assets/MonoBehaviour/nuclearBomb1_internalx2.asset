@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744778b62e754d06b4fef59a246aef54, type: 3}
+  m_Name: nuclearBomb1_internalx2
+  m_EditorClassIdentifier:
+  prefab: {fileID: 1709254077376921, guid: 3fc4b429a1880a9499e070f9bde684bd, type: 2}
+  jsonKey: nuclearBomb1_internalx2
+  info: {fileID: 11400000, guid: 30e0ee4477d962d4f87fc00869408bf1, type: 2}
+  mountName: GPO-N (1.5kt) x2
+  ammo: 2
+  turret: 0
+  missileBay: 1
+  radar: 0
+  tailHook: 0
+  slingloadHook: 0
+  countermeasure: 0
+  colorable: 0
+  Cargo: 0
+  Troops: 0
+  sortWeapons: 1
+  GearSafety: 1
+  GroundSafety: 1
+  GunAmmo: 0
+  emptyCost: 0
+  emptyMass: 0
+  mass: 800
+  drag: 0
+  emptyDrag: 0
+  RCS: 0
+  emptyRCS: 0
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0

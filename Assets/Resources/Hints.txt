@@ -1,0 +1,100 @@
+Did you know?;You can issue movement orders to friendly ground units by selecting them on the map, and then right-clicking where you want them to go to.
+Did you know?;You can order manned turrets on your aircraft to Hold fire by pressing the 'Toggle Turret Control' button.
+Did you know?;A GPO-N has a delay fuse that only lasts for up to 16 seconds, but creates radioactive residue that lasts for years.
+Did you know?;You can rescue friendly pilots by landing near them. Rescue of (or capture, in the case of enemy) pilots yields a point reward.
+Did you know?;Reducing your fuel load can significantly improve your aircraft's flight characteristics, and also lets you take off faster.
+Did you know?;Naval Supply containers can only be spawned from airbases on land. When dropped over water they will float, and can be picked up by ships within 200m.
+Did you know?;In a protracted fight, ensuring that your anti-air defenses are continually supplied with missiles is crucial. Munitions can be delivered by air or by munitions trucks.
+Did you know?;You can keep your head pointed at a singular target by pressing 'Center View' when the 'Target Padlock' option is enabled.
+Did you know?;Up until recently in their history, Boscali and Primeva were long-standing trade partners.
+Did you know?;Objects not designed for supersonic flight will experience significantly more drag when exceeding their critical mach number.
+Did you know?;Weapons stored on external hardpoints will increase the Radar Cross-Section (RCS) of an aircraft.
+Did you know?;Radar and long range missiles form the backbone of an air-defense network. Without them, aircraft can fly above short range systems with impunity.
+Did you know?;Flying 'Nap-of-the-earth' refers to using folds in the terrain such as valleys to hide from radar coverage.
+Did you know?;Turning off 'Flight Assist' can allow many aircraft to perform advanced maneuvers, or crash immediately.
+Did you know?;A 155mm slug fired from the Dynamo Class' railgun has the same kinetic energy as a school bus travelling at 500km/h.
+Did you know?;The Medusa's laser's effectiveness is affected by distance, and its maximum effective range is 15km. Using it at short range delivers more energy to a target, even burning aircraft at very short range.
+Did you know?;The Radome available for the Medusa is exceptionally powerful, and has practically no radar floor.
+Did you know?;The pods for AGR-18 Lynchpins are not rated for supersonic flight.
+Did you know?;The KR-67 Ifrit is manufactured under license in Kramenka.
+Did you know?;Radar equipped planes can generate datalink contacts from enemy surface radars. The EW-25 Medusa can generate a contact from any enemy radar source.
+Did you know?;The Hyperion Class Carrier is one of the world's very few aircraft carriers designed and built solely for an export market.
+Did you know?;The T/A-30 Compass has many redundant control surfaces, and can remain airborne with significant damage.
+Did you know?;The SAH-46 Chicane is much better protected against machine gun fire than other aircraft.
+Did you know?;The fire suppression system will automatically contain engine fires, but a fuel fire outside the engine will spread and consume an aircraft.
+Did you know?;A Shard Class Corvette can supply munitions to aircraft landing on its deck.
+Did you know?;Radar systems can struggle to see objects flying very close to the ground. Cruise missiles exploit this.
+Did you know?;Ships are relatively unarmored, and have large volumes of ammunition stored deep inside them. Sometimes only a single hit can be completely catastrophic.
+Did you know?;Factory buildings supply your team with airframes that can be made available for free depending on your rank.
+Did you know?;The AFV8, used by the Boscali Defence Force, has a higher top speed on-road than the Linebreaker chassis favored by Primeva.
+Did you know?;It takes approximately 30 minutes to drive from Port Maris to Agrapol at the posted speed limit.
+Did you know?;The SFB-81 Darkreach with a full load will climb efficiently at an angle of 14 degrees.
+Did you know?;The wing-mounted offensive jammers on the Medusa can blind up to one radar each, or be focused on fewer targets to increase their effective range.
+Did you know?;The blast radius of a nuclear weapon is proportional to the cubic root of its yield.
+Did you know?;Main battle tanks are heavily armored, but can still be defeated by aerial 30mm cannon fire by shooting into the engine bay or through the rear or roof of the turret.
+Did you know?;Vortex Ring State is a dangerous aerodynamic condition where a rotor disc stops producing lift due to ingesting its own downwash. It can be escaped from by applying full power and moving laterally.
+Did you know?;Holding the 'Flight Assist' button down for one second will toggle auto-hover in VTOL and STOVL aircraft.
+Did you know?;Engaging auto-hover near a friendly ship will match its speed so you can land on its deck easily.
+Did you know?;It is possible to perform lay-down bombing with a 250kt GPO-N by skidding it along the length of an enemy runway. This is neither safe, nor recommended.
+Did you know?;Agrapol has a road tunnel leading to its central business district. The tunnel is wider than a fighter jet.
+Did you know?;If taken above 16000m (52000ft) most engines will flame out.
+Did you know?;Anti-radiation missiles are able to deal catastrophic damage to the Shard Class Corvette because its radar is located close to its bridge.
+Did you know?;Emitting radar lets you detect targets at long distance, but can also give away your position. Planes equipped with radar can turn it on or off with the Toggle Radar keybind.
+Did you know?;Every aircraft has a distributed aperture optical detection system, which will automatically scrutinize and identify contacts for you inside several kilometers' range.
+Did you know?;The CI-22 Cricket has an excellent optical detection system, and can spot targets from further away than other aircraft.
+Did you know?;Large targets like enemy factories are best destroyed with large munitions, such as bombs or cruise missiles.
+Did you know?;The impact angle of a projectile can determine how effectively it penetrates an armored target.
+Did you know?;'Lofting' or 'Toss bombing' refers to releasing munitions while climbing upward to extend their range. This technique can allow you to throw bombs over terrain features while remaining hidden behind them.
+Did you know?;Funds donated during a match are split evenly between players on your team.
+Did you know?;Successfully crash-landing a damaged aircraft at a friendly airbase will both preserve the aircraft, and deny the enemy a kill.
+Did you know?;Almost a quarter of the destructive power of a HE Piledriver comes from its kinetic energy alone.
+Did you know?;Additional laser guidance can be provided by other friendly aircraft, allowing more targets to be hit per salvo when working cooperatively.
+Did you know?;Both the AGM-48 and AGM-68 are capable of lock on after launch, and can be fired from behind terrain.
+Did you know?;The Radar Cross-Section (RCS) of an aircraft will decrease when it expends weapons on its external pylons.
+Did you know?;The speed of sound is approximately 340 m/s (1100 ft/s) at sea level, decreasing to 295 m/s (970 ft/s) above 11,000m (36,000 ft).
+Did you know?;A Piledriver may cross the Karman line at the top of its ballistic flight.
+Did you know?;Transonic airspeeds see an increase in drag between M0.8 and M1.2, generating a large condensation vapor cone around the aircraft.
+Did you know?;The cargo bay of the VL-49 Tarantula can fit a whole 40-foot shipping container.
+Did you know?;Aircraft without built-in ECM can take an ECM Pod on an external hardpoint to help defeat radar guided missiles.
+Did you know?;The KR-67 Ifrit has side weapon bays (sometimes referred to as 'heater bays') designed to accommodate a single IRM-S2 each.
+Did you know?;Bombs have a minimum 4-second arming delay. Take this into account when dropping them and check the Time of Flight indication on your HUD.
+Did you know?;The 1.5kt GPO-N deploys a parachute to slow it down and enable laydown delivery at very low altitude and high speed.
+Did you know?;Munitions containers are volatile, and must be handled with care. Large impacts or weapons fire may cause them to detonate.
+Did you know?;The forward and rear areas of the SFB-81 Darkreach's inner weapon bays can be combined to accommodate large missiles, or used separately for more varied loadouts.
+Did you know?;The UH-90 Ibis is a medium-sized utility helicopter, with two contra-rotating coaxial rotors and push props. It can use its dual 40mm grenade launchers firing from its side windows to clear hot landing zones.
+Did you know?;The cargo hook can be used to airlift ground units. UH-90 Ibis can lift up to 6 tons, while the VL-49 Tarantula can lift up to 20 tons.
+Did you know?;Newly produced nuclear warheads will be distributed amongst storage bunkers and hardened shelters at each airbase.
+Did you know?;Units that can store nuclear warheads include Munitions Bunkers, Hardened Shelters, and Aircraft Carriers. Destroy these to deny the enemy the ability to use nukes.
+Did you know?;Field entrenchments do an excellent job of protecting ground units from direct fire. They do nothing to stop air strikes.
+Did you know?;Using the afterburner will increase your infrared signature and greatly reduces the relative effectiveness of flares.
+Did you know?;Locations are captured by having more manpower present than the enemy. The time it takes to capture depends on the balance of manpower from each side, as well as the number of buildings present at the location.
+Did you know?;As they have no crew or dismounts, Unmanned Ground Vehicles (UGV) can not capture and control locations.
+Did you know?;Landing lights on ships, such as on the Hyperion and Annex carrier classes, are directional so that they can only be seen from behind.
+Did you know?;Ships use red bridge lighting at night in order to limit the ship's visibility and preserve the crew's night vision.
+Did you know?;Cooling towers are large enough that some VTOL aircraft can land inside them.
+Did you know?;The rotor blades on the SAH-46 Chicane and the UH-90 Ibis will flex under load.
+Did you know?;The M12 Jackknife is a combat engineering vehicle uniquely developed for airborne troops to allow them to fortify remote locations. Its capacity as an engineering vehicle is also useful in maintaining and repairing airbase structures.
+Did you know?;A gabion is a large bag filled with earth and rocks, used to quickly build protective walls for firing positions and forward operating bases.
+Did you know?;The Hexhound is a bullet resistant 6x6 UGV chassis. It has a top speed off-road of 50km/h and over 100km range on a single charge.
+Did you know?;Jailbroken versions of Hexhounds can engage targets autonomously, removing the need for costly human oversight.
+Did you know?;The M12 jackknife, despite only weighing 6 tons, is able to punch well above its weight as an earthmover by using its internal capacity as ballast.
+Did you know?;Ignus Archipelago is situated on the Northwest Pacific Rim, and contains the prosperous city-state of Feldspar, as well as the dormant volcanic cone of Ignus Minor.
+Did you know?;Vehicles deployed from an aircraft's cargo bay at altitude can land safely by parachute.
+Did you know?;R9 Stratolance launchers are dependent on a linked radar system to provide targeting data. Destruction of either the radar or launchers will render the battery inoperable.
+Did you know?;Suppression of Enemy Air Defense (SEAD) missions use a combination of anti-radiation missiles, glide bombs and electronic warfare to suppress and destroy radar units, SAM launchers and anti-air guns.
+Did you know?;Factories produce units over time, which are then deployed from vehicle depots and hangars.
+Did you know?;Carrying infantry in a cargo aircraft provide it with the ability to capture airbases.
+Did you know?;High-performance fighter aircraft such as the FS-12 Revoker, FS-20 Vortex, and KR-67 Ifrit have relaxed or negative stability, requiring the onboard fly-by-wire computer to keep the aircraft from tumbling out of control.
+Did you know?;The AFV8 SAM and Linebreaker SAM launch IRM-S2 missiles, while the Hexhound SAM, LCV25 AA and AFV6 SAM launch shorter ranged IRM-S1 missiles.
+Did you know?;The Radial Menu gives you access to several actions relative to your aircraft and can be accessed by holding the 'Radial Menu' keybind.
+Did you know?;You can switch directly to any weapon station on by holding the 'Weapon Wheel' keybind and highlighting the desired weapon.
+Did you know?;The engine of your aircraft can be stopped and started mid-flight with a dedicated keybind or a radial menu action.
+Did you know?;Helicopters are typically fitted with an overrunning clutch that allows the rotor side of the drivetrain to rotate at a higher speed than the engine side.
+Did you know?;Ballistic Missile Launchers will hold fire until the strategic threshold is met. Once the strategic threshold is met, they will unleash a devastating barrage on all known high value targets.
+Did you know?;A long press on 'Next View' will open the camera control UI, which provides access to several parameters and allows finer control over the camera.
+Did you know?;Press 'Center View' when in orbit mode around your aircraft to enter the chase mode, with 10 preset point of views, accessible with the numpad 0–9 keys.
+Did you know?;The PAB-80LR is small enough to fit inside most aircraft weapon bays, which provides stealth aircraft with fit for purpose stand-off attack weapons.
+Did you know?;Jamming a ship's radar can greatly reduce the ability of its Close In Weapon Systems (CIWS) turrets to track and engage targets.
+Did you know?;Bombs generally have much heavier casings than missiles, and as such they are more resistant to anti-air lasers.
+Did you know?;Small emplacements can remain hidden until they fire, giving them the ability to ambush low flying aircraft.
+Did you know?;Ground units in need of resupply must consume munitions to do so. Munitions are stored in munitions bunkers & ammo dumps. Munitions trucks will automatically ferry ammo to units needing resupply.

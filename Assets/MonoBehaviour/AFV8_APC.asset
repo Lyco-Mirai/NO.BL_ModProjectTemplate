@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01bf628dec7dd250e4a1d21f43b281e, type: 3}
+  m_Name: AFV8_APC
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 1
+    air: 0
+    missile: 0
+    radar: 0
+    strategic: 0
+  roleIdentity:
+    antiSurface: 0.399
+    antiAir: 0.15
+    antiMissile: 0
+    antiRadar: 0
+  jsonKey: AFV8_APC
+  unitName: AFV8 APC
+  bogeyName:
+  description: The AFV8 Armored Personnel Carrier is a fast troop transport with a roof mounted machine gun to counter low-flying aerial threats and soft ground targets
+  code: APC
+  visibleRange: 5500
+  iconRange: 0
+  radarSize: 1
+  friendlyIcon: {fileID: 21300000, guid: 0cf61346ecbff4b4e9359602a7a8a821, type: 2}
+  hostileIcon: {fileID: 21300000, guid: 5939ad6669a6a6e4b8ae6a479f92e589, type: 2}
+  mapIcon: {fileID: 21300000, guid: f84817cde00e8dd4cbba0d344da5b068, type: 2}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 1
+  mapIconSize: 1
+  captureCapacity: 8
+  captureStrength: 12
+  captureDefense: 0
+  length: 8.2
+  width: 3.1
+  height: 2.8
+  value: 5.2
+  mass: 0
+  manpower: 12
+  armorTier: 3
+  damageTolerance: 1
+  CanSlingLoad: 0
+  unitPrefab: {fileID: 1709254077376921, guid: 6d072a5290ec2404b90a57b0c2e7dc0a, type: 2}
+  spawnOffset: {x: 0, y: 1.6, z: 0}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: 0
+  maxEditorHeight: 10000
+  vehicleType: 3

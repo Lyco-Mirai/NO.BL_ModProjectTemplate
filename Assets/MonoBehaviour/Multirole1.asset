@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4718c204270cabb3e1034f09547e561, type: 3}
+  m_Name: Multirole1
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 0
+    air: 1
+    missile: 0
+    radar: 0.6
+    strategic: 0
+  roleIdentity:
+    antiSurface: 0.456
+    antiAir: 1
+    antiMissile: 0
+    antiRadar: 0.328
+  jsonKey: Multirole1
+  unitName: KR-67 Ifrit
+  bogeyName:
+  description: A large, carrier capable, twin engine multirole fighter, the Ifrit is equally suited to air superiority and ground attack missions. It features excellent thrust and maneuverability alongside reduced radar signature and powerful sensors. Two internal weapon bays plus two additional side bays for heat-seeking missiles allow the Ifrit to carry a significant internal payload without impacting stealth or top speed.
+  code: KR-67
+  visibleRange: 3500
+  iconRange: 100000
+  radarSize: 0.0015
+  friendlyIcon: {fileID: 21300000, guid: 1eec794c3567a654a935f6805ca905a6, type: 2}
+  hostileIcon: {fileID: 21300000, guid: 1eec794c3567a654a935f6805ca905a6, type: 2}
+  mapIcon: {fileID: 21300000, guid: c175bf8400dabb342a4744a9665b3afa, type: 2}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 1
+  mapIconSize: 1.2
+  captureCapacity: 0
+  captureStrength: 0
+  captureDefense: 0
+  length: 19
+  width: 14.3
+  height: 4.6
+  value: 126
+  mass: 16040
+  manpower: 1
+  armorTier: 1
+  damageTolerance: 1
+  CanSlingLoad: 0
+  unitPrefab: {fileID: 1709254077376921, guid: ee95a438ca037cd4f839da9e4ee79fd4, type: 2}
+  spawnOffset: {x: 0, y: 2.3, z: -1.4}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: 0
+  maxEditorHeight: 10000
+  aircraftParameters: {fileID: 11400000, guid: 036116399b409ed4d95d60a0b0317ec0, type: 2}
+  aircraftInfo:
+    emptyWeight: 10700
+    maxSpeed: 1500
+    stallSpeed: 240
+    maneuverability: 9
+    maxWeight: 30000
+  restRotation: {x: -1, y: 0, z: 0}

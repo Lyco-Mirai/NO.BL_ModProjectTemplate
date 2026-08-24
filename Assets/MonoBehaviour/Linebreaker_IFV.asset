@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01bf628dec7dd250e4a1d21f43b281e, type: 3}
+  m_Name: Linebreaker_IFV
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 1
+    air: 0
+    missile: 0
+    radar: 0
+    strategic: 0
+  roleIdentity:
+    antiSurface: 0.536
+    antiAir: 0.464
+    antiMissile: 0
+    antiRadar: 0
+  jsonKey: Linebreaker_IFV
+  unitName: Linebreaker IFV
+  bogeyName:
+  description: Sporting a powerful autocannon and anti-armor missiles, the Linebreaker Infantry Fighting Vehicle is a versatile unit capable of engaging both air and ground threats
+  code: IFV
+  visibleRange: 5500
+  iconRange: 0
+  radarSize: 1
+  friendlyIcon: {fileID: 21300000, guid: cbbfa54f9adc898489bb428395b3bdce, type: 2}
+  hostileIcon: {fileID: 21300000, guid: 1eafd65d2ca18724391ea4734c9ec1c1, type: 2}
+  mapIcon: {fileID: 21300000, guid: f84817cde00e8dd4cbba0d344da5b068, type: 2}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 1
+  mapIconSize: 1
+  captureCapacity: 8
+  captureStrength: 9
+  captureDefense: 0
+  length: 7.9
+  width: 3.9
+  height: 3.3
+  value: 8.1
+  mass: 40000
+  manpower: 9
+  armorTier: 4
+  damageTolerance: 1.5
+  CanSlingLoad: 0
+  unitPrefab: {fileID: 1709254077376921, guid: f9b548da8882b3449ae7508a52653c5c, type: 2}
+  spawnOffset: {x: 0, y: 1.35, z: 0}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: 0
+  maxEditorHeight: 10000
+  vehicleType: 3

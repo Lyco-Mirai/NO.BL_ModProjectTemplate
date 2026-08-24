@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744778b62e754d06b4fef59a246aef54, type: 3}
+  m_Name: UGVDozer1x1
+  m_EditorClassIdentifier:
+  prefab: {fileID: 1709254077376921, guid: d6905b6a79a8cd34a8ab6513fa7a1eba, type: 2}
+  jsonKey: UGVDozer1x1
+  info: {fileID: 11400000, guid: 704e29eeff7ff0c4a83b7faed415ad4c, type: 2}
+  mountName: M12 Jackknife
+  ammo: 2
+  turret: 0
+  missileBay: 0
+  radar: 0
+  tailHook: 0
+  slingloadHook: 0
+  countermeasure: 0
+  colorable: 0
+  Cargo: 1
+  Troops: 0
+  sortWeapons: 0
+  GearSafety: 0
+  GroundSafety: 0
+  GunAmmo: 0
+  emptyCost: 0
+  emptyMass: 0
+  mass: 10000
+  drag: 0
+  emptyDrag: 0
+  RCS: 0
+  emptyRCS: 0
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0

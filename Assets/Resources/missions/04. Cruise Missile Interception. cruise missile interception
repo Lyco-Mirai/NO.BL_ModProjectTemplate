@@ -1,0 +1,900 @@
+{
+  "JsonVersion": 6,
+  "MapKey": {
+    "Type": "None",
+    "Path": ""
+  },
+  "missionSettings": {
+    "description": "Use the FS-12 Revoker to intercept a volley of cruise missiles launched at your base from Primeva.",
+    "allowEventContent": false,
+    "Tags": [],
+    "playerMode": "Singleplayer",
+    "allowRespawn": false,
+    "playerStartingRank": 0,
+    "rankMultiplier": 1.0,
+    "successfulSortieBonus": 0.25,
+    "nuclearEscalationThreshold": 0.0,
+    "strategicEscalationThreshold": 0.0,
+    "minRankTacticalWarhead": 0,
+    "minRankStrategicWarhead": 0,
+    "cameraStartPosition": {
+      "IsOverride": false,
+      "Value": {
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        }
+      }
+    },
+    "missionRoads": {
+      "roads": []
+    },
+    "missionSeaLanes": {
+      "roads": []
+    },
+    "wrecksMaxNumber": -1,
+    "wrecksDecayTime": -1.0
+  },
+  "environment": {
+    "timeOfDay": 17.2078571,
+    "timeFactor": 0.0,
+    "weatherIntensity": 0.5712104,
+    "cloudAltitude": 4000.0,
+    "windSpeed": 0.0,
+    "windTurbulence": 0.0,
+    "windHeading": 0.0,
+    "windRandomHeading": 0.0,
+    "moonPhase": 14.0
+  },
+  "aircraft": [
+    {
+      "type": "Fighter1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -19737.6719,
+        "y": 137.3489,
+        "z": 32355.53
+      },
+      "rotation": {
+        "x": 0.002782915,
+        "y": 0.810849965,
+        "z": 0.002762983,
+        "w": 0.585241
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Fighter1",
+      "playerControlled": true,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gun_20mm_internal"
+          },
+          {
+            "Key": "AAM1_double_internal"
+          },
+          {
+            "Key": "AAM1_double"
+          },
+          {
+            "Key": "AAM2_single"
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 0.0
+    },
+    {
+      "type": "Darkreach",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 15709.8574,
+        "y": 801.4447,
+        "z": -9757.57
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.3493938,
+        "z": 0.0,
+        "w": 0.936975956
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Enemy Bomber",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "CruiseMissile20kt_internalx2"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "bomb_penetrator1_internalx2"
+          }
+        ]
+      },
+      "livery": 0,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 134.828873
+    },
+    {
+      "type": "COIN",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -20244.9082,
+        "y": 517.5555,
+        "z": 26887.5371
+      },
+      "rotation": {
+        "x": -0.008318901,
+        "y": 0.152513176,
+        "z": 0.0194107685,
+        "w": 0.9880758
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "COIN_1",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "AGM_scanner1_double_compact"
+          },
+          {
+            "Key": "AGM_scanner1_double_compact"
+          }
+        ]
+      },
+      "livery": 3,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 175.0
+    },
+    {
+      "type": "Darkreach",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 16085.6191,
+        "y": 791.980347,
+        "z": -9745.715
+      },
+      "rotation": {
+        "x": 0.0415945053,
+        "y": -0.352166831,
+        "z": -0.005545934,
+        "w": 0.9349961
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Enemy Bomber 2",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "CruiseMissile20kt_internalx2"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "bomb_penetrator1_internalx2"
+          }
+        ]
+      },
+      "livery": 0,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 134.828873
+    }
+  ],
+  "vehicles": [
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -1842.834,
+        "y": 664.4337,
+        "z": 20292.5117
+      },
+      "rotation": {
+        "x": -0.09970282,
+        "y": 0.904794,
+        "z": -0.056075342,
+        "w": 0.41019842
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 12.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC_1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_SAM",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -17732.7148,
+        "y": 142.9711,
+        "z": 31422.8438
+      },
+      "rotation": {
+        "x": -0.00416859658,
+        "y": 0.8791405,
+        "z": 0.0038337172,
+        "w": 0.476529
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_SAM",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "RadarSAM1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 26237.9434,
+        "y": 111.619629,
+        "z": -19006.2539
+      },
+      "rotation": {
+        "x": -0.002981943,
+        "y": 0.307742566,
+        "z": 0.00333292852,
+        "w": 0.951459169
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "RadarSAM1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-R",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -1859.73047,
+        "y": 639.2461,
+        "z": 20163.21
+      },
+      "rotation": {
+        "x": -0.09123832,
+        "y": 0.927206039,
+        "z": -0.114050046,
+        "w": 0.344901741
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-R",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "LCV45",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -34118.07,
+        "y": 20.5566254,
+        "z": -11985.0732
+      },
+      "rotation": {
+        "x": 0.000979248,
+        "y": 0.741803467,
+        "z": -0.00115102914,
+        "w": 0.6706157
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LCV45",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "RadarSAM1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -33558.4766,
+        "y": 20.0693359,
+        "z": -11612.2656
+      },
+      "rotation": {
+        "x": 0.00444164,
+        "y": 0.440413415,
+        "z": -0.00138381787,
+        "w": 0.897783041
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "RadarSAM1_1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "RadarSAM1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -2286.8147,
+        "y": 130.484955,
+        "z": -25330.18
+      },
+      "rotation": {
+        "x": 0.00570380827,
+        "y": 0.9516188,
+        "z": -0.0036025166,
+        "w": 0.307207048
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "RadarSAM1_3",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "RadarSAM1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -34298.2031,
+        "y": 19.18597,
+        "z": -10784.9111
+      },
+      "rotation": {
+        "x": 0.00302886567,
+        "y": 0.428144276,
+        "z": 0.00377194281,
+        "w": 0.903697431
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "RadarSAM1_2",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "LCV45",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -19496.6582,
+        "y": 138.380768,
+        "z": 31940.5742
+      },
+      "rotation": {
+        "x": -0.000588626135,
+        "y": 0.1553405,
+        "z": 0.00141171168,
+        "w": 0.9878598
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 4.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LCV45_1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "RadarSAM1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -17757.0566,
+        "y": 142.8595,
+        "z": 31405.9941
+      },
+      "rotation": {
+        "x": 0.003145934,
+        "y": 0.5746732,
+        "z": -0.009218278,
+        "w": -0.8183251
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "RadarSAM1_5",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    }
+  ],
+  "ships": [],
+  "buildings": [
+    {
+      "type": "radarStation1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -17572.4766,
+        "y": 154.37915,
+        "z": 31937.5039
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.148753047,
+        "z": 0.0,
+        "w": 0.9888744
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "radarStation1",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 0.0
+      }
+    },
+    {
+      "type": "refinery_main",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -17972.4531,
+        "y": 169.8476,
+        "z": 31060.6523
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.00512331771,
+        "z": 0.0,
+        "w": 0.9999869
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "refinery_main",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 0.0
+      }
+    }
+  ],
+  "scenery": [],
+  "containers": [],
+  "missiles": [],
+  "pilots": [],
+  "factions": [
+    {
+      "factionName": "Boscali",
+      "preventJoin": false,
+      "preventDonation": true,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 5.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    },
+    {
+      "factionName": "Primeva",
+      "preventJoin": true,
+      "preventDonation": true,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 5.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "airbases": [],
+  "objectives": [
+    {
+      "Type": "None",
+      "UniqueName": "Mission Start",
+      "Faction": "",
+      "DisplayName": "",
+      "Hidden": true,
+      "Outcomes": [
+        "StartNext_Intercept Bomber"
+      ]
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "Intercept Bomber VictoryCondition",
+      "Faction": "Boscali",
+      "DisplayName": "Intercept Bomber",
+      "Hidden": true,
+      "Outcomes": [
+        "Message_Intercept Bomber",
+        "Victory Outcome"
+      ],
+      "completeOrder": "CompleteAll",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "Enemy Bomber",
+        "Enemy Bomber 2"
+      ]
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "EndTimer",
+      "Faction": "Primeva",
+      "DisplayName": "EndTimer",
+      "Hidden": true,
+      "Outcomes": [
+        "EndOrbit",
+        "StartVictoryCheck",
+        "StartRTBObjective"
+      ],
+      "seconds": 230.0
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "BaseDamaged",
+      "Faction": "Boscali",
+      "DisplayName": "PALAObjective",
+      "Hidden": true,
+      "Outcomes": [
+        "DefeatMessage",
+        "CancelVictoryTimer",
+        "Defeat"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "refinery_main",
+        "radarStation1",
+        "LCV45_1",
+        "AFV8_SAM"
+      ]
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Intercept Cruise Missiles",
+      "Faction": "Boscali",
+      "DisplayName": "Intercept Cruise Missiles",
+      "Hidden": false,
+      "Outcomes": [],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 3503.56738,
+            "y": 25.5688934,
+            "z": 5065.812
+          },
+          "Range": 0.0
+        }
+      ]
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "Intercept Marker Timeout",
+      "Faction": "Boscali",
+      "DisplayName": "Intercept Marker Timeout",
+      "Hidden": true,
+      "Outcomes": [
+        "RemoveMarker",
+        "StartDefeatCheck"
+      ],
+      "seconds": 120.0
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "ShowStartMessage",
+      "Faction": "Boscali",
+      "DisplayName": "ShowStartMessage",
+      "Hidden": true,
+      "Outcomes": [
+        "Message_Mission Start"
+      ],
+      "seconds": 3.0
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "RTB",
+      "Faction": "Boscali",
+      "DisplayName": "Return To Base",
+      "Hidden": false,
+      "Outcomes": [
+        "Victory Outcome",
+        "Message_Intercept Bomber"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": -18684.27,
+            "y": 137.090912,
+            "z": 32006.1836
+          },
+          "Range": 50.0
+        }
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartNext_Intercept Bomber",
+      "objectivesToStart": [
+        "EndTimer",
+        "Intercept Cruise Missiles",
+        "Intercept Marker Timeout",
+        "ShowStartMessage"
+      ]
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "Message_Intercept Bomber",
+      "Message": "Well done, the threat has been neutralized.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "EndGame",
+      "UniqueName": "Victory Outcome",
+      "endType": "Victory",
+      "endDelay": 2.0
+    },
+    {
+      "Type": "StopOrCompleteObjective",
+      "UniqueName": "EndOrbit",
+      "options": "Stop",
+      "objectivesToStart": []
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartVictoryCheck",
+      "objectivesToStart": [
+        "Intercept Bomber VictoryCondition"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartRTBObjective",
+      "objectivesToStart": [
+        "RTB"
+      ]
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "DefeatMessage",
+      "Message": "The base has been hit!",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "EndGame",
+      "UniqueName": "Defeat",
+      "endType": "Defeat",
+      "endDelay": 3.0
+    },
+    {
+      "Type": "StopOrCompleteObjective",
+      "UniqueName": "RemoveMarker",
+      "options": "Stop",
+      "objectivesToStart": [
+        "Intercept Cruise Missiles"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartDefeatCheck",
+      "objectivesToStart": [
+        "BaseDamaged"
+      ]
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "Message_Mission Start",
+      "Message": "Scramble! A pair of enemy bombers has been spotted releasing cruise missiles, targeting North Boscali Airbase. Shoot the missiles down before they destroy friendly facilities.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "StopOrCompleteObjective",
+      "UniqueName": "CancelVictoryTimer",
+      "options": "Stop",
+      "objectivesToStart": [
+        "EndTimer"
+      ]
+    }
+  ]
+}

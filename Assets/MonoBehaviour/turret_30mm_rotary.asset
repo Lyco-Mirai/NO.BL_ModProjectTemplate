@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744778b62e754d06b4fef59a246aef54, type: 3}
+  m_Name: turret_30mm_rotary
+  m_EditorClassIdentifier:
+  prefab: {fileID: 1709254077376921, guid: 4ceb64643231fe648877373af4521848, type: 2}
+  jsonKey: turret_30mm_rotary
+  info: {fileID: 11400000, guid: 3aff412465057094091375c839f51d9d, type: 2}
+  mountName: 30mm Rotary Turret
+  ammo: 750
+  turret: 1
+  missileBay: 0
+  radar: 0
+  tailHook: 0
+  slingloadHook: 0
+  countermeasure: 0
+  colorable: 1
+  Cargo: 0
+  Troops: 0
+  sortWeapons: 1
+  GearSafety: 0
+  GroundSafety: 0
+  GunAmmo: 0
+  emptyCost: 0.75
+  emptyMass: 0
+  mass: 350
+  drag: 0
+  emptyDrag: 0
+  RCS: 0
+  emptyRCS: 0
+  disabled: 1
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0

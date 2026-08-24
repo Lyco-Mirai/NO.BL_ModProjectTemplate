@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 133f20e66919be25534c5267e8cbeaae, type: 3}
+  m_Name: ModerateCloud
+  m_EditorClassIdentifier:
+  displayName: Moderate Cloud
+  coverage: 0.75
+  mask: {fileID: 2800000, guid: 3761eab4a11595444b1c6f268268fce0, type: 3}
+  particleSampler: {fileID: 2800000, guid: 022a91f59b15db1459247128fb90d2a2, type: 3}
+  cookies:
+  - {fileID: 2800000, guid: 3b333db29a00b344baf33247722acba7, type: 3}
+  - {fileID: 2800000, guid: 5d13a0ffde3103f448aaf720fedb3463, type: 3}
+  - {fileID: 2800000, guid: 7bfe0117021767e408d5cf825df27959, type: 3}
+  - {fileID: 2800000, guid: 5e451e1eb2fc3d448b29878d7b45cff0, type: 3}
+  lightning: 0

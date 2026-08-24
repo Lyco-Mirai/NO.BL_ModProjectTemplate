@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36704ca81c6ab30ebc821c5fcbe70505, type: 3}
+  m_Name: SAM_IR1
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 0
+    air: 0
+    missile: 1
+    radar: 0
+    strategic: 0
+  roleIdentity:
+    antiSurface: 0
+    antiAir: 0.667
+    antiMissile: 0.721
+    antiRadar: 0
+  jsonKey: SAM_IR1
+  unitName: IRM-S1
+  bogeyName:
+  description: Carried by air defense vehicles and light aircraft, this heat-seeking missile is effective against air targets at a range up to 5km
+  code: MSL
+  visibleRange: 1500
+  iconRange: 0
+  radarSize: 0.01
+  friendlyIcon: {fileID: 21300000, guid: f39845c1fa31e4547a0a9073d390afa6, type: 2}
+  hostileIcon: {fileID: 21300000, guid: f39845c1fa31e4547a0a9073d390afa6, type: 2}
+  mapIcon: {fileID: 21300000, guid: 9c03d65a4680dd74f87808e65900d622, type: 2}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 0.5
+  mapIconSize: 0.5
+  captureCapacity: 0
+  captureStrength: 0
+  captureDefense: 0
+  length: 1.5
+  width: 0.1
+  height: 0.1
+  value: 0.04
+  mass: 10
+  manpower: 0
+  armorTier: 0.1
+  damageTolerance: 0
+  CanSlingLoad: 0
+  unitPrefab: {fileID: 1709254077376921, guid: 40a865292e26d754190e555105607659, type: 2}
+  spawnOffset: {x: 0, y: 0.038, z: 0}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: 0
+  maxEditorHeight: 10000

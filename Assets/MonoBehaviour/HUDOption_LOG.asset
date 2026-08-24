@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bfc1ece9f60c569448a1a7e3ee846ee, type: 3}
+  m_Name: HUDOption_LOG
+  m_EditorClassIdentifier:
+  listCategories:
+  - typeName: FRIENDLY
+    typePriority: 1
+  - typeName: ENEMY
+    typePriority: 0
+  - typeName: AIRCRAFT
+    typePriority: 0
+  - typeName: MISSILES
+    typePriority: 0
+  - typeName: VEHICLES
+    typePriority: 1
+  - typeName: BUILDINGS
+    typePriority: 1
+  - typeName: SHIPS
+    typePriority: 1
+  listVehicles:
+  - typeName: TRUCK
+    typePriority: 1
+  - typeName: UGV
+    typePriority: 1
+  - typeName: LCV
+    typePriority: 1
+  - typeName: AFV
+    typePriority: 1
+  - typeName: MBT
+    typePriority: 1
+  - typeName: ART
+    typePriority: 1
+  - typeName: AAA
+    typePriority: 1
+  - typeName: IR_SAM
+    typePriority: 1
+  - typeName: R_SAM
+    typePriority: 1
+  - typeName: RDR
+    typePriority: 1
+  listBuildings:
+  - typeName: CIV
+    typePriority: 1
+  - typeName: FAC
+    typePriority: 1
+  - typeName: RDR
+    typePriority: 1
+  - typeName: DEP
+    typePriority: 1
+  - typeName: HGR
+    typePriority: 1
+  - typeName: DEF
+    typePriority: 1
+  - typeName: AMMO
+    typePriority: 1
+  encyclopedia: {fileID: 11400000, guid: d344dc3620e72394cbd5386b78297df1, type: 2}

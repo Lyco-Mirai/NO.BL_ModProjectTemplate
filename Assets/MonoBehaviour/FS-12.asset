@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4718c204270cabb3e1034f09547e561, type: 3}
+  m_Name: FS-12
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 0
+    air: 1
+    missile: 0
+    radar: 0.6
+    strategic: 0
+  roleIdentity:
+    antiSurface: 0.456
+    antiAir: 1
+    antiMissile: 0
+    antiRadar: 0.328
+  jsonKey: Fighter1
+  unitName: FS-12 Revoker
+  bogeyName:
+  description: The FS-12 Revoker is built for agility above all else, capable of extreme maneuvers at almost any speed. Internal weapon bays help reduce drag, allowing supersonic speeds even at low altitudes and with heavy payloads. While less stealthy than newer fighters, the Revoker remains a cost-effective means of establishing air superiority.
+  code: FS-12
+  visibleRange: 3000
+  iconRange: 100000
+  radarSize: 0.08
+  friendlyIcon: {fileID: 21300000, guid: 1eec794c3567a654a935f6805ca905a6, type: 2}
+  hostileIcon: {fileID: 21300000, guid: 1eec794c3567a654a935f6805ca905a6, type: 2}
+  mapIcon: {fileID: 21300000, guid: a5fbde227aa800e4585c0a4b8d01ab40, type: 2}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 1
+  mapIconSize: 1.2
+  captureCapacity: 0
+  captureStrength: 0
+  captureDefense: 0
+  length: 15.8
+  width: 11
+  height: 5.2
+  value: 65
+  mass: 8680
+  manpower: 1
+  armorTier: 1
+  damageTolerance: 1
+  CanSlingLoad: 0
+  unitPrefab: {fileID: 1709254077376921, guid: a0ec45a1ae81c1a4ca696964b0443725, type: 2}
+  spawnOffset: {x: 0, y: 2.55, z: -2.7}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: 0
+  maxEditorHeight: 10000
+  aircraftParameters: {fileID: 11400000, guid: 9fa6aad000c52744b94a4d40e8097105, type: 2}
+  aircraftInfo:
+    emptyWeight: 10700
+    maxSpeed: 1445
+    stallSpeed: 260
+    maneuverability: 9
+    maxWeight: 16000
+  restRotation: {x: -0.7, y: 0, z: 0}

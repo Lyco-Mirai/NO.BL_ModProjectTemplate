@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1619829637, guid: c88ab7b37c4f350242674d2efd621c19, type: 3}
+  m_Name: DecalRendererFeature
+  m_EditorClassIdentifier:
+  m_Active: 1
+  m_Settings:
+    technique: 1
+    maxDrawDistance: 10000
+    decalLayers: 1
+    dBufferSettings:
+      surfaceData: 2
+    screenSpaceSettings:
+      normalBlend: 0
+  m_CopyDepthPS: {fileID: 4800000, guid: 1550c0e9d0ded3d4b936be0c0e48518d, type: 3}
+  m_DBufferClear: {fileID: 4800000, guid: 819ce35ba7f32b34890ae237604b36db, type: 3}

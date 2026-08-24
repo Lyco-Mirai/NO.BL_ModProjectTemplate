@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3faf763ade534d222b4449357f0cf9d8, type: 3}
+  m_Name: DualAnalogGamepad
+  m_EditorClassIdentifier:
+  _baseKeys:
+  - controller/template/gamepad
+  _glyphs:
+  - _key: left_stick/horizontal
+    _value: {fileID: 21300000, guid: b74dc6e047a86244b81f41b4f1ff76e9, type: 2}
+  - _key: left_stick/right
+    _value: {fileID: 21300000, guid: f400615c626b8824fb83eff1440af02b, type: 2}
+  - _key: left_stick/left
+    _value: {fileID: 21300000, guid: 2057a46c9e73a89468036442e78f3b6c, type: 2}
+  - _key: left_stick/vertical
+    _value: {fileID: 21300000, guid: 6297f35747d411345854c854728d91e4, type: 2}
+  - _key: left_stick/up
+    _value: {fileID: 21300000, guid: a6928e363eca66047a94eacba77bab57, type: 2}
+  - _key: left_stick/down
+    _value: {fileID: 21300000, guid: 40681975259bc2d4e809fd05d48ce48f, type: 2}
+  - _key: right_stick/horizontal
+    _value: {fileID: 21300000, guid: 04c84b64d41725a4e8a63f70544655b5, type: 2}
+  - _key: right_stick/right
+    _value: {fileID: 21300000, guid: e9e5eb922d38be549849a77d682588b4, type: 2}
+  - _key: right_stick/left
+    _value: {fileID: 21300000, guid: 4c791ad3ba488164c9f494da8f323ae0, type: 2}
+  - _key: right_stick/vertical
+    _value: {fileID: 21300000, guid: 1c2f3e1229cf7494ca924bd7d110f84d, type: 2}
+  - _key: right_stick/up
+    _value: {fileID: 21300000, guid: 7c820a2059e793c489c7defb48f680a1, type: 2}
+  - _key: right_stick/down
+    _value: {fileID: 21300000, guid: b1fcdd7ba516cd64e8daa38b4c9206a2, type: 2}
+  - _key: action/bottom_row_1
+    _value: {fileID: 21300000, guid: dedde5f0dceb12b45ade4f1c29923d06, type: 2}
+  - _key: action/bottom_row_2
+    _value: {fileID: 21300000, guid: 74d26008576c6d34c9a02d7d1e32bd85, type: 2}
+  - _key: action/bottom_row_3
+    _value: {fileID: 21300000, guid: aec58fe3a2a78b24da951a60e972b7aa, type: 2}
+  - _key: action/top_row_1
+    _value: {fileID: 21300000, guid: b3c6a8134cd4bed49aae9b18820f8927, type: 2}
+  - _key: action/top_row_2
+    _value: {fileID: 21300000, guid: 934b8fd4fd241464fa4b8bc72d9eaf98, type: 2}
+  - _key: action/top_row_3
+    _value: {fileID: 21300000, guid: 33966374640c3ed44a2cd4d905c4cd58, type: 2}
+  - _key: left_shoulder
+    _value: {fileID: 21300000, guid: 550927815d8c9a944aa6cba70730a60c, type: 2}
+  - _key: left_trigger
+    _value: {fileID: 21300000, guid: dd339cf9fb583e941ba075eeafea5567, type: 2}
+  - _key: right_shoulder
+    _value: {fileID: 21300000, guid: 62ebdeff8adbd04409d1da8ed7804bcf, type: 2}
+  - _key: right_trigger
+    _value: {fileID: 21300000, guid: 4be9df578d893a04bb1b3c745b34842d, type: 2}
+  - _key: center_button_1
+    _value: {fileID: 21300000, guid: 9bf04acc188a11c4dbe8120580dd9fba, type: 2}
+  - _key: center_button_2
+    _value: {fileID: 21300000, guid: ea5fe57afa98f844ea2792e3c7c3dd60, type: 2}
+  - _key: center_button_3
+    _value: {fileID: 21300000, guid: 563db72f5ab5fdd4d8cd54c6471bf2b6, type: 2}
+  - _key: left_stick/button
+    _value: {fileID: 21300000, guid: b8b0be28e302dd94ab1a278304274a4c, type: 2}
+  - _key: right_stick/button
+    _value: {fileID: 21300000, guid: 3de77bd4fc0c40c418d209e5de4a2025, type: 2}
+  - _key: dpad/up
+    _value: {fileID: 21300000, guid: a356471d38cb5344fa5272f862b07cda, type: 2}
+  - _key: dpad/right
+    _value: {fileID: 21300000, guid: 44bb850f539060843b37b936feb0b97b, type: 2}
+  - _key: dpad/down
+    _value: {fileID: 21300000, guid: 57a681bfe4c59c646b8e579bef220dc1, type: 2}
+  - _key: dpad/left
+    _value: {fileID: 21300000, guid: c153a5ee13fc48840b6adb9998b7a8b4, type: 2}
+  - _key: left_stick
+    _value: {fileID: 21300000, guid: dfeea52d2cc6864498bc2a9d38c3d101, type: 2}
+  - _key: right_stick
+    _value: {fileID: 21300000, guid: eb929cabc16d2a94b8445b689bec8306, type: 2}
+  - _key: dpad
+    _value: {fileID: 21300000, guid: 72c69fd5c378bac4e96d1c371ed2e069, type: 2}
+  - _key: dpad/horizontal
+    _value: {fileID: 21300000, guid: aa6b4392982ed46409f564c4ab0d55ea, type: 2}
+  - _key: dpad/vertical
+    _value: {fileID: 21300000, guid: ac5aa60857750294b9f9cf13cc90c0d1, type: 2}

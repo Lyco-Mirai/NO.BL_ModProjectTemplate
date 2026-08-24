@@ -1,0 +1,653 @@
+{
+  "JsonVersion": 6,
+  "MapKey": {
+    "Type": "None",
+    "Path": ""
+  },
+  "missionSettings": {
+    "description": "Learn how to defeat semi-active radar homing missiles. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.",
+    "allowEventContent": false,
+    "Tags": [],
+    "playerMode": "Singleplayer",
+    "allowRespawn": false,
+    "playerStartingRank": 0,
+    "rankMultiplier": 1.0,
+    "successfulSortieBonus": 0.25,
+    "nuclearEscalationThreshold": 0.0,
+    "strategicEscalationThreshold": 0.0,
+    "minRankTacticalWarhead": 0,
+    "minRankStrategicWarhead": 0,
+    "cameraStartPosition": {
+      "IsOverride": false,
+      "Value": {
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        }
+      }
+    },
+    "missionRoads": {
+      "roads": []
+    },
+    "missionSeaLanes": {
+      "roads": []
+    },
+    "wrecksMaxNumber": -1,
+    "wrecksDecayTime": -1.0
+  },
+  "environment": {
+    "timeOfDay": 10.5845041,
+    "timeFactor": 0.0,
+    "weatherIntensity": 0.216145977,
+    "cloudAltitude": 1693.44861,
+    "windSpeed": 4.322924,
+    "windTurbulence": 0.0,
+    "windHeading": 0.0,
+    "windRandomHeading": 0.0,
+    "moonPhase": 14.0
+  },
+  "aircraft": [
+    {
+      "type": "trainer",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -32754.3281,
+        "y": 1911.85132,
+        "z": -4826.826
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.07303503,
+        "z": 0.0,
+        "w": 0.9973294
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "trainer",
+      "playerControlled": true,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 1,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 169.7372
+    }
+  ],
+  "vehicles": [
+    {
+      "type": "SAMTrailer1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -36196.6,
+        "y": 16.3364124,
+        "z": 12960.7813
+      },
+      "rotation": {
+        "x": 9.78033E-05,
+        "y": 0.99647063,
+        "z": 9.45426655E-05,
+        "w": 0.08394296
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "SAMTrailer1",
+      "holdPosition": true,
+      "skill": 1.0,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-R",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -36157.9023,
+        "y": 14.8775082,
+        "z": 12956.2383
+      },
+      "rotation": {
+        "x": 5.079798E-05,
+        "y": 0.689349949,
+        "z": -1.302155E-05,
+        "w": 0.724428535
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-R",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-T",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -36195.38,
+        "y": 15.1560669,
+        "z": 12953.6865
+      },
+      "rotation": {
+        "x": 5.732232E-05,
+        "y": 0.9953269,
+        "z": 5.45372823E-05,
+        "w": 0.09656327
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-T",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    }
+  ],
+  "ships": [],
+  "buildings": [],
+  "scenery": [],
+  "containers": [],
+  "missiles": [],
+  "pilots": [],
+  "factions": [
+    {
+      "factionName": "Boscali",
+      "preventJoin": false,
+      "preventDonation": false,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 0.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    },
+    {
+      "factionName": "Primeva",
+      "preventJoin": true,
+      "preventDonation": false,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 0.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "airbases": [],
+  "objectives": [
+    {
+      "Type": "None",
+      "UniqueName": "Mission Start",
+      "Faction": "",
+      "DisplayName": "",
+      "Hidden": true,
+      "Outcomes": [
+        "show box 1"
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 1",
+      "Faction": "Boscali",
+      "DisplayName": "box 1",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 2"
+      ],
+      "title": "Enemy Radar                             1/2",
+      "body": "Positioned on a small island 20km (12 miles) in front of you are two trucks.\n\nOne tows a launch system for R9 Stratolance missiles, while the other carries a connected radar that provides guidance for them.",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 2",
+      "Faction": "Boscali",
+      "DisplayName": "box 2",
+      "Hidden": false,
+      "Outcomes": [
+        "start wait a few"
+      ],
+      "title": "Enemy Radar                             2/2",
+      "body": "The emission from the radar is detectable by your radar receiver, and the direction to the radar is indicated by an orange line on the minimap. As radar based detection relies on bouncing a signal off of something, you can detect radar emissions at approximately double the range of a radar system.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "wait a few",
+      "Faction": "Boscali",
+      "DisplayName": "wait a few",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 3"
+      ],
+      "seconds": 4.7
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 3",
+      "Faction": "Boscali",
+      "DisplayName": "box 3",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 3_1"
+      ],
+      "title": "Radar Range                              1/3",
+      "body": "Having received an emission doesn't necessarily mean you have been spotted - it just means you have detected that a radar is being used.\u000b",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 3_1",
+      "Faction": "Boscali",
+      "DisplayName": "box 3_1",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 4"
+      ],
+      "title": "Radar Range                              2/3",
+      "body": "Radar pings appear as lines on your minimap\n\r\nGrey = this radar has probably not detected you\r\nYellow = this radar has probably detected you\r\nRed = this radar is actively targeting you",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 4",
+      "Faction": "Boscali",
+      "DisplayName": "box 4",
+      "Hidden": false,
+      "Outcomes": [
+        "start wait a few more"
+      ],
+      "title": "Radar Range                              3/3",
+      "body": "In this instance, however, you have definitely been spotted. The radar has a range of approximately 40km, and is only 15km away.\u000b\nThe radar will now be used to guide a Stratolance missile into you.",
+      "button": "Oh.",
+      "factionOnly": false
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "wait a few more",
+      "Faction": "Boscali",
+      "DisplayName": "wait a few more",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 5"
+      ],
+      "seconds": 7.0
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 5",
+      "Faction": "Boscali",
+      "DisplayName": "box 5",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 6"
+      ],
+      "title": "Notching                                      1/3",
+      "body": "The bright light rising up off of the island is a Stratolance missile. You have been fired at.\n\nAs you are high in the air and well within the range of the missile, the only way to survive this encounter is by executing a notch.",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 6",
+      "Faction": "Boscali",
+      "DisplayName": "box 6",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 7"
+      ],
+      "title": "Notching                                      2/3",
+      "body": "Notching, in short, can be described as flying perpendicular to the enemy radar.\n\nDoing this removes the doppler shift from your return frequencies, making it harder for the radar to track you.",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 7",
+      "Faction": "Boscali",
+      "DisplayName": "box 7",
+      "Hidden": false,
+      "Outcomes": [
+        "start wait a bit longer"
+      ],
+      "title": "Notching                                      3/3",
+      "body": "Our goal will be to get to cover behind the mountains. Start by breaking right, diving toward the water's surface, and getting the incoming radar line to stay at your 9 o'clock.\nYou should also select your Radar ECM by pressing Next Countermeasures <bind=Next Countermeasure>",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "wait a bit longer",
+      "Faction": "Boscali",
+      "DisplayName": "wait a bit longer",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 8"
+      ],
+      "seconds": 10.0
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 8",
+      "Faction": "Boscali",
+      "DisplayName": "box 8",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 9"
+      ],
+      "title": "Defending                                    1/4",
+      "body": "Now that the missile is close enough to be picked up and analysed by your sensors, a notch guide is provided both on the HUD and minimap.\n\nThe yellow dotted line indicates the ideal heading to maintain in order to perform a notch.",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 9",
+      "Faction": "Boscali",
+      "DisplayName": "box 9",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 10"
+      ],
+      "title": "Defending                                    2/4",
+      "body": "Notching alone is rarely enough to defeat a missile, especially in less stealthy aircraft.\nWhile in the notch envelope however, is the ideal time to use your ECM. The lack of doppler shifted returns, combined with the radar ECM, should mask you from the radar.",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 10",
+      "Faction": "Boscali",
+      "DisplayName": "box 10",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 11"
+      ],
+      "title": "Defending                                    3/4",
+      "body": "The tracking must be broken for at least 3 seconds for the missile to not re-acquire.\nNote that even when the missile loses track, it will still head for the last calculated intercept point. You must take care to evade whilst not exiting the notch.",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 11",
+      "Faction": "Boscali",
+      "DisplayName": "box 11",
+      "Hidden": false,
+      "Outcomes": [],
+      "title": "Defending                                    4/4",
+      "body": "The jammer's effectiveness is proportional to remaining capacitor charge. It is best used in 3 second bursts per missile.\n\nUse the jammer <bind=Countermeasures> while notching to escape toward the coast.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Escape",
+      "Faction": "Boscali",
+      "DisplayName": "Escape",
+      "Hidden": false,
+      "Outcomes": [
+        "show box final"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": -23219.29,
+            "y": 471.19812,
+            "z": 1964.14551
+          },
+          "Range": 500.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box final",
+      "Faction": "Boscali",
+      "DisplayName": "box final",
+      "Hidden": false,
+      "Outcomes": [
+        "win"
+      ],
+      "title": "Escaped Successfully",
+      "body": "Congratulations - you've successfully avoided radar missiles in a worst case scenario.\nIdeally, you can avoid these missiles by breaking line of sight of the radar, or by hugging the surface as tightly as possible to stay within ground clutter. Feel free to resume and practice this.",
+      "button": "Ok",
+      "factionOnly": false
+    }
+  ],
+  "outcomes": [
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 1",
+      "objectivesToStart": [
+        "box 1"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 2",
+      "objectivesToStart": [
+        "box 2"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start wait a few",
+      "objectivesToStart": [
+        "wait a few"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 3",
+      "objectivesToStart": [
+        "box 3"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 4",
+      "objectivesToStart": [
+        "box 4"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start wait a few more",
+      "objectivesToStart": [
+        "wait a few more"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 5",
+      "objectivesToStart": [
+        "box 5"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 6",
+      "objectivesToStart": [
+        "box 6"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 7",
+      "objectivesToStart": [
+        "box 7"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start wait a bit longer",
+      "objectivesToStart": [
+        "wait a bit longer",
+        "Escape"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 8",
+      "objectivesToStart": [
+        "box 8"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 9",
+      "objectivesToStart": [
+        "box 9"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 10",
+      "objectivesToStart": [
+        "box 10"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 11",
+      "objectivesToStart": [
+        "box 11"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box final",
+      "objectivesToStart": [
+        "box final"
+      ]
+    },
+    {
+      "Type": "EndGame",
+      "UniqueName": "win",
+      "endType": "Victory",
+      "endDelay": 0.0
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 3_1",
+      "objectivesToStart": [
+        "box 3_1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3faf763ade534d222b4449357f0cf9d8, type: 3}
+  m_Name: SteamController
+  m_EditorClassIdentifier:
+  _baseKeys:
+  - controller/steam_controller
+  _glyphs:
+  - _key: left_stick/horizontal
+    _value: {fileID: 21300000, guid: 71bcb7c6f9fac034f82c617031621c9d, type: 2}
+  - _key: left_stick/right
+    _value: {fileID: 21300000, guid: b31bc118c33103449b27f7ac5e99677d, type: 2}
+  - _key: left_stick/left
+    _value: {fileID: 21300000, guid: 4f10c33c1a5fa0149b9cc63b8b989ade, type: 2}
+  - _key: left_stick/vertical
+    _value: {fileID: 21300000, guid: 47c2d6ddcfac8b7429ec8527db3e3f4e, type: 2}
+  - _key: left_stick/up
+    _value: {fileID: 21300000, guid: c86ce2d1661e4294a9fbf70759012e4c, type: 2}
+  - _key: left_stick/down
+    _value: {fileID: 21300000, guid: 30f9cf35467f2f94db3488bd074bcff5, type: 2}
+  - _key: right_stick/horizontal
+    _value: {fileID: 21300000, guid: 0a7c9425a4d16a44488839d52477ad97, type: 2}
+  - _key: right_stick/right
+    _value: {fileID: 21300000, guid: c0f8d03a065041c419339945b6c653cd, type: 2}
+  - _key: right_stick/left
+    _value: {fileID: 21300000, guid: 6755c4dae5287fc4a9b338f51f459bc0, type: 2}
+  - _key: right_stick/vertical
+    _value: {fileID: 21300000, guid: d4a9d98940b0b7140ac8bb7417a47ea6, type: 2}
+  - _key: right_stick/up
+    _value: {fileID: 21300000, guid: bfd177ac818cf024cb6936dede5b889e, type: 2}
+  - _key: right_stick/down
+    _value: {fileID: 21300000, guid: 5d39293a4172dda4c807da2bf8082b37, type: 2}
+  - _key: left_trigger
+    _value: {fileID: 21300000, guid: 2cf3359b01944624984ee1c3db265bf3, type: 2}
+  - _key: right_trigger
+    _value: {fileID: 21300000, guid: bbe1f612cc30c834b995902b0af30f4b, type: 2}
+  - _key: a
+    _value: {fileID: 21300000, guid: ee0d9e63fb8561042a315fd837d2ac13, type: 2}
+  - _key: b
+    _value: {fileID: 21300000, guid: 7b7a618b32a6711479ff3077282c4289, type: 2}
+  - _key: x
+    _value: {fileID: 21300000, guid: 6693868e72cb0954bb254e8e0cce62b8, type: 2}
+  - _key: y
+    _value: {fileID: 21300000, guid: 14d0c479fdec3ac43adc0aa48a834781, type: 2}
+  - _key: left_shoulder
+    _value: {fileID: 21300000, guid: 5cad2333e830532489c11844a74692bb, type: 2}
+  - _key: right_shoulder
+    _value: {fileID: 21300000, guid: 2af84419640c280468eb7c86abaddca8, type: 2}
+  - _key: select
+    _value: {fileID: 21300000, guid: efa4d264255bc47408478c264eda5087, type: 2}
+  - _key: start
+    _value: {fileID: 21300000, guid: ae449383b6823884998115f9bee87246, type: 2}
+  - _key: left_stick/button
+    _value: {fileID: 21300000, guid: 06d725ba15b2863448ca24d8ad0bc3b5, type: 2}
+  - _key: right_stick/button
+    _value: {fileID: 21300000, guid: e8ba9d791d488d444bcabdd7e880fd87, type: 2}
+  - _key: dpad/up
+    _value: {fileID: 21300000, guid: 7d445a3c9fcb2084594301864ce2e605, type: 2}
+  - _key: dpad/right
+    _value: {fileID: 21300000, guid: 2178f83315c77984da2c5f102ab16834, type: 2}
+  - _key: dpad/down
+    _value: {fileID: 21300000, guid: 222a9496e778d5f44920db2e9d13c1a3, type: 2}
+  - _key: dpad/left
+    _value: {fileID: 21300000, guid: b3e6b2b6ae4b81b43bd8e7098e8ca15b, type: 2}
+  - _key: left_stick
+    _value: {fileID: 21300000, guid: 8026a81191248d94c9dec31072c129c1, type: 2}
+  - _key: right_stick
+    _value: {fileID: 21300000, guid: e55e73f5b48489a4d95ee084d81c0787, type: 2}
+  - _key: dpad
+    _value: {fileID: 21300000, guid: 1128bb2fd681ddf4b9e434778b1eb2aa, type: 2}
+  - _key: dpad/horizontal
+    _value: {fileID: 21300000, guid: af32046c5eab9954ca360ac67305c2ce, type: 2}
+  - _key: dpad/vertical
+    _value: {fileID: 21300000, guid: 98cbf235fb66463419790aab692902e9, type: 2}

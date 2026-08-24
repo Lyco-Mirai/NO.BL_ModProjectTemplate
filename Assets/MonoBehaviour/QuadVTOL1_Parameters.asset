@@ -1,0 +1,271 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e56ddb8681eb8af5865ab2fc54350bc, type: 3}
+  m_Name: QuadVTOL1_Parameters
+  m_EditorClassIdentifier:
+  aircraftName: VL-49 Tarantula
+  rankRequired: 2
+  airfoils:
+  - name: QuadVTOL1_wing
+    liftCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -1.492233
+        value: -0.002766233
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: -0.5
+        value: -1.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: -0.00012555812
+        value: 0.00042958115
+        inSlope: 3.8131855
+        outSlope: 3.8131855
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.10350601
+      - serializedVersion: 3
+        time: 0.5
+        value: 1.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.4954445
+        value: 0.0073467577
+        inSlope: 0.03151323
+        outSlope: 0.03151323
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.13650277
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -1.4926803
+        value: 0.2
+        inSlope: 0.0020135923
+        outSlope: 0.0020135923
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.19533321
+      - serializedVersion: 3
+        time: 0.00023387838
+        value: 0.00330832
+        inSlope: 7.164541E-08
+        outSlope: 7.164541E-08
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.1560833
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.4944664
+        value: 0.2
+        inSlope: -0.0002987295
+        outSlope: -0.0002987295
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.11343504
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  loadouts:
+  - weapons:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - weapons:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: ea5328694f925664491f96f03bd4459a, type: 2}
+    - {fileID: 11400000, guid: 73e2dbd335971334b8be8e967734baa8, type: 2}
+    - {fileID: 11400000, guid: 93aaa6fdc6066734483e0ed838aa9ec8, type: 2}
+    - {fileID: 11400000, guid: 9d085a59fdad91049ae16245ff8f3c51, type: 2}
+  StandardLoadouts:
+  - disabled: 0
+    Name: Gunship
+    loadout:
+      weapons:
+      - {fileID: 0}
+      - {fileID: 11400000, guid: 433712e0f59d4cd44beeae9019046f5c, type: 2}
+      - {fileID: 11400000, guid: f5a4d296c8945e549b18142a9c17f3ff, type: 2}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: c529ec1bdf255c0479d4afccadfe323b, type: 2}
+      - {fileID: 11400000, guid: c529ec1bdf255c0479d4afccadfe323b, type: 2}
+      - {fileID: 11400000, guid: 9d085a59fdad91049ae16245ff8f3c51, type: 2}
+    FuelRatio: 0.75
+  - disabled: 0
+    Name: LCV25 Mixed Cargo
+    loadout:
+      weapons:
+      - {fileID: 0}
+      - {fileID: 11400000, guid: e2049ddfbac9caa41987f5456f7d0c67, type: 2}
+      - {fileID: 11400000, guid: 4334aa3dfa087cb48b0cd1ddf9866cbd, type: 2}
+      - {fileID: 11400000, guid: ea5328694f925664491f96f03bd4459a, type: 2}
+      - {fileID: 11400000, guid: 93aaa6fdc6066734483e0ed838aa9ec8, type: 2}
+      - {fileID: 11400000, guid: 73e2dbd335971334b8be8e967734baa8, type: 2}
+      - {fileID: 11400000, guid: 9d085a59fdad91049ae16245ff8f3c51, type: 2}
+    FuelRatio: 0.408
+  - disabled: 0
+    Name: Vehicle Rearming
+    loadout:
+      weapons:
+      - {fileID: 0}
+      - {fileID: 11400000, guid: 37a4699e649f9734a9e09c73073fd01f, type: 2}
+      - {fileID: 11400000, guid: 37a4699e649f9734a9e09c73073fd01f, type: 2}
+      - {fileID: 11400000, guid: ea5328694f925664491f96f03bd4459a, type: 2}
+      - {fileID: 11400000, guid: 93aaa6fdc6066734483e0ed838aa9ec8, type: 2}
+      - {fileID: 11400000, guid: 73e2dbd335971334b8be8e967734baa8, type: 2}
+      - {fileID: 11400000, guid: 9d085a59fdad91049ae16245ff8f3c51, type: 2}
+    FuelRatio: 0.35
+  - disabled: 0
+    Name: AFV6 AA
+    loadout:
+      weapons:
+      - {fileID: 11400000, guid: d30e2d7388efaff41a12dbba70f04873, type: 2}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: ea5328694f925664491f96f03bd4459a, type: 2}
+      - {fileID: 11400000, guid: 93aaa6fdc6066734483e0ed838aa9ec8, type: 2}
+      - {fileID: 11400000, guid: 73e2dbd335971334b8be8e967734baa8, type: 2}
+      - {fileID: 11400000, guid: 9d085a59fdad91049ae16245ff8f3c51, type: 2}
+    FuelRatio: 0.35
+  - disabled: 0
+    Name: AFV6 AT
+    loadout:
+      weapons:
+      - {fileID: 11400000, guid: 274fd49563f5d1e48ac4753ea6acc8e3, type: 2}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: ea5328694f925664491f96f03bd4459a, type: 2}
+      - {fileID: 11400000, guid: 93aaa6fdc6066734483e0ed838aa9ec8, type: 2}
+      - {fileID: 11400000, guid: 73e2dbd335971334b8be8e967734baa8, type: 2}
+      - {fileID: 11400000, guid: 9d085a59fdad91049ae16245ff8f3c51, type: 2}
+    FuelRatio: 0.35
+  - disabled: 0
+    Name: AFV6 IFV
+    loadout:
+      weapons:
+      - {fileID: 11400000, guid: 8c00f5d336c2cc44b90ff1a16b7dfaed, type: 2}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: ea5328694f925664491f96f03bd4459a, type: 2}
+      - {fileID: 11400000, guid: 93aaa6fdc6066734483e0ed838aa9ec8, type: 2}
+      - {fileID: 11400000, guid: 73e2dbd335971334b8be8e967734baa8, type: 2}
+      - {fileID: 11400000, guid: 9d085a59fdad91049ae16245ff8f3c51, type: 2}
+    FuelRatio: 0.35
+  - disabled: 0
+    Name: AFV6 APC
+    loadout:
+      weapons:
+      - {fileID: 11400000, guid: c6c9fe1fffdb42c4f882cfc466f768b8, type: 2}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: ea5328694f925664491f96f03bd4459a, type: 2}
+      - {fileID: 11400000, guid: 93aaa6fdc6066734483e0ed838aa9ec8, type: 2}
+      - {fileID: 11400000, guid: 73e2dbd335971334b8be8e967734baa8, type: 2}
+      - {fileID: 11400000, guid: 9d085a59fdad91049ae16245ff8f3c51, type: 2}
+    FuelRatio: 0.35
+  - disabled: 0
+    Name: Naval Rearming
+    loadout:
+      weapons:
+      - {fileID: 0}
+      - {fileID: 11400000, guid: 45f45ca986e9d744b92c58804eedb67c, type: 2}
+      - {fileID: 11400000, guid: 45f45ca986e9d744b92c58804eedb67c, type: 2}
+      - {fileID: 11400000, guid: ea5328694f925664491f96f03bd4459a, type: 2}
+      - {fileID: 11400000, guid: 93aaa6fdc6066734483e0ed838aa9ec8, type: 2}
+      - {fileID: 11400000, guid: 73e2dbd335971334b8be8e967734baa8, type: 2}
+      - {fileID: 11400000, guid: 9d085a59fdad91049ae16245ff8f3c51, type: 2}
+    FuelRatio: 0.35
+  DefaultFuelLevel: 0.45
+  liveries:
+  - name: BDF Navy
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: ce5c454a18196b54c80eb2dc870e8180
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: PALA Black
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: 9e4becb80ac5e14418ce1c0f71840ba9
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: BDF Olive Drab
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: d7eb5c8ff1cbec143912ce982c9f0bc9
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: PALA Desert Digital
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: 4d2187f16e82ffe4a82a3aaec7ce761a
+      m_SubObjectName:
+      m_SubObjectType:
+  StatusDisplay: {fileID: 1709254077376921, guid: 08504976e9ab2ac40b148e1ea17180b5, type: 2}
+  HUDExtras: {fileID: 1709254077376921, guid: 75371f233b52c5549a55b9226cdcdeb3, type: 2}
+  takeoffMusic: {fileID: 8300000, guid: 4dfc87f49c6b64b4e91f2bb454f8c533, type: 3}
+  AoAEffects:
+    AudioClip: {fileID: 8300000, guid: 5778034f4d3240b449f63de2ee04a282, type: 3}
+    OnsetSpeed: 30
+    FullVolumeSpeed: 200
+    OnsetAlpha: 5
+    FullVolumeAlpha: 45
+    ShakeFactor: 0.1
+  aircraftGLimit: 3
+  PIDReferenceAirspeed: 100
+  maxSpeed: 153
+  takeoffSpeed: 0
+  takeoffDistance: 0
+  verticalLanding: 1
+  turningRadius: 750
+  cornerSpeed: 120
+  approachSpeed: 60
+  landingSpeed: 30
+  shortLandingSpeed: 30
+  cruiseThrottle: 0.9
+  minimumRadarAlt: 80
+  levelBias: 0.15
+  hoverTiltFactor: 0.2
+  collectivePID: {x: 0.005, y: 0, z: 0.01}
+  hoverPID: {x: 0.3, y: 0.002, z: 0.05}
+  tiltPID: {x: 0.1, y: 0, z: 0.05}
+  groundTurningRadius: 10

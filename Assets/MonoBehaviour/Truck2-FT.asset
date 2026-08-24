@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01bf628dec7dd250e4a1d21f43b281e, type: 3}
+  m_Name: Truck2-FT
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 1
+    air: 0
+    missile: 0
+    radar: 0
+    strategic: 0
+  roleIdentity:
+    antiSurface: 0
+    antiAir: 0
+    antiMissile: 0
+    antiRadar: 0
+  jsonKey: Truck2-FT
+  unitName: MSV Fuel Tanker
+  bogeyName:
+  description: Airbase support vehicle capable of refueling aircraft parked within 300m
+  code: FUEL
+  visibleRange: 6000
+  iconRange: 0
+  radarSize: 1
+  friendlyIcon: {fileID: 21300000, guid: 64a9ec1556a307a49a3a71731b4ef0a6, type: 2}
+  hostileIcon: {fileID: 21300000, guid: efd3627d4f72d1448ab8e1c684fb723d, type: 2}
+  mapIcon: {fileID: 21300000, guid: f84817cde00e8dd4cbba0d344da5b068, type: 2}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 1
+  mapIconSize: 1
+  captureCapacity: 3
+  captureStrength: 2
+  captureDefense: 0
+  length: 10.1
+  width: 2.7
+  height: 3.4
+  value: 0.51
+  mass: 20000
+  manpower: 2
+  armorTier: 1
+  damageTolerance: 0.5
+  CanSlingLoad: 1
+  unitPrefab: {fileID: 1709254077376921, guid: 0742bf3d6e4b7b44dabcb8b6d77adf66, type: 2}
+  spawnOffset: {x: 0, y: 1.26, z: 0}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: 0
+  maxEditorHeight: 10000
+  vehicleType: 0

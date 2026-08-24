@@ -1,1 +1,0 @@
-# NO.BL_ModProjectTemplate

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 025eaf71a35bf01ec7ad4cd2b17ed651, type: 3}
+  m_Name: hullDown2
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 0
+    air: 0
+    missile: 0
+    radar: 0
+    strategic: 0
+  roleIdentity:
+    antiSurface: 0
+    antiAir: 0
+    antiMissile: 0
+    antiRadar: 0
+  jsonKey: Hulldown2
+  unitName: Hull down circular
+  bogeyName:
+  description: Round rampart to provide cover for vehicles
+  code: OBJ
+  visibleRange: 6000
+  iconRange: 0
+  radarSize: 0
+  friendlyIcon: {fileID: 0}
+  hostileIcon: {fileID: 0}
+  mapIcon: {fileID: 0}
+  mapOrient: 0
+  IsObstacle: 1
+  iconSize: 0
+  mapIconSize: 0
+  captureCapacity: 0
+  captureStrength: 0
+  captureDefense: 0
+  length: 40
+  width: 40
+  height: 2
+  value: 0.1
+  mass: 10000
+  manpower: 0
+  armorTier: 1
+  damageTolerance: 1
+  CanSlingLoad: 0
+  unitPrefab: {fileID: 1709254077376921, guid: a5fe334d4d3e822409c552df06c09a12, type: 2}
+  spawnOffset: {x: 0, y: 0, z: 0}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 1
+  minEditorHeight: -10
+  maxEditorHeight: 10000

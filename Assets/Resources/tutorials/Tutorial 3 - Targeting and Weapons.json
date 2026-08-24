@@ -1,0 +1,1269 @@
+{
+  "JsonVersion": 6,
+  "MapKey": {
+    "Type": "None",
+    "Path": ""
+  },
+  "missionSettings": {
+    "description": "Learn how to designate targets and use missiles to destroy them. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.",
+    "allowEventContent": false,
+    "Tags": [],
+    "playerMode": "Singleplayer",
+    "allowRespawn": false,
+    "playerStartingRank": 0,
+    "rankMultiplier": 1.0,
+    "successfulSortieBonus": 0.25,
+    "nuclearEscalationThreshold": 0.0,
+    "strategicEscalationThreshold": 0.0,
+    "minRankTacticalWarhead": 0,
+    "minRankStrategicWarhead": 0,
+    "cameraStartPosition": {
+      "IsOverride": false,
+      "Value": {
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        }
+      }
+    },
+    "missionRoads": {
+      "roads": []
+    },
+    "missionSeaLanes": {
+      "roads": []
+    },
+    "wrecksMaxNumber": 0,
+    "wrecksDecayTime": 0.0
+  },
+  "environment": {
+    "timeOfDay": 12.3380356,
+    "timeFactor": 0.0,
+    "weatherIntensity": 0.481001049,
+    "cloudAltitude": 2780.268,
+    "windSpeed": 0.0,
+    "windTurbulence": 0.0,
+    "windHeading": 0.0,
+    "windRandomHeading": 0.0,
+    "moonPhase": 14.0
+  },
+  "aircraft": [
+    {
+      "type": "trainer",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -32073.86,
+        "y": 358.088074,
+        "z": -26969.584
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.6266905,
+        "z": 0.0,
+        "w": 0.779268265
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "trainer",
+      "playerControlled": true,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gunpod_25mm_trainer"
+          },
+          {
+            "Key": "AGM1_double"
+          },
+          {
+            "Key": "AGM1_double"
+          },
+          {
+            "Key": "AAM1_single"
+          },
+          {
+            "Key": "TailHook_Trainer"
+          }
+        ]
+      },
+      "livery": 1,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 139.477036
+    },
+    {
+      "type": "COIN",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -27919.2344,
+        "y": 374.193,
+        "z": -27722.34
+      },
+      "rotation": {
+        "x": 0.0418622158,
+        "y": 0.9570153,
+        "z": 0.2252376,
+        "w": -0.177868977
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "COIN",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 3,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 67.8020859
+    },
+    {
+      "type": "COIN",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -19864.2344,
+        "y": 444.6861,
+        "z": -22783.66
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0304809045,
+        "z": 0.0,
+        "w": 0.9995354
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "COIN_1",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 3,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 56.163002
+    },
+    {
+      "type": "COIN",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -28076.63,
+        "y": 474.564148,
+        "z": -27606.125
+      },
+      "rotation": {
+        "x": 0.9280784,
+        "y": -0.201461971,
+        "z": -0.24214384,
+        "w": -0.198620021
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "COIN_2",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 3,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 62.6798172
+    },
+    {
+      "type": "AttackHelo1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -26948.1875,
+        "y": 69.90543,
+        "z": -25631.5234
+      },
+      "rotation": {
+        "x": -0.00277296687,
+        "y": -0.7043336,
+        "z": 0.008318901,
+        "w": 0.709814966
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AttackHelo1",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 1,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 0.0
+    }
+  ],
+  "vehicles": [
+    {
+      "type": "HLT-L",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -27975.043,
+        "y": 178.7558,
+        "z": -26575.8164
+      },
+      "rotation": {
+        "x": -0.0113372272,
+        "y": 0.974353969,
+        "z": -0.0436606146,
+        "w": -0.220453233
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-L_2",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -26685.1641,
+        "y": 138.5028,
+        "z": -26244.5938
+      },
+      "rotation": {
+        "x": -0.006463114,
+        "y": 0.7326752,
+        "z": -0.08031845,
+        "w": 0.675791562
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-L_3",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -27539.3418,
+        "y": 175.014038,
+        "z": -26773.0273
+      },
+      "rotation": {
+        "x": 0.000371660542,
+        "y": 0.0375535525,
+        "z": 0.0017643735,
+        "w": -0.999293
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-FT",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -28778.9648,
+        "y": 196.969147,
+        "z": -25528.3477
+      },
+      "rotation": {
+        "x": 0.07939442,
+        "y": 0.7564176,
+        "z": -0.0910076052,
+        "w": 0.64284265
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-L",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-M",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -28797.6641,
+        "y": 178.128876,
+        "z": -25667.8066
+      },
+      "rotation": {
+        "x": 0.0608761124,
+        "y": 0.997398555,
+        "z": -0.0370996,
+        "w": -0.0106682386
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-M",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-T",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -28657.4766,
+        "y": 180.3855,
+        "z": -25612.5371
+      },
+      "rotation": {
+        "x": -0.0148372184,
+        "y": 0.9893595,
+        "z": -0.08357986,
+        "w": 0.118161142
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-T",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -19198.0723,
+        "y": 136.195679,
+        "z": -19117.43
+      },
+      "rotation": {
+        "x": -0.00766843138,
+        "y": 0.480108738,
+        "z": 0.0019457218,
+        "w": -0.8771733
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "targ2",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -19225.4512,
+        "y": 136.154816,
+        "z": -19044.5586
+      },
+      "rotation": {
+        "x": -0.005754899,
+        "y": 0.480109841,
+        "z": -0.00533123966,
+        "w": -0.8771733
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "targ1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -19145.6211,
+        "y": 133.943634,
+        "z": -19009.7949
+      },
+      "rotation": {
+        "x": 0.0216730945,
+        "y": 0.468573868,
+        "z": -0.0102347936,
+        "w": -0.8830991
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "targ3",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -19164.4043,
+        "y": 136.045532,
+        "z": -19188.043
+      },
+      "rotation": {
+        "x": -0.0167080965,
+        "y": 0.477763325,
+        "z": -0.00297756,
+        "w": -0.8783246
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "targ4",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -15347.8184,
+        "y": 735.7693,
+        "z": -5118.117
+      },
+      "rotation": {
+        "x": 0.08019994,
+        "y": 0.7064017,
+        "z": -0.0450425968,
+        "w": 0.701809
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-L_4",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-M",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -10335.3086,
+        "y": 137.24411,
+        "z": -6480.131
+      },
+      "rotation": {
+        "x": 0.000422378245,
+        "y": 0.997385442,
+        "z": -0.00257749,
+        "w": 0.0722186342
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-M_1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": -26944.5938,
+        "y": 68.75792,
+        "z": -25615.27
+      },
+      "rotation": {
+        "x": -0.000384787971,
+        "y": -0.08135918,
+        "z": -0.002506869,
+        "w": 0.996681631
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-FT_1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    }
+  ],
+  "ships": [],
+  "buildings": [],
+  "scenery": [],
+  "containers": [],
+  "missiles": [],
+  "pilots": [],
+  "factions": [
+    {
+      "factionName": "Boscali",
+      "preventJoin": false,
+      "preventDonation": false,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 0.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    },
+    {
+      "factionName": "Primeva",
+      "preventJoin": true,
+      "preventDonation": false,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 0.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "airbases": [
+    {
+      "IsOverride": true,
+      "faction": "Primeva",
+      "UniqueName": "North Boscali Airbase",
+      "DisplayName": "North Boscali Airbase",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1561.0,
+      "Center": {
+        "x": -18627.1934,
+        "y": 140.0,
+        "z": 32225.5879
+      },
+      "SelectionPosition": {
+        "x": -18550.0,
+        "y": 137.057,
+        "z": 32192.7
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    }
+  ],
+  "objectives": [
+    {
+      "Type": "None",
+      "UniqueName": "Mission Start",
+      "Faction": "",
+      "DisplayName": "",
+      "Hidden": true,
+      "Outcomes": [
+        "start wait to start"
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 0",
+      "Faction": "Boscali",
+      "DisplayName": "box 0",
+      "Hidden": false,
+      "Outcomes": [
+        "start wait for seconds"
+      ],
+      "title": "Helmet Mounted Display",
+      "body": "Today you will learn how to target and fire on enemy units.\nYour HMD will highlight all units known to either your aircraft's sensors or the datalink system.\n\nObserve the various units highlighted in front of you.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "wait for seconds",
+      "Faction": "Boscali",
+      "DisplayName": "wait for seconds",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 1"
+      ],
+      "seconds": 6.0
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 1",
+      "Faction": "Boscali",
+      "DisplayName": "box 1",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 2"
+      ],
+      "title": "Target Designation                     1/4",
+      "body": "Anchored to the center of your view, there is a target designator diamond, which will become visible when you look around.\nYou can select targets by looking at a unit, and pressing the Target Select button <bind=Select>",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 2",
+      "Faction": "Boscali",
+      "DisplayName": "box 2",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 3"
+      ],
+      "title": "Target Designation                     2/4",
+      "body": "If you are using virtual joystick (mouse flight), you will need to hold the freelook button <bind=Free Look> to look around.\nIf you are using a controller, you should make sure virtual joystick is disabled in options, and use the right stick <bind=Pan View> to look around.",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 3",
+      "Faction": "Boscali",
+      "DisplayName": "box 3",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 3.5"
+      ],
+      "title": "Target Designation                     3/4",
+      "body": "You can add multiple targets to your designation.\n\nTo remove the last selected target, press Target Cancel <bind=Cancel>\nTo clear the designation entirely, hold the button down.",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 3.5",
+      "Faction": "Boscali",
+      "DisplayName": "box 3.5",
+      "Hidden": false,
+      "Outcomes": [
+        "start fly to waypoint"
+      ],
+      "title": "Target Designation                     4/4",
+      "body": "Take some time to practice selecting and deselecting targets. You will need to be proficient at this, and be able to do it quickly under pressure in order to be truly effective in combat.\nWhen you are ready to start shooting, fly to the marked waypoint.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Fly to Waypoint",
+      "Faction": "Boscali",
+      "DisplayName": "Waypoint",
+      "Hidden": false,
+      "Outcomes": [
+        "spawn target trucks",
+        "show box 4"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": -23887.0156,
+            "y": 382.7473,
+            "z": -22111.0918
+          },
+          "Range": 300.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 4",
+      "Faction": "Boscali",
+      "DisplayName": "box 4",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 4.5"
+      ],
+      "title": "Weapon Usage                            1/2",
+      "body": "Four new contacts - enemy trucks - are present at bearing 060.\u000bPress the Next Weapon button <bind=Next Weapon> or the weapon wheel <bind=Weapon Wheel> + <bind=Radial Menu Horizontal> until your AGM-48s are selected, and then designate the four enemy trucks as targets and fire on them.",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 4.5",
+      "Faction": "Boscali",
+      "DisplayName": "box 4.5",
+      "Hidden": false,
+      "Outcomes": [
+        "start truck hunt"
+      ],
+      "title": "Weapon Usage                            2/2",
+      "body": "A single trigger pull <bind=Fire> will release one munition per designated target.\nShoot when TGT is within MIN and MAX on the range indicator.\nAll your current weapons are fire and forget.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "destroy trucks marker",
+      "Faction": "Boscali",
+      "DisplayName": "Destroy Trucks",
+      "Hidden": false,
+      "Outcomes": [],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": -19165.6055,
+            "y": 134.670883,
+            "z": -19070.0117
+          },
+          "Range": 0.0
+        }
+      ]
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "destroy trucks",
+      "Faction": "Boscali",
+      "DisplayName": "Destroy Targets",
+      "Hidden": true,
+      "Outcomes": [
+        "stop destroy trucks marker",
+        "start wait for destroyed trucks"
+      ],
+      "completeOrder": "CompleteAll",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "targ1",
+        "targ2",
+        "targ3",
+        "targ4"
+      ]
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "wait for destroyed trucks",
+      "Faction": "Boscali",
+      "DisplayName": "wait for destroyed trucks",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 5"
+      ],
+      "seconds": 2.0
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 5",
+      "Faction": "Boscali",
+      "DisplayName": "box 5",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 6"
+      ],
+      "title": "Aerial Targets                              1/2",
+      "body": "Good job - the trucks are destroyed.\n\nThe process for targeting and firing on aerial targets is the same, however, you should make sure you have the right weapon selected.",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 6",
+      "Faction": "Boscali",
+      "DisplayName": "box 6",
+      "Hidden": false,
+      "Outcomes": [
+        "spawn plane",
+        "start plane hunt"
+      ],
+      "title": "Aerial Targets                              2/2",
+      "body": "Different weapons have different intended targets. If targets are ever overlapping, target selection will be biased towards suitable targets for the currently selected weapon. \nSwitch weapons to your MMR-S3s, and find and destroy the plane approaching from bearing 180.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "destroy plane",
+      "Faction": "Boscali",
+      "DisplayName": "Destroy Target",
+      "Hidden": true,
+      "Outcomes": [
+        "show box 7"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "COIN_1"
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 7",
+      "Faction": "Boscali",
+      "DisplayName": "box 7",
+      "Hidden": false,
+      "Outcomes": [
+        "win"
+      ],
+      "title": "Complete",
+      "body": "Excellent work. This concludes Targeting and Weapons.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "orbit",
+      "Faction": "Primeva",
+      "DisplayName": "orbit",
+      "Hidden": false,
+      "Outcomes": [],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": -23378.5176,
+            "y": 417.899231,
+            "z": -26065.7363
+          },
+          "Range": 0.0
+        }
+      ]
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "fratricide",
+      "Faction": "Boscali",
+      "DisplayName": "fratricide",
+      "Hidden": true,
+      "Outcomes": [
+        "show fratricide box"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "HLT-L",
+        "HLT-M",
+        "HLT-T",
+        "HLT-L_4",
+        "AttackHelo1",
+        "HLT-M_1",
+        "HLT-FT_1"
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "fratricide box",
+      "Faction": "Boscali",
+      "DisplayName": "fratricide box",
+      "Hidden": false,
+      "Outcomes": [],
+      "title": "Fratricide",
+      "body": "Red icons denote enemy units.\n\nBlue icons denote friendly units.\n\n\nDo not fire on the blue icons.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "wait to start",
+      "Faction": "Boscali",
+      "DisplayName": "wait to start",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 0"
+      ],
+      "seconds": 2.0
+    }
+  ],
+  "outcomes": [
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start wait to start",
+      "objectivesToStart": [
+        "wait to start",
+        "orbit"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start wait for seconds",
+      "objectivesToStart": [
+        "wait for seconds"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 1",
+      "objectivesToStart": [
+        "box 1"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 2",
+      "objectivesToStart": [
+        "box 2"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 3",
+      "objectivesToStart": [
+        "box 3"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 3.5",
+      "objectivesToStart": [
+        "box 3.5"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start fly to waypoint",
+      "objectivesToStart": [
+        "Fly to Waypoint"
+      ]
+    },
+    {
+      "Type": "SpawnUnit",
+      "UniqueName": "spawn target trucks",
+      "UnitsToSpawn": []
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 4",
+      "objectivesToStart": [
+        "box 4"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 4.5",
+      "objectivesToStart": [
+        "box 4.5"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start truck hunt",
+      "objectivesToStart": [
+        "destroy trucks",
+        "destroy trucks marker"
+      ]
+    },
+    {
+      "Type": "StopOrCompleteObjective",
+      "UniqueName": "stop destroy trucks marker",
+      "options": "Stop",
+      "objectivesToStart": [
+        "destroy trucks marker"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start wait for destroyed trucks",
+      "objectivesToStart": [
+        "wait for destroyed trucks"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 5",
+      "objectivesToStart": [
+        "box 5"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 6",
+      "objectivesToStart": [
+        "box 6"
+      ]
+    },
+    {
+      "Type": "SpawnUnit",
+      "UniqueName": "spawn plane",
+      "UnitsToSpawn": [
+        "COIN_1"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start plane hunt",
+      "objectivesToStart": [
+        "destroy plane"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 7",
+      "objectivesToStart": [
+        "box 7"
+      ]
+    },
+    {
+      "Type": "EndGame",
+      "UniqueName": "win",
+      "endType": "Victory",
+      "endDelay": 0.0
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show fratricide box",
+      "objectivesToStart": [
+        "fratricide box"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 0",
+      "objectivesToStart": [
+        "orbit",
+        "box 0",
+        "fratricide"
+      ]
+    }
+  ]
+}

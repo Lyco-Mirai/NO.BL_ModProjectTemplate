@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2046858975, guid: c88ab7b37c4f350242674d2efd621c19, type: 3}
+  m_Name: ScreenSpaceAmbientOcclusion
+  m_EditorClassIdentifier:
+  m_Active: 1
+  m_Settings:
+    AOMethod: 1
+    Downsample: 1
+    AfterOpaque: 0
+    Source: 1
+    NormalSamples: 1
+    Intensity: 0
+    DirectLightingStrength: 0
+    Radius: 0.2
+    Samples: 2
+    BlurQuality: 0
+    Falloff: 100
+    SampleCount: -1
+  m_BlueNoise256Textures:
+  - {fileID: 2800000, guid: 92aec2f09b704484fb9bcc6c7d02194d, type: 3}
+  - {fileID: 2800000, guid: 3f0943d81da1b6946a459ecfbc46c31f, type: 3}
+  - {fileID: 2800000, guid: 643905648653aa547bc9c7d797d489e7, type: 3}
+  - {fileID: 2800000, guid: 66e6cb7fbe8945c4e981800b08e54f57, type: 3}
+  - {fileID: 2800000, guid: aff3f549f9fa2c041b44ca961d28969d, type: 3}
+  - {fileID: 2800000, guid: ce1195d442a22f2408b874c98f4bfab3, type: 3}
+  - {fileID: 2800000, guid: 7faee3aa3d9c580408b9d2b8ba87e369, type: 3}
+  m_Shader: {fileID: 4800000, guid: f70a79ae1de134543ac46f9d786e7bef, type: 3}

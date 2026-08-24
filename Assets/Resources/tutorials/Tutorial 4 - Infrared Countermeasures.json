@@ -1,0 +1,606 @@
+{
+  "JsonVersion": 6,
+  "MapKey": {
+    "Type": "None",
+    "Path": ""
+  },
+  "missionSettings": {
+    "description": "Learn how to use flares to defeat IR missiles. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.",
+    "allowEventContent": false,
+    "Tags": [],
+    "playerMode": "Singleplayer",
+    "allowRespawn": false,
+    "playerStartingRank": 0,
+    "rankMultiplier": 1.0,
+    "successfulSortieBonus": 0.25,
+    "nuclearEscalationThreshold": 0.0,
+    "strategicEscalationThreshold": 0.0,
+    "minRankTacticalWarhead": 0,
+    "minRankStrategicWarhead": 0,
+    "cameraStartPosition": {
+      "IsOverride": false,
+      "Value": {
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        }
+      }
+    },
+    "missionRoads": {
+      "roads": []
+    },
+    "missionSeaLanes": {
+      "roads": []
+    },
+    "wrecksMaxNumber": 0,
+    "wrecksDecayTime": 0.0
+  },
+  "environment": {
+    "timeOfDay": 10.1461267,
+    "timeFactor": 0.0,
+    "weatherIntensity": 0.316608548,
+    "cloudAltitude": 1267.24548,
+    "windSpeed": 0.0,
+    "windTurbulence": 0.0,
+    "windHeading": 0.0,
+    "windRandomHeading": 0.0,
+    "moonPhase": 14.0
+  },
+  "aircraft": [
+    {
+      "type": "trainer",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 29520.166,
+        "y": 1020.34937,
+        "z": -22535.791
+      },
+      "rotation": {
+        "x": 0.008633238,
+        "y": -0.133888885,
+        "z": 0.00504269032,
+        "w": 0.990946
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "trainer",
+      "playerControlled": true,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 168.0414
+    }
+  ],
+  "vehicles": [
+    {
+      "type": "HLT-T",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 27629.6152,
+        "y": 168.934326,
+        "z": -14746.998
+      },
+      "rotation": {
+        "x": 0.000115251663,
+        "y": -0.7873557,
+        "z": 0.000393031,
+        "w": -0.6164989
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-T",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 27622.8184,
+        "y": 169.007751,
+        "z": -14726.2764
+      },
+      "rotation": {
+        "x": 0.010038361,
+        "y": 0.8038552,
+        "z": 0.0019939437,
+        "w": 0.5947371
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-L",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_SAM",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 27600.998,
+        "y": 169.777817,
+        "z": -14757.3857
+      },
+      "rotation": {
+        "x": 0.00979951,
+        "y": 0.9967014,
+        "z": 0.0056759757,
+        "w": 0.0803619549
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_SAM",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    }
+  ],
+  "ships": [],
+  "buildings": [],
+  "scenery": [],
+  "containers": [],
+  "missiles": [],
+  "pilots": [],
+  "factions": [
+    {
+      "factionName": "Boscali",
+      "preventJoin": true,
+      "preventDonation": false,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 0.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    },
+    {
+      "factionName": "Primeva",
+      "preventJoin": false,
+      "preventDonation": false,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 0.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "airbases": [],
+  "objectives": [
+    {
+      "Type": "None",
+      "UniqueName": "Mission Start",
+      "Faction": "",
+      "DisplayName": "",
+      "Hidden": true,
+      "Outcomes": [
+        "show box 1"
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 1",
+      "Faction": "Primeva",
+      "DisplayName": "box 1",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 2"
+      ],
+      "title": "Infrared Countermeasures          1/3",
+      "body": "Missiles that see via the infrared spectral band are a common battlefield threat.\n\nThe signature of your aircraft is provided to them by the heat that operating it produces.",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 2",
+      "Faction": "Primeva",
+      "DisplayName": "box 2",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 3"
+      ],
+      "title": "Infrared Countermeasures          2/3",
+      "body": "You can defeat IR missiles by using flares - intense heat signatures - that can either distract or dazzle the seeker head.\n\nEvery aircraft in the arsenal has flares.",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 3",
+      "Faction": "Primeva",
+      "DisplayName": "box 3",
+      "Hidden": false,
+      "Outcomes": [
+        "start moving"
+      ],
+      "title": "Infrared Countermeasures          3/3",
+      "body": "In front of you is an enemy SAM launcher which fires IRM-S2s. It has an effective range of 8km (5 miles).\n\nTo pass the training, you will have to fly within half that distance from it, and then return to this point alive.",
+      "button": "Oh.",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "started moving",
+      "Faction": "Primeva",
+      "DisplayName": "started moving",
+      "Hidden": true,
+      "Outcomes": [
+        "show box 4"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 29138.9121,
+            "y": 999.1808,
+            "z": -21123.082
+          },
+          "Range": 1000.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 4",
+      "Faction": "Primeva",
+      "DisplayName": "box 4",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 5"
+      ],
+      "title": "Flare Usage                                 1/3",
+      "body": "Make sure flares are selected and visible in the top right of the HMD <bind=Next Countermeasure>\n\nWhen fired on, press and hold the Countermeasure button. <bind=Countermeasures>",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 5",
+      "Faction": "Primeva",
+      "DisplayName": "box 5",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 6"
+      ],
+      "title": "Flare Usage                                 2/3",
+      "body": "Flare effectiveness is determined by your aspect to the missile, as well as your engine output. Lower your throttle and turn the plane side-on to the threat to get the most out of your flares. If you get fired on from behind at full throttle, or you may need to expend the whole cartridge.",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "box 6",
+      "Faction": "Primeva",
+      "DisplayName": "box 6",
+      "Hidden": false,
+      "Outcomes": [
+        "start tempting fate"
+      ],
+      "title": "Flare Usage                                 3/3",
+      "body": "Pre-flaring (releasing flares if you suspect you're about to be fired on) is the most effective use of flares, as it can prevent the launching platform from obtaining a lock.\nTry releasing flares periodically (once or twice a second) when in danger.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "not close enough",
+      "Faction": "Primeva",
+      "DisplayName": "not close enough",
+      "Hidden": true,
+      "Outcomes": [
+        "didnt get close enough"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 27587.53,
+            "y": 168.5446,
+            "z": -14759.86
+          },
+          "Range": 5000.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "not close enough box",
+      "Faction": "Primeva",
+      "DisplayName": "not close enough box",
+      "Hidden": false,
+      "Outcomes": [],
+      "title": "Not dangerous enough",
+      "body": "You are pulling away too soon. While the best and most obvious survival method is to avoid the SAM in the first place, for the sake of this demonstration, please take unreasonable risk.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "close enough",
+      "Faction": "Primeva",
+      "DisplayName": "close enough",
+      "Hidden": true,
+      "Outcomes": [
+        "got close enough",
+        "start return"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": true,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 27587.53,
+            "y": 168.5446,
+            "z": -14759.86
+          },
+          "Range": 4000.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "close enough box",
+      "Faction": "Primeva",
+      "DisplayName": "close enough box",
+      "Hidden": false,
+      "Outcomes": [],
+      "title": "Escape",
+      "body": "Now leave the SAM's area of effect and return to where you started. Because you'll be showing it your exhaust as you fly away, it is especially important that you reduce your throttle to reduce your signature compared to that of your flares.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "return",
+      "Faction": "Primeva",
+      "DisplayName": "Return",
+      "Hidden": false,
+      "Outcomes": [
+        "show final box"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 29527.9473,
+            "y": 1015.10083,
+            "z": -22549.5215
+          },
+          "Range": 250.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "final box",
+      "Faction": "Primeva",
+      "DisplayName": "final box",
+      "Hidden": false,
+      "Outcomes": [
+        "win"
+      ],
+      "title": "Evasion Complete",
+      "body": "Well done, you've entered the IR SAM's area of effect and come back alive.\n\nThis completes the training, but if you still have flares left, feel free to resume and continue tempting fate.",
+      "button": "Ok",
+      "factionOnly": false
+    }
+  ],
+  "outcomes": [
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 1",
+      "objectivesToStart": [
+        "box 1"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 2",
+      "objectivesToStart": [
+        "box 2"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 3",
+      "objectivesToStart": [
+        "box 3"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start moving",
+      "objectivesToStart": [
+        "started moving"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 4",
+      "objectivesToStart": [
+        "box 4"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 5",
+      "objectivesToStart": [
+        "box 5"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 6",
+      "objectivesToStart": [
+        "box 6"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start tempting fate",
+      "objectivesToStart": [
+        "close enough",
+        "not close enough"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "didnt get close enough",
+      "objectivesToStart": [
+        "not close enough box"
+      ]
+    },
+    {
+      "Type": "StopOrCompleteObjective",
+      "UniqueName": "got close enough",
+      "options": "Stop",
+      "objectivesToStart": [
+        "not close enough"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start return",
+      "objectivesToStart": [
+        "return",
+        "close enough box"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show final box",
+      "objectivesToStart": [
+        "final box"
+      ]
+    },
+    {
+      "Type": "EndGame",
+      "UniqueName": "win",
+      "endType": "Victory",
+      "endDelay": 0.0
+    }
+  ]
+}

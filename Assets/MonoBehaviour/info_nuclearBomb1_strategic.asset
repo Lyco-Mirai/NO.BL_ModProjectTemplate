@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa816120540204c189ec573df0a0723a, type: 3}
+  m_Name: info_nuclearBomb1_strategic
+  m_EditorClassIdentifier:
+  weaponPrefab: {fileID: 1709254077376921, guid: 8887a68db331182498b868d2db4c4ac7, type: 2}
+  effectiveness:
+    antiSurface: 0.6
+    antiAir: 0
+    antiMissile: 0
+    antiRadar: 0
+  targetRequirements:
+    lineOfSight: 1
+    minAltitude: 0
+    maxAltitude: 100
+    minRange: 0
+    maxRange: 5000
+    maxSpeed: 30
+    minIR: 0
+    minRadar: 0
+    minAlignment: 30
+    minOwnerSpeed: 0
+    minValue: 20
+  pK: 1000
+  weaponName: GPO-N (250kt)
+  shortName: GPO-N (250kt)
+  description: Guided thermonuclear bomb, set to strategic yield. Detonates after a minimum time delay of 16 seconds, when below 500m (1650ft) altitude. Unless being lofted, level bombing should be carried out at a minimum of 1300m(4300ft).
+  fireInterval: 0.2
+  muzzleVelocity: 0
+  maxSpeed: -1
+  dragCoef: 0.1
+  gravMult: 1
+  pierceDamage: 700
+  blastDamage: 500
+  weaponIcon: {fileID: 21300000, guid: b84eadd9f04ccdf488233f7c9ed571e2, type: 2}
+  armorTierEffectiveness: 7
+  airburstHeight: 150
+  visibilityWhenFired: 0
+  costPerRound: 28
+  massPerRound: 400
+  useWeaponDoors: 1
+  boresight: 0
+  laserGuided: 0
+  missile: 0
+  bomb: 1
+  glideBomb: 0
+  gun: 0
+  overHorizon: 0
+  nuclear: 1
+  strategic: 1
+  energy: 0
+  jammer: 0
+  troops: 0
+  hideInDisplay: 0
+  cargo: 0
+  rearmGround: 0
+  rearmShip: 0
+  sling: 0

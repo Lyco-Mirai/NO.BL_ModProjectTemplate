@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa816120540204c189ec573df0a0723a, type: 3}
+  m_Name: info_bomb_penetrator1
+  m_EditorClassIdentifier:
+  weaponPrefab: {fileID: 1709254077376921, guid: b13c10fa09cdf50428d770c1f7892bed, type: 2}
+  effectiveness:
+    antiSurface: 0.49
+    antiAir: 0
+    antiMissile: 0
+    antiRadar: 0
+  targetRequirements:
+    lineOfSight: 1
+    minAltitude: 0
+    maxAltitude: 100
+    minRange: 0
+    maxRange: 5000
+    maxSpeed: 30
+    minIR: 0
+    minRadar: 0
+    minAlignment: 30
+    minOwnerSpeed: 0
+    minValue: 0
+  pK: 4
+  weaponName: GPO-2P Auger
+  shortName: GPO-2P
+  description: The Auger is a bunker busting gravity bomb with a precision guidance kit. It is capable of penetrating hardened structures before its large warhead detonates.
+  fireInterval: 0.2
+  muzzleVelocity: 0
+  maxSpeed: -1
+  dragCoef: 0.2
+  gravMult: 1
+  pierceDamage: 700
+  blastDamage: 500
+  weaponIcon: {fileID: 21300000, guid: bfc5bef4f8ce6204981a4fc751991a79, type: 2}
+  armorTierEffectiveness: 10
+  airburstHeight: 0
+  visibilityWhenFired: 0
+  costPerRound: 0.15
+  massPerRound: 0
+  useWeaponDoors: 1
+  boresight: 0
+  laserGuided: 0
+  missile: 0
+  bomb: 1
+  glideBomb: 0
+  gun: 0
+  overHorizon: 0
+  nuclear: 0
+  strategic: 0
+  energy: 0
+  jammer: 0
+  troops: 0
+  hideInDisplay: 0
+  cargo: 0
+  rearmGround: 0
+  rearmShip: 0
+  sling: 0

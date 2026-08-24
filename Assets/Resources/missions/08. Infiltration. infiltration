@@ -1,0 +1,3721 @@
+{
+    "JsonVersion": 5,
+    "WorkshopId": 0,
+    "MapKey": {
+        "Type": 0,
+        "TypeName": "",
+        "Path": ""
+    },
+    "missionSettings": {
+        "description": "Fly an SAH-46 Chicane under the radar to eliminate an enemy forward arming and refueling point.",
+        "allowEventContent": false,
+        "Tags": [],
+        "playerMode": 1,
+        "allowRespawn": false,
+        "playerStartingRank": 0,
+        "rankMultiplier": 1.0,
+        "successfulSortieBonus": 0.25,
+        "nuclearEscalationThreshold": 0.0,
+        "strategicEscalationThreshold": 0.0,
+        "minRankTacticalWarhead": 0,
+        "minRankStrategicWarhead": 0,
+        "cameraStartPosition": {
+            "IsOverride": false,
+            "Value": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                }
+            }
+        },
+        "missionRoads": {
+            "roads": [
+                {
+                    "bounds": {
+                        "m_Center": {
+                            "x": 7810.5634765625,
+                            "y": 43.52197265625,
+                            "z": -33468.2421875
+                        },
+                        "m_Extent": {
+                            "x": 512.455078125,
+                            "y": 5000.0,
+                            "z": 774.4990234375
+                        }
+                    },
+                    "bridge": false,
+                    "points": [
+                        {
+                            "x": 7298.10791015625,
+                            "y": 43.5218505859375,
+                            "z": -34242.73828125
+                        },
+                        {
+                            "x": 7396.11669921875,
+                            "y": 28.389892578125,
+                            "z": -34146.1484375
+                        },
+                        {
+                            "x": 7486.35986328125,
+                            "y": 19.6055908203125,
+                            "z": -34025.85546875
+                        },
+                        {
+                            "x": 7511.7900390625,
+                            "y": 19.4652099609375,
+                            "z": -33916.15234375
+                        },
+                        {
+                            "x": 7489.12939453125,
+                            "y": 19.753173828125,
+                            "z": -33852.0625
+                        },
+                        {
+                            "x": 7440.125,
+                            "y": 20.1007080078125,
+                            "z": -33837.84375
+                        },
+                        {
+                            "x": 7393.76220703125,
+                            "y": 20.4012451171875,
+                            "z": -33790.52734375
+                        },
+                        {
+                            "x": 7384.880859375,
+                            "y": 19.6229248046875,
+                            "z": -33678.8828125
+                        },
+                        {
+                            "x": 7415.6083984375,
+                            "y": 19.3770751953125,
+                            "z": -33611.80859375
+                        },
+                        {
+                            "x": 7483.35498046875,
+                            "y": 18.8575439453125,
+                            "z": -33571.01171875
+                        },
+                        {
+                            "x": 7508.3037109375,
+                            "y": 18.8455810546875,
+                            "z": -33576.3828125
+                        },
+                        {
+                            "x": 7501.05810546875,
+                            "y": 18.8648681640625,
+                            "z": -33622.94140625
+                        },
+                        {
+                            "x": 7530.62744140625,
+                            "y": 18.8023681640625,
+                            "z": -33663.44140625
+                        },
+                        {
+                            "x": 7607.44580078125,
+                            "y": 19.169677734375,
+                            "z": -33671.77734375
+                        },
+                        {
+                            "x": 7650.76123046875,
+                            "y": 18.5164794921875,
+                            "z": -33747.5390625
+                        },
+                        {
+                            "x": 7641.56884765625,
+                            "y": 18.3851318359375,
+                            "z": -33838.41015625
+                        },
+                        {
+                            "x": 7629.0419921875,
+                            "y": 18.5882568359375,
+                            "z": -33939.73046875
+                        },
+                        {
+                            "x": 7628.90966796875,
+                            "y": 19.5155029296875,
+                            "z": -34001.87890625
+                        },
+                        {
+                            "x": 7675.767578125,
+                            "y": 21.0462646484375,
+                            "z": -34053.83203125
+                        },
+                        {
+                            "x": 7768.927734375,
+                            "y": 18.217529296875,
+                            "z": -34056.03515625
+                        },
+                        {
+                            "x": 7870.04638671875,
+                            "y": 19.6292724609375,
+                            "z": -34019.67578125
+                        },
+                        {
+                            "x": 8102.49560546875,
+                            "y": 66.35052490234375,
+                            "z": -34008.17578125
+                        },
+                        {
+                            "x": 8222.9462890625,
+                            "y": 87.64239501953125,
+                            "z": -33997.0546875
+                        },
+                        {
+                            "x": 8311.361328125,
+                            "y": 101.39605712890625,
+                            "z": -33943.73046875
+                        },
+                        {
+                            "x": 8323.0185546875,
+                            "y": 103.78253173828125,
+                            "z": -33872.09375
+                        },
+                        {
+                            "x": 8297.7744140625,
+                            "y": 103.75518798828125,
+                            "z": -33760.796875
+                        },
+                        {
+                            "x": 8252.4873046875,
+                            "y": 109.13800048828125,
+                            "z": -33627.7578125
+                        },
+                        {
+                            "x": 8296.4921875,
+                            "y": 111.919677734375,
+                            "z": -33468.76171875
+                        },
+                        {
+                            "x": 8284.357421875,
+                            "y": 112.21832275390625,
+                            "z": -33384.28125
+                        },
+                        {
+                            "x": 8242.2568359375,
+                            "y": 109.68597412109375,
+                            "z": -33297.921875
+                        },
+                        {
+                            "x": 8193.0546875,
+                            "y": 108.07073974609375,
+                            "z": -33222.1328125
+                        },
+                        {
+                            "x": 8165.7744140625,
+                            "y": 106.10931396484375,
+                            "z": -33073.88671875
+                        },
+                        {
+                            "x": 8193.23046875,
+                            "y": 107.44342041015625,
+                            "z": -33023.49609375
+                        },
+                        {
+                            "x": 8234.427734375,
+                            "y": 106.88616943359375,
+                            "z": -32942.23828125
+                        },
+                        {
+                            "x": 8112.76025390625,
+                            "y": 103.50054931640625,
+                            "z": -32813.828125
+                        },
+                        {
+                            "x": 8104.52685546875,
+                            "y": 106.8548583984375,
+                            "z": -32747.1171875
+                        },
+                        {
+                            "x": 8075.10302734375,
+                            "y": 106.5677490234375,
+                            "z": -32693.744140625
+                        }
+                    ],
+                    "length": 3498.382568359375
+                }
+            ]
+        },
+        "missionSeaLanes": {
+            "roads": []
+        },
+        "wrecksMaxNumber": 0,
+        "wrecksDecayTime": 0.0
+    },
+    "environment": {
+        "timeOfDay": 8.028575897216797,
+        "timeFactor": 0.0,
+        "weatherIntensity": 0.5428571701049805,
+        "cloudAltitude": 500.0,
+        "windSpeed": 0.0,
+        "windTurbulence": 0.0,
+        "windHeading": 0.0,
+        "windRandomHeading": 0.0,
+        "moonPhase": 14.0
+    },
+    "aircraft": [
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "COIN",
+            "globalPosition": {
+                "x": -1070.236328125,
+                "y": 269.9781494140625,
+                "z": -28661.8984375
+            },
+            "rotation": {
+                "x": -0.068512462079525,
+                "y": 0.9059734344482422,
+                "z": 0.06078781187534332,
+                "w": 0.41330745816230776
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Destroy FARP",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    1,
+                    2,
+                    0,
+                    0
+                ]
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "12.7mm_internal"
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    }
+                ]
+            },
+            "livery": 2,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 156.42974853515626
+        },
+        {
+            "type": "UtilityHelo1",
+            "faction": "Neutral",
+            "UniqueName": "UtilityHelo1",
+            "globalPosition": {
+                "x": 7585.236328125,
+                "y": 22.247283935546876,
+                "z": -33726.25
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.6488742232322693,
+                "z": 0.0,
+                "w": 0.7608956694602966
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": "FuelContainer2x1"
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    }
+                ]
+            },
+            "livery": 2,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 0.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 0.0
+        },
+        {
+            "type": "UtilityHelo1",
+            "faction": "",
+            "UniqueName": "UtilityHelo1_1",
+            "globalPosition": {
+                "x": 7589.93994140625,
+                "y": 22.2249755859375,
+                "z": -33763.71484375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7608956694602966,
+                "z": 0.0,
+                "w": -0.6488742232322693
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": "MunitionsPallet1x1"
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    }
+                ]
+            },
+            "livery": 2,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 0.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 0.0
+        },
+        {
+            "type": "AttackHelo1",
+            "faction": "Boscali",
+            "UniqueName": "AttackHelo1_1",
+            "globalPosition": {
+                "x": 10323.1171875,
+                "y": 104.23187255859375,
+                "z": -18197.669921875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9890974164009094,
+                "z": 0.0,
+                "w": 0.14726272225379945
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": true,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "turret_30mmHE_750"
+                    },
+                    {
+                        "Key": "AGM1_quad_internal"
+                    },
+                    {
+                        "Key": "RocketPod1_triple"
+                    },
+                    {
+                        "Key": "Rocket2_4Pod"
+                    },
+                    {
+                        "Key": "IRMS1_double"
+                    }
+                ]
+            },
+            "livery": 1,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 0.0
+        }
+    ],
+    "vehicles": [
+        {
+            "type": "Linebreaker_APC",
+            "faction": "Primeva",
+            "UniqueName": "FARP4",
+            "globalPosition": {
+                "x": 7462.39208984375,
+                "y": 20.602081298828126,
+                "z": -33649.453125
+            },
+            "rotation": {
+                "x": 0.0031551041174679996,
+                "y": 0.835412323474884,
+                "z": 0.001969620818272233,
+                "w": 0.5496111512184143
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 12.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "FARP4",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LCV45",
+            "faction": "Primeva",
+            "UniqueName": "LCV45",
+            "globalPosition": {
+                "x": 7547.64697265625,
+                "y": 21.09344482421875,
+                "z": -33721.87109375
+            },
+            "rotation": {
+                "x": 0.0005315493326634169,
+                "y": 0.6391523480415344,
+                "z": 0.007814204320311547,
+                "w": 0.7690403461456299
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 4.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LCV45",
+            "faction": "Primeva",
+            "UniqueName": "LCV45_1",
+            "globalPosition": {
+                "x": 7549.42919921875,
+                "y": 20.997161865234376,
+                "z": -33730.9609375
+            },
+            "rotation": {
+                "x": 0.000531444326043129,
+                "y": 0.6390261054039002,
+                "z": 0.007812661118805409,
+                "w": 0.7691452503204346
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 4.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "Linebreaker_IFV",
+            "faction": "Primeva",
+            "UniqueName": "FARP9",
+            "globalPosition": {
+                "x": 7531.96484375,
+                "y": 20.228233337402345,
+                "z": -33611.453125
+            },
+            "rotation": {
+                "x": -0.0008164680330082774,
+                "y": -0.38580769300460818,
+                "z": -0.004349995404481888,
+                "w": 0.9225686192512512
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 9.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "FARP9",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-FT",
+            "faction": "Primeva",
+            "UniqueName": "FARP7",
+            "globalPosition": {
+                "x": 7532.5810546875,
+                "y": 20.543319702148439,
+                "z": -33723.65234375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7359604835510254,
+                "z": 0.0,
+                "w": -0.6770246028900147
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "FARP7",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-FT",
+            "faction": "Primeva",
+            "UniqueName": "FARP6",
+            "globalPosition": {
+                "x": 7587.5302734375,
+                "y": 20.756935119628908,
+                "z": -33801.44921875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7364121079444885,
+                "z": 0.0,
+                "w": -0.6765332818031311
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "FARP6",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-M",
+            "faction": "Primeva",
+            "UniqueName": "FARP8",
+            "globalPosition": {
+                "x": 7425.05859375,
+                "y": 20.30098533630371,
+                "z": -33674.66796875
+            },
+            "rotation": {
+                "x": -0.007655078545212746,
+                "y": 0.9937832951545715,
+                "z": 0.011456716805696488,
+                "w": 0.11047627776861191
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "FARP8",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-FT",
+            "faction": "Boscali",
+            "UniqueName": "HLT-FT",
+            "globalPosition": {
+                "x": 10311.4404296875,
+                "y": 103.96381378173828,
+                "z": -18274.96484375
+            },
+            "rotation": {
+                "x": -0.02454514056444168,
+                "y": 0.8739240765571594,
+                "z": 0.03641881048679352,
+                "w": 0.48407435417175295
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "RadarSAM1",
+            "faction": "Boscali",
+            "UniqueName": "RadarSAM1",
+            "globalPosition": {
+                "x": 10379.830078125,
+                "y": 105.82308959960938,
+                "z": -18313.462890625
+            },
+            "rotation": {
+                "x": -0.01789170689880848,
+                "y": 0.9997560381889343,
+                "z": -0.008826888166368008,
+                "w": -0.009479781612753868
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-R",
+            "faction": "Boscali",
+            "UniqueName": "HLT-R",
+            "globalPosition": {
+                "x": 10438.8134765625,
+                "y": 115.4447250366211,
+                "z": -18481.7890625
+            },
+            "rotation": {
+                "x": -0.007399345748126507,
+                "y": 0.9920129776000977,
+                "z": -0.03663724660873413,
+                "w": 0.12047076970338822
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LCV45",
+            "faction": "Boscali",
+            "UniqueName": "LCV45_2",
+            "globalPosition": {
+                "x": 10371.6728515625,
+                "y": 105.13796997070313,
+                "z": -18248.001953125
+            },
+            "rotation": {
+                "x": -0.0167347751557827,
+                "y": 0.9351088404655457,
+                "z": -0.008256115019321442,
+                "w": -0.3538689613342285
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 4.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LCV45",
+            "faction": "Boscali",
+            "UniqueName": "LCV45_3",
+            "globalPosition": {
+                "x": 10373.26171875,
+                "y": 105.5826416015625,
+                "z": -18260.427734375
+            },
+            "rotation": {
+                "x": -0.019581183791160585,
+                "y": 0.9356401562690735,
+                "z": -0.031248589977622033,
+                "w": -0.3510236442089081
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 4.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "RadarSAM1",
+            "faction": "Primeva",
+            "UniqueName": "RadarSAM1_1",
+            "globalPosition": {
+                "x": 5857.31298828125,
+                "y": 951.140625,
+                "z": -27186.796875
+            },
+            "rotation": {
+                "x": 0.0215187706053257,
+                "y": 0.9251410961151123,
+                "z": 0.030111301690340043,
+                "w": 0.3778151571750641
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "RadarSAM1",
+            "faction": "Primeva",
+            "UniqueName": "RadarSAM1_2",
+            "globalPosition": {
+                "x": -5841.72119140625,
+                "y": 904.7308349609375,
+                "z": -24337.23046875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3252207040786743,
+                "z": 0.0,
+                "w": 0.9456381797790527
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "RadarSAM1",
+            "faction": "Primeva",
+            "UniqueName": "RadarSAM1_3",
+            "globalPosition": {
+                "x": 17829.431640625,
+                "y": 81.81292724609375,
+                "z": -27682.630859375
+            },
+            "rotation": {
+                "x": -0.0006340769468806684,
+                "y": 0.017448799684643747,
+                "z": 0.0010879153851419688,
+                "w": -0.9998469948768616
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "Linebreaker_SAM",
+            "faction": "Primeva",
+            "UniqueName": "Linebreaker_SAM",
+            "globalPosition": {
+                "x": 17370.845703125,
+                "y": 94.32257080078125,
+                "z": -27013.94921875
+            },
+            "rotation": {
+                "x": 0.0031098227482289078,
+                "y": 0.07494904100894928,
+                "z": 0.0014170479262247682,
+                "w": -0.9971815347671509
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LCV45",
+            "faction": "Primeva",
+            "UniqueName": "LCV45_4",
+            "globalPosition": {
+                "x": 7985.453125,
+                "y": 447.572509765625,
+                "z": -27266.5
+            },
+            "rotation": {
+                "x": 0.0744662880897522,
+                "y": 0.25558146834373476,
+                "z": 0.041509076952934268,
+                "w": 0.9630212783813477
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 4.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LCV45",
+            "faction": "Primeva",
+            "UniqueName": "LCV45_5",
+            "globalPosition": {
+                "x": 9264.0732421875,
+                "y": 315.0382385253906,
+                "z": -25865.03125
+            },
+            "rotation": {
+                "x": -0.06824761629104614,
+                "y": 0.3559592366218567,
+                "z": 0.020320525392889978,
+                "w": -0.9317845106124878
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 4.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LCV45",
+            "faction": "Primeva",
+            "UniqueName": "LCV45_6",
+            "globalPosition": {
+                "x": 8625.322265625,
+                "y": 111.2918701171875,
+                "z": -30862.70703125
+            },
+            "rotation": {
+                "x": 0.006685379892587662,
+                "y": 0.049885932356119159,
+                "z": -0.009179994463920594,
+                "w": -0.9986903667449951
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 4.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": false,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "Linebreaker_SAM",
+            "faction": "Primeva",
+            "UniqueName": "Linebreaker_SAM_1",
+            "globalPosition": {
+                "x": 14696.8955078125,
+                "y": 239.54788208007813,
+                "z": -31097.90234375
+            },
+            "rotation": {
+                "x": -0.05129972845315933,
+                "y": 0.7623592615127564,
+                "z": -0.018423842266201974,
+                "w": -0.6448544263839722
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "Linebreaker_SAM",
+            "faction": "Primeva",
+            "UniqueName": "Linebreaker_SAM_2",
+            "globalPosition": {
+                "x": 1826.167236328125,
+                "y": 124.06172180175781,
+                "z": -30959.994140625
+            },
+            "rotation": {
+                "x": -0.007647284306585789,
+                "y": 0.981130838394165,
+                "z": -0.023765556514263154,
+                "w": 0.19172652065753938
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "Linebreaker_APC",
+            "faction": "Primeva",
+            "UniqueName": "Linebreaker_APC",
+            "globalPosition": {
+                "x": 9294.392578125,
+                "y": 319.6907043457031,
+                "z": -25847.37890625
+            },
+            "rotation": {
+                "x": -0.14074400067329408,
+                "y": 0.7340787649154663,
+                "z": 0.04190610349178314,
+                "w": -0.6629957556724548
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-R",
+            "faction": "Primeva",
+            "UniqueName": "HLT-R_1",
+            "globalPosition": {
+                "x": 8925.9375,
+                "y": 142.452880859375,
+                "z": -35179.265625
+            },
+            "rotation": {
+                "x": -0.0008457000367343426,
+                "y": 0.027055300772190095,
+                "z": 0.0002532638027332723,
+                "w": 0.9996335506439209
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LightTruck1_AT",
+            "faction": "Primeva",
+            "UniqueName": "LightTruck1_AT",
+            "globalPosition": {
+                "x": 7378.57763671875,
+                "y": 20.830810546875,
+                "z": -33646.8203125
+            },
+            "rotation": {
+                "x": -0.002520886482670903,
+                "y": -0.9430996775627136,
+                "z": -0.0010452611604705454,
+                "w": -0.3324991762638092
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 3.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "Linebreaker_APC",
+            "faction": "Primeva",
+            "UniqueName": "Linebreaker_APC_1",
+            "globalPosition": {
+                "x": 7568.8720703125,
+                "y": 20.813232421875,
+                "z": -33383.38671875
+            },
+            "rotation": {
+                "x": -0.06769702583551407,
+                "y": 0.9829004406929016,
+                "z": -0.0464257076382637,
+                "w": -0.16482873260974885
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 12.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": false,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "Linebreaker_APC",
+            "faction": "Primeva",
+            "UniqueName": "Linebreaker_APC_2",
+            "globalPosition": {
+                "x": 7891.21630859375,
+                "y": 22.017608642578126,
+                "z": -34019.484375
+            },
+            "rotation": {
+                "x": -0.0676966980099678,
+                "y": 0.9828956127166748,
+                "z": -0.046425480395555499,
+                "w": -0.1648579090833664
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 12.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": false,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-FT",
+            "faction": "Primeva",
+            "UniqueName": "HLT-FT_1",
+            "globalPosition": {
+                "x": 7417.78076171875,
+                "y": 20.328969955444337,
+                "z": -33674.30078125
+            },
+            "rotation": {
+                "x": 0.0059532299637794498,
+                "y": 0.9968527555465698,
+                "z": 0.0009267019922845066,
+                "w": 0.07904686778783798
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "Linebreaker_APC",
+            "faction": "Primeva",
+            "UniqueName": "Linebreaker_APC_3",
+            "globalPosition": {
+                "x": 8287.375,
+                "y": 114.147216796875,
+                "z": -33411.84375
+            },
+            "rotation": {
+                "x": -0.06401258707046509,
+                "y": 0.9294055700302124,
+                "z": -0.043898966163396838,
+                "w": -0.3608054518699646
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 12.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": false,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "Linebreaker_IFV",
+            "faction": "Primeva",
+            "UniqueName": "Linebreaker_IFV_1",
+            "globalPosition": {
+                "x": 8245.234375,
+                "y": 111.90802001953125,
+                "z": -33360.6796875
+            },
+            "rotation": {
+                "x": -0.061637043952941897,
+                "y": 0.8949148654937744,
+                "z": -0.04226985201239586,
+                "w": -0.4399334788322449
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 9.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": false,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LCV45",
+            "faction": "Primeva",
+            "UniqueName": "LCV45_7",
+            "globalPosition": {
+                "x": 8142.0322265625,
+                "y": 107.31805419921875,
+                "z": -32845.29296875
+            },
+            "rotation": {
+                "x": -0.003976575098931789,
+                "y": 0.578194260597229,
+                "z": 0.00041652109939605,
+                "w": 0.8158893585205078
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 4.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": false,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LCV45",
+            "faction": "Primeva",
+            "UniqueName": "LCV45_8",
+            "globalPosition": {
+                "x": 7269.3798828125,
+                "y": 47.55296325683594,
+                "z": -34255.625
+            },
+            "rotation": {
+                "x": 0.07252884656190872,
+                "y": 0.7096989750862122,
+                "z": 0.02958611771464348,
+                "w": 0.7001368403434753
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 4.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": false,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LCV45",
+            "faction": "Primeva",
+            "UniqueName": "LCV45_9",
+            "globalPosition": {
+                "x": 6778.60205078125,
+                "y": 33.334075927734378,
+                "z": -33268.23046875
+            },
+            "rotation": {
+                "x": 0.08352276682853699,
+                "y": 0.8092864751815796,
+                "z": 0.043054185807704929,
+                "w": 0.5798497796058655
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 4.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": false,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        }
+    ],
+    "ships": [],
+    "buildings": [
+        {
+            "type": "VehicleDepot1",
+            "faction": "Primeva",
+            "UniqueName": "FARP2",
+            "globalPosition": {
+                "x": 7483.87744140625,
+                "y": 19.533905029296876,
+                "z": -33777.46875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.6434559226036072,
+                "z": 0.0,
+                "w": 0.7654832601547241
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 100.0
+            },
+            "unitCustomID": "FARP2",
+            "spawnTiming": "Mission Start",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "revetment1",
+            "faction": "Primeva",
+            "UniqueName": "revetment1",
+            "globalPosition": {
+                "x": 7589.8837890625,
+                "y": 21.452560424804689,
+                "z": -33796.36328125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7658194303512573,
+                "z": 0.0,
+                "w": -0.6430557370185852
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 25.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "VehicleDepot1",
+            "faction": "Primeva",
+            "UniqueName": "FARP1",
+            "globalPosition": {
+                "x": 7472.71337890625,
+                "y": 19.27587890625,
+                "z": -33711.3671875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.06516286730766297,
+                "z": 0.0,
+                "w": 0.9978746771812439
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 100.0
+            },
+            "unitCustomID": "FARP1",
+            "spawnTiming": "Mission Start",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "VehicleDepot1",
+            "faction": "Boscali",
+            "UniqueName": "VehicleDepot1",
+            "globalPosition": {
+                "x": 10354.29296875,
+                "y": 111.06282043457031,
+                "z": -18520.337890625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.14106221497058869,
+                "z": 0.0,
+                "w": 0.9900007843971252
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "Mission Start",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "Helipad",
+            "globalPosition": {
+                "x": 7583.99267578125,
+                "y": 19.493818283081056,
+                "z": -33726.6328125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7672184705734253,
+                "z": 0.0,
+                "w": -0.6413858532905579
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 25.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "Helipad",
+            "faction": "Primeva",
+            "UniqueName": "Helipad_1",
+            "globalPosition": {
+                "x": 7590.53369140625,
+                "y": 19.520845413208009,
+                "z": -33763.30078125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.0848580002784729,
+                "z": 0.0,
+                "w": 0.996393084526062
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 25.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        }
+    ],
+    "scenery": [
+        {
+            "type": "Platform_small",
+            "faction": "",
+            "UniqueName": "Platform_small",
+            "globalPosition": {
+                "x": 7547.85400390625,
+                "y": 10.183280944824219,
+                "z": -33777.5078125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.08715573698282242,
+                "z": 0.0,
+                "w": 0.9961947202682495
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "indestructible": false
+        },
+        {
+            "type": "Platform_small",
+            "faction": "",
+            "UniqueName": "Platform_small_1",
+            "globalPosition": {
+                "x": 7555.89697265625,
+                "y": 10.272497177124024,
+                "z": -33823.01171875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.08715573698282242,
+                "z": 0.0,
+                "w": 0.9961947202682495
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "indestructible": false
+        },
+        {
+            "type": "Platform_small",
+            "faction": "",
+            "UniqueName": "Platform_small_2",
+            "globalPosition": {
+                "x": 10322.9384765625,
+                "y": 92.3221435546875,
+                "z": -18197.302734375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.988103985786438,
+                "z": 0.0,
+                "w": 0.15378747880458833
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "indestructible": false
+        },
+        {
+            "type": "ConcretePad1",
+            "faction": "",
+            "UniqueName": "ConcretePad1",
+            "globalPosition": {
+                "x": 7539.2998046875,
+                "y": 17.399999618530275,
+                "z": -33732.1015625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9961947202682495,
+                "z": 0.0,
+                "w": 0.08715580403804779
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "indestructible": false
+        },
+        {
+            "type": "ConcretePad1",
+            "faction": "",
+            "UniqueName": "ConcretePad1_1",
+            "globalPosition": {
+                "x": 7461.4560546875,
+                "y": 17.399999618530275,
+                "z": -33652.35546875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9967789053916931,
+                "z": 0.0,
+                "w": 0.08019892871379852
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "indestructible": false
+        },
+        {
+            "type": "gabionWall_20x3x3",
+            "faction": "",
+            "UniqueName": "gabionWall_20x3x3",
+            "globalPosition": {
+                "x": 7464.892578125,
+                "y": 20.97002410888672,
+                "z": -33628.30078125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7608956694602966,
+                "z": 0.0,
+                "w": -0.6488742232322693
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "indestructible": false
+        },
+        {
+            "type": "gabionWall_20x3x3",
+            "faction": "",
+            "UniqueName": "gabionWall_20x3x3_1",
+            "globalPosition": {
+                "x": 7483.296875,
+                "y": 20.97002410888672,
+                "z": -33641.203125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.08318900316953659,
+                "z": 0.0,
+                "w": 0.9965338110923767
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "indestructible": false
+        },
+        {
+            "type": "gabionWall_20x3x3",
+            "faction": "",
+            "UniqueName": "gabionWall_20x3x3_2",
+            "globalPosition": {
+                "x": 7535.03564453125,
+                "y": 20.97002410888672,
+                "z": -33709.484375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.7655904293060303,
+                "z": 0.0,
+                "w": -0.6433283090591431
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "indestructible": false
+        },
+        {
+            "type": "Hulldown2",
+            "faction": "",
+            "UniqueName": "hullDown2",
+            "globalPosition": {
+                "x": 7531.6162109375,
+                "y": 17.899667739868165,
+                "z": -33611.63671875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.0027729670982807876,
+                "z": 0.0,
+                "w": 0.9999961853027344
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "indestructible": false
+        }
+    ],
+    "containers": [],
+    "missiles": [],
+    "pilots": [],
+    "factions": [
+        {
+            "factionName": "Boscali",
+            "preventJoin": false,
+            "preventDonation": true,
+            "supplies": [],
+            "startingBalance": 0.0,
+            "playerJoinAllowance": 20.0,
+            "playerTaxRate": 0.20000000298023225,
+            "regularIncome": 5.0,
+            "excessFundsDistributePercent": 0.25,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 0,
+            "extraReservesPerPlayer": 1,
+            "AIAircraftLimit": 6,
+            "reduceAIPerFriendlyPlayer": 1.0,
+            "addAIPerEnemyPlayer": 1.0,
+            "objectives": [
+                {
+                    "objectiveName": "Mission Start",
+                    "message": "This morning you will be conducting a strike on a forward base hidden in the mountains. Follow the waypoints to the target area.",
+                    "positionTrigger": false,
+                    "victoryObjective": false,
+                    "nonSequentialObjective": false,
+                    "triggerRange": 0.0,
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "targetUnits": []
+                },
+                {
+                    "objectiveName": "Waypoint",
+                    "message": "",
+                    "positionTrigger": true,
+                    "victoryObjective": false,
+                    "nonSequentialObjective": false,
+                    "triggerRange": 149.33944702148438,
+                    "position": {
+                        "x": 10893.9677734375,
+                        "y": 184.73204040527345,
+                        "z": -19893.83203125
+                    },
+                    "targetUnits": []
+                },
+                {
+                    "objectiveName": "Waypoint",
+                    "message": "Be advised that radar SAMs have been spotted on the mountaintops. If you receive radar warnings, drop to below 20m radar altitude.",
+                    "positionTrigger": true,
+                    "victoryObjective": false,
+                    "nonSequentialObjective": false,
+                    "triggerRange": 151.34982299804688,
+                    "position": {
+                        "x": 10488.2958984375,
+                        "y": 43.93290710449219,
+                        "z": -21493.365234375
+                    },
+                    "targetUnits": []
+                },
+                {
+                    "objectiveName": "Waypoint",
+                    "message": "",
+                    "positionTrigger": true,
+                    "victoryObjective": false,
+                    "nonSequentialObjective": false,
+                    "triggerRange": 152.21136474609376,
+                    "position": {
+                        "x": 9059.900390625,
+                        "y": 86.03939056396485,
+                        "z": -23506.533203125
+                    },
+                    "targetUnits": []
+                },
+                {
+                    "objectiveName": "Waypoint",
+                    "message": "Stay as close to the ground as possible while crossing the ridgeline... we've picked up a Boltstrike very close to your position.",
+                    "positionTrigger": true,
+                    "victoryObjective": false,
+                    "nonSequentialObjective": false,
+                    "triggerRange": 152.21136474609376,
+                    "position": {
+                        "x": 8843.220703125,
+                        "y": 308.26580810546877,
+                        "z": -25989.658203125
+                    },
+                    "targetUnits": []
+                },
+                {
+                    "objectiveName": "Waypoint",
+                    "message": "",
+                    "positionTrigger": true,
+                    "victoryObjective": false,
+                    "nonSequentialObjective": false,
+                    "triggerRange": 149.33944702148438,
+                    "position": {
+                        "x": 8587.8330078125,
+                        "y": 522.2130737304688,
+                        "z": -27692.78125
+                    },
+                    "targetUnits": []
+                },
+                {
+                    "objectiveName": "Waypoint",
+                    "message": "The target area is dead ahead. Keep an eye out for short range SAMs and anti aircraft guns.",
+                    "positionTrigger": true,
+                    "victoryObjective": false,
+                    "nonSequentialObjective": false,
+                    "triggerRange": 134.97988891601563,
+                    "position": {
+                        "x": 8650.2421875,
+                        "y": 433.4415283203125,
+                        "z": -28794.494140625
+                    },
+                    "targetUnits": []
+                },
+                {
+                    "objectiveName": "Destroy FARP",
+                    "message": "Good job, the enemy base is neutralized. Now return to base immediately before any patrolling aircraft can intercept you!",
+                    "positionTrigger": true,
+                    "victoryObjective": false,
+                    "nonSequentialObjective": false,
+                    "triggerRange": 0.0,
+                    "position": {
+                        "x": 7540.00390625,
+                        "y": 28.515892028808595,
+                        "z": -33747.67578125
+                    },
+                    "targetUnits": [
+                        "FARP1",
+                        "FARP2",
+                        "FARP3",
+                        "FARP4",
+                        "FARP5",
+                        "FARP6",
+                        "FARP7",
+                        "FARP8"
+                    ]
+                },
+                {
+                    "objectiveName": "Return to Base",
+                    "message": "Excellent work, the mission was successful.",
+                    "positionTrigger": true,
+                    "victoryObjective": true,
+                    "nonSequentialObjective": false,
+                    "triggerRange": 28.719125747680665,
+                    "position": {
+                        "x": 10332.09765625,
+                        "y": 104.49830627441406,
+                        "z": -18164.875
+                    },
+                    "targetUnits": []
+                }
+            ],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "factionName": "Primeva",
+            "preventJoin": true,
+            "preventDonation": true,
+            "supplies": [],
+            "startingBalance": 0.0,
+            "playerJoinAllowance": 20.0,
+            "playerTaxRate": 0.20000000298023225,
+            "regularIncome": 5.0,
+            "excessFundsDistributePercent": 0.25,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 0,
+            "extraReservesPerPlayer": 1,
+            "AIAircraftLimit": 6,
+            "reduceAIPerFriendlyPlayer": 1.0,
+            "addAIPerEnemyPlayer": 1.0,
+            "objectives": [
+                {
+                    "objectiveName": "Mission Start",
+                    "message": "",
+                    "positionTrigger": false,
+                    "victoryObjective": false,
+                    "nonSequentialObjective": false,
+                    "triggerRange": 0.0,
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "targetUnits": []
+                }
+            ],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "airbases": [],
+    "unitInventories": [],
+    "objectives": {
+        "Objectives": [
+            {
+                "UniqueName": "Mission Start",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": true,
+                "Type": 0,
+                "TypeName": "None",
+                "Data": [],
+                "Outcomes": [
+                    "Start_Mission Start_1",
+                    "Start_Mission Start_2"
+                ]
+            },
+            {
+                "UniqueName": "Mission Start_1",
+                "Faction": "Boscali",
+                "DisplayName": "Mission Start",
+                "Hidden": false,
+                "Type": 0,
+                "TypeName": "None",
+                "Data": [],
+                "Outcomes": [
+                    "Message_Mission Start",
+                    "SpawnUnits_Mission Start",
+                    "StartNext_Waypoint"
+                ]
+            },
+            {
+                "UniqueName": "Waypoint",
+                "Faction": "Boscali",
+                "DisplayName": "Waypoint",
+                "Hidden": false,
+                "Type": 3,
+                "TypeName": "ReachWaypoints",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 10893.9677734375,
+                            "y": 184.73204040527345,
+                            "z": -19893.83203125
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "StartNext_Waypoint_1"
+                ]
+            },
+            {
+                "UniqueName": "Waypoint_1",
+                "Faction": "Boscali",
+                "DisplayName": "Waypoint",
+                "Hidden": false,
+                "Type": 3,
+                "TypeName": "ReachWaypoints",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 10488.2958984375,
+                            "y": 43.93290710449219,
+                            "z": -21493.365234375
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "Message_Waypoint",
+                    "StartNext_Waypoint_2"
+                ]
+            },
+            {
+                "UniqueName": "Waypoint_2",
+                "Faction": "Boscali",
+                "DisplayName": "Waypoint",
+                "Hidden": false,
+                "Type": 3,
+                "TypeName": "ReachWaypoints",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 9106.6357421875,
+                            "y": 85.98951721191406,
+                            "z": -23555.6328125
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "StartNext_Waypoint_3"
+                ]
+            },
+            {
+                "UniqueName": "Waypoint_3",
+                "Faction": "Boscali",
+                "DisplayName": "Waypoint",
+                "Hidden": false,
+                "Type": 3,
+                "TypeName": "ReachWaypoints",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 8843.220703125,
+                            "y": 308.26580810546877,
+                            "z": -25989.658203125
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "Message_Waypoint_1",
+                    "StartNext_Waypoint_4"
+                ]
+            },
+            {
+                "UniqueName": "Waypoint_4",
+                "Faction": "Boscali",
+                "DisplayName": "Waypoint",
+                "Hidden": false,
+                "Type": 3,
+                "TypeName": "ReachWaypoints",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 200.0,
+                        "VectorValue": {
+                            "x": 8600.5654296875,
+                            "y": 524.6414184570313,
+                            "z": -27682.52734375
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "StartNext_Waypoint_5"
+                ]
+            },
+            {
+                "UniqueName": "Waypoint_5",
+                "Faction": "Boscali",
+                "DisplayName": "Waypoint",
+                "Hidden": false,
+                "Type": 3,
+                "TypeName": "ReachWaypoints",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 200.0,
+                        "VectorValue": {
+                            "x": 8636.20703125,
+                            "y": 523.0462036132813,
+                            "z": -28523.015625
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "Message_Waypoint_2",
+                    "StartNext_Destroy FARP"
+                ]
+            },
+            {
+                "UniqueName": "Destroy FARP",
+                "Faction": "Boscali",
+                "DisplayName": "Destroy FARP",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 2.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP6",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP7",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP8",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP9",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LightTruck1_AT",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "HLT-FT_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Linebreaker_APC_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Linebreaker_APC_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "revetment1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Helipad",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Helipad_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "Message_Destroy FARP",
+                    "SpawnUnits_Destroy FARP",
+                    "StartNext_Return to Base"
+                ]
+            },
+            {
+                "UniqueName": "Return to Base",
+                "Faction": "Boscali",
+                "DisplayName": "Return to Base",
+                "Hidden": false,
+                "Type": 3,
+                "TypeName": "ReachWaypoints",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 28.719125747680665,
+                        "VectorValue": {
+                            "x": 10321.59765625,
+                            "y": 103.00071716308594,
+                            "z": -18196.857421875
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "Message_Return to Base",
+                    "Victory Outcome"
+                ]
+            },
+            {
+                "UniqueName": "Mission Start_2",
+                "Faction": "Primeva",
+                "DisplayName": "Mission Start",
+                "Hidden": false,
+                "Type": 0,
+                "TypeName": "None",
+                "Data": [],
+                "Outcomes": [
+                    "SpawnUnits_Mission Start_1"
+                ]
+            },
+            {
+                "UniqueName": "KillThePlayer",
+                "Faction": "Primeva",
+                "DisplayName": "KillThePlayer",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "AttackHelo1_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": []
+            },
+            {
+                "UniqueName": "spot enemy QRF",
+                "Faction": "Boscali",
+                "DisplayName": "spot enemy QRF",
+                "Hidden": true,
+                "Type": 9,
+                "TypeName": "SpotUnit",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 2.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "COIN",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "QRF warning"
+                ]
+            }
+        ],
+        "Outcomes": [
+            {
+                "UniqueName": "Start_Mission Start_1",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Mission Start_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Start_Mission Start_2",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Mission Start_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Message_Mission Start",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "This morning you will be conducting a strike on a forward base hidden in the mountains. Follow the waypoints to the target area.",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnUnits_Mission Start",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "FARP4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP9",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP7",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP6",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP8",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "HLT-FT",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "RadarSAM1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "HLT-R",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "RadarSAM1_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "RadarSAM1_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "RadarSAM1_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Linebreaker_SAM",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45_6",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Linebreaker_SAM_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Linebreaker_SAM_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Linebreaker_APC",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "HLT-R_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Platform_small",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Platform_small_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "revetment1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Platform_small_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "VehicleDepot1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartNext_Waypoint",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Waypoint",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartNext_Waypoint_1",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Waypoint_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Message_Waypoint",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "Be advised that radar SAMs have been spotted on the mountaintops. If you receive radar warnings, drop to below 20m radar altitude.",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartNext_Waypoint_2",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Waypoint_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartNext_Waypoint_3",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Waypoint_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Message_Waypoint_1",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "Stay as close to the ground as possible while crossing the ridgeline... we've picked up a Boltstrike very close to your position.",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartNext_Waypoint_4",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Waypoint_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartNext_Waypoint_5",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Waypoint_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Message_Waypoint_2",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "The target area is dead ahead. Keep an eye out for short range SAMs and anti aircraft guns.",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartNext_Destroy FARP",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Destroy FARP",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "KillThePlayer",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Message_Destroy FARP",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "Good job, the enemy base is neutralized. Now return to base immediately before any patrolling aircraft can intercept you!",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnUnits_Destroy FARP",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "COIN",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartNext_Return to Base",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Return to Base",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "spot enemy QRF",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Message_Return to Base",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "Excellent work, the mission was successful.",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Victory Outcome",
+                "Type": 8,
+                "TypeName": "EndGame",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 2.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "SpawnUnits_Mission Start_1",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "FARP4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP9",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP7",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP6",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP8",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "HLT-FT",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "RadarSAM1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "HLT-R",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "RadarSAM1_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "RadarSAM1_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "RadarSAM1_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Linebreaker_SAM",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45_5",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "LCV45_6",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Linebreaker_SAM_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Linebreaker_SAM_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Linebreaker_APC",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "HLT-R_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Platform_small",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Platform_small_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "revetment1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FARP1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Platform_small_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "VehicleDepot1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "QRF warning",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "Enemy aircraft headed straight for you!",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

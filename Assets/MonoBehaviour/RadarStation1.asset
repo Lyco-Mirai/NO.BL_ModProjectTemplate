@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef071144396526fe0ea608df34ade35, type: 3}
+  m_Name: RadarStation1
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 1
+    air: 0
+    missile: 0
+    radar: 1
+    strategic: 0
+  roleIdentity:
+    antiSurface: 0
+    antiAir: 0
+    antiMissile: 0
+    antiRadar: 0
+  jsonKey: radarStation1
+  unitName: Radar Station
+  bogeyName:
+  description: Long-range sky scanning radar
+  code: RDR
+  visibleRange: 10000
+  iconRange: 0
+  radarSize: 1
+  friendlyIcon: {fileID: 21300000, guid: 68671aec50f8b1e43ba6079ebe4b4832, type: 2}
+  hostileIcon: {fileID: 21300000, guid: 96957f57fc317ea4dbf0f6c9fcdf26e0, type: 2}
+  mapIcon: {fileID: 0}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 1
+  mapIconSize: 1
+  captureCapacity: 10
+  captureStrength: 0
+  captureDefense: 50
+  length: 20
+  width: 25.8
+  height: 36.6
+  value: 25
+  mass: 0
+  manpower: 12
+  armorTier: 1
+  damageTolerance: 2
+  CanSlingLoad: 0
+  unitPrefab: {fileID: 1709254077376921, guid: 7dbd5fe75214183438bc8c8202f20339, type: 2}
+  spawnOffset: {x: 0, y: 10, z: 0}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: -10
+  maxEditorHeight: 10000
+  buildingType: 2

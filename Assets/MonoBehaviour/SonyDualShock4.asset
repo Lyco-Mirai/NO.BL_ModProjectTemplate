@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3faf763ade534d222b4449357f0cf9d8, type: 3}
+  m_Name: SonyDualShock4
+  m_EditorClassIdentifier:
+  _baseKeys:
+  - controller/sony_dualshock_4
+  _glyphs:
+  - _key: left_stick/horizontal
+    _value: {fileID: 21300000, guid: 1921c3b1b9dbf9344923561baa8e881f, type: 2}
+  - _key: left_stick/right
+    _value: {fileID: 21300000, guid: 26cb1045c7134d14da21a22d706659f2, type: 2}
+  - _key: left_stick/left
+    _value: {fileID: 21300000, guid: ba5fbece68090674bade76763407b221, type: 2}
+  - _key: left_stick/vertical
+    _value: {fileID: 21300000, guid: 03c254087bd96b644af252cfc62cdb14, type: 2}
+  - _key: left_stick/up
+    _value: {fileID: 21300000, guid: ca839012b18436b4c9d6314b01e8b9c3, type: 2}
+  - _key: left_stick/down
+    _value: {fileID: 21300000, guid: 3b69e0bce6e8a49479ba0776ccc15e2e, type: 2}
+  - _key: right_stick/horizontal
+    _value: {fileID: 21300000, guid: f908c2902e2f8f0429719fcb40d04d58, type: 2}
+  - _key: right_stick/right
+    _value: {fileID: 21300000, guid: 54f7f67c4a52b93468b00997c033bc2f, type: 2}
+  - _key: right_stick/left
+    _value: {fileID: 21300000, guid: 3c0dd2bfc74d91e4e9b8986ca0554e64, type: 2}
+  - _key: right_stick/vertical
+    _value: {fileID: 21300000, guid: 4e8b500f767f35a42ba1009bd3d20a7b, type: 2}
+  - _key: right_stick/up
+    _value: {fileID: 21300000, guid: c02bd03d3b21c59409f4d81bc6b2e842, type: 2}
+  - _key: right_stick/down
+    _value: {fileID: 21300000, guid: aef9ed7e94ff01647acd1bb788b8b4e4, type: 2}
+  - _key: cross
+    _value: {fileID: 21300000, guid: 7a07cac93fabb344a901d7268e8d16a4, type: 2}
+  - _key: circle
+    _value: {fileID: 21300000, guid: 1ab9303cfbb3fa3408ca58c47c65c71c, type: 2}
+  - _key: square
+    _value: {fileID: 21300000, guid: 6ea2a2ecbbd5f64418ad17361d057a43, type: 2}
+  - _key: triangle
+    _value: {fileID: 21300000, guid: 24c9a5e7ab40025488b165f02b6d1952, type: 2}
+  - _key: l1
+    _value: {fileID: 21300000, guid: 1a4ea9c248ef3ad4098aadd4b7c3b3ab, type: 2}
+  - _key: l2
+    _value: {fileID: 21300000, guid: eaa967361ab78f94db12027a66e3a304, type: 2}
+  - _key: r1
+    _value: {fileID: 21300000, guid: 0febe94c13a488f489a8c7d49cb84a75, type: 2}
+  - _key: r2
+    _value: {fileID: 21300000, guid: 48e21e26712693f43aaca7978eccfad2, type: 2}
+  - _key: share
+    _value: {fileID: 21300000, guid: 03a1e289b29ed74459578ebb231e1928, type: 2}
+  - _key: options
+    _value: {fileID: 21300000, guid: 5168ec2b67578f247a06a175bf980fa3, type: 2}
+  - _key: ps_button
+    _value: {fileID: 21300000, guid: de39b6e3e575a284eb3e94aaf233d0da, type: 2}
+  - _key: touchpad_button
+    _value: {fileID: 21300000, guid: 327d176a31cde7e4c80b90fd12e550f3, type: 2}
+  - _key: left_stick/button
+    _value: {fileID: 21300000, guid: ea62ccdb7420c114483dd2be4005bf59, type: 2}
+  - _key: right_stick/button
+    _value: {fileID: 21300000, guid: 996f031bd79bee547a30785657d0072f, type: 2}
+  - _key: dpad/up
+    _value: {fileID: 21300000, guid: 6b05e30b72d00af44896e2e31faf8b69, type: 2}
+  - _key: dpad/right
+    _value: {fileID: 21300000, guid: 6d93163d346b5be4b899cc0ae73870d1, type: 2}
+  - _key: dpad/down
+    _value: {fileID: 21300000, guid: 1d92cb64f86f6f540a193c1f0822ec02, type: 2}
+  - _key: dpad/left
+    _value: {fileID: 21300000, guid: 993ccd848aba934439aff14dd5a8afe7, type: 2}
+  - _key: left_stick
+    _value: {fileID: 21300000, guid: 57d95f07ddaf3b343be4de5ece047584, type: 2}
+  - _key: right_stick
+    _value: {fileID: 21300000, guid: a31174e236d8f46428ced92bdb849ca8, type: 2}
+  - _key: dpad
+    _value: {fileID: 21300000, guid: cdea50daf7c9e4f42a1dbb2c7e294bcc, type: 2}
+  - _key: dpad/horizontal
+    _value: {fileID: 21300000, guid: 8d442d2e98283ab45aba916777784f29, type: 2}
+  - _key: dpad/vertical
+    _value: {fileID: 21300000, guid: 8df8040e696ce4d45ad526a7803c227c, type: 2}

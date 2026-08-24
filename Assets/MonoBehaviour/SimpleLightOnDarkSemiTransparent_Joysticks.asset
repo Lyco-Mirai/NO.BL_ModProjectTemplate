@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3e37cf522f004622404a87bd1b3228, type: 3}
+  m_Name: SimpleLightOnDarkSemiTransparent_Joysticks
+  m_EditorClassIdentifier:
+  _sets:
+  - {fileID: 11400000, guid: 56fc83d7525064c459a71af5537ec851, type: 2}
+  - {fileID: 11400000, guid: 0cf2261f2373db849bc10835f07b40ee, type: 2}
+  - {fileID: 11400000, guid: 59f632c5643ad6a4d94a90cfb35916bd, type: 2}
+  - {fileID: 11400000, guid: 0d41840a1874c1a48b19edf4ca7cb068, type: 2}
+  - {fileID: 11400000, guid: 709532c4e31f1284e8198090d70cde7d, type: 2}
+  - {fileID: 11400000, guid: b751a0d451ec99447a965b51c5e7f65e, type: 2}
+  - {fileID: 11400000, guid: 8dcbefe8897eb114ba06212a66a9e6a0, type: 2}
+  - {fileID: 11400000, guid: 818ddf2cc43821e45b155d549d0608ae, type: 2}
+  - {fileID: 11400000, guid: a7b6db03249d966448294992267dd9ad, type: 2}
+  - {fileID: 11400000, guid: d8c448da5a729e6419b258a99f6cac64, type: 2}
+  - {fileID: 11400000, guid: 6135d70f12ed7a340a7458c4dd5368eb, type: 2}
+  - {fileID: 11400000, guid: 080e0484673dd8c45bafecbe0c9ec63c, type: 2}
+  - {fileID: 11400000, guid: 4f829178be8452b448436474a5fc89a9, type: 2}
+  _collections: []

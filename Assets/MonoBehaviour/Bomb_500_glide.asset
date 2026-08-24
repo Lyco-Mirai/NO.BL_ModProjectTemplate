@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36704ca81c6ab30ebc821c5fcbe70505, type: 3}
+  m_Name: Bomb_500_glide
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 0
+    air: 0
+    missile: 1
+    radar: 0
+    strategic: 0
+  roleIdentity:
+    antiSurface: 1
+    antiAir: 0
+    antiMissile: 0
+    antiRadar: 0
+  jsonKey: bomb_500_glide
+  unitName: GBM-500LR
+  bogeyName:
+  description: Upon arrival within 2.5km (1.6mi) of the designated target, this 500kg glide bomb dispenses 12 GS25 submunitions capable of independently finding and targeting hostile units in the vicinity.
+  code: BOMB
+  visibleRange: 2500
+  iconRange: 0
+  radarSize: 0.001
+  friendlyIcon: {fileID: 21300000, guid: f39845c1fa31e4547a0a9073d390afa6, type: 2}
+  hostileIcon: {fileID: 21300000, guid: f39845c1fa31e4547a0a9073d390afa6, type: 2}
+  mapIcon: {fileID: 21300000, guid: 9c03d65a4680dd74f87808e65900d622, type: 2}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 0.5
+  mapIconSize: 0.5
+  captureCapacity: 0
+  captureStrength: 0
+  captureDefense: 0
+  length: 4.1
+  width: 0.4
+  height: 0.4
+  value: 2.5
+  mass: 500
+  manpower: 0
+  armorTier: 1
+  damageTolerance: 1
+  CanSlingLoad: 0
+  unitPrefab: {fileID: 1709254077376921, guid: e3e0d8bd8778ff446b2c9be15e0bcd22, type: 2}
+  spawnOffset: {x: 0, y: 0.245, z: 0}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: 0
+  maxEditorHeight: 10000

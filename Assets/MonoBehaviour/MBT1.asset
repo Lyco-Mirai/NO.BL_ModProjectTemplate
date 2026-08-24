@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01bf628dec7dd250e4a1d21f43b281e, type: 3}
+  m_Name: MBT1
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 1
+    air: 0
+    missile: 0
+    radar: 0
+    strategic: 0
+  roleIdentity:
+    antiSurface: 0.7
+    antiAir: 0.2
+    antiMissile: 0.1
+    antiRadar: 0
+  jsonKey: MBT1
+  unitName: Spearhead MBT
+  bogeyName:
+  description: With a liberal application of armour and weapon modules, the latest iterations of the Spearhead are as protected as they are powerful. The combination of 130mm main gun and ATGM launcher allow it to hold its own against larger numbers of enemy armoured units, while the roof mounted 20kw pulse laser can protect the relatively thinner top armour against missiles. Its ever-growing list of capabilities has come with a diminished top speed and a total weight far exceeding its original design specifications.
+  code: MBT
+  visibleRange: 6500
+  iconRange: 0
+  radarSize: 1
+  friendlyIcon: {fileID: 21300000, guid: 307986304aa36d24da4d610a7ea47ca2, type: 2}
+  hostileIcon: {fileID: 21300000, guid: c5aa2eb90e0109346be6bca17846c88d, type: 2}
+  mapIcon: {fileID: 21300000, guid: f84817cde00e8dd4cbba0d344da5b068, type: 2}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 1
+  mapIconSize: 1
+  captureCapacity: 2
+  captureStrength: 3
+  captureDefense: 0
+  length: 8.5
+  width: 4.2
+  height: 3.2
+  value: 15.3
+  mass: 0
+  manpower: 3
+  armorTier: 6
+  damageTolerance: 3
+  CanSlingLoad: 0
+  unitPrefab: {fileID: 1709254077376921, guid: 31253502fd006824086a1f712b4936d5, type: 2}
+  spawnOffset: {x: 0, y: 1.4, z: 0}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: 0
+  maxEditorHeight: 10000
+  vehicleType: 4

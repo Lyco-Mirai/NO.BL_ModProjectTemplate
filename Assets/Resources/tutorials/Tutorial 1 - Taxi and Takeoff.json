@@ -1,0 +1,596 @@
+{
+  "JsonVersion": 6,
+  "MapKey": {
+    "Type": "None",
+    "Path": ""
+  },
+  "missionSettings": {
+    "description": "Learn how to manage throttle, brake and rudder to safely taxi to the runway, before conducting your first take off. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.",
+    "allowEventContent": false,
+    "Tags": [],
+    "playerMode": "Singleplayer",
+    "allowRespawn": false,
+    "playerStartingRank": 0,
+    "rankMultiplier": 1.0,
+    "successfulSortieBonus": 0.25,
+    "nuclearEscalationThreshold": 0.0,
+    "strategicEscalationThreshold": 0.0,
+    "minRankTacticalWarhead": 0,
+    "minRankStrategicWarhead": 0,
+    "cameraStartPosition": {
+      "IsOverride": false,
+      "Value": {
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        }
+      }
+    },
+    "missionRoads": {
+      "roads": []
+    },
+    "missionSeaLanes": {
+      "roads": []
+    },
+    "wrecksMaxNumber": 0,
+    "wrecksDecayTime": 0.0
+  },
+  "environment": {
+    "timeOfDay": 15.4944363,
+    "timeFactor": 0.0,
+    "weatherIntensity": 0.255369335,
+    "cloudAltitude": 3047.586,
+    "windSpeed": 0.0,
+    "windTurbulence": 0.0,
+    "windHeading": 0.0,
+    "windRandomHeading": 0.0,
+    "moonPhase": 14.0
+  },
+  "aircraft": [
+    {
+      "type": "trainer",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 27549.7,
+        "y": 137.194977,
+        "z": -19206.6816
+      },
+      "rotation": {
+        "x": -0.00283844979,
+        "y": 0.9821797,
+        "z": 0.00294734328,
+        "w": 0.187899947
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "",
+      "playerControlled": true,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 0.0
+    }
+  ],
+  "vehicles": [
+    {
+      "type": "Linebreaker_APC",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 27716.9883,
+        "y": 136.608276,
+        "z": -19536.9844
+      },
+      "rotation": {
+        "x": -0.00131382991,
+        "y": 0.997136831,
+        "z": 0.00370644662,
+        "w": 0.07551659
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "APC on Runway",
+      "holdPosition": true,
+      "skill": 0.0,
+      "waypoints": [
+        {
+          "position": {
+            "x": 27741.68,
+            "y": 136.68837,
+            "z": -19583.6816
+          },
+          "objective": "Taxi2_ReachWaypoints"
+        },
+        {
+          "position": {
+            "x": 27951.041,
+            "y": 140.400467,
+            "z": -19632.6445
+          },
+          "objective": "Taxi3_ReachWaypoints"
+        },
+        {
+          "position": {
+            "x": 28017.502,
+            "y": 141.40271,
+            "z": -19074.1
+          },
+          "objective": "Full Throttle_ReachWaypoints"
+        },
+        {
+          "position": {
+            "x": 28051.94,
+            "y": 135.307419,
+            "z": -18006.47
+          },
+          "objective": "Take off_ReachWaypoints"
+        }
+      ]
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 27584.4219,
+        "y": 136.384827,
+        "z": -19367.3848
+      },
+      "rotation": {
+        "x": 0.00141456374,
+        "y": 0.56821835,
+        "z": 0.000975641131,
+        "w": 0.822876036
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-FT",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    }
+  ],
+  "ships": [],
+  "buildings": [],
+  "scenery": [],
+  "containers": [],
+  "missiles": [],
+  "pilots": [],
+  "factions": [
+    {
+      "factionName": "Boscali",
+      "preventJoin": true,
+      "preventDonation": false,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 0.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    },
+    {
+      "factionName": "Primeva",
+      "preventJoin": false,
+      "preventDonation": false,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 0.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "airbases": [
+    {
+      "IsOverride": true,
+      "faction": "Primeva",
+      "UniqueName": "Sandrift Airbase",
+      "DisplayName": "Sandrift Airbase",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 975.0,
+      "Center": {
+        "x": 27810.69,
+        "y": 138.233459,
+        "z": -19056.1543
+      },
+      "SelectionPosition": {
+        "x": 27574.4785,
+        "y": 135.432465,
+        "z": -19351.6035
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    }
+  ],
+  "objectives": [
+    {
+      "Type": "None",
+      "UniqueName": "Mission Start",
+      "Faction": "",
+      "DisplayName": "",
+      "Hidden": true,
+      "Outcomes": [
+        "start taxi1"
+      ]
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "orbit",
+      "Faction": "Primeva",
+      "DisplayName": "orbit",
+      "Hidden": true,
+      "Outcomes": [],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 27867.0977,
+            "y": 377.895874,
+            "z": -19130.4766
+          },
+          "Range": 100.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "Box 1 - Throttle",
+      "Faction": "Primeva",
+      "DisplayName": "Box 1 - Throttle",
+      "Hidden": false,
+      "Outcomes": [],
+      "title": "Throttle",
+      "body": "Today we're going to be practicing taxiing to the runway threshold and taking off. To begin, increase the throttle to 20% using <bind=Throttle:pos>",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Taxi1_ReachWaypoints",
+      "Faction": "Primeva",
+      "DisplayName": "Taxi",
+      "Hidden": false,
+      "Outcomes": [
+        "start taxi2"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 27573.2227,
+            "y": 137.065872,
+            "z": -19267.459
+          },
+          "Range": 20.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "Box 2 - Use Brakes",
+      "Faction": "Primeva",
+      "DisplayName": "Box 2 - Use Brakes",
+      "Hidden": false,
+      "Outcomes": [],
+      "title": "Brakes",
+      "body": "Good, now tap the wheelbrake <bind=Brake> to keep your plane from exceeding 50km/h. We are approaching a turn which will require you stay slow.\u000bUse the rudder to steer <bind=Yaw>",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Taxi2_ReachWaypoints",
+      "Faction": "Primeva",
+      "DisplayName": "Taxi",
+      "Hidden": false,
+      "Outcomes": [
+        "start taxi3"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 27641.3145,
+            "y": 136.92308,
+            "z": -19445.0586
+          },
+          "Range": 20.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "Box 3 - Steering",
+      "Faction": "Primeva",
+      "DisplayName": "Box 3 - Steering",
+      "Hidden": false,
+      "Outcomes": [],
+      "title": "Taxi",
+      "body": "As we approach the runway threshold, we will make another left turn to line up the plane on the runway.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Taxi3_ReachWaypoints",
+      "Faction": "Primeva",
+      "DisplayName": "Taxi",
+      "Hidden": false,
+      "Outcomes": [
+        "start full throttle"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 27775.9785,
+            "y": 137.074753,
+            "z": -19542.4629
+          },
+          "Range": 20.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "Box 4 - Keep plane centered",
+      "Faction": "Primeva",
+      "DisplayName": "Box 4 - Keep plane centered",
+      "Hidden": false,
+      "Outcomes": [],
+      "title": "Centered on runway",
+      "body": "Now turn left and keep the plane centered on the runway.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Full Throttle_ReachWaypoints",
+      "Faction": "Primeva",
+      "DisplayName": "Full Throttle",
+      "Hidden": false,
+      "Outcomes": [
+        "start take off"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 27846.418,
+            "y": 136.564789,
+            "z": -19459.38
+          },
+          "Range": 40.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "Box 5 - Full throttle",
+      "Faction": "Primeva",
+      "DisplayName": "Box 5 - Full throttle",
+      "Hidden": false,
+      "Outcomes": [],
+      "title": "Full Throttle",
+      "body": "Increase throttle to 100%, and when speed is above 180km/h, gradually pull back on the stick to lift off. <bind=Pitch:neg>",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Take off_ReachWaypoints",
+      "Faction": "Primeva",
+      "DisplayName": "Take off",
+      "Hidden": false,
+      "Outcomes": [
+        "show box 6"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 27959.9785,
+            "y": 263.3084,
+            "z": -17958.4629
+          },
+          "Range": 150.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "Box 6 - Well done",
+      "Faction": "Primeva",
+      "DisplayName": "Box 6 - Well done",
+      "Hidden": false,
+      "Outcomes": [
+        "victory"
+      ],
+      "title": "Successful Takeoff",
+      "body": "Great job, we're in the air! If you haven't already, you should now retract your landing gear using <bind=Gear> \u000bor the radial menu <bind=Radial Menu> + <bind=Radial Menu Horizontal>",
+      "button": "Ok",
+      "factionOnly": false
+    }
+  ],
+  "outcomes": [
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start taxi1",
+      "objectivesToStart": [
+        "orbit",
+        "Taxi1_ReachWaypoints",
+        "Box 1 - Throttle"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start taxi2",
+      "objectivesToStart": [
+        "Taxi2_ReachWaypoints",
+        "Box 2 - Use Brakes"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start taxi3",
+      "objectivesToStart": [
+        "Taxi3_ReachWaypoints",
+        "Box 3 - Steering"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start full throttle",
+      "objectivesToStart": [
+        "Full Throttle_ReachWaypoints",
+        "Box 4 - Keep plane centered"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start take off",
+      "objectivesToStart": [
+        "Take off_ReachWaypoints",
+        "Box 5 - Full throttle"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "show box 6",
+      "objectivesToStart": [
+        "Box 6 - Well done"
+      ]
+    },
+    {
+      "Type": "EndGame",
+      "UniqueName": "victory",
+      "endType": "Victory",
+      "endDelay": 10.0
+    }
+  ]
+}

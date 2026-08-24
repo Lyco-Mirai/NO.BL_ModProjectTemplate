@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a4718c204270cabb3e1034f09547e561, type: 3}
+  m_Name: CAS1
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 0
+    air: 1
+    missile: 0
+    radar: 0
+    strategic: 0
+  roleIdentity:
+    antiSurface: 0.8
+    antiAir: 0.3
+    antiMissile: 0
+    antiRadar: 0
+  jsonKey: CAS1
+  unitName: A-19 Brawler
+  bogeyName:
+  description: The Brawler is a reliable and rugged platform built to carry large quantities of precision weapons. Advanced propfan engines combine endurance with respectable speed, while redundant control surfaces, isolated engines, and heavy cockpit armor provide excellent survivability. The A-19 is in its element when attacking convoys of vehicles, distributed short-range air defenses, or vessels operating in coastal waters.
+  code: A-19
+  visibleRange: 3500
+  iconRange: 100000
+  radarSize: 0.6
+  friendlyIcon: {fileID: 21300000, guid: 1eec794c3567a654a935f6805ca905a6, type: 2}
+  hostileIcon: {fileID: 21300000, guid: 1eec794c3567a654a935f6805ca905a6, type: 2}
+  mapIcon: {fileID: 21300000, guid: efd26f654d509f74a8a2cdb2ade5a870, type: 2}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 1
+  mapIconSize: 1.1
+  captureCapacity: 0
+  captureStrength: 0
+  captureDefense: 0
+  length: 18
+  width: 19
+  height: 3.5
+  value: 36
+  mass: 10620
+  manpower: 1
+  armorTier: 1
+  damageTolerance: 1
+  CanSlingLoad: 0
+  unitPrefab: {fileID: 1709254077376921, guid: 9db66e1e199d856499108fd76555468a, type: 2}
+  spawnOffset: {x: 0, y: 2.5, z: 0}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: 0
+  maxEditorHeight: 10000
+  aircraftParameters: {fileID: 11400000, guid: 2b5a0cbfa8e3e71468e21ba2b7a7d456, type: 2}
+  aircraftInfo:
+    emptyWeight: 5200
+    maxSpeed: 740
+    stallSpeed: 220
+    maneuverability: 7.5
+    maxWeight: 19000
+  restRotation: {x: 0, y: 0, z: 0}

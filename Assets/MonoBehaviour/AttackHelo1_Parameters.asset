@@ -1,0 +1,261 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e56ddb8681eb8af5865ab2fc54350bc, type: 3}
+  m_Name: AttackHelo1_Parameters
+  m_EditorClassIdentifier:
+  aircraftName: SAH-46 Chicane
+  rankRequired: 1
+  airfoils:
+  - name: AttackHelo1_wing
+    liftCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0.010508245
+        inSlope: 1.9287611
+        outSlope: 1.9287611
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.1091004
+      - serializedVersion: 3
+        time: -1.57
+        value: 0
+        inSlope: -2.0067136
+        outSlope: -2.0067136
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.14881997
+      - serializedVersion: 3
+        time: -0.785
+        value: -0.9
+        inSlope: -0.0035528382
+        outSlope: -0.0035528382
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.5194044
+      - serializedVersion: 3
+        time: -0.4
+        value: -0.8
+        inSlope: 0.20089284
+        outSlope: 0.20089284
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: -0.3
+        value: -1
+        inSlope: -0.007204547
+        outSlope: -0.007204547
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.46550524
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 5.0174975
+        outSlope: 5.0174975
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.19420657
+      - serializedVersion: 3
+        time: 0.3
+        value: 1
+        inSlope: -0.008583963
+        outSlope: -0.008583963
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.22580983
+      - serializedVersion: 3
+        time: 0.4
+        value: 0.8
+        inSlope: 0.21263102
+        outSlope: 0.21263102
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.785
+        value: 0.9992492
+        inSlope: -0.026717909
+        outSlope: -0.026717909
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.27941546
+      - serializedVersion: 3
+        time: 1.57
+        value: 0
+        inSlope: -1.810663
+        outSlope: -1.810663
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.10514669
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.14159
+        value: 0.00038353816
+        inSlope: 2.4354787
+        outSlope: 2.4354787
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.07451174
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3
+        value: -0.0013109616
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: -1.4926803
+        value: 0.6
+        inSlope: -0.038458936
+        outSlope: -0.038458936
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.71009433
+      - serializedVersion: 3
+        time: -0.19790159
+        value: 0.15051113
+        inSlope: -0.63622516
+        outSlope: -0.63622516
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.13434932
+      - serializedVersion: 3
+        time: -0.0021361732
+        value: 0.012559066
+        inSlope: 7.164541E-08
+        outSlope: 7.164541E-08
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.1560833
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.20058656
+        value: 0.15036428
+        inSlope: 0.66938275
+        outSlope: 0.66938275
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.15020706
+        outWeight: 0.095541224
+      - serializedVersion: 3
+        time: 1.4944664
+        value: 0.6
+        inSlope: 0.011035963
+        outSlope: 0.011035963
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.51644635
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  loadouts:
+  - weapons:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - weapons:
+    - {fileID: 11400000, guid: 956a2e1d08f3f534e8475d5a2052953c, type: 2}
+    - {fileID: 11400000, guid: 1d35cff5d93e66940bd432ad52ce852e, type: 2}
+    - {fileID: 11400000, guid: f2f7d72e53b4d5e41987aa09ceb1dd8b, type: 2}
+    - {fileID: 11400000, guid: 93aaa6fdc6066734483e0ed838aa9ec8, type: 2}
+    - {fileID: 11400000, guid: ebd7320e2c09da44e850b8666ccd0de5, type: 2}
+  StandardLoadouts: []
+  DefaultFuelLevel: 0.5
+  liveries:
+  - name: Boscali Navy
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: 3147c090147fc5d419ef1438d16b2929
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: Boscali Drab
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: 5faf699a1cbf7174e81a384906c07c97
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: Primeva Black
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: 0fcc0ff8ee92cfd47bc415ba2f372140
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: Primeva Desert
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: eb6c8fa90254b6b4cb07b0e6d71f2c84
+      m_SubObjectName:
+      m_SubObjectType:
+  StatusDisplay: {fileID: 1709254077376921, guid: 4d06bf96aa900194b8f096a971f3f6cb, type: 2}
+  HUDExtras: {fileID: 1709254077376921, guid: 44d5bcb95c9026347a4105963cabb225, type: 2}
+  takeoffMusic: {fileID: 8300000, guid: fc49a752f28b5fe4686175fe2559d696, type: 3}
+  AoAEffects:
+    AudioClip: {fileID: 8300000, guid: 5778034f4d3240b449f63de2ee04a282, type: 3}
+    OnsetSpeed: 30
+    FullVolumeSpeed: 200
+    OnsetAlpha: 5
+    FullVolumeAlpha: 45
+    ShakeFactor: 0.1
+  aircraftGLimit: 3
+  PIDReferenceAirspeed: 0
+  maxSpeed: 100
+  takeoffSpeed: 0
+  takeoffDistance: 0
+  verticalLanding: 1
+  turningRadius: 750
+  cornerSpeed: 120
+  approachSpeed: 60
+  landingSpeed: 30
+  shortLandingSpeed: 30
+  cruiseThrottle: 0.9
+  minimumRadarAlt: 20
+  levelBias: 0.15
+  hoverTiltFactor: 0.5
+  collectivePID: {x: 0, y: 0, z: 0}
+  hoverPID: {x: 0.05, y: 0.001, z: 0.3}
+  tiltPID: {x: 0, y: 0, z: 0}
+  groundTurningRadius: 10

@@ -1,0 +1,1587 @@
+{
+  "JsonVersion": 6,
+  "MapKey": {
+    "Type": "GameWorldPrefab",
+    "Path": "Terrain_naval"
+  },
+  "missionSettings": {
+    "description": "",
+    "allowEventContent": false,
+    "Tags": [],
+    "playerMode": "SingleAndMultiplayer",
+    "allowRespawn": true,
+    "playerStartingRank": 6,
+    "rankMultiplier": 1.0,
+    "successfulSortieBonus": 0.25,
+    "nuclearEscalationThreshold": 0.0,
+    "strategicEscalationThreshold": 0.0,
+    "minRankTacticalWarhead": 0,
+    "minRankStrategicWarhead": 0,
+    "cameraStartPosition": {
+      "IsOverride": true,
+      "Value": {
+        "Position": {
+          "x": -10660.5967,
+          "y": 265.3623,
+          "z": -769.642334
+        },
+        "Rotation": {
+          "x": 0.00177110278,
+          "y": 0.431083351,
+          "z": -0.000846153358,
+          "w": 0.902309954
+        }
+      }
+    },
+    "missionRoads": {
+      "roads": []
+    },
+    "missionSeaLanes": {
+      "roads": []
+    },
+    "wrecksMaxNumber": 0,
+    "wrecksDecayTime": 0.0
+  },
+  "environment": {
+    "timeOfDay": 10.0,
+    "timeFactor": 0.0,
+    "weatherIntensity": 0.0,
+    "cloudAltitude": 1800.0,
+    "windSpeed": 0.0,
+    "windTurbulence": 0.0,
+    "windHeading": 0.0,
+    "windRandomHeading": 0.0,
+    "moonPhase": 14.0
+  },
+  "aircraft": [],
+  "vehicles": [
+    {
+      "type": "HLT-M",
+      "faction": "Boscali",
+      "UniqueName": "HLT-M",
+      "globalPosition": {
+        "x": 70218.21,
+        "y": 10.249939,
+        "z": 26567.39
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.977318048,
+        "z": 0.0,
+        "w": 0.211776972
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "UniqueName": "HLT-FT",
+      "globalPosition": {
+        "x": 70226.37,
+        "y": 10.2423706,
+        "z": 26571.0918
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.977318048,
+        "z": 0.0,
+        "w": 0.211776972
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-M",
+      "faction": "Boscali",
+      "UniqueName": "HLT-M_1",
+      "globalPosition": {
+        "x": 74644.51,
+        "y": 11.93502,
+        "z": -28346.5156
+      },
+      "rotation": {
+        "x": 0.00940394,
+        "y": 0.6358327,
+        "z": 0.005778397,
+        "w": -0.771747947
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "UniqueName": "HLT-FT_1",
+      "globalPosition": {
+        "x": 74646.02,
+        "y": 11.8374939,
+        "z": -28338.2129
+      },
+      "rotation": {
+        "x": 0.009403941,
+        "y": 0.6358327,
+        "z": 0.00577839743,
+        "w": -0.771747947
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-M",
+      "faction": "Boscali",
+      "UniqueName": "HLT-M_2",
+      "globalPosition": {
+        "x": 55219.375,
+        "y": 10.72348,
+        "z": -27497.44
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.7684416,
+        "z": 0.0,
+        "w": -0.639919937
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "UniqueName": "HLT-FT_2",
+      "globalPosition": {
+        "x": 55218.4,
+        "y": 10.7235107,
+        "z": -27490.9863
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.762969,
+        "z": 0.0,
+        "w": -0.646435142
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-M",
+      "faction": "Boscali",
+      "UniqueName": "HLT-M_3",
+      "globalPosition": {
+        "x": 42436.707,
+        "y": 6.02776146,
+        "z": 222.2835
+      },
+      "rotation": {
+        "x": 0.0135194054,
+        "y": 0.9199587,
+        "z": -0.00432111742,
+        "w": 0.391758382
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "UniqueName": "HLT-FT_3",
+      "globalPosition": {
+        "x": 42432.3125,
+        "y": 6.12991333,
+        "z": 217.365234
+      },
+      "rotation": {
+        "x": 0.0107149994,
+        "y": 0.91993773,
+        "z": 0.0111963414,
+        "w": 0.391758263
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-M",
+      "faction": "Primeva",
+      "UniqueName": "HLT-M_4",
+      "globalPosition": {
+        "x": -13454.5137,
+        "y": 11.8565388,
+        "z": 30833.9258
+      },
+      "rotation": {
+        "x": 2.78290781E-06,
+        "y": 0.6691466,
+        "z": -0.00184071984,
+        "w": -0.7431282
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Primeva",
+      "UniqueName": "HLT-FT_4",
+      "globalPosition": {
+        "x": -13452.749,
+        "y": 11.8273983,
+        "z": 30824.3828
+      },
+      "rotation": {
+        "x": -4.939084E-06,
+        "y": 0.6691451,
+        "z": -0.00231719273,
+        "w": -0.7431282
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-M",
+      "faction": "Primeva",
+      "UniqueName": "HLT-M_5",
+      "globalPosition": {
+        "x": -38016.9063,
+        "y": 13.4699211,
+        "z": 11290.7949
+      },
+      "rotation": {
+        "x": 0.002736938,
+        "y": 0.9973048,
+        "z": 0.00285057258,
+        "w": 0.073263824
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Primeva",
+      "UniqueName": "HLT-FT_5",
+      "globalPosition": {
+        "x": -38009.7773,
+        "y": 13.4457188,
+        "z": 11291.4775
+      },
+      "rotation": {
+        "x": 0.002736938,
+        "y": 0.9973048,
+        "z": 0.00285057258,
+        "w": 0.0732637048
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-M",
+      "faction": "Primeva",
+      "UniqueName": "HLT-M_6",
+      "globalPosition": {
+        "x": -75285.38,
+        "y": 10.3866959,
+        "z": -28663.4258
+      },
+      "rotation": {
+        "x": -0.00242363731,
+        "y": 0.418675035,
+        "z": 0.000276910665,
+        "w": -0.908132851
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Primeva",
+      "UniqueName": "HLT-FT_6",
+      "globalPosition": {
+        "x": -75274.76,
+        "y": 10.4449158,
+        "z": -28661.05
+      },
+      "rotation": {
+        "x": -0.002277085,
+        "y": 0.4186761,
+        "z": 0.000230127756,
+        "w": -0.908132732
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-M",
+      "faction": "Primeva",
+      "UniqueName": "HLT-M_7",
+      "globalPosition": {
+        "x": -75647.375,
+        "y": 8.448425,
+        "z": 33536.082
+      },
+      "rotation": {
+        "x": 0.00044647188,
+        "y": 0.0555791222,
+        "z": 0.000160692318,
+        "w": 0.9984542
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Primeva",
+      "UniqueName": "HLT-FT_7",
+      "globalPosition": {
+        "x": -75635.43,
+        "y": 8.390015,
+        "z": 33523.13
+      },
+      "rotation": {
+        "x": 0.00044647188,
+        "y": 0.0555791222,
+        "z": 0.000160692318,
+        "w": 0.9984542
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 2.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    }
+  ],
+  "ships": [
+    {
+      "type": "FleetCarrier1",
+      "faction": "Primeva",
+      "UniqueName": "FleetCarrier1",
+      "globalPosition": {
+        "x": -60442.94,
+        "y": 5.67266846,
+        "z": 5975.39063
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.6334045,
+        "z": 0.0,
+        "w": 0.7738209
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 100.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AssaultCarrier1",
+      "faction": "Boscali",
+      "UniqueName": "AssaultCarrier1",
+      "globalPosition": {
+        "x": 63577.8828,
+        "y": 5.75280762,
+        "z": 709.8594
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.492420584,
+        "z": 0.0,
+        "w": 0.870357454
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 50.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    }
+  ],
+  "buildings": [
+    {
+      "type": "hangar_med",
+      "faction": "Primeva",
+      "UniqueName": "hangar_med",
+      "globalPosition": {
+        "x": 979.8547,
+        "y": 7.64386,
+        "z": 4334.10059
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.501907051,
+        "z": 0.0,
+        "w": 0.8649216
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "capturable": false,
+      "Airbase": "CustomAirbase_1",
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "hangar_med",
+      "faction": "Boscali",
+      "UniqueName": "hangar_med_1",
+      "globalPosition": {
+        "x": 925.083252,
+        "y": 7.64386,
+        "z": 4429.28027
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.501907051,
+        "z": 0.0,
+        "w": 0.8649216
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "capturable": false,
+      "Airbase": "CustomAirbase",
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "revetment1",
+      "faction": "Boscali",
+      "UniqueName": "revetment1",
+      "globalPosition": {
+        "x": 1020.5495,
+        "y": 9.17099,
+        "z": 4279.32129
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.501907051,
+        "z": 0.0,
+        "w": 0.8649216
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "capturable": false,
+      "Airbase": "CustomAirbase",
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "Helipad",
+      "faction": "Boscali",
+      "UniqueName": "Helipad",
+      "globalPosition": {
+        "x": 1098.87939,
+        "y": 8.647461,
+        "z": 4125.5
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.965431,
+        "z": 0.0,
+        "w": 0.2606589
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "capturable": false,
+      "Airbase": "CustomAirbase",
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "Helipad",
+      "faction": "Primeva",
+      "UniqueName": "Helipad_1",
+      "globalPosition": {
+        "x": 1045.7854,
+        "y": 8.601685,
+        "z": 4094.91553
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.965431,
+        "z": 0.0,
+        "w": 0.2606589
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "capturable": false,
+      "Airbase": "CustomAirbase_1",
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "revetment1",
+      "faction": "Primeva",
+      "UniqueName": "revetment1_1",
+      "globalPosition": {
+        "x": 843.681641,
+        "y": 9.850708,
+        "z": 3967.97266
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.966911256,
+        "z": 0.0,
+        "w": 0.255112946
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "capturable": false,
+      "Airbase": "CustomAirbase_1",
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    }
+  ],
+  "scenery": [],
+  "containers": [],
+  "missiles": [],
+  "pilots": [],
+  "factions": [
+    {
+      "factionName": "Boscali",
+      "preventJoin": false,
+      "preventDonation": false,
+      "supplies": [
+        {
+          "UnitType": "COIN",
+          "Count": 99
+        },
+        {
+          "UnitType": "trainer",
+          "Count": 99
+        },
+        {
+          "UnitType": "AttackHelo1",
+          "Count": 99
+        },
+        {
+          "UnitType": "Fighter1",
+          "Count": 99
+        },
+        {
+          "UnitType": "SmallFighter1",
+          "Count": 99
+        },
+        {
+          "UnitType": "QuadVTOL1",
+          "Count": 99
+        },
+        {
+          "UnitType": "Multirole1",
+          "Count": 99
+        },
+        {
+          "UnitType": "EW1",
+          "Count": 99
+        },
+        {
+          "UnitType": "Darkreach",
+          "Count": 99
+        },
+        {
+          "UnitType": "UtilityHelo1",
+          "Count": 99
+        },
+        {
+          "UnitType": "CAS1",
+          "Count": 99
+        },
+        {
+          "UnitType": "FastBomber1",
+          "Count": 99
+        },
+        {
+          "UnitType": "VTOLTrainer1",
+          "Count": 99
+        }
+      ],
+      "startingBalance": 999999.0,
+      "playerJoinAllowance": 9999.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 0.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 999,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 0,
+      "AIAircraftLimit": 0,
+      "reduceAIPerFriendlyPlayer": 0.0,
+      "addAIPerEnemyPlayer": 0.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": true,
+        "Value": {
+          "Position": {
+            "x": 38380.5234,
+            "y": 478.554443,
+            "z": 2412.15942
+          },
+          "Rotation": {
+            "x": -0.0114565389,
+            "y": -0.232763216,
+            "z": 0.00274217571,
+            "w": -0.9724621
+          }
+        }
+      }
+    },
+    {
+      "factionName": "Primeva",
+      "preventJoin": false,
+      "preventDonation": false,
+      "supplies": [
+        {
+          "UnitType": "COIN",
+          "Count": 99
+        },
+        {
+          "UnitType": "trainer",
+          "Count": 99
+        },
+        {
+          "UnitType": "AttackHelo1",
+          "Count": 99
+        },
+        {
+          "UnitType": "Fighter1",
+          "Count": 99
+        },
+        {
+          "UnitType": "SmallFighter1",
+          "Count": 99
+        },
+        {
+          "UnitType": "QuadVTOL1",
+          "Count": 99
+        },
+        {
+          "UnitType": "Multirole1",
+          "Count": 99
+        },
+        {
+          "UnitType": "EW1",
+          "Count": 99
+        },
+        {
+          "UnitType": "Darkreach",
+          "Count": 99
+        },
+        {
+          "UnitType": "UtilityHelo1",
+          "Count": 99
+        },
+        {
+          "UnitType": "CAS1",
+          "Count": 99
+        },
+        {
+          "UnitType": "FastBomber1",
+          "Count": 99
+        },
+        {
+          "UnitType": "VTOLTrainer1",
+          "Count": 99
+        }
+      ],
+      "startingBalance": 999999.0,
+      "playerJoinAllowance": 9999.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 0.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 999,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 0,
+      "AIAircraftLimit": 0,
+      "reduceAIPerFriendlyPlayer": 0.0,
+      "addAIPerEnemyPlayer": 0.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": true,
+        "Value": {
+          "Position": {
+            "x": -39018.9648,
+            "y": 149.143,
+            "z": 9996.217
+          },
+          "Rotation": {
+            "x": -0.004071715,
+            "y": 0.458613724,
+            "z": 0.00210138783,
+            "w": 0.888623953
+          }
+        }
+      }
+    }
+  ],
+  "airbases": [
+    {
+      "IsOverride": true,
+      "faction": "Boscali",
+      "UniqueName": "Island5 Airstrip",
+      "DisplayName": "Opal Airport",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 879.0,
+      "Center": {
+        "x": 42140.1,
+        "y": 9.64,
+        "z": -213.2
+      },
+      "SelectionPosition": {
+        "x": 42324.8,
+        "y": 6.65000057,
+        "z": 95.2
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Boscali",
+      "UniqueName": "NE Airbase",
+      "DisplayName": "Cliffline Airbase",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1592.0,
+      "Center": {
+        "x": 69687.6,
+        "y": 11.58,
+        "z": 26056.8
+      },
+      "SelectionPosition": {
+        "x": 70792.99,
+        "y": 7.72999954,
+        "z": 26749.83
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Boscali",
+      "UniqueName": "SE Airbase",
+      "DisplayName": "Ashwood Airbase",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 2600.0,
+      "Center": {
+        "x": 74648.0,
+        "y": 0.0,
+        "z": -28520.0
+      },
+      "SelectionPosition": {
+        "x": 73798.7,
+        "y": 13.29,
+        "z": -30105.7
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Boscali",
+      "UniqueName": "Island14 Airstrip",
+      "DisplayName": "Ashwood Auxiliary Airstrip",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1032.0,
+      "Center": {
+        "x": 55365.0,
+        "y": 10.0,
+        "z": -27038.0
+      },
+      "SelectionPosition": {
+        "x": 55121.8,
+        "y": 9.84,
+        "z": -27373.5
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Primeva",
+      "UniqueName": "NW Airbase",
+      "DisplayName": "Harmony Sands Airstrip",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 2283.0,
+      "Center": {
+        "x": -75861.8359,
+        "y": 13.6,
+        "z": 33605.4922
+      },
+      "SelectionPosition": {
+        "x": -76375.8359,
+        "y": 10.97,
+        "z": 33652.69
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Primeva",
+      "UniqueName": "Island7 Airstrip",
+      "DisplayName": "Bifurca Airport",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 713.0,
+      "Center": {
+        "x": -37929.875,
+        "y": 14.6,
+        "z": 11240.9443
+      },
+      "SelectionPosition": {
+        "x": -38201.08,
+        "y": 14.6,
+        "z": 11257.0439
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Primeva",
+      "UniqueName": "Island9 Airstrip",
+      "DisplayName": "Hogshead Airbase",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1100.0,
+      "Center": {
+        "x": -13454.6,
+        "y": 11.0,
+        "z": 30503.2
+      },
+      "SelectionPosition": {
+        "x": -13327.36,
+        "y": 11.038,
+        "z": 31289.8
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Primeva",
+      "UniqueName": "SW Airbase",
+      "DisplayName": "Broken Atoll Airbase",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1394.0,
+      "Center": {
+        "x": -74591.8,
+        "y": 12.5,
+        "z": -28639.36
+      },
+      "SelectionPosition": {
+        "x": -75528.51,
+        "y": 9.38,
+        "z": -28557.09
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": false,
+      "faction": "Boscali",
+      "UniqueName": "CustomAirbase",
+      "DisplayName": "Feldspar International Airport",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 657.217651,
+      "Center": {
+        "x": 960.435669,
+        "y": 7.62573242,
+        "z": 4380.0874
+      },
+      "SelectionPosition": {
+        "x": 903.4151,
+        "y": 7.62585449,
+        "z": 4663.303
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [
+        {
+          "x": 981.3338,
+          "y": 7.98394775,
+          "z": 4713.61865
+        }
+      ],
+      "ServicePoints": [
+        {
+          "x": 1181.61487,
+          "y": 8.60994,
+          "z": 4130.222
+        }
+      ],
+      "roads": {
+        "roads": [
+          {
+            "points": [
+              {
+                "x": 1083.18909,
+                "y": 8.28039551,
+                "z": 4682.91064
+              },
+              {
+                "x": 1071.80334,
+                "y": 8.330444,
+                "z": 4698.34766
+              },
+              {
+                "x": 1052.1803,
+                "y": 8.307739,
+                "z": 4703.35742
+              },
+              {
+                "x": 1030.96448,
+                "y": 8.221191,
+                "z": 4695.51074
+              },
+              {
+                "x": 975.3473,
+                "y": 7.98034668,
+                "z": 4663.066
+              },
+              {
+                "x": 961.11,
+                "y": 7.90563965,
+                "z": 4647.69336
+              },
+              {
+                "x": 957.1349,
+                "y": 7.836548,
+                "z": 4627.64258
+              },
+              {
+                "x": 965.1334,
+                "y": 7.758423,
+                "z": 4604.30469
+              },
+              {
+                "x": 1029.87561,
+                "y": 7.537964,
+                "z": 4491.499
+              },
+              {
+                "x": 1081.1925,
+                "y": 7.53735352,
+                "z": 4398.42969
+              },
+              {
+                "x": 1114.85754,
+                "y": 7.565796,
+                "z": 4339.325
+              },
+              {
+                "x": 1152.76428,
+                "y": 7.72839355,
+                "z": 4274.0957
+              },
+              {
+                "x": 1187.94946,
+                "y": 7.897339,
+                "z": 4214.295
+              }
+            ],
+            "length": 641.7006,
+            "bounds": {},
+            "bridge": false
+          },
+          {
+            "points": [
+              {
+                "x": 1231.94165,
+                "y": 8.222412,
+                "z": 4140.495
+              },
+              {
+                "x": 1331.34326,
+                "y": 8.759399,
+                "z": 3966.1123
+              },
+              {
+                "x": 1429.19727,
+                "y": 8.623901,
+                "z": 3796.93848
+              },
+              {
+                "x": 1518.1167,
+                "y": 8.734497,
+                "z": 3640.711
+              },
+              {
+                "x": 1809.12939,
+                "y": 9.526611,
+                "z": 3131.122
+              },
+              {
+                "x": 2015.6001,
+                "y": 8.46814,
+                "z": 2777.16333
+              },
+              {
+                "x": 2156.28174,
+                "y": 7.429199,
+                "z": 2701.39429
+              },
+              {
+                "x": 2182.10938,
+                "y": 7.293579,
+                "z": 2714.04468
+              },
+              {
+                "x": 2198.18018,
+                "y": 7.20397949,
+                "z": 2731.53687
+              },
+              {
+                "x": 2193.61084,
+                "y": 7.22851563,
+                "z": 2754.86743
+              }
+            ],
+            "length": 1808.60815,
+            "bounds": {},
+            "bridge": false
+          }
+        ]
+      },
+      "runways": [
+        {
+          "Name": "Runway 16",
+          "Reversable": false,
+          "Takeoff": true,
+          "Landing": true,
+          "Arrestor": false,
+          "SkiJump": false,
+          "Width": 60.0,
+          "Start": {
+            "x": 1092.04907,
+            "y": 7.62597656,
+            "z": 4666.166
+          },
+          "End": {
+            "x": 2169.06763,
+            "y": 7.62597656,
+            "z": 2800.39551
+          },
+          "exitPoints": []
+        }
+      ]
+    },
+    {
+      "IsOverride": false,
+      "faction": "Primeva",
+      "UniqueName": "CustomAirbase_1",
+      "DisplayName": "Feldspar International Airport",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 559.2758,
+      "Center": {
+        "x": 921.569946,
+        "y": 8.123138,
+        "z": 3966.6123
+      },
+      "SelectionPosition": {
+        "x": 742.3949,
+        "y": 8.785278,
+        "z": 3897.5957
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [
+        {
+          "x": 1070.782,
+          "y": 8.684387,
+          "z": 4051.071
+        }
+      ],
+      "ServicePoints": [
+        {
+          "x": 1123.96313,
+          "y": 8.661682,
+          "z": 4082.92114
+        }
+      ],
+      "roads": {
+        "roads": [
+          {
+            "points": [
+              {
+                "x": 1025.9762,
+                "y": 7.541565,
+                "z": 4499.56055
+              },
+              {
+                "x": 1085.424,
+                "y": 7.53735352,
+                "z": 4395.255
+              },
+              {
+                "x": 1113.733,
+                "y": 7.558655,
+                "z": 4346.633
+              },
+              {
+                "x": 1153.70374,
+                "y": 7.730713,
+                "z": 4273.42529
+              },
+              {
+                "x": 1235.40442,
+                "y": 8.243347,
+                "z": 4135.843
+              },
+              {
+                "x": 1240.2511,
+                "y": 8.302734,
+                "z": 4123.71973
+              },
+              {
+                "x": 1240.83655,
+                "y": 8.365906,
+                "z": 4111.902
+              },
+              {
+                "x": 1232.01135,
+                "y": 8.43866,
+                "z": 4099.751
+              },
+              {
+                "x": 1161.44006,
+                "y": 8.587341,
+                "z": 4059.75977
+              },
+              {
+                "x": 1009.3634,
+                "y": 8.471741,
+                "z": 3972.38965
+              },
+              {
+                "x": 937.945557,
+                "y": 8.512573,
+                "z": 3931.86035
+              },
+              {
+                "x": 880.562134,
+                "y": 8.603882,
+                "z": 3898.55371
+              },
+              {
+                "x": 626.5133,
+                "y": 9.503296,
+                "z": 3750.97363
+              },
+              {
+                "x": 600.2218,
+                "y": 9.585571,
+                "z": 3732.63135
+              },
+              {
+                "x": 580.426,
+                "y": 9.633789,
+                "z": 3707.88379
+              },
+              {
+                "x": 530.760864,
+                "y": 9.711487,
+                "z": 3621.39844
+              },
+              {
+                "x": 525.381836,
+                "y": 9.720215,
+                "z": 3608.13867
+              },
+              {
+                "x": 523.6865,
+                "y": 9.723755,
+                "z": 3597.6084
+              },
+              {
+                "x": 526.052734,
+                "y": 9.733704,
+                "z": 3584.55176
+              },
+              {
+                "x": 534.1831,
+                "y": 9.751648,
+                "z": 3566.83887
+              },
+              {
+                "x": 547.5869,
+                "y": 9.77172852,
+                "z": 3548.07813
+              },
+              {
+                "x": 560.2163,
+                "y": 9.781067,
+                "z": 3538.31738
+              },
+              {
+                "x": 574.618652,
+                "y": 9.78595,
+                "z": 3535.753
+              },
+              {
+                "x": 584.8584,
+                "y": 9.78479,
+                "z": 3537.56641
+              }
+            ],
+            "length": 1443.68274,
+            "bounds": {},
+            "bridge": false
+          },
+          {
+            "points": [
+              {
+                "x": 2889.3042,
+                "y": 8.049805,
+                "z": 4898.798
+              },
+              {
+                "x": 2879.11572,
+                "y": 7.95605469,
+                "z": 4922.867
+              },
+              {
+                "x": 2863.81982,
+                "y": 7.824463,
+                "z": 4942.333
+              },
+              {
+                "x": 2849.07178,
+                "y": 7.72692871,
+                "z": 4949.38428
+              },
+              {
+                "x": 2818.69141,
+                "y": 7.60656738,
+                "z": 4952.09473
+              },
+              {
+                "x": 2732.21729,
+                "y": 7.3137207,
+                "z": 4951.546
+              },
+              {
+                "x": 2699.2876,
+                "y": 7.25915527,
+                "z": 4944.287
+              },
+              {
+                "x": 2663.6543,
+                "y": 7.2857666,
+                "z": 4925.745
+              },
+              {
+                "x": 2645.87744,
+                "y": 7.29638672,
+                "z": 4915.74
+              },
+              {
+                "x": 1271.5061,
+                "y": 8.260925,
+                "z": 4122.462
+              }
+            ],
+            "length": 1865.387,
+            "bounds": {},
+            "bridge": false
+          }
+        ]
+      },
+      "runways": [
+        {
+          "Name": "Runway 07",
+          "Reversable": false,
+          "Takeoff": true,
+          "Landing": true,
+          "Arrestor": false,
+          "SkiJump": false,
+          "Width": 60.0,
+          "Start": {
+            "x": 603.423645,
+            "y": 9.814697,
+            "z": 3546.19922
+          },
+          "End": {
+            "x": 2874.86963,
+            "y": 8.269409,
+            "z": 4856.375
+          },
+          "exitPoints": []
+        }
+      ]
+    }
+  ],
+  "objectives": [
+    {
+      "Type": "None",
+      "UniqueName": "Mission Start",
+      "Faction": "",
+      "DisplayName": "",
+      "Hidden": true,
+      "Outcomes": []
+    }
+  ],
+  "outcomes": []
+}

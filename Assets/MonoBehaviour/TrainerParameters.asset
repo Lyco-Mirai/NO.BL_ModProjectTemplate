@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e56ddb8681eb8af5865ab2fc54350bc, type: 3}
+  m_Name: TrainerParameters
+  m_EditorClassIdentifier:
+  aircraftName: T/A-30 Compass
+  rankRequired: 1
+  airfoils:
+  - name: Trainer_wing
+    liftCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0.010508245
+        inSlope: 1.9287611
+        outSlope: 1.9287611
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.1091004
+      - serializedVersion: 3
+        time: -1.57
+        value: 0
+        inSlope: -2.0067136
+        outSlope: -2.0067136
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.14881997
+      - serializedVersion: 3
+        time: -0.785
+        value: -0.9
+        inSlope: -0.0035528382
+        outSlope: -0.0035528382
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.5194044
+      - serializedVersion: 3
+        time: -0.4
+        value: -0.8
+        inSlope: 0.20089284
+        outSlope: 0.20089284
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: -0.3
+        value: -1
+        inSlope: -0.007204547
+        outSlope: -0.007204547
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.46550524
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 5.0174975
+        outSlope: 5.0174975
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.19420657
+      - serializedVersion: 3
+        time: 0.3
+        value: 1
+        inSlope: -0.008583963
+        outSlope: -0.008583963
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.22580983
+      - serializedVersion: 3
+        time: 0.4
+        value: 0.8
+        inSlope: 0.21263102
+        outSlope: 0.21263102
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.785
+        value: 0.9992492
+        inSlope: -0.026717909
+        outSlope: -0.026717909
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.27941546
+      - serializedVersion: 3
+        time: 1.57
+        value: 0
+        inSlope: -1.810663
+        outSlope: -1.810663
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.10514669
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.14159
+        value: 0.00038353816
+        inSlope: 2.4354787
+        outSlope: 2.4354787
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.07451174
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3
+        value: -0.0013109616
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: -1.4926803
+        value: 0.6
+        inSlope: -0.038458936
+        outSlope: -0.038458936
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.71009433
+      - serializedVersion: 3
+        time: -0.19790159
+        value: 0.15051113
+        inSlope: -0.63622516
+        outSlope: -0.63622516
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.13434932
+      - serializedVersion: 3
+        time: -0.0021361732
+        value: 0.012559066
+        inSlope: 7.164541E-08
+        outSlope: 7.164541E-08
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.1560833
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.20058656
+        value: 0.15036428
+        inSlope: 0.66938275
+        outSlope: 0.66938275
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.15020706
+        outWeight: 0.095541224
+      - serializedVersion: 3
+        time: 1.4944664
+        value: 0.6
+        inSlope: 0.011035963
+        outSlope: 0.011035963
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.51644635
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - name: Trainer_stabilator
+    liftCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0.010508245
+        inSlope: 1.9287611
+        outSlope: 1.9287611
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.1091004
+      - serializedVersion: 3
+        time: -1.57
+        value: 0
+        inSlope: -2.0067136
+        outSlope: -2.0067136
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.14881997
+      - serializedVersion: 3
+        time: -0.785
+        value: -0.9
+        inSlope: -0.0035528382
+        outSlope: -0.0035528382
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.5194044
+      - serializedVersion: 3
+        time: -0.4
+        value: -0.8
+        inSlope: 0.20089284
+        outSlope: 0.20089284
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: -0.3
+        value: -1
+        inSlope: -0.007204547
+        outSlope: -0.007204547
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.46550524
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 5.0174975
+        outSlope: 5.0174975
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.19420657
+      - serializedVersion: 3
+        time: 0.3
+        value: 1
+        inSlope: -0.008583963
+        outSlope: -0.008583963
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.22580983
+      - serializedVersion: 3
+        time: 0.4
+        value: 0.8
+        inSlope: 0.21263102
+        outSlope: 0.21263102
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.785
+        value: 0.9992492
+        inSlope: -0.026717909
+        outSlope: -0.026717909
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.27941546
+      - serializedVersion: 3
+        time: 1.57
+        value: 0
+        inSlope: -1.810663
+        outSlope: -1.810663
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.10514669
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.14159
+        value: 0.00038353816
+        inSlope: 2.4354787
+        outSlope: 2.4354787
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.07451174
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -1.5002716
+        value: 0.30047727
+        inSlope: -0.038458936
+        outSlope: -0.038458936
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.71009433
+      - serializedVersion: 3
+        time: -0.0021361732
+        value: 0.012559066
+        inSlope: 7.164541E-08
+        outSlope: 7.164541E-08
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.1560833
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.4796531
+        value: 0.29994583
+        inSlope: 0.011035963
+        outSlope: 0.011035963
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.51644635
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  loadouts:
+  - weapons:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - weapons:
+    - {fileID: 11400000, guid: 71c641944615aeb409f2291fb381bc97, type: 2}
+    - {fileID: 11400000, guid: f0bc2eb06d35f714593e784842b654dd, type: 2}
+    - {fileID: 11400000, guid: 412ac9dc46b6f3945bae471edbad1974, type: 2}
+    - {fileID: 11400000, guid: b82312a16edda7b4fa501cc2802196cd, type: 2}
+    - {fileID: 11400000, guid: e165ce0001c2dc4429db2d214d906047, type: 2}
+  StandardLoadouts: []
+  DefaultFuelLevel: 0.45
+  liveries:
+  - name: BDF Matte Gray
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: 2079b4f5c0febde44b0f137f4f060ae0
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: BDF Temperate Camo
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: 891fdc4e552d3e64aaf7451e25cdd7e8
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: PALA Desert Digital Camo
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: 144729b1230f84b4a934243e39e285f0
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: PALA Matte Black
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: 0a8097021e832584d9286127b6dd3bef
+      m_SubObjectName:
+      m_SubObjectType:
+  StatusDisplay: {fileID: 1709254077376921, guid: aa92589a17f83b646a2a85f422c33f57, type: 2}
+  HUDExtras: {fileID: 1709254077376921, guid: fb8f8e3cb1b23844382bc605d28643ad, type: 2}
+  takeoffMusic: {fileID: 8300000, guid: dcb461b5d7ae6854cb2ca8cf67e841b0, type: 3}
+  AoAEffects:
+    AudioClip: {fileID: 8300000, guid: 5778034f4d3240b449f63de2ee04a282, type: 3}
+    OnsetSpeed: 30
+    FullVolumeSpeed: 200
+    OnsetAlpha: 5
+    FullVolumeAlpha: 45
+    ShakeFactor: 0.1
+  aircraftGLimit: 9
+  PIDReferenceAirspeed: 150
+  maxSpeed: 600
+  takeoffSpeed: 75
+  takeoffDistance: 300
+  verticalLanding: 0
+  turningRadius: 1000
+  cornerSpeed: 160
+  approachSpeed: 75
+  landingSpeed: 70
+  shortLandingSpeed: 70
+  cruiseThrottle: 1
+  minimumRadarAlt: 40
+  levelBias: 0.15
+  hoverTiltFactor: 1
+  collectivePID: {x: 0, y: 0, z: 0}
+  hoverPID: {x: 0, y: 0, z: 0}
+  tiltPID: {x: 0, y: 0, z: 0}
+  groundTurningRadius: 12

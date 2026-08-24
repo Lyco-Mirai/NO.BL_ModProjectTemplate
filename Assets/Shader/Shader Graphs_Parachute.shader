@@ -1,0 +1,55 @@
+Shader "Shader Graphs/Parachute" {
+	Properties {
+		_wrinkleStrength ("wrinkleStrength", Float) = 0.28
+		_wrinkleDisplacement ("wrinkleDisplacement", Float) = 0
+		[NoScaleOffset] _SampleTexture2D_bf8ecfc62be74e3dbabc226b745f818e_Texture_1_Texture2D ("Texture2D", 2D) = "white" {}
+		[NoScaleOffset] [Normal] _SampleTexture2D_ffff3b1318004a9b892626b2d22d0d23_Texture_1_Texture2D ("Texture2D", 2D) = "bump" {}
+		[NoScaleOffset] _SampleTexture2D_1494367df395433780874d01ff4a4ba9_Texture_1_Texture2D ("Texture2D", 2D) = "white" {}
+		[HideInInspector] _QueueOffset ("_QueueOffset", Float) = 0
+		[HideInInspector] _QueueControl ("_QueueControl", Float) = -1
+		[HideInInspector] [NoScaleOffset] unity_Lightmaps ("unity_Lightmaps", 2DArray) = "" {}
+		[HideInInspector] [NoScaleOffset] unity_LightmapsInd ("unity_LightmapsInd", 2DArray) = "" {}
+		[HideInInspector] [NoScaleOffset] unity_ShadowMasks ("unity_ShadowMasks", 2DArray) = "" {}
+	}
+	//DummyShaderTextExporter
+	SubShader{
+		Tags { "RenderType" = "Opaque" }
+		LOD 200
+
+		Pass
+		{
+			HLSLPROGRAM
+			#pragma vertex vert
+			#pragma fragment frag
+
+			float4x4 unity_ObjectToWorld;
+			float4x4 unity_MatrixVP;
+
+			struct Vertex_Stage_Input
+			{
+				float4 pos : POSITION;
+			};
+
+			struct Vertex_Stage_Output
+			{
+				float4 pos : SV_POSITION;
+			};
+
+			Vertex_Stage_Output vert(Vertex_Stage_Input input)
+			{
+				Vertex_Stage_Output output;
+				output.pos = mul(unity_MatrixVP, mul(unity_ObjectToWorld, input.pos));
+				return output;
+			}
+
+			float4 frag(Vertex_Stage_Output input) : SV_TARGET
+			{
+				return float4(1.0, 1.0, 1.0, 1.0); // RGBA
+			}
+
+			ENDHLSL
+		}
+	}
+	Fallback "Hidden/Shader Graph/FallbackError"
+	//CustomEditor "UnityEditor.ShaderGraph.GenericShaderGraphMaterialGUI"
+}

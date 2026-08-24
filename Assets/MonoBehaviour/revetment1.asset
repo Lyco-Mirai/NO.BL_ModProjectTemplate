@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ef071144396526fe0ea608df34ade35, type: 3}
+  m_Name: revetment1
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 1
+    air: 0
+    missile: 0
+    radar: 0
+    strategic: 0.2
+  roleIdentity:
+    antiSurface: 0
+    antiAir: 0
+    antiMissile: 0
+    antiRadar: 0
+  jsonKey: revetment1
+  unitName: Aircraft Revetment
+  bogeyName:
+  description: Protected parking area for aircraft, shielded from shrapnel
+  code: REV
+  visibleRange: 10000
+  iconRange: 0
+  radarSize: 1
+  friendlyIcon: {fileID: 21300000, guid: f226f45afeadac84b9c528ec87fe75c1, type: 2}
+  hostileIcon: {fileID: 21300000, guid: e267232bf823cd644a3790042ed97ee7, type: 2}
+  mapIcon: {fileID: 0}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 1
+  mapIconSize: 1
+  captureCapacity: 10
+  captureStrength: 0
+  captureDefense: 25
+  length: 34.2
+  width: 33.2
+  height: 7.9
+  value: 1
+  mass: 0
+  manpower: 4
+  armorTier: 3
+  damageTolerance: 4
+  CanSlingLoad: 0
+  unitPrefab: {fileID: 1709254077376921, guid: 7fff45150bcb02947b05331c4f458608, type: 2}
+  spawnOffset: {x: 0, y: 1.54, z: 0}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: -10
+  maxEditorHeight: 10000
+  buildingType: 4

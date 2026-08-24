@@ -1,0 +1,350 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e56ddb8681eb8af5865ab2fc54350bc, type: 3}
+  m_Name: FastBomber1_Parameters
+  m_EditorClassIdentifier:
+  aircraftName: FastBomber1
+  rankRequired: 6
+  airfoils:
+  - name: FastBomber1_wing
+    liftCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0.010508245
+        inSlope: 1.9287611
+        outSlope: 1.9287611
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.1091004
+      - serializedVersion: 3
+        time: -1.57
+        value: 0
+        inSlope: -2.0067136
+        outSlope: -2.0067136
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.14881997
+      - serializedVersion: 3
+        time: -0.785
+        value: -1.2
+        inSlope: -0.0035528382
+        outSlope: -0.0035528382
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.5194044
+      - serializedVersion: 3
+        time: -0.4
+        value: -1.1
+        inSlope: 0.20089284
+        outSlope: 0.20089284
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: -0.3
+        value: -1.3
+        inSlope: -0.007204547
+        outSlope: -0.007204547
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.46550524
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 5.8938255
+        outSlope: 5.8938255
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.21429461
+      - serializedVersion: 3
+        time: 0.3
+        value: 1.3
+        inSlope: -0.008583963
+        outSlope: -0.008583963
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.22580983
+      - serializedVersion: 3
+        time: 0.4
+        value: 1.1
+        inSlope: 0.21263102
+        outSlope: 0.21263102
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.785
+        value: 1.2
+        inSlope: -0.026717909
+        outSlope: -0.026717909
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.27941546
+      - serializedVersion: 3
+        time: 1.57
+        value: 0
+        inSlope: -1.810663
+        outSlope: -1.810663
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.10514669
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.14159
+        value: 0.00038353816
+        inSlope: 2.4354787
+        outSlope: 2.4354787
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.07451174
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3
+        value: -0.0013109616
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: -1.4926803
+        value: 0.6
+        inSlope: -0.038458936
+        outSlope: -0.038458936
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.71009433
+      - serializedVersion: 3
+        time: -0.19790159
+        value: 0.15051113
+        inSlope: -0.63622516
+        outSlope: -0.63622516
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.13434932
+      - serializedVersion: 3
+        time: -0.0021361732
+        value: 0.012559066
+        inSlope: 7.164541E-08
+        outSlope: 7.164541E-08
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.1560833
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.20058656
+        value: 0.15036428
+        inSlope: 0.66938275
+        outSlope: 0.66938275
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.15020706
+        outWeight: 0.095541224
+      - serializedVersion: 3
+        time: 1.4944664
+        value: 0.6
+        inSlope: 0.011035963
+        outSlope: 0.011035963
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.51644635
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  loadouts:
+  - weapons:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - weapons:
+    - {fileID: 11400000, guid: ef6458a9fea1b214ca12e0563b1cc9d7, type: 2}
+    - {fileID: 11400000, guid: ef6458a9fea1b214ca12e0563b1cc9d7, type: 2}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: c4c1b6d75e0cf3b48ac228436e5eb86d, type: 2}
+    - {fileID: 11400000, guid: d022b7275b5187f4da0d2e3a05946586, type: 2}
+  StandardLoadouts:
+  - disabled: 0
+    Name: Tuskos
+    loadout:
+      weapons:
+      - {fileID: 11400000, guid: ef6458a9fea1b214ca12e0563b1cc9d7, type: 2}
+      - {fileID: 11400000, guid: ef6458a9fea1b214ca12e0563b1cc9d7, type: 2}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: c4c1b6d75e0cf3b48ac228436e5eb86d, type: 2}
+      - {fileID: 11400000, guid: d022b7275b5187f4da0d2e3a05946586, type: 2}
+    FuelRatio: 0.6
+  - disabled: 0
+    Name: Piledriver HE
+    loadout:
+      weapons:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: d22845169eb380246995749e24f81883, type: 2}
+      - {fileID: 11400000, guid: 9692d2614ca3be34ba9b78eed7352a14, type: 2}
+      - {fileID: 11400000, guid: d022b7275b5187f4da0d2e3a05946586, type: 2}
+    FuelRatio: 0.5
+  - disabled: 0
+    Name: Piledriver Nuclear
+    loadout:
+      weapons:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: faaa7d94fdac64d4083809873ac70ac5, type: 2}
+      - {fileID: 11400000, guid: e3aef105e09f76541b7a386b77eae954, type: 2}
+      - {fileID: 11400000, guid: d022b7275b5187f4da0d2e3a05946586, type: 2}
+    FuelRatio: 0.5
+  - disabled: 0
+    Name: Augers
+    loadout:
+      weapons:
+      - {fileID: 11400000, guid: dca546872b7b5be44ac87fae0e9d5dd7, type: 2}
+      - {fileID: 11400000, guid: dca546872b7b5be44ac87fae0e9d5dd7, type: 2}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: c4c1b6d75e0cf3b48ac228436e5eb86d, type: 2}
+      - {fileID: 11400000, guid: d022b7275b5187f4da0d2e3a05946586, type: 2}
+    FuelRatio: 0.5
+  - disabled: 0
+    Name: Glide Bombs
+    loadout:
+      weapons:
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: 4cbe3771a7e103c47b33be11d7fc4971, type: 2}
+      - {fileID: 11400000, guid: c4c1b6d75e0cf3b48ac228436e5eb86d, type: 2}
+      - {fileID: 11400000, guid: d022b7275b5187f4da0d2e3a05946586, type: 2}
+    FuelRatio: 0.5
+  - disabled: 0
+    Name: Nuclear Bombs Strategic
+    loadout:
+      weapons:
+      - {fileID: 11400000, guid: e891e5834eae0934ba2e8d8dc18394f0, type: 2}
+      - {fileID: 11400000, guid: e891e5834eae0934ba2e8d8dc18394f0, type: 2}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: c4c1b6d75e0cf3b48ac228436e5eb86d, type: 2}
+      - {fileID: 11400000, guid: d022b7275b5187f4da0d2e3a05946586, type: 2}
+    FuelRatio: 0.6
+  - disabled: 0
+    Name: Nuclear Bombs Tactical
+    loadout:
+      weapons:
+      - {fileID: 11400000, guid: c0662d67ffb497a499556c27e51e3d27, type: 2}
+      - {fileID: 11400000, guid: c0662d67ffb497a499556c27e51e3d27, type: 2}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: c4c1b6d75e0cf3b48ac228436e5eb86d, type: 2}
+      - {fileID: 11400000, guid: d022b7275b5187f4da0d2e3a05946586, type: 2}
+    FuelRatio: 0.6
+  - disabled: 0
+    Name: SEAD
+    loadout:
+      weapons:
+      - {fileID: 11400000, guid: b0aac6a1abeb6f14e86bf861e61d7d5e, type: 2}
+      - {fileID: 11400000, guid: b0aac6a1abeb6f14e86bf861e61d7d5e, type: 2}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: c4c1b6d75e0cf3b48ac228436e5eb86d, type: 2}
+      - {fileID: 11400000, guid: d022b7275b5187f4da0d2e3a05946586, type: 2}
+    FuelRatio: 0.6
+  - disabled: 0
+    Name: Missile Truck
+    loadout:
+      weapons:
+      - {fileID: 11400000, guid: 205a0b1e5b2fa7b4e977e3085f2ff7ce, type: 2}
+      - {fileID: 11400000, guid: 205a0b1e5b2fa7b4e977e3085f2ff7ce, type: 2}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: c4c1b6d75e0cf3b48ac228436e5eb86d, type: 2}
+      - {fileID: 11400000, guid: d022b7275b5187f4da0d2e3a05946586, type: 2}
+    FuelRatio: 0.6
+  DefaultFuelLevel: 0.8
+  liveries:
+  - name: Matte Black
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: b68a40c6d9336324e92304aeacd9f641
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: BDF Camo
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: cc6b7edd0e6d2b14cb6e59dcdb823f31
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: Antiflash White
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: 46a6a9c168b12dc4a9e7f62080b58682
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: Navy Splinter
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: ef7d7ea359e818d4e829b206a3bdddb1
+      m_SubObjectName:
+      m_SubObjectType:
+  StatusDisplay: {fileID: 1709254077376921, guid: 4b0ee3ac8fe133e4c95d69c6382352a9, type: 2}
+  HUDExtras: {fileID: 1709254077376921, guid: 5ff391e24bc2ce144b76afd499910456, type: 2}
+  takeoffMusic: {fileID: 8300000, guid: 8dc7ce84712b3914390334ddfbba0cd5, type: 3}
+  AoAEffects:
+    AudioClip: {fileID: 8300000, guid: 5778034f4d3240b449f63de2ee04a282, type: 3}
+    OnsetSpeed: 30
+    FullVolumeSpeed: 200
+    OnsetAlpha: 5
+    FullVolumeAlpha: 45
+    ShakeFactor: 0.1
+  aircraftGLimit: 5
+  PIDReferenceAirspeed: 200
+  maxSpeed: 300
+  takeoffSpeed: 80
+  takeoffDistance: 1200
+  verticalLanding: 0
+  turningRadius: 3000
+  cornerSpeed: 180
+  approachSpeed: 60
+  landingSpeed: 90
+  shortLandingSpeed: 80
+  cruiseThrottle: 1
+  minimumRadarAlt: 100
+  levelBias: 0.3
+  hoverTiltFactor: 1
+  collectivePID: {x: 0, y: 0, z: 0}
+  hoverPID: {x: 0, y: 0, z: 0}
+  tiltPID: {x: 0, y: 0, z: 0}
+  groundTurningRadius: 20

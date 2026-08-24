@@ -1,0 +1,1944 @@
+{
+  "JsonVersion": 6,
+  "MapKey": {
+    "Type": "None",
+    "Path": ""
+  },
+  "missionSettings": {
+    "description": "Back to basics with bombs & guns on a CI-22 Cricket in a low-intensity engagement.",
+    "allowEventContent": false,
+    "Tags": [],
+    "playerMode": "Singleplayer",
+    "allowRespawn": false,
+    "playerStartingRank": 0,
+    "rankMultiplier": 1.0,
+    "successfulSortieBonus": 0.25,
+    "nuclearEscalationThreshold": 0.0,
+    "strategicEscalationThreshold": 0.0,
+    "minRankTacticalWarhead": 0,
+    "minRankStrategicWarhead": 0,
+    "cameraStartPosition": {
+      "IsOverride": false,
+      "Value": {
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        }
+      }
+    },
+    "missionRoads": {
+      "roads": [
+        {
+          "points": [
+            {
+              "x": 15213.6035,
+              "y": 129.563446,
+              "z": 427.94342
+            },
+            {
+              "x": 15231.6611,
+              "y": 130.008514,
+              "z": 415.144836
+            },
+            {
+              "x": 15231.4785,
+              "y": 127.66275,
+              "z": 396.707581
+            },
+            {
+              "x": 15202.6328,
+              "y": 127.619049,
+              "z": 379.6407
+            },
+            {
+              "x": 15172.6689,
+              "y": 132.226227,
+              "z": 381.117249
+            },
+            {
+              "x": 15153.8643,
+              "y": 134.419342,
+              "z": 402.302063
+            },
+            {
+              "x": 15197.99,
+              "y": 132.832611,
+              "z": 474.397766
+            },
+            {
+              "x": 15201.6309,
+              "y": 135.523834,
+              "z": 502.2945
+            },
+            {
+              "x": 15179.6406,
+              "y": 133.666412,
+              "z": 516.047668
+            },
+            {
+              "x": 15150.7178,
+              "y": 132.343781,
+              "z": 508.7259
+            },
+            {
+              "x": 15113.5781,
+              "y": 136.839447,
+              "z": 535.9963
+            },
+            {
+              "x": 15111.9795,
+              "y": 137.8793,
+              "z": 555.5174
+            },
+            {
+              "x": 15133.9961,
+              "y": 136.2908,
+              "z": 576.7508
+            },
+            {
+              "x": 15129.6152,
+              "y": 139.093048,
+              "z": 599.5042
+            },
+            {
+              "x": 15110.85,
+              "y": 140.694916,
+              "z": 603.0804
+            },
+            {
+              "x": 15107.8369,
+              "y": 142.80899,
+              "z": 617.7466
+            },
+            {
+              "x": 15130.5156,
+              "y": 144.940826,
+              "z": 645.4379
+            },
+            {
+              "x": 15134.2832,
+              "y": 148.474457,
+              "z": 690.8057
+            },
+            {
+              "x": 15114.4766,
+              "y": 151.049225,
+              "z": 694.49884
+            },
+            {
+              "x": 15100.65,
+              "y": 157.08017,
+              "z": 739.750061
+            },
+            {
+              "x": 15134.8535,
+              "y": 157.527252,
+              "z": 794.919739
+            },
+            {
+              "x": 15166.4063,
+              "y": 160.632843,
+              "z": 838.189636
+            },
+            {
+              "x": 15190.1768,
+              "y": 163.155853,
+              "z": 841.421448
+            },
+            {
+              "x": 15207.1133,
+              "y": 166.9747,
+              "z": 868.6552
+            },
+            {
+              "x": 15204.1934,
+              "y": 168.471832,
+              "z": 903.9841
+            },
+            {
+              "x": 15179.7949,
+              "y": 168.0261,
+              "z": 930.0784
+            },
+            {
+              "x": 15167.583,
+              "y": 167.454865,
+              "z": 967.137146
+            },
+            {
+              "x": 15184.1191,
+              "y": 161.735016,
+              "z": 1019.16376
+            },
+            {
+              "x": 15201.1348,
+              "y": 158.600983,
+              "z": 1063.37891
+            },
+            {
+              "x": 15192.8018,
+              "y": 159.907257,
+              "z": 1087.45361
+            },
+            {
+              "x": 15180.9531,
+              "y": 160.961823,
+              "z": 1094.86987
+            },
+            {
+              "x": 15167.5977,
+              "y": 162.375519,
+              "z": 1121.89648
+            },
+            {
+              "x": 15178.9043,
+              "y": 162.2034,
+              "z": 1158.509
+            },
+            {
+              "x": 15199.3037,
+              "y": 161.698151,
+              "z": 1196.09546
+            },
+            {
+              "x": 15170.3164,
+              "y": 161.05484,
+              "z": 1226.36646
+            },
+            {
+              "x": 15215.3643,
+              "y": 162.971649,
+              "z": 1239.1748
+            },
+            {
+              "x": 15195.5361,
+              "y": 162.32077,
+              "z": 1286.48975
+            },
+            {
+              "x": 15212.4922,
+              "y": 164.171967,
+              "z": 1307.37769
+            },
+            {
+              "x": 15233.3467,
+              "y": 166.240143,
+              "z": 1309.04773
+            },
+            {
+              "x": 15253.5293,
+              "y": 167.501251,
+              "z": 1318.37024
+            },
+            {
+              "x": 15258.6426,
+              "y": 168.568634,
+              "z": 1348.89771
+            },
+            {
+              "x": 15241.4258,
+              "y": 168.569244,
+              "z": 1375.18335
+            },
+            {
+              "x": 15247.7607,
+              "y": 166.773834,
+              "z": 1408.65332
+            },
+            {
+              "x": 15288.9531,
+              "y": 158.462677,
+              "z": 1431.40186
+            },
+            {
+              "x": 15314.7354,
+              "y": 155.225677,
+              "z": 1453.20007
+            },
+            {
+              "x": 15330.18,
+              "y": 158.78067,
+              "z": 1496.73328
+            },
+            {
+              "x": 15326.4111,
+              "y": 162.591583,
+              "z": 1544.86
+            },
+            {
+              "x": 15300.6748,
+              "y": 163.425323,
+              "z": 1566.98511
+            },
+            {
+              "x": 15296.5049,
+              "y": 158.508087,
+              "z": 1608.91016
+            },
+            {
+              "x": 15330.1924,
+              "y": 132.23941,
+              "z": 1716.9917
+            },
+            {
+              "x": 15378.09,
+              "y": 129.980377,
+              "z": 1740.47852
+            },
+            {
+              "x": 15362.5215,
+              "y": 133.64444,
+              "z": 1800.36841
+            },
+            {
+              "x": 15314.1162,
+              "y": 133.4036,
+              "z": 1849.77966
+            },
+            {
+              "x": 15333.9463,
+              "y": 136.010712,
+              "z": 1910.09509
+            },
+            {
+              "x": 15379.6777,
+              "y": 143.435211,
+              "z": 1959.60132
+            },
+            {
+              "x": 15393.709,
+              "y": 132.928864,
+              "z": 2114.783
+            },
+            {
+              "x": 15451.0342,
+              "y": 118.89505,
+              "z": 2218.608
+            },
+            {
+              "x": 15504.53,
+              "y": 118.489655,
+              "z": 2273.34766
+            },
+            {
+              "x": 15571.3066,
+              "y": 117.611053,
+              "z": 2344.00513
+            },
+            {
+              "x": 15658.3779,
+              "y": 117.629181,
+              "z": 2400.1416
+            },
+            {
+              "x": 15755.6953,
+              "y": 117.871124,
+              "z": 2477.30884
+            },
+            {
+              "x": 15768.2646,
+              "y": 117.265594,
+              "z": 2513.1
+            },
+            {
+              "x": 15809.7236,
+              "y": 117.724091,
+              "z": 2517.79053
+            },
+            {
+              "x": 15871.9824,
+              "y": 117.795807,
+              "z": 2566.871
+            },
+            {
+              "x": 15906.2773,
+              "y": 118.011871,
+              "z": 2559.91675
+            },
+            {
+              "x": 15931.1436,
+              "y": 119.275604,
+              "z": 2603.97827
+            },
+            {
+              "x": 16028.0391,
+              "y": 125.5856,
+              "z": 2629.72241
+            }
+          ],
+          "length": 3157.70215,
+          "bounds": {},
+          "bridge": false
+        }
+      ]
+    },
+    "missionSeaLanes": {
+      "roads": []
+    },
+    "wrecksMaxNumber": 0,
+    "wrecksDecayTime": 0.0
+  },
+  "environment": {
+    "timeOfDay": 7.92944336,
+    "timeFactor": 0.0,
+    "weatherIntensity": 0.0,
+    "cloudAltitude": 1800.0,
+    "windSpeed": 0.0,
+    "windTurbulence": 0.0,
+    "windHeading": 0.0,
+    "windRandomHeading": 0.0,
+    "moonPhase": 14.0
+  },
+  "aircraft": [
+    {
+      "type": "COIN",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13443.6621,
+        "y": 148.143311,
+        "z": -7845.754
+      },
+      "rotation": {
+        "x": -0.0138648339,
+        "y": 0.18578878,
+        "z": -0.008318901,
+        "w": 0.9824567
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "COIN",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "12.7mm_internal"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "gunpod_20mm"
+          },
+          {
+            "Key": "bomb_250_single"
+          },
+          {
+            "Key": "ECMPod1"
+          },
+          {
+            "Key": "AAM3_single"
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 0.0142677249
+    },
+    {
+      "type": "COIN",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13440.1074,
+        "y": 147.90387,
+        "z": -7868.08838
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.1941077,
+        "z": 0.0,
+        "w": 0.9809803
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "COIN_1",
+      "playerControlled": true,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "12.7mm_internal"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "gunpod_20mm"
+          },
+          {
+            "Key": "bomb_250_single"
+          },
+          {
+            "Key": "ECMPod1"
+          },
+          {
+            "Key": "AAM3_single"
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 0.0
+    },
+    {
+      "type": "VTOLTrainer1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18987.84,
+        "y": 134.5154,
+        "z": 12619.498
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.756467342,
+        "z": 0.0,
+        "w": 0.654031456
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "trainer_2",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gun_20mm_VTOLTrainer1_pod"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 0,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 2.0,
+      "startingSpeed": 0.0
+    },
+    {
+      "type": "VTOLTrainer1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19029.6738,
+        "y": 134.51683,
+        "z": 12603.4033
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9443633,
+        "z": 0.0,
+        "w": 0.3289042
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "trainer_1",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gun_20mm_VTOLTrainer1_pod"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 0,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 2.0,
+      "startingSpeed": 0.0
+    }
+  ],
+  "vehicles": [
+    {
+      "type": "MBT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 15143.0127,
+        "y": 134.059708,
+        "z": 489.830383
+      },
+      "rotation": {
+        "x": -0.0407955162,
+        "y": -0.8275811,
+        "z": 0.01452404,
+        "w": -0.5596734
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "MBT",
+      "holdPosition": true,
+      "skill": 0.0,
+      "waypoints": []
+    },
+    {
+      "type": "MBT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 15173.0068,
+        "y": 131.123245,
+        "z": 430.061035
+      },
+      "rotation": {
+        "x": -0.06168873,
+        "y": -0.980347455,
+        "z": -0.0789867938,
+        "w": 0.169925228
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "MBT_1",
+      "holdPosition": true,
+      "skill": 0.0,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 15129.7119,
+        "y": 135.244019,
+        "z": 494.603729
+      },
+      "rotation": {
+        "x": 0.04763598,
+        "y": 0.6018269,
+        "z": 0.0646222457,
+        "w": -0.7945812
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-L",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 18471.4922,
+            "y": 73.3838959,
+            "z": 4639.59229
+          },
+          "objective": "FleeBehaviour"
+        }
+      ]
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 15158.2285,
+        "y": 134.506744,
+        "z": 399.13385
+      },
+      "rotation": {
+        "x": -0.08742638,
+        "y": -0.9571545,
+        "z": -0.0552819557,
+        "w": 0.270473242
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-L_1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 18291.2285,
+            "y": 72.54471,
+            "z": 5493.955
+          },
+          "objective": "FleeBehaviour"
+        }
+      ]
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 15177.6719,
+        "y": 132.423126,
+        "z": 487.772766
+      },
+      "rotation": {
+        "x": 0.0119526973,
+        "y": -0.354605079,
+        "z": 0.0130929248,
+        "w": -0.9348481
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-L_2",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 18433.9785,
+            "y": 65.8177948,
+            "z": 5462.182
+          },
+          "objective": "FleeBehaviour"
+        }
+      ]
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 15176.5449,
+        "y": 130.31546,
+        "z": 442.5073
+      },
+      "rotation": {
+        "x": 0.010193307,
+        "y": -0.164590016,
+        "z": 0.0432752632,
+        "w": -0.9853596
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-L_3",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 18309.9121,
+            "y": 71.33435,
+            "z": 5292.217
+          },
+          "objective": "FleeBehaviour"
+        }
+      ]
+    },
+    {
+      "type": "LCV45",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 15146.3613,
+        "y": 135.187073,
+        "z": 534.03064
+      },
+      "rotation": {
+        "x": 0.0295808353,
+        "y": 0.918855369,
+        "z": -0.00743661169,
+        "w": -0.3934139
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LCV45",
+      "holdPosition": true,
+      "skill": 0.5366569,
+      "waypoints": [
+        {
+          "position": {
+            "x": 14725.0137,
+            "y": 179.468643,
+            "z": 1284.54761
+          },
+          "objective": "FleeBehaviour"
+        }
+      ]
+    },
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 15140.5293,
+        "y": 137.457886,
+        "z": 431.349457
+      },
+      "rotation": {
+        "x": 0.05180965,
+        "y": 0.916739166,
+        "z": 0.07212789,
+        "w": -0.3894902
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC",
+      "holdPosition": true,
+      "skill": 0.524236858,
+      "waypoints": [
+        {
+          "position": {
+            "x": 15363.0645,
+            "y": 188.958054,
+            "z": 667.151245
+          },
+          "objective": "FleeBehaviour"
+        }
+      ]
+    },
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 15158.7041,
+        "y": 134.072418,
+        "z": 511.1825
+      },
+      "rotation": {
+        "x": 0.0141294906,
+        "y": 0.9797066,
+        "z": -0.014113877,
+        "w": 0.1994397
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC_1",
+      "holdPosition": true,
+      "skill": 0.5292221,
+      "waypoints": [
+        {
+          "position": {
+            "x": 15043.93,
+            "y": 159.161758,
+            "z": 317.695221
+          },
+          "objective": "FleeBehaviour"
+        }
+      ]
+    },
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19037.7422,
+        "y": 49.3261337,
+        "z": 9522.184
+      },
+      "rotation": {
+        "x": 0.000660241349,
+        "y": -0.08778004,
+        "z": 0.08442828,
+        "w": 0.9925554
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC_2",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 18327.59,
+            "y": 70.01689,
+            "z": 5310.81738
+          },
+          "objective": "FleeBehaviour"
+        }
+      ]
+    },
+    {
+      "type": "AFV8_IFV",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19051.1211,
+        "y": 50.30674,
+        "z": 9526.332
+      },
+      "rotation": {
+        "x": 0.00410137139,
+        "y": -0.1310353,
+        "z": 0.08406876,
+        "w": 0.9877983
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_IFV",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 18196.8848,
+            "y": 121.967056,
+            "z": 4789.35938
+          },
+          "objective": "FleeBehaviour"
+        }
+      ]
+    },
+    {
+      "type": "AFV8_SAM",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19056.3516,
+        "y": 50.68634,
+        "z": 9527.824
+      },
+      "rotation": {
+        "x": 0.0317776576,
+        "y": -0.14648205,
+        "z": 0.020235762,
+        "w": 0.9884957
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_SAM",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 17811.51,
+            "y": 145.593781,
+            "z": 5130.4834
+          },
+          "objective": "FleeBehaviour"
+        }
+      ]
+    },
+    {
+      "type": "SPAAG2",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19045.332,
+        "y": 49.70758,
+        "z": 9524.023
+      },
+      "rotation": {
+        "x": 0.0316931047,
+        "y": -0.156241864,
+        "z": 0.0199666023,
+        "w": 0.987008333
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "SPAAG2",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 18213.5371,
+            "y": 127.902771,
+            "z": 4447.41553
+          },
+          "objective": "FleeBehaviour"
+        }
+      ]
+    },
+    {
+      "type": "SPAAG1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18937.1816,
+        "y": 134.165436,
+        "z": 12648.4131
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.947717,
+        "z": 0.0,
+        "w": 0.319112
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "SPAAG1_1",
+      "holdPosition": true,
+      "skill": 1.0,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13460.5352,
+        "y": 146.1492,
+        "z": -7767.67041
+      },
+      "rotation": {
+        "x": 0.006603502,
+        "y": 0.9810578,
+        "z": 0.00018266683,
+        "w": 0.1936026
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-FT",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-M",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13340.5742,
+        "y": 146.736847,
+        "z": -7686.468
+      },
+      "rotation": {
+        "x": 0.0122204069,
+        "y": 0.517112732,
+        "z": 0.00119203643,
+        "w": 0.8558293
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-M",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 15199.5957,
+        "y": 128.193787,
+        "z": 414.144531
+      },
+      "rotation": {
+        "x": -0.00539452769,
+        "y": 0.9715522,
+        "z": -0.00403589942,
+        "w": 0.23672995
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-L_4",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": [
+        {
+          "position": {
+            "x": 18291.2285,
+            "y": 72.54471,
+            "z": 5493.955
+          },
+          "objective": "FleeBehaviour"
+        }
+      ]
+    },
+    {
+      "type": "LCV45",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13404.8516,
+        "y": 146.0347,
+        "z": -7619.57
+      },
+      "rotation": {
+        "x": 0.0106395734,
+        "y": -0.1774731,
+        "z": -0.0185266547,
+        "w": 0.9838938
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LCV45_2",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "SPAAG1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13444.5957,
+        "y": 147.008514,
+        "z": -7797.81348
+      },
+      "rotation": {
+        "x": 0.00697836326,
+        "y": 0.8389547,
+        "z": 0.00706742238,
+        "w": 0.544110656
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "SPAAG1",
+      "holdPosition": true,
+      "skill": 1.0,
+      "waypoints": []
+    }
+  ],
+  "ships": [],
+  "buildings": [],
+  "scenery": [],
+  "containers": [],
+  "missiles": [],
+  "pilots": [],
+  "factions": [
+    {
+      "factionName": "Boscali",
+      "preventJoin": true,
+      "preventDonation": true,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 5.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    },
+    {
+      "factionName": "Primeva",
+      "preventJoin": false,
+      "preventDonation": true,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 5.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "airbases": [],
+  "objectives": [
+    {
+      "Type": "None",
+      "UniqueName": "Mission Start",
+      "Faction": "Primeva",
+      "DisplayName": "",
+      "Hidden": true,
+      "Outcomes": [
+        "StartMessaging",
+        "StartTaxi",
+        "StartFleeTrigger",
+        "StartWingmanDeath",
+        "StartBoscaliObj"
+      ]
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "StartMessageDelayed",
+      "Faction": "Primeva",
+      "DisplayName": "StartMessageDelayed",
+      "Hidden": true,
+      "Outcomes": [
+        "StartMessage"
+      ],
+      "seconds": 2.0
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "StartMessageDelayed2",
+      "Faction": "Primeva",
+      "DisplayName": "StartMessageDelayed2",
+      "Hidden": true,
+      "Outcomes": [
+        "StartMessage2"
+      ],
+      "seconds": 7.0
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Taxi",
+      "Faction": "Primeva",
+      "DisplayName": "Taxi",
+      "Hidden": false,
+      "Outcomes": [
+        "StartTakeOff"
+      ],
+      "completeOrder": "InOrder",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 13504.7354,
+            "y": 145.495361,
+            "z": -7812.79053
+          },
+          "Range": 30.0
+        }
+      ]
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Take Off",
+      "Faction": "Primeva",
+      "DisplayName": "Take Off",
+      "Hidden": false,
+      "Outcomes": [
+        "TakeOffMessage",
+        "StartOrbit"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 13186.82,
+            "y": 190.955414,
+            "z": -7057.779
+          },
+          "Range": 100.0
+        }
+      ]
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Target Location",
+      "Faction": "Primeva",
+      "DisplayName": "Target Location",
+      "Hidden": true,
+      "Outcomes": [],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 15154.3018,
+            "y": 135.1807,
+            "z": 563.9118
+          },
+          "Range": 0.0
+        }
+      ]
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "Hunt",
+      "Faction": "Primeva",
+      "DisplayName": "Hunt",
+      "Hidden": true,
+      "Outcomes": [
+        "SpawnQRF",
+        "FinishHunt",
+        "ShowDelayedEndMessage",
+        "RevealPALABase"
+      ],
+      "completeOrder": "CompleteAll",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "LCV45",
+        "AFV8_APC",
+        "AFV8_APC_1",
+        "HLT-L",
+        "HLT-L_1",
+        "HLT-L_2",
+        "HLT-L_3",
+        "HLT-L_4"
+      ]
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "FleeTrigger",
+      "Faction": "Primeva",
+      "DisplayName": "FleeTrigger",
+      "Hidden": true,
+      "Outcomes": [
+        "StartFleeBehaviour",
+        "StartHitMessages"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "MBT",
+        "MBT_1",
+        "HLT-L",
+        "HLT-L_1",
+        "HLT-L_2",
+        "HLT-L_3",
+        "AFV8_APC",
+        "AFV8_APC_1",
+        "LCV45"
+      ]
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "FleeBehaviour",
+      "Faction": "Boscali",
+      "DisplayName": "FleeBehaviour",
+      "Hidden": true,
+      "Outcomes": [],
+      "seconds": 0.0
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "FlightMessages1",
+      "Faction": "Primeva",
+      "DisplayName": "FlightMessages1",
+      "Hidden": true,
+      "Outcomes": [
+        "FlightMessage1"
+      ],
+      "seconds": 7.0
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "FlightMessages2",
+      "Faction": "Primeva",
+      "DisplayName": "FlightMessages2",
+      "Hidden": true,
+      "Outcomes": [
+        "FlightMessage2"
+      ],
+      "seconds": 45.0
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "FlightMessages3",
+      "Faction": "Primeva",
+      "DisplayName": "FlightMessages3",
+      "Hidden": true,
+      "Outcomes": [
+        "FlightMessage3"
+      ],
+      "seconds": 55.0
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "HitMessage1",
+      "Faction": "Primeva",
+      "DisplayName": "HitMessage1",
+      "Hidden": true,
+      "Outcomes": [
+        "HitMessage1"
+      ],
+      "seconds": 5.0
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "HitMessage2",
+      "Faction": "Primeva",
+      "DisplayName": "HitMessage2",
+      "Hidden": true,
+      "Outcomes": [
+        "HitMessage2"
+      ],
+      "seconds": 13.0
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "EndMessage",
+      "Faction": "Primeva",
+      "DisplayName": "EndMessage",
+      "Hidden": true,
+      "Outcomes": [
+        "EndMessage",
+        "StartRTB"
+      ],
+      "seconds": 3.0
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "WingmanDeath",
+      "Faction": "Boscali",
+      "DisplayName": "WingmanDeath",
+      "Hidden": true,
+      "Outcomes": [
+        "StopAllDialogue",
+        "WingmanDeathMessage"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "COIN"
+      ]
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "OrbitTime",
+      "Faction": "Primeva",
+      "DisplayName": "OrbitTime",
+      "Hidden": true,
+      "Outcomes": [
+        "SpawnTargets",
+        "StopOrbit",
+        "StartHunt",
+        "StartFlightMessages"
+      ],
+      "seconds": 30.0
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "OrbitLocation",
+      "Faction": "Primeva",
+      "DisplayName": "OrbitLocation",
+      "Hidden": true,
+      "Outcomes": [],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 11607.2275,
+            "y": 415.724152,
+            "z": -6254.22363
+          },
+          "Range": 0.0
+        }
+      ]
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "FlightMessages0",
+      "Faction": "Primeva",
+      "DisplayName": "FlightMessages0",
+      "Hidden": true,
+      "Outcomes": [
+        "OrbitEndMessage"
+      ],
+      "seconds": 1.0
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Return To Base",
+      "Faction": "Primeva",
+      "DisplayName": "Return To Base",
+      "Hidden": false,
+      "Outcomes": [
+        "PALAVictory"
+      ],
+      "completeOrder": "InOrder",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 13414.6572,
+            "y": 144.313492,
+            "z": -7597.87354
+          },
+          "Range": 300.0
+        },
+        {
+          "Position": {
+            "x": 13444.4609,
+            "y": 146.002991,
+            "z": -7851.622
+          },
+          "Range": 30.0
+        }
+      ]
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "KillThePlayer",
+      "Faction": "Boscali",
+      "DisplayName": "KillThePlayer",
+      "Hidden": true,
+      "Outcomes": [],
+      "completeOrder": "CompleteAll",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "COIN_1"
+      ]
+    },
+    {
+      "Type": "SpotUnit",
+      "UniqueName": "SpotEnemyPlanes",
+      "Faction": "Primeva",
+      "DisplayName": "SpotEnemyPlanes",
+      "Hidden": true,
+      "Outcomes": [
+        "EnemyCAPSpottedMessage"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.0,
+      "targetUnits": [
+        "trainer_2",
+        "trainer_1"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartMessaging",
+      "objectivesToStart": [
+        "StartMessageDelayed",
+        "StartMessageDelayed2"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartTaxi",
+      "objectivesToStart": [
+        "Taxi"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartFleeTrigger",
+      "objectivesToStart": [
+        "FleeTrigger"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartWingmanDeath",
+      "objectivesToStart": [
+        "WingmanDeath"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartBoscaliObj",
+      "objectivesToStart": [
+        "KillThePlayer",
+        "SpotEnemyPlanes"
+      ]
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "StartMessage",
+      "Message": "A BDF engineer team is currently trying to recover a pair of tanks that were immobilised in yesterday's fighting.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "StartMessage2",
+      "Message": "Our task is to interrupt them. They are without any air defence, and should be easy pickings.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartTakeOff",
+      "objectivesToStart": [
+        "Take Off"
+      ]
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "TakeOffMessage",
+      "Message": "Form up on me and I'll lead us to the target.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartOrbit",
+      "objectivesToStart": [
+        "OrbitTime",
+        "OrbitLocation"
+      ]
+    },
+    {
+      "Type": "SpawnUnit",
+      "UniqueName": "SpawnQRF",
+      "UnitsToSpawn": [
+        "trainer_1",
+        "trainer_2"
+      ]
+    },
+    {
+      "Type": "StopOrCompleteObjective",
+      "UniqueName": "FinishHunt",
+      "options": "Stop",
+      "objectivesToStart": [
+        "Target Location",
+        "WingmanDeath"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "ShowDelayedEndMessage",
+      "objectivesToStart": [
+        "EndMessage"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartFleeBehaviour",
+      "objectivesToStart": [
+        "FleeBehaviour"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartHitMessages",
+      "objectivesToStart": [
+        "HitMessage1",
+        "HitMessage2"
+      ]
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "FlightMessage1",
+      "Message": "We're going to open with bombs. Switch weapons to your PAB-250s, and start a shallow climb to 600m (2000ft).",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "FlightMessage2",
+      "Message": "The vehicles should be targetable now. Select them as targets.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "FlightMessage3",
+      "Message": "Drop the bombs when the countdown reaches zero and the arrows on your HUD converge.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "HitMessage1",
+      "Message": "Good hits. We'll finish off any remaining vehicles with our guns. Remember to pull up. Don't get so fixated on shooting that you forget the terrain exists.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "HitMessage2",
+      "Message": "... and remember, they can still shoot back. Don't make it easy for them.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "EndMessage",
+      "Message": "Good shooting. That's the last of them. We should clear out before any response comes our way.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartRTB",
+      "objectivesToStart": [
+        "Return To Base"
+      ]
+    },
+    {
+      "Type": "StopOrCompleteObjective",
+      "UniqueName": "StopAllDialogue",
+      "options": "Stop",
+      "objectivesToStart": [
+        "StartMessageDelayed",
+        "StartMessageDelayed2",
+        "FlightMessages0",
+        "FlightMessages1",
+        "FlightMessages2",
+        "FlightMessages3",
+        "HitMessage1",
+        "HitMessage2"
+      ]
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "WingmanDeathMessage",
+      "Message": "AAAHGRPL-%^$*&",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": false
+    },
+    {
+      "Type": "SpawnUnit",
+      "UniqueName": "SpawnTargets",
+      "UnitsToSpawn": [
+        "MBT",
+        "MBT_1",
+        "HLT-L_1",
+        "HLT-L",
+        "HLT-L_2",
+        "HLT-L_3",
+        "LCV45",
+        "AFV8_APC",
+        "AFV8_APC_1",
+        "HLT-L_4"
+      ]
+    },
+    {
+      "Type": "StopOrCompleteObjective",
+      "UniqueName": "StopOrbit",
+      "options": "Stop",
+      "objectivesToStart": [
+        "OrbitLocation"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartHunt",
+      "objectivesToStart": [
+        "Target Location",
+        "Hunt"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartFlightMessages",
+      "objectivesToStart": [
+        "FlightMessages0",
+        "FlightMessages1",
+        "FlightMessages2",
+        "FlightMessages3"
+      ]
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "OrbitEndMessage",
+      "Message": "Headed to the target now.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "EndGame",
+      "UniqueName": "PALAVictory",
+      "endType": "Victory",
+      "endDelay": 0.0
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "EnemyCAPSpottedMessage",
+      "Message": "Enemy planes are after us! Stay near our base, our anti-air will protect us!",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "RevealUnit",
+      "UniqueName": "RevealPALABase",
+      "UnitsToReveal": [
+        "HLT-FT",
+        "HLT-M",
+        "LCV45_2"
+      ]
+    }
+  ]
+}

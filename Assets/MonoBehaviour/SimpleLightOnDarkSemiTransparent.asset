@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3e37cf522f004622404a87bd1b3228, type: 3}
+  m_Name: SimpleLightOnDarkSemiTransparent
+  m_EditorClassIdentifier:
+  _sets: []
+  _collections:
+  - {fileID: 11400000, guid: bda71d9c6580f24489eb48e02fee982f, type: 2}
+  - {fileID: 11400000, guid: 72f219102d732f642946929be76e42bc, type: 2}
+  - {fileID: 11400000, guid: 7c7315ae64cb95a4ebe7c2d1a770b266, type: 2}

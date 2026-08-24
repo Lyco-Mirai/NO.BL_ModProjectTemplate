@@ -1,0 +1,2320 @@
+{
+    "JsonVersion": 5,
+    "WorkshopId": 0,
+    "MapKey": {
+        "Type": 0,
+        "TypeName": "",
+        "Path": ""
+    },
+    "missionSettings": {
+        "description": "Launch from an aircraft carrier and tackle a diverse set of targets in a versatile aircraft.",
+        "allowEventContent": false,
+        "Tags": [],
+        "playerMode": 1,
+        "allowRespawn": false,
+        "playerStartingRank": 0,
+        "rankMultiplier": 1.0,
+        "successfulSortieBonus": 0.25,
+        "nuclearEscalationThreshold": 0.0,
+        "strategicEscalationThreshold": 0.0,
+        "minRankTacticalWarhead": 0,
+        "minRankStrategicWarhead": 0,
+        "cameraStartPosition": {
+            "IsOverride": false,
+            "Value": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                }
+            }
+        },
+        "missionRoads": {
+            "roads": []
+        },
+        "missionSeaLanes": {
+            "roads": []
+        },
+        "wrecksMaxNumber": 0,
+        "wrecksDecayTime": 0.0
+    },
+    "environment": {
+        "timeOfDay": 16.103605270385743,
+        "timeFactor": 0.0,
+        "weatherIntensity": 0.490384578704834,
+        "cloudAltitude": 1800.0,
+        "windSpeed": 2.825748920440674,
+        "windTurbulence": 0.19368132948875428,
+        "windHeading": 46.8366813659668,
+        "windRandomHeading": 0.0,
+        "moonPhase": 14.0
+    },
+    "aircraft": [
+        {
+            "type": "Multirole1",
+            "faction": "Boscali",
+            "UniqueName": "Multirole1",
+            "globalPosition": {
+                "x": 38323.8671875,
+                "y": 18.071044921875,
+                "z": 4146.7421875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9623676538467407,
+                "z": 0.0,
+                "w": -0.2717507481575012
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    1,
+                    2,
+                    3,
+                    9,
+                    7,
+                    1
+                ]
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "autocannon_27mm_internal"
+                    },
+                    {
+                        "Key": "bomb_500_internalx2"
+                    },
+                    {
+                        "Key": "bomb_125_internalx6"
+                    },
+                    {
+                        "Key": "AAM3_single_internal"
+                    },
+                    {
+                        "Key": "bomb_penetrator1_mount"
+                    },
+                    {
+                        "Key": "AGM_heavyx2"
+                    },
+                    {
+                        "Key": "TailHook_Multirole1"
+                    }
+                ]
+            },
+            "livery": 1,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 1.0,
+            "startingSpeed": 0.0
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Boscali",
+            "UniqueName": "Multirole1_1",
+            "globalPosition": {
+                "x": 38358.7421875,
+                "y": 18.07122802734375,
+                "z": 4166.208984375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9496393203735352,
+                "z": 0.0,
+                "w": -0.3133452832698822
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": true,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    1,
+                    2,
+                    3,
+                    9,
+                    7,
+                    1
+                ]
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "autocannon_27mm_internal"
+                    },
+                    {
+                        "Key": "AAM1_internalx3"
+                    },
+                    {
+                        "Key": "bomb_250_internalx3"
+                    },
+                    {
+                        "Key": "AAM3_single_internal"
+                    },
+                    {
+                        "Key": "bomb_penetrator1_mount"
+                    },
+                    {
+                        "Key": "AGM_heavyx2"
+                    },
+                    {
+                        "Key": "TailHook_Multirole1"
+                    }
+                ]
+            },
+            "livery": 1,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 1.0,
+            "startingSpeed": 0.0
+        },
+        {
+            "type": "AttackHelo1",
+            "faction": "Primeva",
+            "UniqueName": "AttackHelo1",
+            "globalPosition": {
+                "x": 13496.556640625,
+                "y": 147.96994018554688,
+                "z": -7917.611328125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8339629769325256,
+                "z": 0.0,
+                "w": -0.5518203973770142
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    1,
+                    1,
+                    1,
+                    0
+                ]
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "turret_30mmHE_750"
+                    },
+                    {
+                        "Key": "AGM1_quad_internal"
+                    },
+                    {
+                        "Key": "RocketPod1_triple"
+                    },
+                    {
+                        "Key": "Rocket2_4Pod"
+                    },
+                    {
+                        "Key": "IRMS1_double"
+                    }
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 1.0,
+            "startingSpeed": 0.0
+        },
+        {
+            "type": "AttackHelo1",
+            "faction": "Primeva",
+            "UniqueName": "AttackHelo1_1",
+            "globalPosition": {
+                "x": 13329.265625,
+                "y": 147.74002075195313,
+                "z": -7620.08740234375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9804275035858154,
+                "z": 0.0,
+                "w": -0.19688066840171815
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "turret_30mmHE_750"
+                    },
+                    {
+                        "Key": "AGM1_quad_internal"
+                    },
+                    {
+                        "Key": "RocketPod1_triple"
+                    },
+                    {
+                        "Key": "IRMS1_double"
+                    },
+                    {
+                        "Key": "Rocket2_4Pod"
+                    }
+                ]
+            },
+            "livery": 3,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 1.0,
+            "startingSpeed": 0.0
+        },
+        {
+            "type": "trainer",
+            "faction": "Primeva",
+            "UniqueName": "trainer",
+            "globalPosition": {
+                "x": 13364.8720703125,
+                "y": 147.90994262695313,
+                "z": -7749.365234375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.5545933842658997,
+                "z": 0.0,
+                "w": 0.8321214914321899
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    1,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "gunpod_25mm_trainer"
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": "TailHook_Trainer"
+                    }
+                ]
+            },
+            "livery": 2,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 1.0,
+            "startingSpeed": 0.0
+        },
+        {
+            "type": "COIN",
+            "faction": "Primeva",
+            "UniqueName": "COIN",
+            "globalPosition": {
+                "x": 13386.087890625,
+                "y": 147.94998168945313,
+                "z": -7794.9111328125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.5518203973770142,
+                "z": 0.0,
+                "w": 0.8339629769325256
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    1,
+                    1,
+                    1,
+                    1
+                ]
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "12.7mm_internal"
+                    },
+                    {
+                        "Key": "turret_20mm_rotary"
+                    },
+                    {
+                        "Key": "gunpod_20mm"
+                    },
+                    {
+                        "Key": "AAM3_single"
+                    },
+                    {
+                        "Key": "AGM1_single"
+                    },
+                    {
+                        "Key": "AGM1_single"
+                    }
+                ]
+            },
+            "livery": 2,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 1.0,
+            "startingSpeed": 0.0
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_2",
+            "globalPosition": {
+                "x": 13337.3125,
+                "y": 148.16824340820313,
+                "z": -7725.173828125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.3577127158641815,
+                "z": 0.0,
+                "w": 0.9338316917419434
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "autocannon_27mm_internal"
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": "TailHook_Multirole1"
+                    }
+                ]
+            },
+            "livery": 2,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 1.0,
+            "startingSpeed": 0.0
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_3",
+            "globalPosition": {
+                "x": 13351.751953125,
+                "y": 148.16824340820313,
+                "z": -7708.38427734375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.585096001625061,
+                "z": 0.0,
+                "w": 0.810964047908783
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "autocannon_27mm_internal"
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": "TailHook_Multirole1"
+                    }
+                ]
+            },
+            "livery": 2,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 1.0,
+            "startingSpeed": 0.0
+        },
+        {
+            "type": "Multirole1",
+            "faction": "Primeva",
+            "UniqueName": "Multirole1_4",
+            "globalPosition": {
+                "x": 13444.001953125,
+                "y": 148.34332275390626,
+                "z": -7849.1845703125
+            },
+            "rotation": {
+                "x": -0.016637802124023439,
+                "y": 0.2717507481575012,
+                "z": 0.002772966865450144,
+                "w": 0.9622198343276978
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    1,
+                    0,
+                    0,
+                    0,
+                    0,
+                    0
+                ]
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "autocannon_27mm_internal"
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": "TailHook_Multirole1"
+                    }
+                ]
+            },
+            "livery": 2,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 1.0,
+            "startingSpeed": 0.0
+        },
+        {
+            "type": "UtilityHelo1",
+            "faction": "Primeva",
+            "UniqueName": "bait",
+            "globalPosition": {
+                "x": 13422.9208984375,
+                "y": 148.46014404296876,
+                "z": -7891.8173828125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.20242658257484437,
+                "z": 0.0,
+                "w": 0.9792974591255188
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": []
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "Gunpod_25mm_flex"
+                    },
+                    {
+                        "Key": "ATGM1_quad"
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    }
+                ]
+            },
+            "livery": 2,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 0.0
+        }
+    ],
+    "vehicles": [
+        {
+            "type": "LCV45",
+            "faction": "Primeva",
+            "UniqueName": "LCV45",
+            "globalPosition": {
+                "x": 13375.052734375,
+                "y": 147.36822509765626,
+                "z": -7770.943359375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.5509082674980164,
+                "z": 0.0,
+                "w": 0.8345658183097839
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-FT",
+            "faction": "Primeva",
+            "UniqueName": "HLT-FT",
+            "globalPosition": {
+                "x": 13446.619140625,
+                "y": 146.21783447265626,
+                "z": -7953.8779296875
+            },
+            "rotation": {
+                "x": 0.0012746031861752272,
+                "y": 0.5535988211631775,
+                "z": -0.0030234111472964288,
+                "w": 0.8327770829200745
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-FT",
+            "faction": "Primeva",
+            "UniqueName": "HLT-FT_1",
+            "globalPosition": {
+                "x": 13443.9375,
+                "y": 146.260009765625,
+                "z": -7947.2197265625
+            },
+            "rotation": {
+                "x": 0.001274249516427517,
+                "y": 0.5535988211631775,
+                "z": -0.0030231880955398084,
+                "w": 0.8327770829200745
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-FT",
+            "faction": "Primeva",
+            "UniqueName": "HLT-FT_2",
+            "globalPosition": {
+                "x": 13441.4375,
+                "y": 146.30059814453126,
+                "z": -7940.69140625
+            },
+            "rotation": {
+                "x": 0.001274249516427517,
+                "y": 0.5535988211631775,
+                "z": -0.0030231880955398084,
+                "w": 0.8327770829200745
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-FT",
+            "faction": "Primeva",
+            "UniqueName": "HLT-FT_3",
+            "globalPosition": {
+                "x": 13438.501953125,
+                "y": 146.34490966796876,
+                "z": -7934.0458984375
+            },
+            "rotation": {
+                "x": 0.001274249516427517,
+                "y": 0.5535988211631775,
+                "z": -0.0030231880955398084,
+                "w": 0.8327770829200745
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-L",
+            "faction": "Primeva",
+            "UniqueName": "HLT-L",
+            "globalPosition": {
+                "x": 13472.8203125,
+                "y": 146.23040771484376,
+                "z": -7940.318359375
+            },
+            "rotation": {
+                "x": 0.0009494374971836805,
+                "y": 0.4123694896697998,
+                "z": -0.0022521046921610834,
+                "w": -0.9110134243965149
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-R",
+            "faction": "Primeva",
+            "UniqueName": "HLT-R",
+            "globalPosition": {
+                "x": 13427.818359375,
+                "y": 146.30743408203126,
+                "z": -7731.361328125
+            },
+            "rotation": {
+                "x": 0.002846173709258437,
+                "y": 0.1885303407907486,
+                "z": 0.0012028421042487026,
+                "w": -0.9820625185966492
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "SPAAG1",
+            "faction": "Primeva",
+            "UniqueName": "SPAAG1",
+            "globalPosition": {
+                "x": 13534.673828125,
+                "y": 146.35018920898438,
+                "z": -7732.1044921875
+            },
+            "rotation": {
+                "x": 0.006683653686195612,
+                "y": 0.1796514093875885,
+                "z": 0.007835966534912587,
+                "w": -0.9836764335632324
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.20549434423446656,
+            "waypoints": []
+        }
+    ],
+    "ships": [
+        {
+            "type": "FleetCarrier1",
+            "faction": "Boscali",
+            "UniqueName": "FleetCarrier1",
+            "globalPosition": {
+                "x": 38295.60546875,
+                "y": 5.7705078125,
+                "z": 4099.18359375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.962859570980072,
+                "z": 0.0,
+                "w": -0.2700027823448181
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        }
+    ],
+    "buildings": [
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "shelter1_1",
+            "globalPosition": {
+                "x": 13407.740234375,
+                "y": 146.27691650390626,
+                "z": -7861.19873046875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9799585938453674,
+                "z": 0.0,
+                "w": 0.1992012858390808
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "revetment1",
+            "faction": "Primeva",
+            "UniqueName": "revetment1",
+            "globalPosition": {
+                "x": 13476.6357421875,
+                "y": 147.82162475585938,
+                "z": -7890.4326171875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8339629769325256,
+                "z": 0.0,
+                "w": -0.5518203973770142
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "revetment1",
+            "faction": "Primeva",
+            "UniqueName": "revetment1_1",
+            "globalPosition": {
+                "x": 13467.01953125,
+                "y": 147.76036071777345,
+                "z": -7867.77294921875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8339629769325256,
+                "z": 0.0,
+                "w": -0.5518203973770142
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        }
+    ],
+    "scenery": [],
+    "containers": [],
+    "missiles": [],
+    "pilots": [],
+    "factions": [
+        {
+            "factionName": "Boscali",
+            "preventJoin": false,
+            "preventDonation": true,
+            "supplies": [],
+            "startingBalance": 0.0,
+            "playerJoinAllowance": 20.0,
+            "playerTaxRate": 0.20000000298023225,
+            "regularIncome": 5.0,
+            "excessFundsDistributePercent": 0.25,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 6,
+            "extraReservesPerPlayer": 0,
+            "AIAircraftLimit": 16,
+            "reduceAIPerFriendlyPlayer": 0.0,
+            "addAIPerEnemyPlayer": 0.0,
+            "objectives": [],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "factionName": "Primeva",
+            "preventJoin": true,
+            "preventDonation": true,
+            "supplies": [],
+            "startingBalance": 0.0,
+            "playerJoinAllowance": 20.0,
+            "playerTaxRate": 0.20000000298023225,
+            "regularIncome": 5.0,
+            "excessFundsDistributePercent": 0.25,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 6,
+            "extraReservesPerPlayer": 0,
+            "AIAircraftLimit": 16,
+            "reduceAIPerFriendlyPlayer": 0.0,
+            "addAIPerEnemyPlayer": 0.0,
+            "objectives": [],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "airbases": [
+        {
+            "IsOverride": true,
+            "faction": "Primeva",
+            "UniqueName": "Dustbowl Highway Strip",
+            "DisplayName": "Dustbowl Highway Strip",
+            "Disabled": false,
+            "Capturable": true,
+            "CaptureDefense": 10.0,
+            "CaptureRange": 746.0,
+            "Center": {
+                "x": 13326.0,
+                "y": 146.1199951171875,
+                "z": -7450.0
+            },
+            "SelectionPosition": {
+                "x": 13351.4404296875,
+                "y": 145.87200927734376,
+                "z": -7709.0498046875
+            },
+            "Tower": "",
+            "VerticalLandingPoints": [],
+            "ServicePoints": [],
+            "roads": {
+                "roads": []
+            },
+            "runways": []
+        }
+    ],
+    "unitInventories": [],
+    "objectives": {
+        "Objectives": [
+            {
+                "UniqueName": "Mission Start",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": true,
+                "Type": 0,
+                "TypeName": "None",
+                "Data": [],
+                "Outcomes": [
+                    "StartingObjectives"
+                ]
+            },
+            {
+                "UniqueName": "IngressRoute",
+                "Faction": "Boscali",
+                "DisplayName": "Waypoint",
+                "Hidden": false,
+                "Type": 3,
+                "TypeName": "ReachWaypoints",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 2.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 300.0,
+                        "VectorValue": {
+                            "x": 37575.296875,
+                            "y": 109.83926391601563,
+                            "z": 3111.25537109375
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 400.0,
+                        "VectorValue": {
+                            "x": 34114.546875,
+                            "y": 186.31549072265626,
+                            "z": 134.07705688476563
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 800.0,
+                        "VectorValue": {
+                            "x": 29475.97265625,
+                            "y": 657.7110595703125,
+                            "z": -8.817974090576172
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "StartDestroyShelters"
+                ]
+            },
+            {
+                "UniqueName": "Destroy Shelters",
+                "Faction": "Boscali",
+                "DisplayName": "Destroy Shelter",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 2.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "shelter1_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "StartDestroyFuel"
+                ]
+            },
+            {
+                "UniqueName": "DestroyFuel",
+                "Faction": "Boscali",
+                "DisplayName": "Destroy Fuel Stores",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 2.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "HLT-FT",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "HLT-FT_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "HLT-FT_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "HLT-FT_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "StartDestroyAA"
+                ]
+            },
+            {
+                "UniqueName": "Destroy AA",
+                "Faction": "Boscali",
+                "DisplayName": "Destroy AAA",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 2.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "SPAAG1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "StartDestroyRadar"
+                ]
+            },
+            {
+                "UniqueName": "Destroy Radar",
+                "Faction": "Boscali",
+                "DisplayName": "Destroy Radar",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "HLT-R",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "StartDestroyAircraft"
+                ]
+            },
+            {
+                "UniqueName": "Destroy Aircraft",
+                "Faction": "Boscali",
+                "DisplayName": "Destroy Aircraft",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 2.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "trainer",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "COIN",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "AttackHelo1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "AttackHelo1_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "VictoryMessage",
+                    "StartLanding"
+                ]
+            },
+            {
+                "UniqueName": "StartMessagePt1",
+                "Faction": "Boscali",
+                "DisplayName": "StartMessagePt1",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 2.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "MessagePt1"
+                ]
+            },
+            {
+                "UniqueName": "StartMessagePt2",
+                "Faction": "Boscali",
+                "DisplayName": "StartMessagePt2",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 8.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "MessagePt2"
+                ]
+            },
+            {
+                "UniqueName": "ScrambleTimer",
+                "Faction": "Boscali",
+                "DisplayName": "ScrambleTimer",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 95.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "Scramble",
+                    "MessageScramble"
+                ]
+            },
+            {
+                "UniqueName": "Land",
+                "Faction": "Boscali",
+                "DisplayName": "Land",
+                "Hidden": false,
+                "Type": 2,
+                "TypeName": "ReachUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FleetCarrier1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": []
+            },
+            {
+                "UniqueName": "ReachCarrier1",
+                "Faction": "Boscali",
+                "DisplayName": "ReachCarrier1",
+                "Hidden": true,
+                "Type": 2,
+                "TypeName": "ReachUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FleetCarrier1",
+                        "FloatValue": 150.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "StartLandingWait"
+                ]
+            },
+            {
+                "UniqueName": "LandingWaitTImer",
+                "Faction": "Boscali",
+                "DisplayName": "LandingWaitTImer",
+                "Hidden": true,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 5.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "StartLandingCheck"
+                ]
+            },
+            {
+                "UniqueName": "ReachCarrier2",
+                "Faction": "Boscali",
+                "DisplayName": "ReachCarrier2",
+                "Hidden": true,
+                "Type": 2,
+                "TypeName": "ReachUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "FleetCarrier1",
+                        "FloatValue": 150.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "Victory",
+                    "EndMessage"
+                ]
+            },
+            {
+                "UniqueName": "KillThePlayer",
+                "Faction": "Primeva",
+                "DisplayName": "KillThePlayer",
+                "Hidden": false,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 2.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": []
+            },
+            {
+                "UniqueName": "spot radar",
+                "Faction": "Boscali",
+                "DisplayName": "spot radar",
+                "Hidden": true,
+                "Type": 9,
+                "TypeName": "SpotUnit",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 2.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.5,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "spawnbait"
+                ]
+            }
+        ],
+        "Outcomes": [
+            {
+                "UniqueName": "StartingObjectives",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "IngressRoute",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "StartMessagePt1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "StartMessagePt2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "ScrambleTimer",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "KillThePlayer",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "spot radar",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartDestroyShelters",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Destroy Shelters",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartDestroyFuel",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DestroyFuel",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartDestroyAA",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Destroy AA",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartDestroyRadar",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Destroy Radar",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartDestroyAircraft",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Destroy Aircraft",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "VictoryMessage",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "Well done, the dustbowl strip is no more. Return to the carrier to complete the mission.",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartLanding",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Land",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "ReachCarrier1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "MessagePt1",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "PALA are trying to expand the capabilities of their dustbowl airstrip to support advanced aircraft. Your mission is to cripple it. Remove all of its support systems, and destroy any aircraft stationed at it.",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "MessagePt2",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "The primary target is a newly constructed hardened hangar. You are each carrying a pair of Augers for this purpose.",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Scramble",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "AttackHelo1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "AttackHelo1_1",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "trainer",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "COIN",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Multirole1_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "MessageScramble",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "Looks like they're scrambling to meet us. Destroy them before they get into the air!",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartLandingWait",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "LandingWaitTImer",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartLandingCheck",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "ReachCarrier2",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Victory",
+                "Type": 8,
+                "TypeName": "EndGame",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 5.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "EndMessage",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "Mission Accomplished",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "spawnbait",
+                "Type": 5,
+                "TypeName": "SpawnUnit",
+                "Data": [
+                    {
+                        "StringValue": "bait",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

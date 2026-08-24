@@ -1,0 +1,982 @@
+{
+  "JsonVersion": 6,
+  "MapKey": {
+    "Type": "None",
+    "Path": ""
+  },
+  "missionSettings": {
+    "description": "Fly the T/A-30 Compass in an intense dogfight - your side is outnumbered 8 to 5.",
+    "allowEventContent": false,
+    "Tags": [],
+    "playerMode": "Singleplayer",
+    "allowRespawn": false,
+    "playerStartingRank": 0,
+    "rankMultiplier": 1.0,
+    "successfulSortieBonus": 0.25,
+    "nuclearEscalationThreshold": 0.0,
+    "strategicEscalationThreshold": 0.0,
+    "minRankTacticalWarhead": 0,
+    "minRankStrategicWarhead": 0,
+    "cameraStartPosition": {
+      "IsOverride": false,
+      "Value": {
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        }
+      }
+    },
+    "missionRoads": {
+      "roads": []
+    },
+    "missionSeaLanes": {
+      "roads": []
+    },
+    "wrecksMaxNumber": 0,
+    "wrecksDecayTime": 0.0
+  },
+  "environment": {
+    "timeOfDay": 7.82954025,
+    "timeFactor": 0.0,
+    "weatherIntensity": 0.478776544,
+    "cloudAltitude": 1800.0,
+    "windSpeed": 0.0,
+    "windTurbulence": 0.0,
+    "windHeading": 0.0,
+    "windRandomHeading": 0.0,
+    "moonPhase": 14.0
+  },
+  "aircraft": [
+    {
+      "type": "COIN",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13866.2832,
+        "y": 167.254974,
+        "z": -7859.87549
+      },
+      "rotation": {
+        "x": -0.002772967,
+        "y": 0.183015823,
+        "z": 0.005545934,
+        "w": 0.98309046
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "PAircraft2",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "12.7mm_internal"
+          },
+          {
+            "Key": "Gunpod12.7mm"
+          },
+          {
+            "Key": "AAM3_single"
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 5.0,
+      "startingSpeed": 175.0
+    },
+    {
+      "type": "trainer",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13470.7383,
+        "y": 233.626221,
+        "z": -16507.3457
+      },
+      "rotation": {
+        "x": 0.002765646,
+        "y": 0.111142479,
+        "z": -0.000201364368,
+        "w": 0.99380064
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "PAircraft4",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gunpod_25mm_trainer"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "AAM1_single"
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 3,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 5.0,
+      "startingSpeed": 216.23349
+    },
+    {
+      "type": "trainer",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13390.1992,
+        "y": 172.3265,
+        "z": -8600.515
+      },
+      "rotation": {
+        "x": -0.002768864,
+        "y": 0.129268855,
+        "z": 0.000150835534,
+        "w": 0.9916057
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "PAircraft5",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gunpod_25mm_trainer"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "AAM1_single"
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 2.0,
+      "startingSpeed": 211.534515
+    },
+    {
+      "type": "COIN",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18403.2773,
+        "y": 196.931641,
+        "z": 11650.0439
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9848078,
+        "z": 0.0,
+        "w": -0.173648208
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "BAircraft2",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "12.7mm_internal"
+          },
+          {
+            "Key": "gunpod_20mm"
+          },
+          {
+            "Key": "AAM3_single"
+          },
+          {
+            "Key": "AAM3_single"
+          }
+        ]
+      },
+      "livery": 0,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 5.0,
+      "startingSpeed": 175.0
+    },
+    {
+      "type": "trainer",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19073.3457,
+        "y": 276.484863,
+        "z": 12775.7412
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9848078,
+        "z": 0.0,
+        "w": -0.173648208
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "BAircraft3",
+      "playerControlled": true,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gunpod_25mm_trainer"
+          },
+          {
+            "Key": "gunpod_20mm"
+          },
+          {
+            "Key": "AAM1_single"
+          },
+          {
+            "Key": "AAM1_single"
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 0,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 0.498571426,
+      "skill": 1.0,
+      "bravery": 5.0,
+      "startingSpeed": 196.425766
+    },
+    {
+      "type": "Fighter1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19133.041,
+        "y": 354.900818,
+        "z": 14070.7012
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9961947,
+        "z": 0.0,
+        "w": -0.08715577
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "BAircraft1",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gun_20mm_internal"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "AAM1_single"
+          }
+        ]
+      },
+      "livery": 0,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 5.0,
+      "startingSpeed": 337.713318
+    },
+    {
+      "type": "trainer",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19057.6348,
+        "y": 276.693848,
+        "z": 12651.9014
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9848078,
+        "z": 0.0,
+        "w": -0.173648208
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "BAircraft4",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gunpod_25mm_trainer"
+          },
+          {
+            "Key": "gunpod_20mm"
+          },
+          {
+            "Key": "AAM1_single"
+          },
+          {
+            "Key": "AAM1_single"
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 0,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 0.496428579,
+      "skill": 1.0,
+      "bravery": 5.0,
+      "startingSpeed": 197.481766
+    },
+    {
+      "type": "COIN",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13601.9863,
+        "y": 164.06134,
+        "z": -7598.455
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.116464615,
+        "z": 0.0,
+        "w": 0.9931949
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "PAircraft6",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "12.7mm_internal"
+          },
+          {
+            "Key": "Gunpod12.7mm"
+          },
+          {
+            "Key": "AAM3_single"
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 5.0,
+      "startingSpeed": 175.0
+    },
+    {
+      "type": "Fighter1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 8554.404,
+        "y": 334.799866,
+        "z": -15337.1211
+      },
+      "rotation": {
+        "x": -0.17192395,
+        "y": 0.249567017,
+        "z": 0.0554593354,
+        "w": 0.9513584
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "PAircraft1",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gun_20mm_internal"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "AAM1_single"
+          }
+        ]
+      },
+      "livery": 3,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 5.0,
+      "startingSpeed": 308.402344
+    },
+    {
+      "type": "Fighter1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 10239.21,
+        "y": 199.140015,
+        "z": -15562.8633
+      },
+      "rotation": {
+        "x": -0.170573622,
+        "y": 0.182967946,
+        "z": 0.032252185,
+        "w": 0.967671037
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "PAircraft3",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gun_20mm_internal"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "AAM1_single"
+          }
+        ]
+      },
+      "livery": 3,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 5.0,
+      "startingSpeed": 350.312744
+    },
+    {
+      "type": "trainer",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13448.4141,
+        "y": 189.145325,
+        "z": -8720.849
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.163605064,
+        "z": 0.0,
+        "w": 0.986525953
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "PAircraft7",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gunpod_25mm_trainer"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "AAM1_single"
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 2.0,
+      "startingSpeed": 229.435684
+    },
+    {
+      "type": "Fighter1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19101.959,
+        "y": 355.004272,
+        "z": 14160.8525
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9961947,
+        "z": 0.0,
+        "w": -0.08715577
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Fighter1",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gun_20mm_internal"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "AAM1_single"
+          }
+        ]
+      },
+      "livery": 0,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 333.755127
+    },
+    {
+      "type": "trainer",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13418.0859,
+        "y": 229.1633,
+        "z": -16281.1113
+      },
+      "rotation": {
+        "x": -0.0213465877,
+        "y": 0.1472899,
+        "z": -0.00986385,
+        "w": 0.9888138
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "trainer",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "gunpod_25mm_trainer"
+          },
+          {
+            "Key": "AGM_heavy_single"
+          },
+          {
+            "Key": "AGM1_double"
+          },
+          {
+            "Key": "AAM1_single"
+          },
+          {
+            "Key": "TailHook_Trainer"
+          }
+        ]
+      },
+      "livery": 3,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 2.0,
+      "startingSpeed": 216.509552
+    }
+  ],
+  "vehicles": [
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18951.0645,
+        "y": 134.415436,
+        "z": 12646.6895
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.920542,
+        "z": 0.0,
+        "w": -0.390643746
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 12.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_IFV",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13359.6416,
+        "y": 147.132965,
+        "z": -7789.957
+      },
+      "rotation": {
+        "x": -0.001365238,
+        "y": 0.14673844,
+        "z": -0.0005769642,
+        "w": 0.989174247
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_IFV",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 13528.9824,
+        "y": 444.049,
+        "z": 6629.77148
+      },
+      "rotation": {
+        "x": 0.0901846439,
+        "y": 0.7622779,
+        "z": -0.07335854,
+        "w": -0.6367242
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC_1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_APC",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 7694.96973,
+        "y": 780.7007,
+        "z": -12368.6074
+      },
+      "rotation": {
+        "x": 0.0174093712,
+        "y": 0.2782814,
+        "z": 0.0172773059,
+        "w": -0.9601864
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC_2",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    }
+  ],
+  "ships": [],
+  "buildings": [],
+  "scenery": [],
+  "containers": [],
+  "missiles": [],
+  "pilots": [],
+  "factions": [
+    {
+      "factionName": "Boscali",
+      "preventJoin": false,
+      "preventDonation": true,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 5.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    },
+    {
+      "factionName": "Primeva",
+      "preventJoin": true,
+      "preventDonation": true,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 5.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "airbases": [],
+  "objectives": [
+    {
+      "Type": "None",
+      "UniqueName": "Mission Start",
+      "Faction": "",
+      "DisplayName": "",
+      "Hidden": true,
+      "Outcomes": [
+        "StartingConditions"
+      ]
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "DestroyPALAAircraft",
+      "Faction": "Boscali",
+      "DisplayName": "Enemy Aircraft",
+      "Hidden": true,
+      "Outcomes": [
+        "Victory Outcome"
+      ],
+      "completeOrder": "CompleteAll",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "PAircraft5",
+        "PAircraft4",
+        "PAircraft3",
+        "PAircraft2",
+        "PAircraft1",
+        "PAircraft6",
+        "PAircraft7",
+        "trainer"
+      ]
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "DestroyBDFAircraft",
+      "Faction": "Primeva",
+      "DisplayName": "Enemy Formation",
+      "Hidden": false,
+      "Outcomes": [
+        "Victory Outcome"
+      ],
+      "completeOrder": "CompleteAll",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "BAircraft1",
+        "BAircraft2",
+        "BAircraft3",
+        "BAircraft4"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartingConditions",
+      "objectivesToStart": [
+        "DestroyPALAAircraft",
+        "DestroyBDFAircraft"
+      ]
+    },
+    {
+      "Type": "EndGame",
+      "UniqueName": "Victory Outcome",
+      "endType": "Victory",
+      "endDelay": 3.0
+    }
+  ]
+}

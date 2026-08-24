@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 250344640, guid: 57c9a3e5193e26c4b968cc86e528416d, type: 3}
+  m_Name: OutdoorPostProcessing
+  m_EditorClassIdentifier:
+  components:
+  - {fileID: 11400000, guid: 898e1d56ff5f7de479d3377765491562, type: 2}
+  - {fileID: 11400000, guid: 634832774e2b0bd4fb8ac9e1db5dd356, type: 2}
+  - {fileID: 11400000, guid: 66905b41af1e9b642ae6f3b52fe116c4, type: 2}
+  - {fileID: 11400000, guid: 6cb0ad98190a36f49a17ae371c83eb27, type: 2}

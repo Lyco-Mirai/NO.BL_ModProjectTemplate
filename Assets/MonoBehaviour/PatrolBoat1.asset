@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b289d0cab92dd36afcea8c0202f50c4f, type: 3}
+  m_Name: PatrolBoat1
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 1
+    air: 0
+    missile: 0
+    radar: 0
+    strategic: 0
+  roleIdentity:
+    antiSurface: 0.9
+    antiAir: 0.2
+    antiMissile: 0.1
+    antiRadar: 0
+  jsonKey: PatrolBoat1
+  unitName: Surf Class Patrol Boat
+  bogeyName:
+  description: The Surf Class is an inshore patrol vessel, nominally used for border protection and anti-piracy duties. While it lacks the staying power of larger ships, its speed and complement of vertically launched AGM-48s can make it a credible threat to them. The 30mm main gun has proximity fused shells and provides some amount of self-protection against missile attack.
+  code: PB
+  visibleRange: 5000
+  iconRange: 40000
+  radarSize: 1
+  friendlyIcon: {fileID: 21300000, guid: 3c893ac1c7d0dee478a6342a202979d3, type: 2}
+  hostileIcon: {fileID: 21300000, guid: c3cdd05eefddf5f49a5fc18006e80ee6, type: 2}
+  mapIcon: {fileID: 21300000, guid: 5adbc9e4852f6234697d642302f37457, type: 2}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 1
+  mapIconSize: 0.8
+  captureCapacity: 10
+  captureStrength: 25
+  captureDefense: 0
+  length: 30
+  width: 8
+  height: 9.2
+  value: 26
+  mass: 97500
+  manpower: 12
+  armorTier: 2
+  damageTolerance: 4
+  CanSlingLoad: 0
+  unitPrefab: {fileID: 1709254077376921, guid: ea3a4975fc7023f4db3f3298e315fd14, type: 2}
+  spawnOffset: {x: 0, y: 2.5, z: 0}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: 0
+  maxEditorHeight: 10000
+  shipInfo:
+    mass: 55000
+    topSpeed: 100
+  shipType: 7

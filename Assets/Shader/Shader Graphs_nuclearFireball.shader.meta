@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+guid: b0db19ccbd48ca040bd85cdb20254528
+timeCreated: 1785954638
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures:
+  - _Triplanar_cf039e6a427b4977b2daee69389e7002_Texture_1_Texture2D: {fileID: 2800000, guid: e7550791c3cb8634f905f06be1015624, type: 3}
+  userData:
+  assetBundleName:
+  assetBundleVariant:

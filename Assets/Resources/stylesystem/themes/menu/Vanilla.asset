@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59de652865d54ec328816afc9880b126, type: 3}
+  m_Name: Vanilla
+  m_EditorClassIdentifier:
+  id: vanilla
+  TextStyles:
+  - Label: {fileID: 11400000, guid: e758713d0c193db49b7803bbb6505257, type: 2}
+    labelName:
+    Style:
+      Color: {r: 0, g: 1, b: 0, a: 0}
+      Size: 0
+      FontScaling: 1
+      Font: {fileID: 0}
+  ImageStyles:
+  - Label: {fileID: 11400000, guid: cb0a6c2987f3a7343adfa6f0c2d38927, type: 2}
+    labelName:
+    Style:
+      Color: {r: 0, g: 1, b: 0, a: 0}
+  ButtonStyles:
+  - Label: {fileID: 11400000, guid: 8efbeb926848e164597b9578c22a258a, type: 2}
+    labelName:
+    Style:
+      Text:
+        Color: {r: 0, g: 0, b: 0, a: 0}
+        Size: 0
+        FontScaling: 0
+        Font: {fileID: 0}
+      Color: {r: 0, g: 1, b: 0, a: 0}

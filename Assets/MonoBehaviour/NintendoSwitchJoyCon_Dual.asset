@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3faf763ade534d222b4449357f0cf9d8, type: 3}
+  m_Name: NintendoSwitchJoyCon_Dual
+  m_EditorClassIdentifier:
+  _baseKeys:
+  - controller/nintendo_switch_joy_con_dual
+  - controller/nintendo_switch2_joy_con_dual
+  _glyphs:
+  - _key: left_stick/horizontal
+    _value: {fileID: 21300000, guid: f16608e41c07a2243a6d80841ae66851, type: 2}
+  - _key: left_stick/right
+    _value: {fileID: 21300000, guid: b47bb93694d45394b83b30a63cec32c3, type: 2}
+  - _key: left_stick/left
+    _value: {fileID: 21300000, guid: 330f129af8f4aec4f8e87dafe757c35c, type: 2}
+  - _key: left_stick/vertical
+    _value: {fileID: 21300000, guid: 00a7046e82409864aa20eb288fd64e64, type: 2}
+  - _key: left_stick/up
+    _value: {fileID: 21300000, guid: d985000b70b90d144ba8658ef2fb7b1a, type: 2}
+  - _key: left_stick/down
+    _value: {fileID: 21300000, guid: 7620305774699144cb8ee231ab6596b5, type: 2}
+  - _key: right_stick/horizontal
+    _value: {fileID: 21300000, guid: 37da8d57019308241882ace1a1c7cc4e, type: 2}
+  - _key: right_stick/right
+    _value: {fileID: 21300000, guid: 49bfc454854e2424ab1f89bfef70b677, type: 2}
+  - _key: right_stick/left
+    _value: {fileID: 21300000, guid: bcea7e78bdf919243a4503da3e34e790, type: 2}
+  - _key: right_stick/vertical
+    _value: {fileID: 21300000, guid: d67530e653794c2409d46913405c98d8, type: 2}
+  - _key: right_stick/up
+    _value: {fileID: 21300000, guid: 616d93f3de660394b8486182b3df2b41, type: 2}
+  - _key: right_stick/down
+    _value: {fileID: 21300000, guid: 53857bf74034d8a459306d851c6c0da9, type: 2}
+  - _key: b
+    _value: {fileID: 21300000, guid: 08589287faa939b4fb11332aeb202454, type: 2}
+  - _key: a
+    _value: {fileID: 21300000, guid: 9e620d0daad91274a827ac8ae110cdb9, type: 2}
+  - _key: y
+    _value: {fileID: 21300000, guid: 9c456f13621e824458b7ebe719f798e3, type: 2}
+  - _key: x
+    _value: {fileID: 21300000, guid: a435a0529cb670542927f925f95510b9, type: 2}
+  - _key: l
+    _value: {fileID: 21300000, guid: a9bc9b7b5ef89c2449ac4933b8344a7b, type: 2}
+  - _key: r
+    _value: {fileID: 21300000, guid: 5f5185a45f9bb474b97a3ca9ee4bf290, type: 2}
+  - _key: zl
+    _value: {fileID: 21300000, guid: 85d35a0d857bac746b542058e729cf65, type: 2}
+  - _key: zr
+    _value: {fileID: 21300000, guid: b8062ddefb5fc5e4fac4c262e9f578be, type: 2}
+  - _key: minus
+    _value: {fileID: 21300000, guid: 5229ed1a417c24647b95a6dc125aead6, type: 2}
+  - _key: plus
+    _value: {fileID: 21300000, guid: f8bac66ff5574324d8a05ed02314325a, type: 2}
+  - _key: capture
+    _value: {fileID: 21300000, guid: cb3975991c4fd884fa3120cc731b714e, type: 2}
+  - _key: home
+    _value: {fileID: 21300000, guid: ba56e40150b25064a9eca24c65484f9c, type: 2}
+  - _key: left_stick/button
+    _value: {fileID: 21300000, guid: 029a16355d52ca640859577b084c3f77, type: 2}
+  - _key: right_stick/button
+    _value: {fileID: 21300000, guid: db949eae991f82449881909341af2968, type: 2}
+  - _key: up_button
+    _value: {fileID: 21300000, guid: 404c6e930092f49428b2ff8b6a062bb9, type: 2}
+  - _key: right_button
+    _value: {fileID: 21300000, guid: 81e9c6b3cba0d8e46afd67fc9f5c4131, type: 2}
+  - _key: down_button
+    _value: {fileID: 21300000, guid: 004e6c2f0e53fb7478504fd523660be1, type: 2}
+  - _key: left_button
+    _value: {fileID: 21300000, guid: 50b13da3f049ef048bfff3575d46ce3a, type: 2}
+  - _key: left_sl
+    _value: {fileID: 21300000, guid: c557cd639989bec4f9e0b4c213b747c3, type: 2}
+  - _key: left_sr
+    _value: {fileID: 21300000, guid: c557cd639989bec4f9e0b4c213b747c3, type: 2}
+  - _key: right_sl
+    _value: {fileID: 21300000, guid: e317e3f499c730e4b960d048764dbbb7, type: 2}
+  - _key: right_sr
+    _value: {fileID: 21300000, guid: e317e3f499c730e4b960d048764dbbb7, type: 2}
+  - _key: left_stick
+    _value: {fileID: 21300000, guid: e506f05db9e6d574883d7bb4e7ff4935, type: 2}
+  - _key: right_stick
+    _value: {fileID: 21300000, guid: 305020de005ca414eab733ffaf3047f0, type: 2}
+  - _key: dpad
+    _value: {fileID: 21300000, guid: 77ec287087cb5694397e6622dc80cf70, type: 2}
+  - _key: dpad/horizontal
+    _value: {fileID: 21300000, guid: 45d29553fa0a3cc4696b95314b7e7262, type: 2}
+  - _key: dpad/vertical
+    _value: {fileID: 21300000, guid: 5c3430fc9e9122641937fa3888a34b8b, type: 2}
+  - _key: c
+    _value: {fileID: 21300000, guid: 640b228c9bfc0d743b4aa0b9b3632dbc, type: 2}
+  - _key: left_mouse/horizontal
+    _value: {fileID: 21300000, guid: c5469f214e768d249a67775a2510a576, type: 2}
+  - _key: left_mouse/right
+    _value: {fileID: 21300000, guid: 80a082a2e5f6d1a46b53d5adb7e07d45, type: 2}
+  - _key: left_mouse/left
+    _value: {fileID: 21300000, guid: 7935005f22854cc46b90cc1af4ab6d81, type: 2}
+  - _key: left_mouse/vertical
+    _value: {fileID: 21300000, guid: f66f3ee2c301a3e44b665850f7cd87cc, type: 2}
+  - _key: left_mouse/up
+    _value: {fileID: 21300000, guid: 36fdb0ac6a0d2a343979476bd2107483, type: 2}
+  - _key: left_mouse/down
+    _value: {fileID: 21300000, guid: aef4e989fd1af9a42b8169947cbc2fce, type: 2}
+  - _key: left_mouse/all
+    _value: {fileID: 21300000, guid: ddc81eb3093594e439f47d1a24810948, type: 2}
+  - _key: right_mouse/horizontal
+    _value: {fileID: 21300000, guid: 80a6764f17be6ad4abaffe5e9f83323d, type: 2}
+  - _key: right_mouse/right
+    _value: {fileID: 21300000, guid: 05f7dbd0898c8f040805e3ce8c312bd8, type: 2}
+  - _key: right_mouse/left
+    _value: {fileID: 21300000, guid: 4d1695fefd5cfb7459d9feee2ff38d76, type: 2}
+  - _key: right_mouse/vertical
+    _value: {fileID: 21300000, guid: d7c2e3be3130af645b6d38a6318d684b, type: 2}
+  - _key: right_mouse/up
+    _value: {fileID: 21300000, guid: 1672f055002c22e44b96c7d9d715a7bc, type: 2}
+  - _key: right_mouse/down
+    _value: {fileID: 21300000, guid: c2d9c6bf1109d324f95ca7266882243c, type: 2}
+  - _key: right_mouse/all
+    _value: {fileID: 21300000, guid: fda07e51acf8df34e868aab11461ecb8, type: 2}

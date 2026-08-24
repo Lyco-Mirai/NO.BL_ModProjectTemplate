@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e4be8512d23a504b10e26135ff2b5c6, type: 3}
+  m_Name: Vanilla
+  m_EditorClassIdentifier:
+  id: vanilla
+  colorTheme: {fileID: 11400000, guid: 747871671ce355b4089473e0a0acee01, type: 2}
+  menuTheme: {fileID: 11400000, guid: ae91367ca05385548af8967813d4abe8, type: 2}
+  tacScreenTheme: {fileID: 11400000, guid: 0e8e6abb224988d46b0ec685191d9d14, type: 2}
+  hudTheme: {fileID: 11400000, guid: 6b6b5017597b6fb4ba4f38e78a330cb2, type: 2}
+  themeOrigin: 0

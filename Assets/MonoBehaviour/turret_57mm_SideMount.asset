@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744778b62e754d06b4fef59a246aef54, type: 3}
+  m_Name: turret_57mm_SideMount
+  m_EditorClassIdentifier:
+  prefab: {fileID: 1709254077376921, guid: 4150582f139b8d2429b9b38a87e91950, type: 2}
+  jsonKey: 57mmSideMount
+  info: {fileID: 11400000, guid: 382c770a19290c944a3fa6838821324d, type: 2}
+  mountName: 57mm Cannon (10 rounds)
+  ammo: 10
+  turret: 1
+  missileBay: 0
+  radar: 0
+  tailHook: 0
+  slingloadHook: 0
+  countermeasure: 0
+  colorable: 0
+  Cargo: 0
+  Troops: 0
+  sortWeapons: 1
+  GearSafety: 0
+  GroundSafety: 0
+  GunAmmo: 0
+  emptyCost: 1.25
+  emptyMass: 625
+  mass: 5000
+  drag: 0
+  emptyDrag: 0
+  RCS: 0.1
+  emptyRCS: 0.1
+  disabled: 1
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 1

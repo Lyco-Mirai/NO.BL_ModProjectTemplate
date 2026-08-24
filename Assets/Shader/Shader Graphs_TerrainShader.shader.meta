@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: 72822fdd1f4ada340bb38b86c25e9470
+timeCreated: 1785954597
+licenseType: Free
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures:
+  - _SampleTexture2D_0c6460df7d7a4405aff8c488bbffc050_Texture_1_Texture2D: {fileID: 2800000, guid: e6e72487b89873848b0a5ddd669c1776, type: 3}
+  - _SampleTexture2D_1a4f7e08675c47d2a231a6bf2eacea9b_Texture_1_Texture2D: {fileID: 2800000, guid: 31502113ff02f884392db2f3cf8bc01d, type: 3}
+  - _SampleTexture2D_3bd9a1d970ff4fbc9888fa54a498dd5f_Texture_1_Texture2D: {fileID: 2800000, guid: 69d6a16fc44d9d8478f1baad87153612, type: 3}
+  - _SampleTexture2D_3f967dd12e9c49af9fa80c834d7c5a19_Texture_1_Texture2D: {fileID: 2800000, guid: ec5455206a1cf52449e00cfb594e0e96, type: 3}
+  - _SampleTexture2D_5a49beebfe604041acd648420add582f_Texture_1_Texture2D: {fileID: 2800000, guid: e6d72e717f1068641985330ae62de07a, type: 3}
+  - _SampleTexture2D_5ed7e9e7492147fe9dbd547a9ad528c1_Texture_1_Texture2D: {fileID: 2800000, guid: b14792e92573bbb48aaa47b17db5a65f, type: 3}
+  - _SampleTexture2D_674f68b33e3644b4acf5cea7b75e681f_Texture_1_Texture2D: {fileID: 2800000, guid: 7fed3eeaff8fd4d4ca5aa2248cd06897, type: 3}
+  - _SampleTexture2D_838acaebc3fd4aa599cb97870fc87e14_Texture_1_Texture2D: {fileID: 2800000, guid: ca8cb32b24583544fa779087b5105261, type: 3}
+  - _SampleTexture2D_8fd7ac9820c240c383887165ff5b5476_Texture_1_Texture2D: {fileID: 2800000, guid: 0b6c236627d8df048a618198128d1e3f, type: 3}
+  - _SampleTexture2D_92633bd0becc4b749d681a31beaffbaa_Texture_1_Texture2D: {fileID: 2800000, guid: 248baaba46cbea64483b7c74d4f58278, type: 3}
+  - _SampleTexture2D_959d2f3a5ff8423b93bfc1fd0a56dd49_Texture_1_Texture2D: {fileID: 2800000, guid: ec5455206a1cf52449e00cfb594e0e96, type: 3}
+  - _SampleTexture2D_a4670c2df1194ad9a22c4dbe817ab097_Texture_1_Texture2D: {fileID: 2800000, guid: 39007fcba8d1a5b48994a3e09d1b8216, type: 3}
+  - _SampleTexture2D_a867fd84b3f5415caa454567fa1e5506_Texture_1_Texture2D: {fileID: 2800000, guid: 6efef36cdd79b384d8a4afda4c39f939, type: 3}
+  - _SampleTexture2D_aea52007ac564f6fbe5b78277e135f0b_Texture_1_Texture2D: {fileID: 2800000, guid: a95ef7915affae54da1fa11a4e7d39d4, type: 3}
+  - _SampleTexture2D_dacba2ee34424733acff4f8c92baea27_Texture_1_Texture2D: {fileID: 2800000, guid: 520a17e0d1211844c9fa4b0a6ab33d11, type: 3}
+  - _SampleTexture2D_f43950d91c9a4f2ea1cfb2f7a9ed314b_Texture_1_Texture2D: {fileID: 2800000, guid: 4c933e05ee2398547b2fcbb4000731c9, type: 3}
+  userData:
+  assetBundleName:
+  assetBundleVariant:

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa816120540204c189ec573df0a0723a, type: 3}
+  m_Name: info_SAM_IR1
+  m_EditorClassIdentifier:
+  weaponPrefab: {fileID: 1709254077376921, guid: 40a865292e26d754190e555105607659, type: 2}
+  effectiveness:
+    antiSurface: 0
+    antiAir: 0.785
+    antiMissile: 0.566
+    antiRadar: 0
+  targetRequirements:
+    lineOfSight: 1
+    minAltitude: 0
+    maxAltitude: 10000
+    minRange: 200
+    maxRange: 5000
+    maxSpeed: 700
+    minIR: 0.05
+    minRadar: 0
+    minAlignment: 30
+    minOwnerSpeed: 0
+    minValue: 0
+  pK: 1
+  weaponName: IRM-S1
+  shortName: IRM-S1
+  description: Carried by air defense vehicles and light aircraft, this heat-seeking missile is effective against air targets at a range up to 5km
+  fireInterval: 0.25
+  muzzleVelocity: 0
+  maxSpeed: -1
+  dragCoef: 0.5
+  gravMult: 1
+  pierceDamage: 0
+  blastDamage: 0
+  weaponIcon: {fileID: 21300000, guid: b8dee74b69b587c4da3247ea6b014d7d, type: 2}
+  armorTierEffectiveness: 4
+  airburstHeight: 0
+  visibilityWhenFired: 3000
+  costPerRound: 0.04
+  massPerRound: 10
+  useWeaponDoors: 1
+  boresight: 0
+  laserGuided: 0
+  missile: 1
+  bomb: 0
+  glideBomb: 0
+  gun: 0
+  overHorizon: 0
+  nuclear: 0
+  strategic: 0
+  energy: 0
+  jammer: 0
+  troops: 0
+  hideInDisplay: 0
+  cargo: 0
+  rearmGround: 0
+  rearmShip: 0
+  sling: 0

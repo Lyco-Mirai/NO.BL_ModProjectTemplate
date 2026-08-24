@@ -1,0 +1,210 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e56ddb8681eb8af5865ab2fc54350bc, type: 3}
+  m_Name: EW1Parameters
+  m_EditorClassIdentifier:
+  aircraftName: EW-1 Medusa
+  rankRequired: 4
+  airfoils:
+  - name: EW1_wing
+    liftCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -1.492233
+        value: -0.002766233
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: -0.49818966
+        value: -1.5001647
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: -0.00012555812
+        value: 0.00042958115
+        inSlope: 7.1000075
+        outSlope: 7.1000075
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.047061756
+      - serializedVersion: 3
+        time: 0.50528735
+        value: 1.5047762
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.4954445
+        value: 0.0073467577
+        inSlope: 0.03151323
+        outSlope: 0.03151323
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.13650277
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -1.4926803
+        value: 0.5758908
+        inSlope: -0.038458936
+        outSlope: -0.038458936
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.71009433
+      - serializedVersion: 3
+        time: -0.1586757
+        value: 0.1514877
+        inSlope: -0.8910136
+        outSlope: -0.8910136
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.17454228
+      - serializedVersion: 3
+        time: -0.035991266
+        value: 0.025078766
+        inSlope: -1.0428907
+        outSlope: -1.0428907
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.11464813
+        outWeight: 0.12741946
+      - serializedVersion: 3
+        time: 0.030480742
+        value: 0.024763335
+        inSlope: 1.5181845
+        outSlope: 1.5181845
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.07179682
+      - serializedVersion: 3
+        time: 0.13490987
+        value: 0.15190308
+        inSlope: 0.8129622
+        outSlope: 0.8129622
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.19171432
+        outWeight: 0.040568426
+      - serializedVersion: 3
+        time: 1.4944664
+        value: 0.5699501
+        inSlope: 0.011035963
+        outSlope: 0.011035963
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.51644635
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  loadouts:
+  - weapons:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - weapons:
+    - {fileID: 11400000, guid: a1863f99b1b575440b63624ee088105d, type: 2}
+    - {fileID: 11400000, guid: 43c29706ea81f7b4eaa7e76b4f37a4be, type: 2}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: c4c1b6d75e0cf3b48ac228436e5eb86d, type: 2}
+    - {fileID: 11400000, guid: 0bda68e01aa3d8e42bb149ddfb1af754, type: 2}
+  StandardLoadouts: []
+  DefaultFuelLevel: 0.6
+  liveries:
+  - name: BDF Matte Gray
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: a867221f146152646bd81f190e4c6317
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: BDF Pixel Green
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: 16d39741d0bfa6641a4eb9adfd9efd47
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: BDF Navy Hex
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: a789226b94dca6a4bb02cc616b609f84
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: PALA Matte Black
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: edfc8654d0a5c4c4aa8a5f1f3fd22e41
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: PALA Desert Camo
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: 3bd29aef659c5df44a49656176a68a8f
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: PALA Navy Splinter
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: fed729bda9ba95241ae4652d4dfbc15d
+      m_SubObjectName:
+      m_SubObjectType:
+  StatusDisplay: {fileID: 1709254077376921, guid: 3ca36a01c2d359142afb76e357538aad, type: 2}
+  HUDExtras: {fileID: 1709254077376921, guid: 25129bf8aa12b51448b2d7ad835dc963, type: 2}
+  takeoffMusic: {fileID: 8300000, guid: efe8a97c97df449468a34796cc9d9e31, type: 3}
+  AoAEffects:
+    AudioClip: {fileID: 8300000, guid: 5778034f4d3240b449f63de2ee04a282, type: 3}
+    OnsetSpeed: 30
+    FullVolumeSpeed: 200
+    OnsetAlpha: 5
+    FullVolumeAlpha: 45
+    ShakeFactor: 0.1
+  aircraftGLimit: 6
+  PIDReferenceAirspeed: 180
+  maxSpeed: 300
+  takeoffSpeed: 40
+  takeoffDistance: 150
+  verticalLanding: 1
+  turningRadius: 1250
+  cornerSpeed: 120
+  approachSpeed: 40
+  landingSpeed: 70
+  shortLandingSpeed: 40
+  cruiseThrottle: 1
+  minimumRadarAlt: 50
+  levelBias: 0.3
+  hoverTiltFactor: 1
+  collectivePID: {x: 0, y: 0, z: 0}
+  hoverPID: {x: 0.1, y: 0.001, z: 0.15}
+  tiltPID: {x: 0, y: 0, z: 0}
+  groundTurningRadius: 20

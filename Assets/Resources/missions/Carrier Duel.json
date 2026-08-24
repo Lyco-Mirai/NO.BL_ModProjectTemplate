@@ -1,0 +1,1021 @@
+{
+  "JsonVersion": 6,
+  "MapKey": {
+    "Type": "GameWorldPrefab",
+    "Path": "Terrain_naval"
+  },
+  "missionSettings": {
+    "description": "A pure air & sea battle between two carrier groups. Boscali's Annex Class Assault Carrier vs Primeva's Hyperion Class Fleet Carrier, with their respective compliments of aircraft.\u000b\u000bThe first side to sink the other's carrier wins. All 36 carrier aircraft are available immediately, and cannot be replaced easily if shot down. Fly, fight, and land with care.",
+    "allowEventContent": false,
+    "Tags": [],
+    "playerMode": "SingleAndMultiplayer",
+    "allowRespawn": true,
+    "playerStartingRank": 4,
+    "rankMultiplier": 1.0,
+    "successfulSortieBonus": 0.25,
+    "nuclearEscalationThreshold": 16.0,
+    "strategicEscalationThreshold": 256.0,
+    "minRankTacticalWarhead": 0,
+    "minRankStrategicWarhead": 0,
+    "cameraStartPosition": {
+      "IsOverride": true,
+      "Value": {
+        "Position": {
+          "x": 30.36911,
+          "y": 189.179535,
+          "z": -35082.6367
+        },
+        "Rotation": {
+          "x": 0.002592103,
+          "y": 0.996685147,
+          "z": -0.0352534242,
+          "w": 0.0732753649
+        }
+      }
+    },
+    "missionRoads": {
+      "roads": []
+    },
+    "missionSeaLanes": {
+      "roads": []
+    },
+    "wrecksMaxNumber": 0,
+    "wrecksDecayTime": 0.0
+  },
+  "environment": {
+    "timeOfDay": 9.179865,
+    "timeFactor": 0.0,
+    "weatherIntensity": 0.303274542,
+    "cloudAltitude": 1396.34546,
+    "windSpeed": 4.356907,
+    "windTurbulence": 0.029900251,
+    "windHeading": 0.624323249,
+    "windRandomHeading": 50.0,
+    "moonPhase": 14.0
+  },
+  "aircraft": [],
+  "vehicles": [],
+  "ships": [
+    {
+      "type": "FleetCarrier1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -44692.49,
+        "y": 5.63970947,
+        "z": -36468.8672
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.719034255,
+        "z": 0.0,
+        "w": 0.6949746
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 100.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "FleetCarrier1",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Destroyer1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -45084.3945,
+        "y": 7.217285,
+        "z": -38153.93
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.7352085,
+        "z": 0.0,
+        "w": 0.677841
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 100.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Destroyer1",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Destroyer1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -44785.7734,
+        "y": 7.22265625,
+        "z": -34706.5078
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.720399857,
+        "z": 0.0,
+        "w": 0.693559051
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 100.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Destroyer1_1",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Corvette1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -44753.89,
+        "y": 7.72265625,
+        "z": -35529.59
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.719038665,
+        "z": 0.0,
+        "w": 0.6949701
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Corvette1",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Corvette1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -47025.74,
+        "y": 7.973877,
+        "z": -35466.9727
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.7190387,
+        "z": 0.0,
+        "w": 0.69497
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Corvette1_1",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Corvette1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -44897.2539,
+        "y": 7.800049,
+        "z": -37414.87
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.7235712,
+        "z": 0.0,
+        "w": 0.690249741
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Corvette1_2",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Corvette1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": -47053.97,
+        "y": 7.956787,
+        "z": -37286.7656
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.7235712,
+        "z": 0.0,
+        "w": 0.690249741
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Corvette1_3",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Corvette1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 40932.8,
+        "y": 7.699951,
+        "z": -37374.4
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.7071068,
+        "z": 0.0,
+        "w": 0.7071068
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Corvette1_4",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AssaultCarrier1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 40942.6055,
+        "y": 5.770752,
+        "z": -36094.98
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.7057217,
+        "z": 0.0,
+        "w": -0.7084892
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 50.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AssaultCarrier1",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Corvette1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 40913.5938,
+        "y": 7.763672,
+        "z": -34949.87
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.7144766,
+        "z": 0.0,
+        "w": -0.699659348
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Corvette1_5",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Corvette1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 42861.68,
+        "y": 7.90527344,
+        "z": -37289.48
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.702467144,
+        "z": 0.0,
+        "w": -0.7117162
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Corvette1_6",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Corvette1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 42871.59,
+        "y": 7.902588,
+        "z": -35001.02
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.702467144,
+        "z": 0.0,
+        "w": -0.7117162
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Corvette1_7",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Frigate1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 41062.1172,
+        "y": 6.3326416,
+        "z": -38200.4063
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.7071068,
+        "z": 0.0,
+        "w": 0.7071068
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Frigate1",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Frigate1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 41127.3359,
+        "y": 6.27850342,
+        "z": -33957.1445
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.7071068,
+        "z": 0.0,
+        "w": 0.7071068
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Frigate1_1",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    }
+  ],
+  "buildings": [],
+  "scenery": [],
+  "containers": [],
+  "missiles": [],
+  "pilots": [],
+  "factions": [
+    {
+      "factionName": "Boscali",
+      "preventJoin": false,
+      "preventDonation": true,
+      "supplies": [
+        {
+          "UnitType": "COIN",
+          "Count": 2
+        },
+        {
+          "UnitType": "AttackHelo1",
+          "Count": 4
+        },
+        {
+          "UnitType": "QuadVTOL1",
+          "Count": 2
+        },
+        {
+          "UnitType": "EW1",
+          "Count": 2
+        },
+        {
+          "UnitType": "SmallFighter1",
+          "Count": 22
+        },
+        {
+          "UnitType": "VTOLTrainer1",
+          "Count": 14
+        }
+      ],
+      "startingBalance": 1200.515,
+      "playerJoinAllowance": 10.4910488,
+      "playerTaxRate": 0.499633044,
+      "regularIncome": 1.5153116,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 0.500866532,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 20,
+      "reserveWarheads": 10,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 5,
+      "reduceAIPerFriendlyPlayer": 1.02935982,
+      "addAIPerEnemyPlayer": 0.6036308,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": [
+          "6x6_1_APCx1",
+          "6x6_1_AAx1",
+          "LightTruck1x2",
+          "6x6_1_ATx1",
+          "6x6_1_IFVx1",
+          "HLT-Rx1"
+        ]
+      },
+      "cameraStartPosition": {
+        "IsOverride": true,
+        "Value": {
+          "Position": {
+            "x": 32425.99,
+            "y": 330.493469,
+            "z": -33748.75
+          },
+          "Rotation": {
+            "x": 0.02067354,
+            "y": 0.8846806,
+            "z": -0.0394111723,
+            "w": 0.4640686
+          }
+        }
+      }
+    },
+    {
+      "factionName": "Primeva",
+      "preventJoin": false,
+      "preventDonation": true,
+      "supplies": [
+        {
+          "UnitType": "COIN",
+          "Count": 2
+        },
+        {
+          "UnitType": "EW1",
+          "Count": 2
+        },
+        {
+          "UnitType": "trainer",
+          "Count": 12
+        },
+        {
+          "UnitType": "Multirole1",
+          "Count": 20
+        },
+        {
+          "UnitType": "UtilityHelo1",
+          "Count": 6
+        }
+      ],
+      "startingBalance": 1200.515,
+      "playerJoinAllowance": 10.4910488,
+      "playerTaxRate": 0.499633044,
+      "regularIncome": 1.5153116,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 0.500866532,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 20,
+      "reserveWarheads": 10,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 5,
+      "reduceAIPerFriendlyPlayer": 1.02935982,
+      "addAIPerEnemyPlayer": 0.6036308,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": [
+          "LightTruck1x2",
+          "6x6_1_APCx1",
+          "6x6_1_AAx1",
+          "6x6_1_ATx1",
+          "6x6_1_IFVx1",
+          "HLT-Rx1"
+        ]
+      },
+      "cameraStartPosition": {
+        "IsOverride": true,
+        "Value": {
+          "Position": {
+            "x": -30509.4922,
+            "y": 114.643784,
+            "z": -32841.918
+          },
+          "Rotation": {
+            "x": -0.004640722,
+            "y": 0.8614615,
+            "z": -0.007873262,
+            "w": -0.5077406
+          }
+        }
+      }
+    }
+  ],
+  "airbases": [
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "City Airport",
+      "DisplayName": "City Airport",
+      "Disabled": true,
+      "Capturable": false,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 2100.0,
+      "Center": {
+        "x": 2206.0,
+        "y": 8.08,
+        "z": 4153.0
+      },
+      "SelectionPosition": {
+        "x": 1847.0,
+        "y": 8.975,
+        "z": 3635.0
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "SE Airbase",
+      "DisplayName": "SE Airbase",
+      "Disabled": true,
+      "Capturable": false,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 2600.0,
+      "Center": {
+        "x": 74648.0,
+        "y": 0.0,
+        "z": -28520.0
+      },
+      "SelectionPosition": {
+        "x": 73798.7,
+        "y": 13.29,
+        "z": -30105.7
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "NW Airbase",
+      "DisplayName": "NW Airbase",
+      "Disabled": true,
+      "Capturable": false,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 2283.0,
+      "Center": {
+        "x": -75861.8359,
+        "y": 13.6,
+        "z": 33605.4922
+      },
+      "SelectionPosition": {
+        "x": -76375.8359,
+        "y": 10.97,
+        "z": 33652.69
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "Island7 Airstrip",
+      "DisplayName": "Island7 Airstrip",
+      "Disabled": true,
+      "Capturable": false,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 713.0,
+      "Center": {
+        "x": -37929.875,
+        "y": 14.6,
+        "z": 11240.9443
+      },
+      "SelectionPosition": {
+        "x": -38201.08,
+        "y": 14.6,
+        "z": 11257.0439
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "Island9 Airstrip",
+      "DisplayName": "Island9 Airstrip",
+      "Disabled": true,
+      "Capturable": false,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1100.0,
+      "Center": {
+        "x": -13454.6,
+        "y": 11.0,
+        "z": 30503.2
+      },
+      "SelectionPosition": {
+        "x": -13327.36,
+        "y": 11.038,
+        "z": 31289.8
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "Island14 Airstrip",
+      "DisplayName": "Island14 Airstrip",
+      "Disabled": true,
+      "Capturable": false,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1032.0,
+      "Center": {
+        "x": 55365.0,
+        "y": 10.0,
+        "z": -27038.0
+      },
+      "SelectionPosition": {
+        "x": 55121.8,
+        "y": 9.84,
+        "z": -27373.5
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "SW Airbase",
+      "DisplayName": "SW Airbase",
+      "Disabled": true,
+      "Capturable": false,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1394.0,
+      "Center": {
+        "x": -74591.8,
+        "y": 12.5,
+        "z": -28639.36
+      },
+      "SelectionPosition": {
+        "x": -75528.51,
+        "y": 9.38,
+        "z": -28557.09
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "NE Airbase",
+      "DisplayName": "NE Airbase",
+      "Disabled": true,
+      "Capturable": false,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1592.0,
+      "Center": {
+        "x": 69687.6,
+        "y": 11.58,
+        "z": 26056.8
+      },
+      "SelectionPosition": {
+        "x": 70792.99,
+        "y": 7.72999954,
+        "z": 26749.83
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "Island5 Airstrip",
+      "DisplayName": "Island5 Airstrip",
+      "Disabled": true,
+      "Capturable": false,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 879.0,
+      "Center": {
+        "x": 42140.1,
+        "y": 9.64,
+        "z": -213.2
+      },
+      "SelectionPosition": {
+        "x": 42324.8,
+        "y": 6.65000057,
+        "z": 95.2
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    }
+  ],
+  "objectives": [
+    {
+      "Type": "None",
+      "UniqueName": "Mission Start",
+      "Faction": "",
+      "DisplayName": "",
+      "Hidden": true,
+      "Outcomes": [
+        "StartObjectives"
+      ]
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "BDFLocate Enemy Fleet",
+      "Faction": "Boscali",
+      "DisplayName": "Locate Enemy Carrier",
+      "Hidden": false,
+      "Outcomes": [],
+      "completeOrder": "InOrder",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": -41837.6641,
+            "y": 1.70001221,
+            "z": -36612.2422
+          },
+          "Range": 0.0
+        }
+      ]
+    },
+    {
+      "Type": "SpotUnit",
+      "UniqueName": "BDFSearch",
+      "Faction": "Boscali",
+      "DisplayName": "BDFSearch",
+      "Hidden": true,
+      "Outcomes": [
+        "StartSinkPALACarrier",
+        "BDFSearchFinish",
+        "SpotCarrier"
+      ],
+      "completeOrder": "InOrder",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "FleetCarrier1"
+      ]
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "Sink PALA Carrier",
+      "Faction": "Boscali",
+      "DisplayName": "Sink Enemy Carrier",
+      "Hidden": false,
+      "Outcomes": [
+        "Victory",
+        "PALASinksMessage"
+      ],
+      "completeOrder": "CompleteAll",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "FleetCarrier1"
+      ]
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "PALALocate Enemy Fleet",
+      "Faction": "Primeva",
+      "DisplayName": "Locate Enemy Carrier",
+      "Hidden": false,
+      "Outcomes": [],
+      "completeOrder": "InOrder",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 38904.582,
+            "y": 16.81073,
+            "z": -36074.2969
+          },
+          "Range": 0.0
+        }
+      ]
+    },
+    {
+      "Type": "SpotUnit",
+      "UniqueName": "PALASearch",
+      "Faction": "Primeva",
+      "DisplayName": "PALASearch",
+      "Hidden": true,
+      "Outcomes": [
+        "StartSinkBDFCarrier",
+        "PALASearchFinish",
+        "SpotCarrier"
+      ],
+      "completeOrder": "InOrder",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "AssaultCarrier1"
+      ]
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "Sink BDF Carrier",
+      "Faction": "Primeva",
+      "DisplayName": "Sink Enemy Carrier",
+      "Hidden": false,
+      "Outcomes": [
+        "Victory",
+        "BDFSinksMessage"
+      ],
+      "completeOrder": "CompleteAll",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "AssaultCarrier1"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartObjectives",
+      "objectivesToStart": [
+        "BDFLocate Enemy Fleet",
+        "BDFSearch",
+        "PALALocate Enemy Fleet",
+        "PALASearch"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartSinkPALACarrier",
+      "objectivesToStart": [
+        "Sink PALA Carrier"
+      ]
+    },
+    {
+      "Type": "StopOrCompleteObjective",
+      "UniqueName": "BDFSearchFinish",
+      "options": "Complete",
+      "objectivesToStart": [
+        "BDFLocate Enemy Fleet"
+      ]
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "SpotCarrier",
+      "Message": "Enemy carrier spotted.",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    },
+    {
+      "Type": "EndGame",
+      "UniqueName": "Victory",
+      "endType": "Victory",
+      "endDelay": 5.0
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "PALASinksMessage",
+      "Message": "PALA's carrier is sinking. BDF is victorious!",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": false
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "StartSinkBDFCarrier",
+      "objectivesToStart": [
+        "Sink BDF Carrier"
+      ]
+    },
+    {
+      "Type": "StopOrCompleteObjective",
+      "UniqueName": "PALASearchFinish",
+      "options": "Complete",
+      "objectivesToStart": [
+        "PALALocate Enemy Fleet"
+      ]
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "BDFSinksMessage",
+      "Message": "BDF's carrier is sinking. PALA is victorious!",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": false
+    }
+  ]
+}

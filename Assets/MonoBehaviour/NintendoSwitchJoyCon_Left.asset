@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3faf763ade534d222b4449357f0cf9d8, type: 3}
+  m_Name: NintendoSwitchJoyCon_Left
+  m_EditorClassIdentifier:
+  _baseKeys:
+  - controller/nintendo_switch_joy_con_left
+  - controller/nintendo_switch2_joy_con_left
+  _glyphs:
+  - _key: stick/horizontal
+    _value: {fileID: 21300000, guid: 38c0cddab3c50b14d950bad195e1c8c9, type: 2}
+  - _key: stick/right
+    _value: {fileID: 21300000, guid: 4188041c1a6a2ca4ead66e5cd27d7be1, type: 2}
+  - _key: stick/left
+    _value: {fileID: 21300000, guid: afeee225ad986d146a3e8c13d4eb4aee, type: 2}
+  - _key: stick/vertical
+    _value: {fileID: 21300000, guid: a9a64a86137b97947902795c61f4001b, type: 2}
+  - _key: stick/up
+    _value: {fileID: 21300000, guid: 0889ace8d58534f4aa817d93328cd39b, type: 2}
+  - _key: stick/down
+    _value: {fileID: 21300000, guid: c3fa19a57abcebc4fa64088bb175c4b2, type: 2}
+  - _key: down_button
+    _value: {fileID: 21300000, guid: 004e6c2f0e53fb7478504fd523660be1, type: 2}
+  - _key: right_button
+    _value: {fileID: 21300000, guid: 81e9c6b3cba0d8e46afd67fc9f5c4131, type: 2}
+  - _key: left_button
+    _value: {fileID: 21300000, guid: 50b13da3f049ef048bfff3575d46ce3a, type: 2}
+  - _key: up_button
+    _value: {fileID: 21300000, guid: 404c6e930092f49428b2ff8b6a062bb9, type: 2}
+  - _key: sl
+    _value: {fileID: 21300000, guid: c557cd639989bec4f9e0b4c213b747c3, type: 2}
+  - _key: sr
+    _value: {fileID: 21300000, guid: e317e3f499c730e4b960d048764dbbb7, type: 2}
+  - _key: l
+    _value: {fileID: 21300000, guid: a9bc9b7b5ef89c2449ac4933b8344a7b, type: 2}
+  - _key: zl
+    _value: {fileID: 21300000, guid: 85d35a0d857bac746b542058e729cf65, type: 2}
+  - _key: capture
+    _value: {fileID: 21300000, guid: cb3975991c4fd884fa3120cc731b714e, type: 2}
+  - _key: minus
+    _value: {fileID: 21300000, guid: 5229ed1a417c24647b95a6dc125aead6, type: 2}
+  - _key: stick/button
+    _value: {fileID: 21300000, guid: 16606605bc2a0e44e86c2363ccf1fe7a, type: 2}
+  - _key: stick
+    _value: {fileID: 21300000, guid: c71be718029de7c409c3f11a1ff5bb45, type: 2}
+  - _key: mouse/horizontal
+    _value: {fileID: 21300000, guid: c5469f214e768d249a67775a2510a576, type: 2}
+  - _key: mouse/right
+    _value: {fileID: 21300000, guid: 80a082a2e5f6d1a46b53d5adb7e07d45, type: 2}
+  - _key: mouse/left
+    _value: {fileID: 21300000, guid: 7935005f22854cc46b90cc1af4ab6d81, type: 2}
+  - _key: mouse/vertical
+    _value: {fileID: 21300000, guid: f66f3ee2c301a3e44b665850f7cd87cc, type: 2}
+  - _key: mouse/up
+    _value: {fileID: 21300000, guid: 36fdb0ac6a0d2a343979476bd2107483, type: 2}
+  - _key: mouse/down
+    _value: {fileID: 21300000, guid: aef4e989fd1af9a42b8169947cbc2fce, type: 2}
+  - _key: mouse/all
+    _value: {fileID: 21300000, guid: ddc81eb3093594e439f47d1a24810948, type: 2}

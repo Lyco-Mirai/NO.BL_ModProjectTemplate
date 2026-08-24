@@ -1,0 +1,4492 @@
+{
+  "JsonVersion": 6,
+  "MapKey": {
+    "Type": "None",
+    "Path": ""
+  },
+  "missionSettings": {
+    "description": "\"War? No. This is merely a peacekeeping initiative.\"\n\nLow intensity fighting over the disputed zone. Each side operates from a single forward airbase and must destroy the other's. Aircraft are restricted to counter-insurgency platforms, trainers, helicopters, and transports. No medium or long range air-to-air missiles are available. Air battles are resolved either with guns, or the relatively short ranged IRM-S1.",
+    "allowEventContent": false,
+    "Tags": [],
+    "playerMode": "SingleAndMultiplayer",
+    "allowRespawn": true,
+    "playerStartingRank": 0,
+    "rankMultiplier": 0.9995165,
+    "successfulSortieBonus": 0.5024924,
+    "nuclearEscalationThreshold": 225.0,
+    "strategicEscalationThreshold": 400.0,
+    "minRankTacticalWarhead": 0,
+    "minRankStrategicWarhead": 0,
+    "cameraStartPosition": {
+      "IsOverride": false,
+      "Value": {
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        }
+      }
+    },
+    "missionRoads": {
+      "roads": []
+    },
+    "missionSeaLanes": {
+      "roads": []
+    },
+    "wrecksMaxNumber": 0,
+    "wrecksDecayTime": 0.0
+  },
+  "environment": {
+    "timeOfDay": 11.9059324,
+    "timeFactor": 0.0,
+    "weatherIntensity": 0.535632551,
+    "cloudAltitude": 1236.41211,
+    "windSpeed": 3.71013522,
+    "windTurbulence": 0.115504235,
+    "windHeading": 90.72337,
+    "windRandomHeading": 0.0,
+    "moonPhase": 14.0
+  },
+  "aircraft": [
+    {
+      "type": "COIN",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13406.0566,
+        "y": 147.908249,
+        "z": -7788.01758
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.977874935,
+        "z": 0.0,
+        "w": 0.2091904
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "COIN",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "12.7mm_internal"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "gunpod_20mm"
+          },
+          {
+            "Key": "bomb_125_double"
+          },
+          {
+            "Key": "AAM3_double"
+          },
+          {
+            "Key": "AGM1_single"
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 0.0
+    },
+    {
+      "type": "COIN",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13387.2617,
+        "y": 147.908234,
+        "z": -7744.52
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9781347,
+        "z": 0.0,
+        "w": 0.207972512
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "COIN_1",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "12.7mm_internal"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "gunpod_20mm"
+          },
+          {
+            "Key": "bomb_125_double"
+          },
+          {
+            "Key": "AAM3_double"
+          },
+          {
+            "Key": "AGM1_single"
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 0.0
+    },
+    {
+      "type": "COIN",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18984.2227,
+        "y": 134.855591,
+        "z": 12620.0781
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.756131053,
+        "z": 0.0,
+        "w": 0.6544202
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "COIN_2",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "12.7mm_internal"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "gunpod_20mm"
+          },
+          {
+            "Key": "bomb_125_double"
+          },
+          {
+            "Key": "AGM1_single"
+          },
+          {
+            "Key": "AAM3_double"
+          }
+        ]
+      },
+      "livery": 1,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 0.0
+    },
+    {
+      "type": "COIN",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18928.4766,
+        "y": 134.855545,
+        "z": 12605.7031
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.449220628,
+        "z": 0.0,
+        "w": 0.8934209
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "COIN_3",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "12.7mm_internal"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "gunpod_20mm"
+          },
+          {
+            "Key": "bomb_125_double"
+          },
+          {
+            "Key": "AAM3_double"
+          },
+          {
+            "Key": "AGM1_single"
+          }
+        ]
+      },
+      "livery": 1,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 0.0
+    },
+    {
+      "type": "QuadVTOL1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13446.4063,
+        "y": 150.816788,
+        "z": -7917.32227
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.199653611,
+        "z": 0.0,
+        "w": 0.979866564
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "QuadVTOL1",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": ""
+          },
+          {
+            "Key": "LightTruck1_ATx1"
+          },
+          {
+            "Key": "LightTruck1_SAMx1"
+          },
+          {
+            "Key": "12.7mmRotaryTurret"
+          },
+          {
+            "Key": "IRMS1_double"
+          },
+          {
+            "Key": "Gunpod_25mm_flex"
+          },
+          {
+            "Key": "CargoHook"
+          }
+        ]
+      },
+      "livery": 3,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 0.0
+    },
+    {
+      "type": "QuadVTOL1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18834.9961,
+        "y": 140.275635,
+        "z": 12105.4766
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.3493938,
+        "z": 0.008318901,
+        "w": 0.936939061
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "QuadVTOL1_1",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": "6x6_1_AAx1"
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "12.7mmRotaryTurret"
+          },
+          {
+            "Key": "IRMS1_double"
+          },
+          {
+            "Key": "Gunpod_25mm_flex"
+          },
+          {
+            "Key": "CargoHook"
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 0.0
+    }
+  ],
+  "vehicles": [
+    {
+      "type": "AFV8_IFV",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18400.5586,
+        "y": 129.926788,
+        "z": 11734.252
+      },
+      "rotation": {
+        "x": -0.0561849959,
+        "y": 0.9967534,
+        "z": -0.0466820449,
+        "w": 0.0338638276
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 1.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_IFV_4",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_IFV",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18150.2363,
+        "y": 136.913208,
+        "z": 12032.6016
+      },
+      "rotation": {
+        "x": -0.00010921948,
+        "y": 0.995784,
+        "z": -0.00544445124,
+        "w": 0.091567874
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_IFV_5",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_IFV",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 12761.9492,
+        "y": 162.2492,
+        "z": -5112.19531
+      },
+      "rotation": {
+        "x": -0.004171701,
+        "y": 0.0703453049,
+        "z": 0.00750925345,
+        "w": 0.997485757
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_IFV_8",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_IFV",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 12010.2148,
+        "y": 164.6672,
+        "z": -4331.15527
+      },
+      "rotation": {
+        "x": 0.0035581647,
+        "y": 0.142158091,
+        "z": -0.006323207,
+        "w": 0.9898174
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 9.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_IFV_9",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "LCV45",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18994.0977,
+        "y": 134.31543,
+        "z": 12592.9541
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.984078646,
+        "z": 0.0,
+        "w": 0.177733764
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LCV45_1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Truck2-MRAP",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13460.1523,
+        "y": 147.70517,
+        "z": -7853.64844
+      },
+      "rotation": {
+        "x": 0.00205354276,
+        "y": 0.176988944,
+        "z": -0.0113075459,
+        "w": 0.984145761
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LCV45_9",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_SAM",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19228.0488,
+        "y": 147.074554,
+        "z": 8986.959
+      },
+      "rotation": {
+        "x": 0.0422885157,
+        "y": 0.9656918,
+        "z": -0.006393102,
+        "w": -0.2561448
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_SAM_1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_SAM",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 12792.9492,
+        "y": 163.670044,
+        "z": -5132.184
+      },
+      "rotation": {
+        "x": -0.0571480654,
+        "y": 0.22545974,
+        "z": 0.02547783,
+        "w": 0.972241163
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_SAM_9",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_SAM",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 15326.4238,
+        "y": 137.539276,
+        "z": -4506.5625
+      },
+      "rotation": {
+        "x": -0.00243004062,
+        "y": 0.08603343,
+        "z": -0.00374489184,
+        "w": 0.9962823
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_SAM_10",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_SAM",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18567.707,
+        "y": 145.7623,
+        "z": 12488.5938
+      },
+      "rotation": {
+        "x": 0.0165288318,
+        "y": 0.9762795,
+        "z": -0.0248747747,
+        "w": 0.214444518
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_SAM_10",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-M",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19007.8574,
+        "y": 133.142578,
+        "z": 12469.6143
+      },
+      "rotation": {
+        "x": -0.004702033,
+        "y": 0.459242463,
+        "z": -0.00437895861,
+        "w": 0.8882877
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-M",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18991.1719,
+        "y": 132.960449,
+        "z": 12457.9922
+      },
+      "rotation": {
+        "x": -0.0105066495,
+        "y": 0.434749335,
+        "z": 0.0009016906,
+        "w": 0.900489748
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-FT",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Truck2-M",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13552.19,
+        "y": 146.019653,
+        "z": -7767.23047
+      },
+      "rotation": {
+        "x": -0.00430441648,
+        "y": 0.199894533,
+        "z": 0.008496526,
+        "w": -0.979771137
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-M_15",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Truck2-FT",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13543.5635,
+        "y": 145.649261,
+        "z": -7746.18555
+      },
+      "rotation": {
+        "x": -0.0135279279,
+        "y": 0.196027249,
+        "z": 0.008463035,
+        "w": -0.9804687
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-FT_15",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "SPAAG2",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18632.7324,
+        "y": 20.8703861,
+        "z": 8709.683
+      },
+      "rotation": {
+        "x": 0.0149172032,
+        "y": 0.68412894,
+        "z": -0.0219422877,
+        "w": -0.7288784
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "SPAAG2_13",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_SAM",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13332.6045,
+        "y": 137.9927,
+        "z": -2228.22266
+      },
+      "rotation": {
+        "x": 0.0014244545,
+        "y": 0.0663607642,
+        "z": -0.000428979722,
+        "w": 0.997794569
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_SAM_25",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "SPAAG2",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 12945.0566,
+        "y": 116.269653,
+        "z": -2323.4856
+      },
+      "rotation": {
+        "x": 0.00108702492,
+        "y": 0.398569375,
+        "z": -0.00631227251,
+        "w": 0.9171158
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "SPAAG2_pala1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19249.6387,
+        "y": 125.591248,
+        "z": 13111.7373
+      },
+      "rotation": {
+        "x": 0.119174182,
+        "y": 0.9449179,
+        "z": 0.106280826,
+        "w": -0.285713375
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC_16",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19258.1543,
+        "y": 123.443092,
+        "z": 13121.0957
+      },
+      "rotation": {
+        "x": 0.119174182,
+        "y": 0.9449179,
+        "z": 0.106280826,
+        "w": -0.285713375
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC_17",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19265.6563,
+        "y": 122.673317,
+        "z": 13131.1777
+      },
+      "rotation": {
+        "x": 0.119174182,
+        "y": 0.9449179,
+        "z": 0.106280826,
+        "w": -0.285713375
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC_18",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19275.77,
+        "y": 123.150368,
+        "z": 13141.5771
+      },
+      "rotation": {
+        "x": 0.119174182,
+        "y": 0.9449179,
+        "z": 0.106280826,
+        "w": -0.285713375
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC_19",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_IFV",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19229.3223,
+        "y": 132.045853,
+        "z": 13068.8086
+      },
+      "rotation": {
+        "x": -0.0280055963,
+        "y": 0.958996236,
+        "z": -0.0188894551,
+        "w": -0.2813985
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_IFV_30",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_IFV",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19233.5332,
+        "y": 130.226578,
+        "z": 13083.9326
+      },
+      "rotation": {
+        "x": 0.04832844,
+        "y": 0.9583321,
+        "z": 0.008879538,
+        "w": -0.281398535
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_IFV_31",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Truck2-MRAP",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13365.84,
+        "y": 137.861725,
+        "z": -1787.98987
+      },
+      "rotation": {
+        "x": 0.00264209439,
+        "y": 0.196633369,
+        "z": 0.00364264334,
+        "w": 0.9804668
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LCV45_7",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Truck2-MRAP",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13373.1055,
+        "y": 137.90506,
+        "z": -1804.53613
+      },
+      "rotation": {
+        "x": 0.00246615033,
+        "y": 0.196677774,
+        "z": 0.0008901991,
+        "w": 0.9804647
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LCV45_10",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Truck2-MRAP",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13381.958,
+        "y": 137.990723,
+        "z": -1822.13977
+      },
+      "rotation": {
+        "x": 0.00128661958,
+        "y": 0.196672454,
+        "z": 0.00270328578,
+        "w": 0.9804647
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LCV45_11",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Truck2-MRAP",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13393.2236,
+        "y": 138.225647,
+        "z": -1846.85632
+      },
+      "rotation": {
+        "x": 0.0009716235,
+        "y": 0.19668965,
+        "z": -0.00112161681,
+        "w": 0.9804647
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LCV45_13",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_IFV",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13407.4668,
+        "y": 138.096649,
+        "z": -1875.18982
+      },
+      "rotation": {
+        "x": -0.000242212467,
+        "y": 0.110523351,
+        "z": -0.00163219823,
+        "w": 0.993872166
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_IFV_11",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_IFV",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13422.6152,
+        "y": 138.120087,
+        "z": -1903.60583
+      },
+      "rotation": {
+        "x": -0.00137971027,
+        "y": 0.110527053,
+        "z": -5.642976E-06,
+        "w": 0.993872166
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_IFV_14",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_APC",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13437.332,
+        "y": 138.0242,
+        "z": -1930.70154
+      },
+      "rotation": {
+        "x": -0.0008481202,
+        "y": 0.110524379,
+        "z": -0.00133261841,
+        "w": 0.993872166
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_APC_1",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_APC",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13451.373,
+        "y": 138.039154,
+        "z": -1954.83655
+      },
+      "rotation": {
+        "x": -0.00239130086,
+        "y": 0.110507563,
+        "z": -0.000703074271,
+        "w": 0.993872166
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_APC_4",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_SAM",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13469.3252,
+        "y": 138.296387,
+        "z": -1983.05664
+      },
+      "rotation": {
+        "x": -0.003481925,
+        "y": 0.14036639,
+        "z": 0.0002425346,
+        "w": 0.99009347
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 3.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_SAM_30",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "LCV45",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18842.6484,
+        "y": 65.5895538,
+        "z": 7619.582
+      },
+      "rotation": {
+        "x": 0.07008426,
+        "y": 0.9859323,
+        "z": 0.06443016,
+        "w": -0.137384415
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LCV45_18",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "LCV45",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18837.5215,
+        "y": 65.35396,
+        "z": 7628.76563
+      },
+      "rotation": {
+        "x": 0.07008426,
+        "y": 0.9859323,
+        "z": 0.06443016,
+        "w": -0.137384415
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LCV45_19",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "LCV45",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18833.707,
+        "y": 65.03136,
+        "z": 7638.454
+      },
+      "rotation": {
+        "x": 0.07360019,
+        "y": 0.98587,
+        "z": 0.061390873,
+        "w": -0.1373844
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LCV45_20",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "LCV45",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18828.61,
+        "y": 64.86926,
+        "z": 7647.73926
+      },
+      "rotation": {
+        "x": 0.07599727,
+        "y": 0.9859226,
+        "z": 0.05750375,
+        "w": -0.1373844
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "LCV45_21",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_IFV",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18800.875,
+        "y": 65.4081,
+        "z": 7727.381
+      },
+      "rotation": {
+        "x": 0.0257654618,
+        "y": 0.9893931,
+        "z": -0.00513379369,
+        "w": -0.142867386
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_IFV_3",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_IFV",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18795.37,
+        "y": 65.62044,
+        "z": 7740.665
+      },
+      "rotation": {
+        "x": 0.0257654618,
+        "y": 0.9893931,
+        "z": -0.00513379369,
+        "w": -0.142867386
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_IFV_8",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18784.498,
+        "y": 65.91397,
+        "z": 7775.373
+      },
+      "rotation": {
+        "x": 0.0210396312,
+        "y": 0.9876587,
+        "z": 0.00199816655,
+        "w": -0.155189216
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18779.334,
+        "y": 66.00363,
+        "z": 7785.416
+      },
+      "rotation": {
+        "x": 0.0210396312,
+        "y": 0.9876587,
+        "z": 0.00199816655,
+        "w": -0.155189216
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC_1",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_SAM",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18768.3,
+        "y": 66.09616,
+        "z": 7814.06836
+      },
+      "rotation": {
+        "x": 0.05530406,
+        "y": 0.9869658,
+        "z": 0.08124443,
+        "w": -0.127434
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 3.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_SAM_31",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_IFV",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13755.749,
+        "y": 145.21727,
+        "z": -8082.98145
+      },
+      "rotation": {
+        "x": 0.004013278,
+        "y": 0.40123114,
+        "z": 0.00608414551,
+        "w": -0.915947855
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_IFV_15",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_IFV",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13774.1113,
+        "y": 145.28537,
+        "z": -8099.85547
+      },
+      "rotation": {
+        "x": 0.02488797,
+        "y": 0.400476336,
+        "z": 0.006233532,
+        "w": -0.915947855
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_IFV_18",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_APC",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13797.0977,
+        "y": 146.419754,
+        "z": -8119.998
+      },
+      "rotation": {
+        "x": -0.00136972452,
+        "y": 0.4012787,
+        "z": -0.00361814932,
+        "w": -0.915947855
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_APC_6",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_APC",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13818.76,
+        "y": 147.462234,
+        "z": -8135.316
+      },
+      "rotation": {
+        "x": 0.00669905124,
+        "y": 0.400749028,
+        "z": 0.0198720917,
+        "w": -0.915947855
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_APC_8",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_APC",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13836.5625,
+        "y": 147.5796,
+        "z": -8149.345
+      },
+      "rotation": {
+        "x": 0.00669905124,
+        "y": 0.400749028,
+        "z": 0.0198720917,
+        "w": -0.915947855
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_APC_9",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Linebreaker_APC",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13855.0781,
+        "y": 147.570923,
+        "z": -8164.744
+      },
+      "rotation": {
+        "x": 0.00669905124,
+        "y": 0.400749028,
+        "z": 0.0198720917,
+        "w": -0.915947855
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Linebreaker_APC_10",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "AFV8_APC",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18969.0762,
+        "y": 134.415436,
+        "z": 12577.8936
+      },
+      "rotation": {
+        "x": 0.00107442867,
+        "y": 0.9884295,
+        "z": 0.000164874116,
+        "w": 0.15167731
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "AFV8_APC_2",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18984.459,
+        "y": 133.715424,
+        "z": 12603.8379
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.7679716,
+        "z": 0.0,
+        "w": 0.640484
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-L_11",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-FT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18969.123,
+        "y": 133.715546,
+        "z": 12606.7559
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.769796252,
+        "z": 0.0,
+        "w": 0.6382897
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-FT_25",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Truck2-R",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13428.3906,
+        "y": 146.210083,
+        "z": -7731.038
+      },
+      "rotation": {
+        "x": 0.00291778031,
+        "y": 0.193273544,
+        "z": 0.00123310427,
+        "w": -0.9811398
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-R",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-R",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18980.4824,
+        "y": 133.715454,
+        "z": 12590.3867
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.947073,
+        "z": 0.0,
+        "w": 0.3210184
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-R_1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "MBT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19007.23,
+        "y": 129.432343,
+        "z": 13359.335
+      },
+      "rotation": {
+        "x": 0.121652424,
+        "y": 0.9244894,
+        "z": 0.08553221,
+        "w": 0.351004839
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "MBT",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "MBT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18991.0039,
+        "y": 129.17453,
+        "z": 13378.4609
+      },
+      "rotation": {
+        "x": 0.07893397,
+        "y": 0.9108395,
+        "z": 0.20232527,
+        "w": 0.35100624
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "MBT_1",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "MBT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18972.3262,
+        "y": 129.983047,
+        "z": 13397.9863
+      },
+      "rotation": {
+        "x": 0.219299763,
+        "y": 0.895715058,
+        "z": 0.162471026,
+        "w": 0.35100624
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "MBT_2",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "MBT",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18956.48,
+        "y": 130.383759,
+        "z": 13419.3486
+      },
+      "rotation": {
+        "x": 0.20505619,
+        "y": 0.908003449,
+        "z": 0.101372525,
+        "w": 0.35100624
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "MBT_3",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "MBT1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13529.3818,
+        "y": 133.664154,
+        "z": -8903.188
+      },
+      "rotation": {
+        "x": 0.0227007959,
+        "y": 0.342825562,
+        "z": -0.0129101044,
+        "w": 0.939036
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "MBT_4",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "MBT1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13514.3486,
+        "y": 134.160858,
+        "z": -8921.129
+      },
+      "rotation": {
+        "x": 0.0229551289,
+        "y": 0.342727929,
+        "z": 0.0148998722,
+        "w": 0.939036
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "MBT_5",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "MBT1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13502.1211,
+        "y": 134.8185,
+        "z": -8939.187
+      },
+      "rotation": {
+        "x": 0.00612473767,
+        "y": 0.343755275,
+        "z": -0.00248556421,
+        "w": 0.9390361
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "MBT_6",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "MBT1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13490.916,
+        "y": 134.757889,
+        "z": -8959.419
+      },
+      "rotation": {
+        "x": 0.0052219755,
+        "y": 0.3437426,
+        "z": -0.005012213,
+        "w": 0.9390361
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "MBT_7",
+      "holdPosition": false,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "CRAMTrailer1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18891.6973,
+        "y": 134.815,
+        "z": 12504.6426
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.880683959,
+        "z": 0.0,
+        "w": -0.4737044
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "CRAMTrailer1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "Truck2-CRAM",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13229.8213,
+        "y": 145.3709,
+        "z": -7334.223
+      },
+      "rotation": {
+        "x": -0.0003067924,
+        "y": 0.15514186,
+        "z": 4.47984748E-05,
+        "w": 0.987892151
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Truck2-CRAM",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "UGV1_grenade",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 16530.6016,
+        "y": 197.644043,
+        "z": 4016.21777
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.728233159,
+        "z": 0.0,
+        "w": 0.6853295
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "UGV1_grenade",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "UGV1_grenade",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 14627.2646,
+        "y": 165.958435,
+        "z": 1292.65369
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.50000006,
+        "z": 0.0,
+        "w": -0.8660254
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "UGV1_grenade_1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    }
+  ],
+  "ships": [],
+  "buildings": [
+    {
+      "type": "VehicleDepot1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13470.1641,
+        "y": 144.25769,
+        "z": -8109.39746
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.196555242,
+        "z": 0.0,
+        "w": -0.9804928
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "hwy1depot2",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "VehicleDepot1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13106.7627,
+        "y": 144.735229,
+        "z": -7095.81152
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.8244164,
+        "z": 0.0,
+        "w": 0.5659837
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "hwy1depot1",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "VehicleDepot1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19127.9043,
+        "y": 133.239746,
+        "z": 12730.3145
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9134806,
+        "z": 0.0,
+        "w": 0.4068824
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "hwy2depot2",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "VehicleDepot1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18500.6621,
+        "y": 133.334869,
+        "z": 12031.31
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.259357661,
+        "z": 0.0,
+        "w": 0.9657814
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "hwy2depot1",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "factory_large",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 20938.4219,
+        "y": 139.888184,
+        "z": 14635.5479
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.6433283,
+        "z": 0.0,
+        "w": 0.7655904
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 50.0
+      },
+      "UniqueName": "BDFvehfac2",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "AFV8_IFV",
+        "productionTime": 249.805008
+      }
+    },
+    {
+      "type": "factory_large",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 20893.55,
+        "y": 142.7666,
+        "z": 14355.9941
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.6488742,
+        "z": 0.0,
+        "w": 0.760895669
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 50.0
+      },
+      "UniqueName": "BDFvehfac1",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "AFV8_APC",
+        "productionTime": 249.805008
+      }
+    },
+    {
+      "type": "factory_large",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 21041.9023,
+        "y": 139.204346,
+        "z": 16267.9619
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.471404374,
+        "z": 0.0,
+        "w": 0.8819172
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "BDFvehfac4",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "LCV45",
+        "productionTime": 250.086166
+      }
+    },
+    {
+      "type": "factory_large",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 21187.7383,
+        "y": 139.068359,
+        "z": 16042.5586
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.471404374,
+        "z": 0.0,
+        "w": 0.8819172
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "BDFvehfac3",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "AFV8_APC",
+        "productionTime": 249.805176
+      }
+    },
+    {
+      "type": "VehicleDepot1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18555.0938,
+        "y": 14.3773193,
+        "z": 8494.394
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.66434294,
+        "z": 0.0,
+        "w": 0.74742794
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "VehicleDepot1_bdf1",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "factory_large",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 12562.03,
+        "y": 109.880432,
+        "z": -11866.3086
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.76791203,
+        "z": 0.0,
+        "w": 0.6405553
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "PALAvehfac3",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "Truck2-MRAP",
+        "productionTime": 249.621124
+      }
+    },
+    {
+      "type": "factory_large",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 12266.31,
+        "y": 104.907471,
+        "z": -12020.3828
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.995279133,
+        "z": 0.0,
+        "w": -0.09705384
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "PALAvehfac4",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "Linebreaker_APC",
+        "productionTime": 249.621124
+      }
+    },
+    {
+      "type": "factory_large",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 12373.0322,
+        "y": 119.036682,
+        "z": -11636.7813
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0942808762,
+        "z": 0.0,
+        "w": 0.9955456
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "PALAvehfac1",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "Linebreaker_IFV",
+        "productionTime": 249.621124
+      }
+    },
+    {
+      "type": "factory_tall",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 12579.0762,
+        "y": 125.4137,
+        "z": -11695.6113
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.7655904,
+        "z": 0.0,
+        "w": 0.6433283
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "PALAvehfac2",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "Linebreaker_APC",
+        "productionTime": 249.621124
+      }
+    },
+    {
+      "type": "VehicleDepot1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13138.2578,
+        "y": 115.287704,
+        "z": -2262.235
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.400546581,
+        "z": 0.0,
+        "w": 0.9162764
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "VehicleDepot_pala1",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "factory_tall",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 12425.1367,
+        "y": 116.051147,
+        "z": -11779.42
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0942808762,
+        "z": 0.0,
+        "w": 0.9955456
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "factory_tall",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "COIN",
+        "productionTime": 120.0
+      }
+    },
+    {
+      "type": "factory_tall",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 12286.7168,
+        "y": 115.9657,
+        "z": -11751.3809
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0998268053,
+        "z": 0.0,
+        "w": 0.995004833
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "factory_tall_1",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "AttackHelo1",
+        "productionTime": 301.266266
+      }
+    },
+    {
+      "type": "factory_tall",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 21045.7734,
+        "y": 158.034027,
+        "z": 14410.3525
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.6516472,
+        "z": 0.0,
+        "w": 0.7585222
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "UniqueName": "factory_tall_2",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "AttackHelo1",
+        "productionTime": 301.265717
+      }
+    },
+    {
+      "type": "factory_tall",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 21088.4023,
+        "y": 157.43811,
+        "z": 14686.9619
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.6516472,
+        "z": 0.0,
+        "w": 0.7585222
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "UniqueName": "factory_tall_3",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "COIN",
+        "productionTime": 120.0
+      }
+    },
+    {
+      "type": "VehicleDepot1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13300.6113,
+        "y": 144.903381,
+        "z": -7550.792
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.8302185,
+        "z": 0.0,
+        "w": 0.5574382
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "VehicleDepot1",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "VehicleDepot1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13519.123,
+        "y": 144.959412,
+        "z": -8013.355
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9813266,
+        "z": 0.0,
+        "w": -0.1923492
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "VehicleDepot1_1",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "VehicleDepot1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18961.6875,
+        "y": 133.2219,
+        "z": 12376.1123
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.333384,
+        "z": 0.0,
+        "w": 0.942791164
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "VehicleDepot1_2",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "VehicleDepot1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19202.0645,
+        "y": 133.138855,
+        "z": 12656.6426
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.40097332,
+        "z": 0.0,
+        "w": 0.9160898
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "VehicleDepot1_3",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "pillbox",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13038.43,
+        "y": 144.91629,
+        "z": -6916.35352
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0360485725,
+        "z": 0.0,
+        "w": 0.9993501
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "pillbox_1",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "pillbox",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18195.1,
+        "y": 137.395767,
+        "z": 12014.3359
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9972664,
+        "z": 0.0,
+        "w": -0.07389025
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "pillbox",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "factory_tall",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 12427.6211,
+        "y": 116.16819,
+        "z": -11852.8164
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.6391755,
+        "z": 0.0,
+        "w": 0.769061
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "UniqueName": "factory_tall_4",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "QuadVTOL1",
+        "productionTime": 215.831543
+      }
+    },
+    {
+      "type": "factory_tall",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 21059.2266,
+        "y": 158.030151,
+        "z": 14498.5039
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.756759,
+        "z": 0.0,
+        "w": 0.653694
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "UniqueName": "factory_tall_5",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "QuadVTOL1",
+        "productionTime": 215.832245
+      }
+    },
+    {
+      "type": "factory_tall",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 21109.8945,
+        "y": 157.801147,
+        "z": 14474.3145
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.758811831,
+        "z": 0.0,
+        "w": 0.651309967
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "UniqueName": "factory_tall_6",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "UtilityHelo1",
+        "productionTime": 199.600571
+      }
+    },
+    {
+      "type": "factory_tall",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 12370.166,
+        "y": 116.703857,
+        "z": -11862.9678
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.7674475,
+        "z": 0.0,
+        "w": 0.641111851
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 25.0
+      },
+      "UniqueName": "factory_tall_7",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "UtilityHelo1",
+        "productionTime": 199.600571
+      }
+    },
+    {
+      "type": "Emplacement1_23mm",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13374.3125,
+        "y": 142.562744,
+        "z": -6792.08
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.119237572,
+        "z": 0.0,
+        "w": 0.992865741
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_23mm",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "Emplacement1_23mm",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 12827.5586,
+        "y": 145.103546,
+        "z": -7030.40625
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.471404374,
+        "z": 0.0,
+        "w": 0.8819172
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_23mm_1",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "Emplacement1_23mm",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 14009.5332,
+        "y": 146.2639,
+        "z": -7683.22168
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.814936638,
+        "z": 0.0,
+        "w": 0.5795501
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_23mm_2",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "Emplacement1_23mm",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13051.2207,
+        "y": 143.156738,
+        "z": -8073.5
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.979297459,
+        "z": 0.0,
+        "w": -0.202426583
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_23mm_3",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "Emplacement1_23mm",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18687.1387,
+        "y": 128.103378,
+        "z": 11722.0605
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9015942,
+        "z": 0.0,
+        "w": -0.432582825
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_23mm_4",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "Emplacement1_23mm",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 18224.6738,
+        "y": 139.730347,
+        "z": 12050.415
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9999654,
+        "z": 0.0,
+        "w": -0.008318902
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_23mm_5",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "Emplacement1_23mm",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19086.4883,
+        "y": 135.3544,
+        "z": 11993.0391
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.788059831,
+        "z": 0.0,
+        "w": 0.6155986
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_23mm_6",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "Emplacement1_23mm",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19206.4121,
+        "y": 131.585938,
+        "z": 12955.8428
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.124783508,
+        "z": 0.0,
+        "w": 0.992184
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_23mm_7",
+      "capturable": false,
+      "factoryOptions": {
+        "productionType": "",
+        "productionTime": 900.0
+      }
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13238.5068,
+        "y": 140.278961,
+        "z": -1721.26343
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1",
+      "capturable": false
+    },
+    {
+      "type": "Emplacement1_ATGM",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13243.8418,
+        "y": 142.081619,
+        "z": -1741.04517
+      },
+      "rotation": {
+        "x": 0.0185179655,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.9998286
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_ATGM",
+      "capturable": false
+    },
+    {
+      "type": "Emplacement1_ATGM",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19191.1641,
+        "y": 136.292419,
+        "z": 6646.34131
+      },
+      "rotation": {
+        "x": -0.0190310385,
+        "y": 0.9208284,
+        "z": -0.07344541,
+        "w": -0.382516116
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_ATGM_1",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19196.9336,
+        "y": 136.334839,
+        "z": 6637.193
+      },
+      "rotation": {
+        "x": -0.0178705472,
+        "y": 0.9726638,
+        "z": -0.0800027251,
+        "w": -0.21726802
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_1",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19128.3652,
+        "y": 140.881348,
+        "z": 6725.10254
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.991470754,
+        "z": 0.0,
+        "w": -0.130329445
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_2",
+      "capturable": false
+    },
+    {
+      "type": "Emplacement1_MG",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 19138.73,
+        "y": 140.868515,
+        "z": 6722.3584
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.9661754,
+        "z": 0.0,
+        "w": -0.257885933
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_MG",
+      "capturable": false
+    },
+    {
+      "type": "Emplacement1_MG",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13051.7969,
+        "y": 141.6311,
+        "z": -1750.0769
+      },
+      "rotation": {
+        "x": 0.03695111,
+        "y": 0.13023892,
+        "z": -0.0048572463,
+        "w": 0.990781963
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_MG_1",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13043.1455,
+        "y": 141.592239,
+        "z": -1750.93237
+      },
+      "rotation": {
+        "x": 0.02203048,
+        "y": 0.130297273,
+        "z": -0.0028959203,
+        "w": 0.991225958
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_3",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 17571.6035,
+        "y": 157.630951,
+        "z": 3358.06274
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.707107067,
+        "z": 0.0,
+        "w": -0.7071066
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_4",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 16624.0938,
+        "y": 184.051453,
+        "z": 3975.30151
+      },
+      "rotation": {
+        "x": 0.05257599,
+        "y": 0.8356239,
+        "z": -0.08125207,
+        "w": 0.5407094
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_5",
+      "capturable": false
+    },
+    {
+      "type": "Emplacement1_ATGM",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 16594.4824,
+        "y": 184.385254,
+        "z": 3928.48267
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.991470754,
+        "z": 0.0,
+        "w": 0.130329445
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_ATGM_2",
+      "capturable": false
+    },
+    {
+      "type": "Emplacement1_MG",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 16577.5234,
+        "y": 186.508438,
+        "z": 3935.044
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0,
+        "w": 0.0
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_MG_2",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 16330.165,
+        "y": 177.294388,
+        "z": 3141.41553
+      },
+      "rotation": {
+        "x": 0.009738159,
+        "y": 0.9811696,
+        "z": -0.06210836,
+        "w": 0.182630971
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_6",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 16336.9482,
+        "y": 177.3284,
+        "z": 3144.041
+      },
+      "rotation": {
+        "x": 0.0104750786,
+        "y": 0.9811615,
+        "z": -0.06252936,
+        "w": 0.18249023
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_6_1",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 16607.12,
+        "y": 200.595978,
+        "z": 2404.25537
+      },
+      "rotation": {
+        "x": -0.05423562,
+        "y": 0.186914846,
+        "z": -0.0103356447,
+        "w": -0.9808234
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_9",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 14635.9795,
+        "y": 166.959137,
+        "z": 1324.75793
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.130329445,
+        "z": 0.0,
+        "w": 0.991470754
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_7",
+      "capturable": false
+    },
+    {
+      "type": "Emplacement1_ATGM",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 14666.6318,
+        "y": 168.232819,
+        "z": 1327.23315
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.130329445,
+        "z": 0.0,
+        "w": 0.991470754
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_ATGM_5",
+      "capturable": false
+    },
+    {
+      "type": "Emplacement1_MG",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 14596.6084,
+        "y": 164.340546,
+        "z": 1324.55945
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.130329445,
+        "z": 0.0,
+        "w": 0.991470754
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_MG_7",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 13800.2725,
+        "y": 147.846161,
+        "z": 1790.86426
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.7071066,
+        "z": 0.0,
+        "w": 0.707107067
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_10",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 16600.3477,
+        "y": 200.617935,
+        "z": 2401.51343
+      },
+      "rotation": {
+        "x": 0.0542498939,
+        "y": -0.18827413,
+        "z": 0.0102604618,
+        "w": 0.980563343
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_9_1",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 16005.416,
+        "y": 196.387711,
+        "z": 2163.99536
+      },
+      "rotation": {
+        "x": 0.0481505357,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.9988401
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_8",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 15805.875,
+        "y": 164.491,
+        "z": 2894.97314
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.899720252,
+        "z": 0.0,
+        "w": 0.436467052
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_11",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 16344.0029,
+        "y": 206.21994,
+        "z": 3472.24121
+      },
+      "rotation": {
+        "x": 0.015184015,
+        "y": 0.964499235,
+        "z": -0.05688725,
+        "w": 0.25743857
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_13",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 16658.373,
+        "y": 253.61171,
+        "z": 2112.13379
+      },
+      "rotation": {
+        "x": 0.009105204,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 0.9999586
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_14",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 16993.7578,
+        "y": 96.72538,
+        "z": 3776.40625
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.985420048,
+        "z": 0.0,
+        "w": -0.1701394
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_15",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 16868.13,
+        "y": 209.422,
+        "z": 2320.316
+      },
+      "rotation": {
+        "x": 0.0319719166,
+        "y": -0.0280360263,
+        "z": -0.00161865342,
+        "w": 0.9990942
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_12",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 15665.5254,
+        "y": 172.538116,
+        "z": 2897.77979
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.991470754,
+        "z": 0.0,
+        "w": -0.130329445
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_16",
+      "capturable": false
+    },
+    {
+      "type": "gabionBunker1",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 15641.1094,
+        "y": 174.090912,
+        "z": 1905.758
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "w": 1.0
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionBunker1_17",
+      "capturable": false
+    },
+    {
+      "type": "Emplacement1_MG",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 16605.1953,
+        "y": 201.523361,
+        "z": 2397.77051
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": -0.197098881,
+        "z": 0.0,
+        "w": 0.980383635
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_MG_3",
+      "capturable": false
+    },
+    {
+      "type": "Emplacement1_MG",
+      "faction": "Boscali",
+      "globalPosition": {
+        "x": 16332.2119,
+        "y": 178.259277,
+        "z": 3147.794
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.98180896,
+        "z": 0.0,
+        "w": 0.189871475
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "Emplacement1_MG_4",
+      "capturable": false
+    }
+  ],
+  "scenery": [
+    {
+      "type": "Hulldown2",
+      "faction": "",
+      "globalPosition": {
+        "x": 13230.0156,
+        "y": 143.181763,
+        "z": -7334.072
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.155286148,
+        "z": 0.0,
+        "w": 0.987869561
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "hullDown2",
+      "indestructible": false
+    },
+    {
+      "type": "Hulldown1",
+      "faction": "",
+      "globalPosition": {
+        "x": 18891.5488,
+        "y": 131.8722,
+        "z": 12504.79
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.457539529,
+        "z": 0.0,
+        "w": 0.8891893
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "hullDown1",
+      "indestructible": false
+    },
+    {
+      "type": "gabionWall_20x3x3",
+      "faction": "",
+      "globalPosition": {
+        "x": 16531.3457,
+        "y": 197.890625,
+        "z": 4001.62256
+      },
+      "rotation": {
+        "x": -0.0206921417,
+        "y": 0.7068042,
+        "z": -0.0389729068,
+        "w": 0.70603174
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "gabionWall_20x3x3",
+      "indestructible": false
+    }
+  ],
+  "containers": [],
+  "missiles": [],
+  "pilots": [],
+  "factions": [
+    {
+      "factionName": "Boscali",
+      "preventJoin": false,
+      "preventDonation": false,
+      "supplies": [
+        {
+          "UnitType": "COIN",
+          "Count": 6
+        },
+        {
+          "UnitType": "AttackHelo1",
+          "Count": 3
+        },
+        {
+          "UnitType": "QuadVTOL1",
+          "Count": 2
+        },
+        {
+          "UnitType": "UtilityHelo1",
+          "Count": 3
+        },
+        {
+          "UnitType": "VTOLTrainer1",
+          "Count": 2
+        },
+        {
+          "UnitType": "trainer",
+          "Count": 2
+        }
+      ],
+      "startingBalance": 301.9508,
+      "playerJoinAllowance": 20.6232052,
+      "playerTaxRate": 0.2,
+      "regularIncome": 2.07072353,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 2.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 4,
+      "reserveWarheads": 2,
+      "reserveAirframes": 1,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 2,
+      "reduceAIPerFriendlyPlayer": 0.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [
+          "EW1",
+          "Darkreach",
+          "Fighter1",
+          "Multirole1",
+          "SmallFighter1"
+        ],
+        "weapons": [
+          "AAM1_double",
+          "AAM1_double_internal",
+          "AAM1_single",
+          "AAM2_single",
+          "AAM2_double_internal",
+          "76mmSideMount",
+          "AGM1_floorLauncher_QuadVTOL1"
+        ]
+      },
+      "cameraStartPosition": {
+        "IsOverride": true,
+        "Value": {
+          "Position": {
+            "x": 18889.3613,
+            "y": 77.50943,
+            "z": 7484.181
+          },
+          "Rotation": {
+            "x": -0.00588355027,
+            "y": 0.048413448,
+            "z": -0.000285182352,
+            "w": -0.99881
+          }
+        }
+      }
+    },
+    {
+      "factionName": "Primeva",
+      "preventJoin": false,
+      "preventDonation": false,
+      "supplies": [
+        {
+          "UnitType": "COIN",
+          "Count": 6
+        },
+        {
+          "UnitType": "AttackHelo1",
+          "Count": 3
+        },
+        {
+          "UnitType": "QuadVTOL1",
+          "Count": 2
+        },
+        {
+          "UnitType": "UtilityHelo1",
+          "Count": 3
+        },
+        {
+          "UnitType": "VTOLTrainer1",
+          "Count": 2
+        },
+        {
+          "UnitType": "trainer",
+          "Count": 2
+        }
+      ],
+      "startingBalance": 301.9508,
+      "playerJoinAllowance": 20.6232052,
+      "playerTaxRate": 0.2,
+      "regularIncome": 2.07072353,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 2.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 4,
+      "reserveWarheads": 2,
+      "reserveAirframes": 1,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 2,
+      "reduceAIPerFriendlyPlayer": 0.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [
+          "EW1",
+          "Darkreach",
+          "Fighter1",
+          "Multirole1",
+          "SmallFighter1"
+        ],
+        "weapons": [
+          "AAM1_double",
+          "AAM1_double_internal",
+          "AAM1_single",
+          "AAM2_single",
+          "AAM2_double_internal",
+          "76mmSideMount",
+          "AGM1_floorLauncher_QuadVTOL1"
+        ]
+      },
+      "cameraStartPosition": {
+        "IsOverride": true,
+        "Value": {
+          "Position": {
+            "x": 13333.0781,
+            "y": 143.485321,
+            "z": -1609.13513
+          },
+          "Rotation": {
+            "x": 0.0004408927,
+            "y": -0.9977072,
+            "z": -0.006530076,
+            "w": -0.0673624
+          }
+        }
+      }
+    }
+  ],
+  "airbases": [
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "Maris Airport",
+      "DisplayName": "Maris Airport",
+      "Disabled": true,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1473.0,
+      "Center": {
+        "x": 12919.0,
+        "y": 147.315414,
+        "z": 19549.0
+      },
+      "SelectionPosition": {
+        "x": 12802.6,
+        "y": 135.155411,
+        "z": 19235.3
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "Sandrift Airbase",
+      "DisplayName": "Sandrift Airbase",
+      "Disabled": true,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 975.0,
+      "Center": {
+        "x": 27810.69,
+        "y": 138.233459,
+        "z": -19056.1543
+      },
+      "SelectionPosition": {
+        "x": 27574.4785,
+        "y": 135.432465,
+        "z": -19351.6035
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "Agrapol Airbase",
+      "DisplayName": "Agrapol Airbase",
+      "Disabled": true,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1463.0,
+      "Center": {
+        "x": -989.0,
+        "y": 155.299988,
+        "z": -26894.0
+      },
+      "SelectionPosition": {
+        "x": -905.9,
+        "y": 136.73999,
+        "z": -27339.9
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "Vigil Cay Naval Airbase",
+      "DisplayName": "Vigil Cay Naval Airbase",
+      "Disabled": true,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1332.0,
+      "Center": {
+        "x": -33990.832,
+        "y": 19.3207855,
+        "z": -12086.584
+      },
+      "SelectionPosition": {
+        "x": -34213.5664,
+        "y": 19.985,
+        "z": -12459.1035
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "South Boscali General Aviation",
+      "DisplayName": "South Boscali General Aviation",
+      "Disabled": true,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 900.0,
+      "Center": {
+        "x": -10054.9023,
+        "y": 142.727966,
+        "z": -6505.8
+      },
+      "SelectionPosition": {
+        "x": -10265.02,
+        "y": 136.43,
+        "z": -6532.09
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "None",
+      "UniqueName": "North Boscali Airbase",
+      "DisplayName": "North Boscali Airbase",
+      "Disabled": true,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 1561.0,
+      "Center": {
+        "x": -18627.1934,
+        "y": 140.0,
+        "z": 32225.5879
+      },
+      "SelectionPosition": {
+        "x": -18550.0,
+        "y": 137.057,
+        "z": 32192.7
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Boscali",
+      "UniqueName": "K92 Highway Strip",
+      "DisplayName": "K92 Highway Strip",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 746.0,
+      "Center": {
+        "x": 18983.6133,
+        "y": 134.234192,
+        "z": 12573.53
+      },
+      "SelectionPosition": {
+        "x": 18943.8867,
+        "y": 132.815,
+        "z": 12574.958
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    },
+    {
+      "IsOverride": true,
+      "faction": "Primeva",
+      "UniqueName": "Dustbowl Highway Strip",
+      "DisplayName": "Dustbowl Highway Strip",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 10.0,
+      "CaptureRange": 746.0,
+      "Center": {
+        "x": 13423.4756,
+        "y": 149.337982,
+        "z": -7732.492
+      },
+      "SelectionPosition": {
+        "x": 13351.44,
+        "y": 145.872009,
+        "z": -7709.05
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    }
+  ],
+  "objectives": [
+    {
+      "Type": "None",
+      "UniqueName": "Mission Start",
+      "Faction": "",
+      "DisplayName": "",
+      "Hidden": true,
+      "Outcomes": [
+        "SetStartingConditions"
+      ]
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "Destroy_PALA_Airstrip",
+      "Faction": "Boscali",
+      "DisplayName": "Destroy Vehicle Depots",
+      "Hidden": false,
+      "Outcomes": [
+        "Victory",
+        "WinMessage"
+      ],
+      "completeOrder": "InOrder",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "VehicleDepot_pala1",
+        "hwy1depot1",
+        "VehicleDepot1",
+        "VehicleDepot1_1",
+        "hwy1depot2"
+      ]
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "Destroy_BDF_Airstrip",
+      "Faction": "Primeva",
+      "DisplayName": "Destroy Vehicle Depots",
+      "Hidden": false,
+      "Outcomes": [
+        "Victory",
+        "WinMessage"
+      ],
+      "completeOrder": "InOrder",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "VehicleDepot1_bdf1",
+        "hwy2depot1",
+        "hwy2depot2",
+        "VehicleDepot1_2",
+        "VehicleDepot1_3"
+      ]
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "BDFGroundObjectives",
+      "Faction": "Boscali",
+      "DisplayName": "BDFGroundObjectives",
+      "Hidden": true,
+      "Outcomes": [],
+      "completeOrder": "CompleteAll",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "SPAAG2_pala1",
+        "VehicleDepot_pala1",
+        "PALAvehfac1",
+        "PALAvehfac2",
+        "PALAvehfac3",
+        "PALAvehfac4"
+      ]
+    },
+    {
+      "Type": "DestroyUnits",
+      "UniqueName": "PALAGroundObjectives",
+      "Faction": "Primeva",
+      "DisplayName": "PALAGroundObjectives",
+      "Hidden": true,
+      "Outcomes": [],
+      "completeOrder": "CompleteAll",
+      "completeSomePercent": 0.5,
+      "targetUnits": [
+        "hwy2depot1",
+        "hwy2depot2",
+        "BDFvehfac1",
+        "BDFvehfac2",
+        "BDFvehfac3",
+        "BDFvehfac4"
+      ]
+    }
+  ],
+  "outcomes": [
+    {
+      "Type": "StartObjective",
+      "UniqueName": "SetStartingConditions",
+      "objectivesToStart": [
+        "Destroy_PALA_Airstrip",
+        "Destroy_BDF_Airstrip"
+      ]
+    },
+    {
+      "Type": "EndGame",
+      "UniqueName": "Victory",
+      "endType": "Victory",
+      "endDelay": 4.079372
+    },
+    {
+      "Type": "ShowMessage",
+      "UniqueName": "WinMessage",
+      "Message": "The enemy installation has been removed, mission accomplished!",
+      "PlaySound": true,
+      "ObjectiveFactionOnly": true
+    }
+  ]
+}

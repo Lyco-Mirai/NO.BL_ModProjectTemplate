@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01e17503a2e83b795306f32fcc130213, type: 3}
+  m_Name: PilotDismounted
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 1
+    air: 0
+    missile: 0
+    radar: 0
+    strategic: 0
+  roleIdentity:
+    antiSurface: 0
+    antiAir: 0
+    antiMissile: 0
+    antiRadar: 0
+  jsonKey: pilotDismounted
+  unitName: Pilot
+  bogeyName:
+  description:
+  code: PILOT
+  visibleRange: 0
+  iconRange: 0
+  radarSize: 0
+  friendlyIcon: {fileID: 21300000, guid: 634863d9080f04f479ad59a1d8ff6745, type: 2}
+  hostileIcon: {fileID: 21300000, guid: 338f08b959cf0e24883a2d657bde8273, type: 2}
+  mapIcon: {fileID: 21300000, guid: b58763e30e463794fbdd2403e08e51de, type: 2}
+  mapOrient: 0
+  IsObstacle: 1
+  iconSize: 1
+  mapIconSize: 1
+  captureCapacity: 0
+  captureStrength: 0
+  captureDefense: 0
+  length: 1
+  width: 1
+  height: 1.8
+  value: 10
+  mass: 0
+  manpower: 1
+  armorTier: 0
+  damageTolerance: 0
+  CanSlingLoad: 1
+  unitPrefab: {fileID: 1709254077376921, guid: 3f718255a2635cc4dbcd047708ee21ff, type: 2}
+  spawnOffset: {x: 0, y: 0.9, z: 0}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: 0
+  maxEditorHeight: 10000

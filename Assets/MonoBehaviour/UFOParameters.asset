@@ -1,0 +1,449 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e56ddb8681eb8af5865ab2fc54350bc, type: 3}
+  m_Name: UFOParameters
+  m_EditorClassIdentifier:
+  aircraftName: '???'
+  rankRequired: 6
+  airfoils:
+  - name: Fighter1_canards
+    liftCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0.010508245
+        inSlope: 1.9287611
+        outSlope: 1.9287611
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.1091004
+      - serializedVersion: 3
+        time: -1.57
+        value: 0
+        inSlope: -2.0067136
+        outSlope: -2.0067136
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.14881997
+      - serializedVersion: 3
+        time: -0.785
+        value: -1
+        inSlope: -0.0035528382
+        outSlope: -0.0035528382
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.5194044
+      - serializedVersion: 3
+        time: -0.3
+        value: -0.9
+        inSlope: -0.007204547
+        outSlope: -0.007204547
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.46550524
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 6.470014
+        outSlope: 6.470014
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.09584874
+      - serializedVersion: 3
+        time: 0.3
+        value: 0.9
+        inSlope: -0.008583963
+        outSlope: -0.008583963
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.22580983
+      - serializedVersion: 3
+        time: 0.785
+        value: 0.9992492
+        inSlope: -0.026717909
+        outSlope: -0.026717909
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.27941546
+      - serializedVersion: 3
+        time: 1.57
+        value: 0
+        inSlope: -1.810663
+        outSlope: -1.810663
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.10514669
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.14159
+        value: 0.00038353816
+        inSlope: 2.4354787
+        outSlope: 2.4354787
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.07451174
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0.1
+        inSlope: -0.014116673
+        outSlope: -0.014116673
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.20838194
+      - serializedVersion: 3
+        time: -1.8
+        value: 1.2
+        inSlope: -0.0037783713
+        outSlope: -0.0037783713
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 1
+      - serializedVersion: 3
+        time: -1.2
+        value: 1.2
+        inSlope: -0.00040314705
+        outSlope: -0.00040314705
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.24220768
+      - serializedVersion: 3
+        time: -0.2
+        value: 0.12
+        inSlope: -0.96852756
+        outSlope: -0.96852756
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0
+        value: 0.01
+        inSlope: 7.164541E-08
+        outSlope: 7.164541E-08
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.1560833
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.12
+        inSlope: 0.8863238
+        outSlope: 0.8863238
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.2
+        value: 1.2
+        inSlope: 4.66481E-07
+        outSlope: 4.66481E-07
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.22385456
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.8
+        value: 1.2
+        inSlope: -1.0625716E-06
+        outSlope: -1.0625716E-06
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.56094694
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.021105
+        value: 0.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - name: Fighter1_wing
+    liftCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0.010508245
+        inSlope: 1.9287611
+        outSlope: 1.9287611
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.1091004
+      - serializedVersion: 3
+        time: -1.57
+        value: 0
+        inSlope: -2.0067136
+        outSlope: -2.0067136
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.14881997
+      - serializedVersion: 3
+        time: -0.785
+        value: -1.1
+        inSlope: -0.0035528382
+        outSlope: -0.0035528382
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.5194044
+      - serializedVersion: 3
+        time: -0.3
+        value: -0.95
+        inSlope: -0.0023007372
+        outSlope: -0.0023007372
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 1
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2.6907985
+        outSlope: 2.6907985
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.18703623
+      - serializedVersion: 3
+        time: 0.3
+        value: 0.95
+        inSlope: 0.00077290804
+        outSlope: 0.00077290804
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.6231402
+      - serializedVersion: 3
+        time: 0.785
+        value: 1.1
+        inSlope: -0.026717909
+        outSlope: -0.026717909
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.27941546
+      - serializedVersion: 3
+        time: 1.57
+        value: 0
+        inSlope: -1.810663
+        outSlope: -1.810663
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.10514669
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.14159
+        value: 0.00038353816
+        inSlope: 2.4354787
+        outSlope: 2.4354787
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.07451174
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0.1
+        inSlope: -0.014116673
+        outSlope: -0.014116673
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.20838194
+      - serializedVersion: 3
+        time: -2.2
+        value: 1.5
+        inSlope: 1.2775702
+        outSlope: 1.2775702
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: -1.57
+        value: 1.8
+        inSlope: -0.00040314705
+        outSlope: -0.00040314705
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.24220768
+      - serializedVersion: 3
+        time: -0.5
+        value: 0.25
+        inSlope: -0.76994014
+        outSlope: -0.76994014
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.31256527
+      - serializedVersion: 3
+        time: -0.12
+        value: 0.05
+        inSlope: -0.6057877
+        outSlope: -0.6057877
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.22160804
+      - serializedVersion: 3
+        time: 0
+        value: 0.01
+        inSlope: 7.164541E-08
+        outSlope: 7.164541E-08
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.1560833
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.12
+        value: 0.05
+        inSlope: 0.636867
+        outSlope: 0.636867
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.24411482
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 0.25
+        inSlope: 0.8760661
+        outSlope: 0.8760661
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3142625
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.57
+        value: 1.8
+        inSlope: 4.66481E-07
+        outSlope: 4.66481E-07
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.22385456
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.2
+        value: 1.5
+        inSlope: -1.3881327
+        outSlope: -1.3881327
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.021105
+        value: 0.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  loadouts:
+  - weapons:
+    - {fileID: 0}
+  - weapons:
+    - {fileID: 11400000, guid: ea5338ce7445e874aa4c1ee822749025, type: 2}
+    - {fileID: 11400000, guid: a7e1e77743fb57841a93c1e3eeef7991, type: 2}
+    - {fileID: 11400000, guid: 1d2f7e4063c6bbc46a0c0cfaed3903fa, type: 2}
+    - {fileID: 11400000, guid: a9a9a25d68e9d6e4a9a4ba37d6a2f62e, type: 2}
+  StandardLoadouts: []
+  DefaultFuelLevel: 1
+  liveries:
+  - name: BDF Matte Gray
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: 9db22d960c3cadf4189af2343527acfa
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: PALA Matte Black
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: e84d99f57e5cc674e8e9c2a83a0133ca
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: BDF Gray Camo
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: da4f187a24ff3334fb91e8d1ff1068a8
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: PALA Desert Camo
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: b330ea7d630e3d5478c2b47e0651b5e7
+      m_SubObjectName:
+      m_SubObjectType:
+  StatusDisplay: {fileID: 1709254077376921, guid: decc85ecd7dd4bd49a499066b938b48c, type: 2}
+  HUDExtras: {fileID: 1709254077376921, guid: 8e3dc91f2580378489e35ac497ff7fb7, type: 2}
+  takeoffMusic: {fileID: 8300000, guid: 4992d4b3a22757d44bb3af8f25278a97, type: 3}
+  AoAEffects:
+    AudioClip: {fileID: 8300000, guid: 5778034f4d3240b449f63de2ee04a282, type: 3}
+    OnsetSpeed: 30
+    FullVolumeSpeed: 200
+    OnsetAlpha: 5
+    FullVolumeAlpha: 45
+    ShakeFactor: 0.1
+  aircraftGLimit: 9
+  PIDReferenceAirspeed: 180
+  maxSpeed: 450
+  takeoffSpeed: 100
+  takeoffDistance: 1200
+  verticalLanding: 0
+  turningRadius: 1500
+  cornerSpeed: 180
+  approachSpeed: 60
+  landingSpeed: 100
+  shortLandingSpeed: 100
+  cruiseThrottle: 0.99
+  minimumRadarAlt: 50
+  levelBias: 0.15
+  hoverTiltFactor: 1
+  collectivePID: {x: 0, y: 0, z: 0}
+  hoverPID: {x: 0, y: 0, z: 0}
+  tiltPID: {x: 0, y: 0, z: 0}
+  groundTurningRadius: 12

@@ -1,0 +1,497 @@
+NUCLEAR OPTION ; Version 0.30.2 ; Data exported on 19/04/2025 8:58:53 AM
+UnitName ; Part ; Mass ; StructuralThreshold ; PierceArmor ; PierceTolerance ; BlastArmor ; BlastTolerance ; FireArmor ; FireTolerance
+CI-22 Cricket;COIN;200;0;20;8;70;10;0;4
+CI-22 Cricket;propHub;75;0;20;20;60;4;0;2
+CI-22 Cricket;cockpit_R;350;0;15;50;70;10;0;2
+CI-22 Cricket;cockpit_F;325;0;15;30;70;20;0;2
+CI-22 Cricket;nose;50;0;20;5;50;4;0;2
+CI-22 Cricket;fuselage;200;0;20;5;30;5;0;2
+CI-22 Cricket;pylon_L;100;0;20;5;70;4;0;2
+CI-22 Cricket;pylon_R;100;0;20;5;70;4;0;2
+CI-22 Cricket;intake;100;0;20;8;60;4;0;2
+CI-22 Cricket;wing1_L;100;0;20;5;70;10;0;2
+CI-22 Cricket;wing2_L;100;0;20;5;60;4;0;2
+CI-22 Cricket;wing3_L;100;0;20;5;50;3;0;2
+CI-22 Cricket;wingtip_L;30;0;10;5;30;2;0;2
+CI-22 Cricket;aileron_L;50;0;10;4;40;4;0;1
+CI-22 Cricket;flap_L;50;0;10;3;40;1;0;1
+CI-22 Cricket;nacelle_L;150;0;20;5;70;5;0;2
+CI-22 Cricket;tailboom_L;70;0;20;5;70;5;0;2
+CI-22 Cricket;vstab1_L;50;0;20;4;60;4;0;2
+CI-22 Cricket;rudder_L;30;0;10;4;40;4;0;2
+CI-22 Cricket;hstab;50;0;20;5;50;5;0;2
+CI-22 Cricket;elevator;30;0;20;6;40;4;0;1
+CI-22 Cricket;vstab2_L;30;0;20;1;40;3;0;2
+CI-22 Cricket;wing1_R;100;0;20;5;70;10;0;2
+CI-22 Cricket;wing2_R;100;0;20;50;60;4;0;2
+CI-22 Cricket;wing3_R;100;0;20;5;50;3;0;2
+CI-22 Cricket;wingtip_R;30;0;10;5;30;2;0;2
+CI-22 Cricket;flap_R;50;0;10;3;40;1;0;1
+CI-22 Cricket;aileron_R;50;0;10;4;40;4;0;1
+CI-22 Cricket;nacelle_R;150;0;20;5;70;5;0;2
+CI-22 Cricket;tailboom_R;70;0;20;5;70;5;0;2
+CI-22 Cricket;vstab1_R;50;0;20;4;60;4;0;2
+CI-22 Cricket;rudder_R;30;0;10;4;40;4;0;2
+CI-22 Cricket;vstab2_R;30;0;20;1;40;3;0;2
+T/A-30 Compass;trainer;300;0;30;5;70;3;0;4
+T/A-30 Compass;cockpit_R;450;0;50;30;70;5;0;4
+T/A-30 Compass;cockpit_F;600;0;50;45;70;7;0;4
+T/A-30 Compass;nose;120;0;30;5;40;3;0;4
+T/A-30 Compass;wingroot1_L;150;0;30;6;40;4;0;4
+T/A-30 Compass;wingroot1_R;150;0;30;6;40;4;0;4
+T/A-30 Compass;fuselage_R;150;0;30;5;70;5;0;4
+T/A-30 Compass;tail;200;0;30;5;60;3;0;4
+T/A-30 Compass;engine_L;300;0;30;5;70;6;0;4
+T/A-30 Compass;intake_L;200;0;30;4;60;6;0;4
+T/A-30 Compass;nozzle_L;125;0;30;5;70;4;0;4
+T/A-30 Compass;hstab_L;50;0;30;5;70;2;0;4
+T/A-30 Compass;vstab1_L;100;0;30;5;10;3;0;4
+T/A-30 Compass;vstab2_L;50;0;30;5;40;2;0;4
+T/A-30 Compass;rudder_L;50;0;30;4;10;2;0;2
+T/A-30 Compass;elevator_L;75;0;30;5;60;3;0;2
+T/A-30 Compass;wingroot2_L;200;0;30;6;70;4;0;4
+T/A-30 Compass;wing1_L;150;0;30;6;70;4;0;4
+T/A-30 Compass;wing2_L;150;0;30;5;70;3;0;4
+T/A-30 Compass;wingtip_L;50;0;30;3;70;2;0;4
+T/A-30 Compass;aileron_L;50;0;30;10;40;2;0;2
+T/A-30 Compass;flap_L;50;0;30;10;30;2;0;2
+T/A-30 Compass;wingroot2_R;200;0;30;6;70;4;0;4
+T/A-30 Compass;wing1_R;150;0;30;6;70;4;0;4
+T/A-30 Compass;wing2_R;150;0;30;5;70;3;0;4
+T/A-30 Compass;wingtip_R;50;0;30;3;70;2;0;4
+T/A-30 Compass;aileron_R;50;0;30;10;40;2;0;2
+T/A-30 Compass;flap_R;50;0;30;10;30;2;0;2
+T/A-30 Compass;engine_R;300;0;30;5;70;6;0;4
+T/A-30 Compass;intake_R;200;0;30;4;60;6;0;4
+T/A-30 Compass;nozzle_R;125;0;30;5;70;4;0;4
+T/A-30 Compass;hstab_R;50;0;30;5;70;2;0;4
+T/A-30 Compass;vstab1_R;100;0;30;5;10;3;0;4
+T/A-30 Compass;vstab2_R;50;0;30;5;40;2;0;4
+T/A-30 Compass;rudder_R;50;0;30;4;10;2;0;2
+T/A-30 Compass;elevator_R;75;0;30;5;60;3;0;2
+SAH-46 Chicane;AttackHelo1;2000;0;60;5;80;5;0;3
+SAH-46 Chicane;cockpit_R;500;0;120;5;100;5;0;3
+SAH-46 Chicane;cockpit_F;400;-100;120;5;100;5;0;3
+SAH-46 Chicane;turretMount;150;0;30;5;10;5;0;3
+SAH-46 Chicane;nose;50;0;50;5;10;4;0;3
+SAH-46 Chicane;shoulder_L;200;-100;40;8;80;5;0;3
+SAH-46 Chicane;shoulder_R;200;-100;40;8;80;5;0;3
+SAH-46 Chicane;canopyframe;50;0;60;15;120;20;0;10
+SAH-46 Chicane;engine_L;400;0;90;5;100;3;0;3
+SAH-46 Chicane;intake_L;100;0;70;5;90;3;0;3
+SAH-46 Chicane;exhaust_L;200;0;70;5;80;3;0;3
+SAH-46 Chicane;weaponbay_L;400;-100;70;5;90;5;0;3
+SAH-46 Chicane;wing_L;200;0;40;10;70;3;0;3
+SAH-46 Chicane;wingtip_L;40;0;30;5;40;2;0;3
+SAH-46 Chicane;engine_R;400;0;90;5;100;3;0;3
+SAH-46 Chicane;intake_R;100;0;70;5;90;3;0;3
+SAH-46 Chicane;exhaust_R;200;0;70;5;80;3;0;3
+SAH-46 Chicane;weaponbay_R;400;-100;70;5;90;5;0;3
+SAH-46 Chicane;wing_R;200;0;40;10;70;3;0;3
+SAH-46 Chicane;wingtip_R;40;0;30;5;40;2;0;3
+SAH-46 Chicane;rotorhub;580;0;70;10;90;10;0;3
+SAH-46 Chicane;tail_F;400;0;60;15;90;15;0;3
+SAH-46 Chicane;tail_R;200;0;50;15;90;15;0;3
+SAH-46 Chicane;tailrotor;100;0;60;15;80;4;0;3
+SAH-46 Chicane;tailfin;50;0;30;5;70;2;0;3
+SAH-46 Chicane;elevator_L;40;0;30;5;40;2;0;3
+SAH-46 Chicane;elevator_R;40;0;30;5;40;2;0;3
+FS-12 Revoker;Fighter1;700;0;15;10;60;5;0;4
+FS-12 Revoker;tail;800;0;30;4;70;3;0;2
+FS-12 Revoker;fuselage;500;-200;15;10;70;5;0;2
+FS-12 Revoker;cockpit;350;0;30;15;70;5;0;3
+FS-12 Revoker;nose;130;0;30;5;50;3;0;2
+FS-12 Revoker;cheek_L;200;0;30;5;60;3;0;4
+FS-12 Revoker;canard_L;100;0;30;4;40;3;0;2
+FS-12 Revoker;cheek_R;200;0;30;5;60;3;0;4
+FS-12 Revoker;canard_R;100;0;30;4;40;3;0;2
+FS-12 Revoker;wing1a_L;300;0;15;5;70;5;0;2
+FS-12 Revoker;wing2_L;200;0;10;4;60;5;0;2
+FS-12 Revoker;wingtip_L;300;0;30;4;40;2.5;0;2
+FS-12 Revoker;aileron_L;400;0;30;3;40;2;0;2
+FS-12 Revoker;flap_L;400;0;30;3;10;1;0;2
+FS-12 Revoker;intake_L;150;0;30;5;60;3;0;2
+FS-12 Revoker;wing1a_R;300;0;15;5;70;5;0;2
+FS-12 Revoker;wing2_R;200;0;10;4;60;5;0;2
+FS-12 Revoker;wingtip_R;300;0;30;4;40;2.5;0;2
+FS-12 Revoker;aileron_R;400;0;30;3;40;2;0;2
+FS-12 Revoker;flap_R;400;0;30;3;10;1;0;2
+FS-12 Revoker;intake_R;150;0;30;5;60;3;0;2
+FS-12 Revoker;wing1b_L;200;0;15;5;70;5;0;2
+FS-12 Revoker;wing1b_R;200;0;15;5;70;5;0;2
+FS-12 Revoker;weaponbay_L;600;0;30;5;60;5;0;2
+FS-12 Revoker;weaponbay_R;600;0;30;5;60;5;0;2
+FS-12 Revoker;vstab1;200;-100;30;4;50;3;0;2
+FS-12 Revoker;vstab2;150;0;30;3;50;2;0;2
+FS-12 Revoker;rudder;150;0;30;3;40;2;0;2
+FS-20 Vortex;SmallFighter1;400;0;15;10;60;5;0;4
+FS-20 Vortex;liftFan;450;0;15;10;60;5;0;4
+FS-20 Vortex;cockpit;450;0;15;10;60;5;0;4
+FS-20 Vortex;nose;150;0;15;10;60;5;0;4
+FS-20 Vortex;intake;200;0;15;10;60;5;0;4
+FS-20 Vortex;wingRoot_L;150;0;15;10;60;5;0;4
+FS-20 Vortex;wingRoot_R;150;0;15;10;60;5;0;4
+FS-20 Vortex;engine;800;0;15;10;60;5;0;4
+FS-20 Vortex;nozzle;500;0;15;10;60;5;0;4
+FS-20 Vortex;fuselage_R;500;0;15;10;60;5;0;4
+FS-20 Vortex;wing1b_L;350;0;15;10;60;5;0;4
+FS-20 Vortex;wing2b_L;300;0;15;10;60;5;0;4
+FS-20 Vortex;elevator_L;100;0;15;10;60;5;0;4
+FS-20 Vortex;aileron_L;100;0;15;10;60;5;0;4
+FS-20 Vortex;wing1b_R;350;0;15;10;60;5;0;4
+FS-20 Vortex;wing2b_R;300;0;15;10;60;5;0;4
+FS-20 Vortex;aileron_R;100;0;15;10;60;5;0;4
+FS-20 Vortex;elevator_R;100;0;15;10;60;5;0;4
+FS-20 Vortex;tail_L;300;0;15;10;60;5;0;4
+FS-20 Vortex;vstab_L;140;0;15;10;60;5;0;4
+FS-20 Vortex;rudder_L;75;0;15;10;60;5;0;4
+FS-20 Vortex;tail_R;300;0;15;10;60;5;0;4
+FS-20 Vortex;vstab_R;140;0;15;10;60;5;0;4
+FS-20 Vortex;rudder_R;75;0;15;10;60;5;0;4
+FS-20 Vortex;gearBay_L;400;0;15;10;60;5;0;4
+FS-20 Vortex;gearBay_R;400;0;15;10;60;5;0;4
+FS-20 Vortex;weaponBay_L;400;0;15;10;60;5;0;4
+FS-20 Vortex;weaponBay_R;400;0;15;10;60;5;0;4
+FS-20 Vortex;wing1a_L;250;0;15;10;60;5;0;4
+FS-20 Vortex;wing2a_L;150;0;15;10;60;5;0;4
+FS-20 Vortex;wingtip_L;100;0;15;10;60;5;0;4
+FS-20 Vortex;wing1a_R;250;0;15;10;60;5;0;4
+FS-20 Vortex;wing2a_R;150;0;15;10;60;5;0;4
+FS-20 Vortex;wingtip_R;100;0;15;10;60;5;0;4
+VL-49 Tarantula;QuadVTOL1;2000;-100;10;6;70;5;0;4
+VL-49 Tarantula;wall_L;500;-100;10;10;70;3;0;4
+VL-49 Tarantula;sponson_L;700;-100;10;6;70;3;0;2
+VL-49 Tarantula;wall_R;500;-100;10;10;70;3;0;4
+VL-49 Tarantula;sponson_R;700;0;10;6;70;3;0;2
+VL-49 Tarantula;gearbox_R;1000;-200;10;10;70;7;0;4
+VL-49 Tarantula;wing1_RL;950;-100;10;6;70;5;0;3
+VL-49 Tarantula;vstab_L;200;0;10;4;30;3;0;2
+VL-49 Tarantula;rudder_L;200;0;0;1;0;1;0;2
+VL-49 Tarantula;wing2_RL;900;0;10;6;70;4;0;3
+VL-49 Tarantula;engine_RL;800;-100;10;6;50;4;0;3
+VL-49 Tarantula;hub_RL;700;0;10;2;60;5;0;5
+VL-49 Tarantula;flap_RL;200;0;10;4;30;3;0;2
+VL-49 Tarantula;wing1_RR;950;-100;10;6;70;5;0;3
+VL-49 Tarantula;vstab_R;200;0;10;4;30;3;0;2
+VL-49 Tarantula;rudder_R;200;0;0;1;0;1;0;2
+VL-49 Tarantula;wing2_RR;900;0;10;6;70;4;0;3
+VL-49 Tarantula;engine_RR;800;-100;10;6;50;4;0;3
+VL-49 Tarantula;hub_RR;700;0;10;2;60;5;0;5
+VL-49 Tarantula;flap_RR;200;0;10;4;30;3;0;2
+VL-49 Tarantula;wall_RL;400;-100;10;10;70;3;0;4
+VL-49 Tarantula;wall_RR;400;-100;10;10;70;3;0;4
+VL-49 Tarantula;tail;1000;-100;10;6;70;3;0;4
+VL-49 Tarantula;floor;1000;-100;10;6;70;3;0;4
+VL-49 Tarantula;ramp;300;-100;10;6;70;3;0;4
+VL-49 Tarantula;gearbox_F;1000;-200;10;10;70;7;0;4
+VL-49 Tarantula;wing1_FR;1000;-100;10;6;70;5;0;3
+VL-49 Tarantula;wing2_FR;900;0;10;6;70;4;0;3
+VL-49 Tarantula;engine_FR;800;-100;10;6;50;4;0;3
+VL-49 Tarantula;hub_FR;700;0;10;2;60;5;0;5
+VL-49 Tarantula;flap_FR;100;0;10;4;30;3;0;2
+VL-49 Tarantula;wing1_FL;1000;-100;10;6;70;5;0;3
+VL-49 Tarantula;wing2_FL;900;0;10;6;70;4;0;3
+VL-49 Tarantula;engine_FL;800;-100;10;6;50;4;0;3
+VL-49 Tarantula;hub_FL;700;0;10;2;60;5;0;5
+VL-49 Tarantula;flap_FL;100;0;10;4;30;3;0;2
+VL-49 Tarantula;floor _F;1500;-100;10;10;70;3;0;4
+VL-49 Tarantula;floor_FF;700;-100;10;10;70;5;0;4
+VL-49 Tarantula;roof_F;700;-100;10;10;70;5;0;4
+VL-49 Tarantula;cheek_L;300;-100;10;6;70;3;0;3
+VL-49 Tarantula;cheek_R;300;-100;10;6;70;3;0;3
+VL-49 Tarantula;cockpit;700;-300;10;10;70;4;0;4
+VL-49 Tarantula;nose;300;0;10;6;70;4;0;4
+KR-67 Ifrit;Multirole1;700;0;15;10;70;7;0;4
+KR-67 Ifrit;fuselage_F;1100;0;15;10;70;7;0;4
+KR-67 Ifrit;cockpit;800;-200;15;10;70;6;0;4
+KR-67 Ifrit;nose;400;0;15;10;40;3;0;4
+KR-67 Ifrit;wingRoot_L;700;0;15;10;70;5;0;4
+KR-67 Ifrit;wingRoot_R;700;0;15;10;70;5;0;4
+KR-67 Ifrit;fuselage_R;1200;0;15;10;70;7;0;4
+KR-67 Ifrit;engine_L;1000;0;15;10;60;5;0;4
+KR-67 Ifrit;tail_L;700;0;15;10;60;5;0;4
+KR-67 Ifrit;elevator_L;150;0;15;10;40;5;0;4
+KR-67 Ifrit;nozzle_L;300;0;15;10;70;5;0;4
+KR-67 Ifrit;engine_R;1000;0;15;10;60;5;0;4
+KR-67 Ifrit;tail_R;700;0;15;10;60;5;0;4
+KR-67 Ifrit;elevator_R;150;0;15;10;40;5;0;4
+KR-67 Ifrit;nozzle_R;300;0;15;10;70;5;0;4
+KR-67 Ifrit;tail;700;0;15;10;10;5;0;4
+KR-67 Ifrit;gearbay_L;900;0;15;10;70;5;0;4
+KR-67 Ifrit;intake_L;700;0;15;10;60;5;0;4
+KR-67 Ifrit;wing1_L;400;0;15;5;60;5;0;4
+KR-67 Ifrit;wing2_L;200;0;15;5;60;5;0;4
+KR-67 Ifrit;wingtip_L;100;0;15;10;50;3;0;4
+KR-67 Ifrit;aileron_L;50;0;15;10;40;4;0;4
+KR-67 Ifrit;wing2_FL;150;0;15;10;50;5;0;4
+KR-67 Ifrit;flap_L;70;0;15;10;40;4;0;4
+KR-67 Ifrit;wing1_FL;150;0;15;10;50;5;0;4
+KR-67 Ifrit;gearbay_R;900;0;15;10;70;5;0;4
+KR-67 Ifrit;intake_R;700;0;15;10;60;5;0;4
+KR-67 Ifrit;wing1_R;400;0;15;5;60;5;0;4
+KR-67 Ifrit;wing2_R;200;0;15;5;60;5;0;4
+KR-67 Ifrit;wingtip_R;100;0;15;10;50;3;0;4
+KR-67 Ifrit;aileron_R;50;0;15;10;40;4;0;4
+KR-67 Ifrit;wing2_FR;150;0;15;10;50;5;0;4
+KR-67 Ifrit;flap_R;70;0;15;10;40;4;0;4
+KR-67 Ifrit;wing1_FR;150;0;15;10;50;5;0;4
+EW-25 Medusa;EW1;1200;0;30;5;70;3;0;4
+EW-25 Medusa;fuselage_F;1000;0;30;6;70;4;0;4
+EW-25 Medusa;cockpit_R;900;0;50;45;80;7;0;4
+EW-25 Medusa;cockpit_F;900;0;50;45;80;7;0;4
+EW-25 Medusa;nose;300;0;30;2;50;1;0;4
+EW-25 Medusa;cheek_L;300;0;30;3;50;1;0;4
+EW-25 Medusa;cheek_R;300;0;30;3;50;1;0;4
+EW-25 Medusa;intake_F;300;0;30;3;40;1;0;4
+EW-25 Medusa;intake_L;400;0;30;3;70;3;0;4
+EW-25 Medusa;intake_R;400;0;30;3;70;3;0;4
+EW-25 Medusa;engine_L;900;0;30;2;70;5;0;4
+EW-25 Medusa;engine_R;900;0;30;2;70;5;0;4
+EW-25 Medusa;fuselage_R;900;-200;30;5;70;2;0;4
+EW-25 Medusa;fuselage_RL;300;0;30;6;50;2;0;4
+EW-25 Medusa;fuselage_RR;300;0;30;6;50;2;0;4
+EW-25 Medusa;tail;300;0;30;6;70;2;0;4
+EW-25 Medusa;hstab_L;200;0;30;3;50;1.5;0;4
+EW-25 Medusa;elevator_L;70;0;30;4;40;2;0;2
+EW-25 Medusa;vstab_L;100;0;30;3;40;1.5;0;4
+EW-25 Medusa;rudder_L;70;0;30;4;40;2;0;2
+EW-25 Medusa;hstab_R;200;0;30;3;50;1.5;0;4
+EW-25 Medusa;elevator_R;70;0;30;4;40;2;0;2
+EW-25 Medusa;vstab_R;100;0;30;3;40;1.5;0;4
+EW-25 Medusa;rudder_R;70;0;30;4;40;2;0;2
+EW-25 Medusa;wing1a_L;500;0;30;4;60;2;0;4
+EW-25 Medusa;wing1a_R;500;0;30;4;60;2;0;4
+EW-25 Medusa;wing1b_L;600;0;30;4;70;2;0;4
+EW-25 Medusa;wing2_L;500;0;30;4;70;1.5;0;4
+EW-25 Medusa;wing3_L;300;0;30;3;70;1;0;4
+EW-25 Medusa;wingtip_L;150;0;20;1;10;1;0;4
+EW-25 Medusa;aileron_L;500;0;30;4;40;2;0;2
+EW-25 Medusa;flap_L;500;0;30;4;40;0.5;0;2
+EW-25 Medusa;wing1b_R;600;0;30;4;70;2;0;4
+EW-25 Medusa;wing2_R;500;0;30;4;70;1.5;0;4
+EW-25 Medusa;wing3_R;300;0;30;3;70;1;0;4
+EW-25 Medusa;wingtip_R;150;0;20;1;10;1;0;4
+EW-25 Medusa;aileron_R;500;0;30;4;40;2;0;2
+EW-25 Medusa;flap_R;500;0;30;4;40;0.5;0;2
+SFB-81 Darkreach;Darkreach;8400;0;15;30;70;5;0;2
+SFB-81 Darkreach;engine_L;4930;0;15;7;70;5;0;2
+SFB-81 Darkreach;gearbay_L;1810;0;15;6;70;5;0;2
+SFB-81 Darkreach;wing1b_L;1165;0;10;6;60;5;0;2
+SFB-81 Darkreach;wing2_L;320;0;10;5;60;5;0;2
+SFB-81 Darkreach;wingtip_L;360;0;10;3;50;2.5;0;2
+SFB-81 Darkreach;aileron_L;120;0;10;3;40;2.5;0;2
+SFB-81 Darkreach;flap_L;120;0;10;3;40;2.5;0;2
+SFB-81 Darkreach;wing1a_L;1200;0;10;4;70;5;0;2
+SFB-81 Darkreach;nacelle_L;1200;0;15;10;70;5;0;2
+SFB-81 Darkreach;engine_R;4930;0;15;7;70;5;0;2
+SFB-81 Darkreach;gearbay_R;1810;0;15;6;70;5;0;2
+SFB-81 Darkreach;wing1b_R;1165;0;10;6;60;5;0;2
+SFB-81 Darkreach;wing2_R;320;0;10;5;60;5;0;2
+SFB-81 Darkreach;wingtip_R;360;0;10;3;50;2.5;0;2
+SFB-81 Darkreach;aileron_R;120;0;10;3;40;2.5;0;2
+SFB-81 Darkreach;flap_R;120;0;10;3;40;2.5;0;2
+SFB-81 Darkreach;wing1a_R;1200;0;10;4;70;5;0;2
+SFB-81 Darkreach;nacelle_R;1200;0;15;10;70;5;0;2
+SFB-81 Darkreach;fuselage_R;2660;0;15;30;70;5;0;2
+SFB-81 Darkreach;tail;3210;0;15;5;70;5;0;2
+SFB-81 Darkreach;nozzle_L;4000;0;15;5;10;2.5;0;2
+SFB-81 Darkreach;vstab2_L;360;-200;10;4;40;2.5;0;2
+SFB-81 Darkreach;vstab1_L;1925;0;15;5;70;5;0;2
+SFB-81 Darkreach;rudder_L;200;0;10;4;40;2.5;0;2
+SFB-81 Darkreach;hstab;200;0;10;5;40;2.5;0;2
+SFB-81 Darkreach;nozzle_R;4000;0;10;5;10;2.5;0;2
+SFB-81 Darkreach;vstab2_R;360;-200;10;4;40;2.5;0;2
+SFB-81 Darkreach;vstab1_R;1925;0;15;5;70;5;0;2
+SFB-81 Darkreach;rudder_R;200;0;10;4;40;2.5;0;2
+SFB-81 Darkreach;fuselage_F;5020;0;15;30;70;5;0;2
+SFB-81 Darkreach;cockpit;3660;0;15;30;70;5;0;2
+SFB-81 Darkreach;nose;820;0;10;5;40;2.5;0;2
+SFB-81 Darkreach;intake_L;1880;0;15;4;70;5;0;2
+SFB-81 Darkreach;intake_R;1880;0;15;4;70;5;0;2
+HLT Flatbed;HLT-L;0;0;50;4;50;2;5;5
+LCV25 AA;LightTruck1_AA;4000;0;75;2;100;2;90;5
+LCV25 AA;AATurret;0;0;50;5;50;1;2;5
+HLT Munitions Truck;HLT-M;0;0;50;4;50;2;5;5
+HLT Munitions Truck;container;0;0;50;3;60;1;5;5
+HLT Tractor;HLT-T;0;0;50;4;50;2;5;5
+HLT Fuel Tanker;HLT-FT;0;0;50;4;50;2;5;5
+HLT Fuel Tanker;fueltank;0;0;50;3;50;2;5;5
+LCV25 AT;LightTruck1_AT;4000;0;75;2;100;2;90;5
+LCV25 AT;ATTurret;0;0;50;5;50;1;2;5
+LCV45 Recon Truck;LCV45;0;0;100;2;150;2;90;5
+LCV45 Recon Truck;mgTurret;0;0;50;5;50;1;2;5
+AFV6 APC;6x6_1_APC;0;0;100;3;200;2;90;5
+AFV6 APC;turret;0;0;50;5;10;1;2;5
+AFV6 IFV;6x6_1_IFV;0;0;100;3;200;2;90;5
+AFV6 IFV;turret;0;0;50;5;10;1;2;5
+AFV6 AA;6x6_1_AA;0;0;100;3;200;2;90;5
+AFV6 AA;turret;0;0;50;5;10;1;2;5
+AFV6 AT;6x6_1_AT;0;0;100;3;200;2;90;5
+AFV6 AT;turret;0;0;50;5;10;1;2;5
+AFV8 APC;AFV8_APC;0;0;110;4;200;2;90;5
+AFV8 APC;mgTurret;0;0;50;5;10;1;2;5
+AFV8 IFV;AFV8_IFV;0;0;110;4;200;2;90;5
+AFV8 IFV;turret;1000;0;130;4;200;2;90;5
+Linebreaker APC;Linebreaker_APC;0;0;150;4;300;3;90;5
+Linebreaker APC;turret;0;0;70;5;40;1;90;5
+Linebreaker SAM;Linebreaker_SAM;0;0;150;4;300;3;90;5
+Linebreaker SAM;Turret;0;0;150;3;300;3;90;5
+Linebreaker IFV;Linebreaker_IFV;0;0;150;4;300;3;90;5
+Linebreaker IFV;IFV_turret;0;0;160;4;300;3;90;5
+AFV8 Mobile Air Defense;AFV8_SAM;0;0;110;4;200;2;90;5
+AFV8 Mobile Air Defense;turret;0;0;100;3;200;2;90;5
+AeroSentry SPAAG;SPAAG1;0;0;150;3;400;2;90;5
+AeroSentry SPAAG;Turret;0;0;200;3;400;2;90;5
+FGA-57 Anvil;SPAAG2;0;0;175;3;400;2;90;5
+FGA-57 Anvil;turret;0;0;250;3;400;2;90;5
+Type-12 MBT;MBT;0;0;500;4;600;4;2;5
+Type-12 MBT;MBT_turret;0;0;600;4;600;4;2;5
+Type-12 MBT;mbt_turretAmmo;0;0;350;3;600;2;2;2
+Type-12 MBT;mgTurret;0;0;100;5;100;1;2;5
+Type-12 MBT;MBT_engine;0;0;300;3;600;2;2;2
+StratoLance R9 Launcher;SAMTrailer1;18000;0;50;3;30;1;5;5
+StratoLance R9 Launcher;turret;0;0;50;3;30;1;5;5
+StratoLance R9 Launcher;missileLauncher;0;0;50;3;30;1;5;5
+T9K41 Boltstrike;RadarSAM1;0;0;175;3;300;3;90;5
+T9K41 Boltstrike;turret;0;0;110;5;300;3;90;5
+Spearhead MBT;MBT1;0;0;950;4;280;4;2;5
+Spearhead MBT;MBT_turret;0;0;1450;3.5;340;4;2;5
+Spearhead MBT;mbt_turretAmmo;0;0;375;3;500;2;2;2
+Spearhead MBT;laser_turret;0;0;100;5;100;1;2;5
+Spearhead MBT;MBT_engine;0;0;300;3;600;2;2;2
+HLT Radar Truck;HLT-R;0;0;50;4;50;2;5;5
+HLT Radar Truck;upfit;0;0;50;3;50;2;5;5
+HLT Radar Truck;radar;0;0;50;3;50;2;5;5
+Pillbox;pillbox;10000;0;220;50;220;5;3;20
+Hardened Aircraft Shelter;shelter1;1000;0;2500;10;1500;10;20;10
+Hardened Aircraft Shelter;door1_F;0;0;2500;10;1500;10;20;10
+Hardened Aircraft Shelter;door1_R;0;0;2500;10;1500;10;20;10
+Medium Aircraft Hangar;hangar_med;1000;0;40;40;30;2;3;20
+Medium Aircraft Hangar;door_L;0;0;40;40;30;4;3;20
+Medium Aircraft Hangar;door_R;0;0;40;40;30;4;3;20
+Helipad;Helipad;1000;0;70;400;50;2;3;5
+Refinery Structure;refinery_main;1000;0;20;250;10;1;3;2
+Radar Station;radarStation1;1000;0;40;400;70;1.5;3;20
+Control Tower;controlTower1;1000;0;40;40;30;1.5;3;20
+Large Factory;factory_large;1000;0;100;1000;50;2;3;5
+Vertical Factory;factory_tall;1000;0;100;1000;50;2;3;5
+Storage Tank;storageTank;1000;0;200;5;50;2;3;2
+Aircraft Revetment;floor;1000;0;70;400;50;2;3;5
+Aircraft Revetment;walls;1000;0;70;400;50;3;3;5
+Vehicle Depot;VehicleDepot1;1000;0;70;1000;50;1.5;3;5
+Enrichment Plant;enrichmentPlant1;1000;0;100;1000;50;2;3;5
+Small Platform;Platform_small;1000;0;80;1000;10;1.5;3;2
+Large Platform;Platform_large;1000;0;80;1000;10;1.5;3;2
+Sloped Platform;Platform_slope;1000;0;80;1000;10;1.5;3;2
+Flat Platform;Platform_flat;1000;0;100;400;50;5;10;5
+Shard Class Corvette;Corvette1;80000;-500;75;250;100;6;20;20
+Shard Class Corvette;Radar;100;0;50;10;100;2;20;20
+Shard Class Corvette;sideL;80000;-200;150;300;100;3.5;20;20
+Shard Class Corvette;bow1;120000;-200;150;200;100;4;20;20
+Shard Class Corvette;magazine;0;0;350;3;600;2;2;2
+Shard Class Corvette;bow2;40000;0;150;200;100;3;20;20
+Shard Class Corvette;turret_F;10000;0;150;4;100;1;0;20
+Shard Class Corvette;stern1;110000;-200;150;200;100;3;20;20
+Shard Class Corvette;stern2;83000;-200;150;100;100;3;20;20
+Shard Class Corvette;stern1b;70000;0;150;100;100;3;20;20
+Shard Class Corvette;turret_R;6000;0;100;4;50;1;1;20
+Shard Class Corvette;sideR;80000;-200;150;300;100;3.5;20;20
+Hyperion Class Carrier;FleetCarrier1;2875000;-300;140;25;250;10;20;20
+Hyperion Class Carrier;hull_R;1875000;-500;250;1000;300;9;20;20
+Hyperion Class Carrier;hull_R2;1875000;-2000;250;1000;300;6;20;20
+Hyperion Class Carrier;hull_stern;1875000;-2000;250;1000;100;6;20;20
+Hyperion Class Carrier;CIWS_R;6000;0;100;3;100;3;20;20
+Hyperion Class Carrier;hull_RRRL;1875000;-2000;250;1000;300;6;20;20
+Hyperion Class Carrier;hull_RRRRL;1875000;-2000;250;1000;300;6;20;20
+Hyperion Class Carrier;SAM_R;9000;0;100;3;100;3;20;20
+Hyperion Class Carrier;hull_RRRR;1875000;-2000;250;1000;300;6;20;20
+Hyperion Class Carrier;hull_RRL;1875000;-2000;250;1000;300;6;20;20
+Hyperion Class Carrier;hull_RR;1875000;-1000;250;1000;300;6;20;20
+Hyperion Class Carrier;bridge_R;1875000;-400;150;100;60;6;20;20
+Hyperion Class Carrier;hull_RRR;1875000;-2000;250;1000;300;6;20;20
+Hyperion Class Carrier;weaponStores2;0;0;200;1;500;20;4;10
+Hyperion Class Carrier;hull_RL;1875000;-1000;250;1000;300;6;20;20
+Hyperion Class Carrier;hull_FL;1875000;-1000;250;1000;300;6;20;20
+Hyperion Class Carrier;hull_FR;1875000;-1000;250;1000;300;6;20;20
+Hyperion Class Carrier;bridge_F;1875000;-400;150;100;60;6;20;20
+Hyperion Class Carrier;Radar;200;-2000;100;3;100;3;20;20
+Hyperion Class Carrier;hull_F;1875000;-500;250;1000;300;9;20;20
+Hyperion Class Carrier;hull_F2;1875000;-2000;250;1000;300;6;20;20
+Hyperion Class Carrier;hull_bow;1875000;-2000;250;1000;300;6;20;20
+Hyperion Class Carrier;hull_FFFR;1875000;-2000;250;1000;300;6;20;20
+Hyperion Class Carrier;SAM_F;9000;0;100;3;100;3;20;20
+Hyperion Class Carrier;hull_FFFL;1875000;-2000;250;1000;300;6;20;20
+Hyperion Class Carrier;CIWS_FL;6000;0;100;3;100;3;20;20
+Hyperion Class Carrier;hull_FFR;1875000;-2000;250;1000;300;6;20;20
+Hyperion Class Carrier;hull_FFL;1875000;-2000;250;1000;300;6;20;20
+Hyperion Class Carrier;weaponStores1;0;0;200;1;500;20;4;12
+Dynamo Class Destroyer;Destroyer1;1500000;-300;300;1000;300;10;20;20
+Dynamo Class Destroyer;Hull_L;750000;-500;200;1000;250;6;20;20
+Dynamo Class Destroyer;Hull_R;750000;-500;200;1000;250;6;20;20
+Dynamo Class Destroyer;Hull_CF;1000000;-400;200;1000;250;6;20;20
+Dynamo Class Destroyer;Hull_FL;750000;-500;200;1000;250;6;20;20
+Dynamo Class Destroyer;CIWS_FL;6000;0;100;3;100;3;20;20
+Dynamo Class Destroyer;Hull_FR;750000;-500;200;1000;250;6;20;20
+Dynamo Class Destroyer;CIWS_FR;6000;0;100;3;100;3;20;20
+Dynamo Class Destroyer;Hull_CFF;1000000;-400;200;1000;250;6;20;20
+Dynamo Class Destroyer;weaponStores2;0;0;100;1;500;20;4;10
+Dynamo Class Destroyer;turret_F;200000;-10;150;100;100;6;20;20
+Dynamo Class Destroyer;Hull_CFFF;500000;-250;200;1000;250;6;20;20
+Dynamo Class Destroyer;SAM_F;9000;0;100;3;100;3;20;20
+Dynamo Class Destroyer;Hull_Bridge;100000;-400;150;100;200;6;20;20
+Dynamo Class Destroyer;Hull_Radar;100000;-200;150;100;100;6;20;20
+Dynamo Class Destroyer;Hull_ExhaustStack;200000;-200;150;100;100;6;20;20
+Dynamo Class Destroyer;Hull_CR;1250000;-400;200;1000;250;6;20;20
+Dynamo Class Destroyer;Hull_hangarFloor;1000000;-400;200;1000;250;6;20;20
+Dynamo Class Destroyer;Hull_RearL;200000;-500;200;1000;250;6;20;20
+Dynamo Class Destroyer;Hull_RearR;200000;-500;200;1000;250;6;20;20
+Dynamo Class Destroyer;Hull_hangarL;750000;-500;200;1000;250;6;20;20
+Dynamo Class Destroyer;CIWS_RL;6000;0;100;3;100;3;20;20
+Dynamo Class Destroyer;Hull_hangarR;750000;-500;200;1000;250;6;20;20
+Dynamo Class Destroyer;CIWS_RR;6000;0;100;3;100;3;20;20
+Dynamo Class Destroyer;Hull_CruiseMissileBattery3;200000;-400;200;1000;250;6;20;20
+Dynamo Class Destroyer;weaponStores1;0;0;100;1;500;20;4;10
+Dynamo Class Destroyer;Hull_hangarRoof;100000;-400;200;1000;250;6;20;20
+Dynamo Class Destroyer;SAM_R;9000;0;100;3;100;3;20;20
+Annex Class Carrier;AssaultCarrier1;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;weaponStores2;0;0;200;1;500;20;4;10
+Annex Class Carrier;hull_RL;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;hull_RR;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;hull_wellDeck;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;hull_RRL;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;deck_RRR;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;CIWS_turret_R;4000;0;100;5;100;1;1;20
+Annex Class Carrier;deck_RR;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;welldeck_door;0;0;100;1;100;1;20;1
+Annex Class Carrier;hull_RRR;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;hangar_RR;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;deck_R;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;tower_R1;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;tower_R2;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;Radar;200;0;100;3;100;3;20;20
+Annex Class Carrier;missile_turret_R;6000;0;100;5;100;1;1;20
+Annex Class Carrier;hull_L;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;hull_FR;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;hull_FL;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;hull_FFL;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;hull_FFR;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;hull_bow;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;CIWS_turret_F;4000;0;100;5;100;1;1;20
+Annex Class Carrier;mainCannon_turret;6000;0;100;5;100;1;1;20
+Annex Class Carrier;deck_FF;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;weaponStores1;0;0;200;1;500;20;4;12
+Annex Class Carrier;tower_F1;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;tower_F2;1820000;-500;250;1000;300;9;20;20
+Annex Class Carrier;missile_turret_F;6000;0;100;5;100;1;1;20
+Annex Class Carrier;deck_F;1820000;-500;250;1000;300;9;20;20
+OTB-31 landing craft;LandingCraft1;50000;-300;100;40;100;6;20;20
+OTB-31 landing craft;cover;5000;-200;100;20;100;4;20;20
+OTB-31 landing craft;hull_F;30000;-100;100;40;100;6;20;20
+OTB-31 landing craft;hull_FL;20000;-100;100;40;100;6;20;20
+OTB-31 landing craft;turret;0;0;50;5;10;1;2;5
+OTB-31 landing craft;hull_FR;20000;-100;100;40;100;6;20;20
+OTB-31 landing craft;missile_turret;400;0;100;5;100;1;1;20
+OTB-31 landing craft;door1;0;0;30;1;30;1;20;1
+OTB-31 landing craft;door2;0;0;30;1;30;1;20;1
+OTB-31 landing craft;hull_RR;20000;-100;100;40;100;6;20;20
+OTB-31 landing craft;hull_RL;20000;-100;100;40;100;6;20;20

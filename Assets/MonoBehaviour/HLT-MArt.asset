@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01bf628dec7dd250e4a1d21f43b281e, type: 3}
+  m_Name: HLT-MArt
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 1
+    air: 0
+    missile: 0
+    radar: 0
+    strategic: 0
+  roleIdentity:
+    antiSurface: 0.7
+    antiAir: 0
+    antiMissile: 0
+    antiRadar: 0
+  jsonKey: HLT-MART
+  unitName: HLT Mobile Artillery
+  bogeyName:
+  description: 'This advanced and highly mobile long-range artillery system fires 155mm laser guided shells. Capable of bombarding targets 40km away at a sustained 5 rounds per minute, the HLT Mobile Artillery will frequently relocate to avoid return fire. '
+  code: ARTY
+  visibleRange: 6000
+  iconRange: 0
+  radarSize: 1
+  friendlyIcon: {fileID: 21300000, guid: fc5fffa83b158a94b9784accd023822d, type: 2}
+  hostileIcon: {fileID: 21300000, guid: f811136fc92b758489feac4728f2a9d6, type: 2}
+  mapIcon: {fileID: 21300000, guid: f84817cde00e8dd4cbba0d344da5b068, type: 2}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 1
+  mapIconSize: 1
+  captureCapacity: 3
+  captureStrength: 2
+  captureDefense: 0
+  length: 10.1
+  width: 2.7
+  height: 3
+  value: 14
+  mass: 28000
+  manpower: 2
+  armorTier: 1
+  damageTolerance: 0.5
+  CanSlingLoad: 1
+  unitPrefab: {fileID: 1709254077376921, guid: d1033cf9d4142e247932867c37ba6065, type: 2}
+  spawnOffset: {x: 0, y: 0.9, z: 0}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: 0
+  maxEditorHeight: 10000
+  vehicleType: 5

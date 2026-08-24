@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3faf763ade534d222b4449357f0cf9d8, type: 3}
+  m_Name: Mouse
+  m_EditorClassIdentifier:
+  _baseKeys:
+  - controller/mouse
+  _glyphs:
+  - _key: move
+    _value: {fileID: 21300000, guid: c62b481878d02724c9a95c47fa660c3b, type: 2}
+  - _key: move/horizontal
+    _value: {fileID: 21300000, guid: 09db2f79e7db65a49b3f33bec554800f, type: 2}
+  - _key: move/right
+    _value: {fileID: 21300000, guid: 9ddb72f4cb170bd43804716333e92a8c, type: 2}
+  - _key: move/left
+    _value: {fileID: 21300000, guid: dce5856a784dcb54d8531193aad8096d, type: 2}
+  - _key: move/vertical
+    _value: {fileID: 21300000, guid: 5ea2d422adc2ac642886217a2895ffb3, type: 2}
+  - _key: move/up
+    _value: {fileID: 21300000, guid: 86dbea3c4793c154dba8d44a5301be85, type: 2}
+  - _key: move/down
+    _value: {fileID: 21300000, guid: c372755337c152245a553cea3d737bdb, type: 2}
+  - _key: wheel/vertical
+    _value: {fileID: 21300000, guid: 3f5ff683a70a43343897b09416f7e3f9, type: 2}
+  - _key: wheel/up
+    _value: {fileID: 21300000, guid: 3f101df89746eba41a96ba6a5bd46791, type: 2}
+  - _key: wheel/down
+    _value: {fileID: 21300000, guid: 25cc4c2059f5ad34cbee2ab02a019b96, type: 2}
+  - _key: wheel/horizontal
+    _value: {fileID: 21300000, guid: ea6aec6c23001be47b9b242c4a222d37, type: 2}
+  - _key: wheel/right
+    _value: {fileID: 21300000, guid: 826fe3f4efc64364bb1cc57413e7d1ae, type: 2}
+  - _key: wheel/left
+    _value: {fileID: 21300000, guid: 1394727d42ff2ee4a99c636111cbd2d1, type: 2}
+  - _key: left_button
+    _value: {fileID: 21300000, guid: 175dac934003de54fa9142f827cba3e1, type: 2}
+  - _key: right_button
+    _value: {fileID: 21300000, guid: 59e00e1423d747b47bbe556a67a2d460, type: 2}
+  - _key: middle_button
+    _value: {fileID: 21300000, guid: e1917424d6d624a4ba2bd8707449a1e4, type: 2}
+  - _key: button_4
+    _value: {fileID: 21300000, guid: d06f92ea33405334ba44ddb944a940c2, type: 2}
+  - _key: button_5
+    _value: {fileID: 21300000, guid: 2dbfc48581381254b95e5af92f898de8, type: 2}
+  - _key: button_6
+    _value: {fileID: 21300000, guid: 6e11ff2c014fc9441862aa1db785047d, type: 2}
+  - _key: button_7
+    _value: {fileID: 21300000, guid: 9f9f6427b1a24d647a034eb3091235f8, type: 2}

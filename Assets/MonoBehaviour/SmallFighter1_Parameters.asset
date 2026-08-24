@@ -1,0 +1,665 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e56ddb8681eb8af5865ab2fc54350bc, type: 3}
+  m_Name: SmallFighter1_Parameters
+  m_EditorClassIdentifier:
+  aircraftName: FS-20 Vortex
+  rankRequired: 3
+  airfoils:
+  - name: SmallFighter1_controlSurface
+    liftCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0.010508245
+        inSlope: 1.9287611
+        outSlope: 1.9287611
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.1091004
+      - serializedVersion: 3
+        time: -1.57
+        value: 0
+        inSlope: -2.0067136
+        outSlope: -2.0067136
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.14881997
+      - serializedVersion: 3
+        time: -0.785
+        value: -1
+        inSlope: -0.0035528382
+        outSlope: -0.0035528382
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.5194044
+      - serializedVersion: 3
+        time: -0.3
+        value: -0.9
+        inSlope: -0.007204547
+        outSlope: -0.007204547
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.46550524
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2.6907985
+        outSlope: 2.6907985
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.18703623
+      - serializedVersion: 3
+        time: 0.3
+        value: 0.9
+        inSlope: -0.008583963
+        outSlope: -0.008583963
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.22580983
+      - serializedVersion: 3
+        time: 0.785
+        value: 0.9992492
+        inSlope: -0.026717909
+        outSlope: -0.026717909
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.27941546
+      - serializedVersion: 3
+        time: 1.57
+        value: 0
+        inSlope: -1.810663
+        outSlope: -1.810663
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.10514669
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.14159
+        value: 0.00038353816
+        inSlope: 2.4354787
+        outSlope: 2.4354787
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.07451174
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0.1
+        inSlope: -0.014116673
+        outSlope: -0.014116673
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.20838194
+      - serializedVersion: 3
+        time: -2.2
+        value: 1.5
+        inSlope: 1.2775702
+        outSlope: 1.2775702
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: -1.57
+        value: 1.8
+        inSlope: -0.00040314705
+        outSlope: -0.00040314705
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.24220768
+      - serializedVersion: 3
+        time: -0.5
+        value: 0.2
+        inSlope: -0.76994014
+        outSlope: -0.76994014
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.31256527
+      - serializedVersion: 3
+        time: -0.12
+        value: 0.05
+        inSlope: -0.6057877
+        outSlope: -0.6057877
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.22160804
+      - serializedVersion: 3
+        time: 0
+        value: 0.01
+        inSlope: 7.164541E-08
+        outSlope: 7.164541E-08
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.1560833
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.12
+        value: 0.05
+        inSlope: 0.636867
+        outSlope: 0.636867
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.24411482
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 0.2
+        inSlope: 0.8760661
+        outSlope: 0.8760661
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3142625
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.57
+        value: 1.8
+        inSlope: 4.66481E-07
+        outSlope: 4.66481E-07
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.22385456
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.2
+        value: 1.5
+        inSlope: -1.3881327
+        outSlope: -1.3881327
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.021105
+        value: 0.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - name: SmallFighter1_wing
+    liftCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0.010508245
+        inSlope: 1.9287611
+        outSlope: 1.9287611
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.1091004
+      - serializedVersion: 3
+        time: -1.57
+        value: 0
+        inSlope: -2.0067136
+        outSlope: -2.0067136
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.14881997
+      - serializedVersion: 3
+        time: -0.785
+        value: -1
+        inSlope: -0.0035528382
+        outSlope: -0.0035528382
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.5194044
+      - serializedVersion: 3
+        time: -0.3
+        value: -0.9
+        inSlope: -0.007204547
+        outSlope: -0.007204547
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.46550524
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2.6907985
+        outSlope: 2.6907985
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.18703623
+      - serializedVersion: 3
+        time: 0.3
+        value: 0.9
+        inSlope: -0.008583963
+        outSlope: -0.008583963
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.22580983
+      - serializedVersion: 3
+        time: 0.785
+        value: 0.9992492
+        inSlope: -0.026717909
+        outSlope: -0.026717909
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.27941546
+      - serializedVersion: 3
+        time: 1.57
+        value: 0
+        inSlope: -1.810663
+        outSlope: -1.810663
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.10514669
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.14159
+        value: 0.00038353816
+        inSlope: 2.4354787
+        outSlope: 2.4354787
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.07451174
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0.1
+        inSlope: -0.014116673
+        outSlope: -0.014116673
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.20838194
+      - serializedVersion: 3
+        time: -2.2
+        value: 1.5
+        inSlope: 1.2775702
+        outSlope: 1.2775702
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: -1.57
+        value: 1.8
+        inSlope: -0.00040314705
+        outSlope: -0.00040314705
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.24220768
+      - serializedVersion: 3
+        time: -0.5
+        value: 0.2
+        inSlope: -0.76994014
+        outSlope: -0.76994014
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.31256527
+      - serializedVersion: 3
+        time: -0.12
+        value: 0.05
+        inSlope: -0.6057877
+        outSlope: -0.6057877
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.22160804
+      - serializedVersion: 3
+        time: 0
+        value: 0.01
+        inSlope: 7.164541E-08
+        outSlope: 7.164541E-08
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.1560833
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.12
+        value: 0.05
+        inSlope: 0.636867
+        outSlope: 0.636867
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.24411482
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 0.2
+        inSlope: 0.8760661
+        outSlope: 0.8760661
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3142625
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.57
+        value: 1.8
+        inSlope: 4.66481E-07
+        outSlope: 4.66481E-07
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.22385456
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.2
+        value: 1.5
+        inSlope: -1.3881327
+        outSlope: -1.3881327
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.021105
+        value: 0.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - name: SmallFighter1_LERX
+    liftCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0.010508245
+        inSlope: 1.9287611
+        outSlope: 1.9287611
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.1091004
+      - serializedVersion: 3
+        time: -1.57
+        value: 0
+        inSlope: -2.0067136
+        outSlope: -2.0067136
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.14881997
+      - serializedVersion: 3
+        time: -0.785
+        value: -1
+        inSlope: -0.0035528382
+        outSlope: -0.0035528382
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.5194044
+      - serializedVersion: 3
+        time: -0.3
+        value: -0.9
+        inSlope: -0.007204547
+        outSlope: -0.007204547
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.46550524
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 2.6907985
+        outSlope: 2.6907985
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.18703623
+      - serializedVersion: 3
+        time: 0.3
+        value: 0.9
+        inSlope: -0.008583963
+        outSlope: -0.008583963
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.22580983
+      - serializedVersion: 3
+        time: 0.785
+        value: 0.9992492
+        inSlope: -0.026717909
+        outSlope: -0.026717909
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.27941546
+      - serializedVersion: 3
+        time: 1.57
+        value: 0
+        inSlope: -1.810663
+        outSlope: -1.810663
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.10514669
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.14159
+        value: 0.00038353816
+        inSlope: 2.4354787
+        outSlope: 2.4354787
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.07451174
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0.1
+        inSlope: -0.014116673
+        outSlope: -0.014116673
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.20838194
+      - serializedVersion: 3
+        time: -2.2
+        value: 1.5
+        inSlope: 1.2775702
+        outSlope: 1.2775702
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: -1.57
+        value: 1.8
+        inSlope: -0.00040314705
+        outSlope: -0.00040314705
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.24220768
+      - serializedVersion: 3
+        time: -0.5
+        value: 0.2
+        inSlope: -0.76994014
+        outSlope: -0.76994014
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.31256527
+      - serializedVersion: 3
+        time: -0.12
+        value: 0.05
+        inSlope: -0.6057877
+        outSlope: -0.6057877
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.22160804
+      - serializedVersion: 3
+        time: 0
+        value: 0.01
+        inSlope: 7.164541E-08
+        outSlope: 7.164541E-08
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.1560833
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.12
+        value: 0.05
+        inSlope: 0.636867
+        outSlope: 0.636867
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.24411482
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.5
+        value: 0.2
+        inSlope: 0.8760661
+        outSlope: 0.8760661
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.3142625
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.57
+        value: 1.8
+        inSlope: 4.66481E-07
+        outSlope: 4.66481E-07
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.22385456
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.2
+        value: 1.5
+        inSlope: -1.3881327
+        outSlope: -1.3881327
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.021105
+        value: 0.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  loadouts:
+  - weapons:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - weapons:
+    - {fileID: 11400000, guid: adc82edebac4387408e515d4ac5cbde0, type: 2}
+    - {fileID: 11400000, guid: e3983ae8340b3844eacec752792501f0, type: 2}
+    - {fileID: 11400000, guid: 4118b50e4527cb346aa0277d644f0bba, type: 2}
+    - {fileID: 11400000, guid: ce910436c6e71e145a278851076a85d5, type: 2}
+    - {fileID: 11400000, guid: f54670f641a9ee24a9b36263d6268672, type: 2}
+  StandardLoadouts: []
+  DefaultFuelLevel: 1
+  liveries:
+  - name: BDF Navy Standard
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: 6f1aee58aecf7e4459bbb9bd5af2295e
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: BDF Navy Hex
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: 254bccbe9cef8b244a170514de5fb092
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: PALA Desert Splinter
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: a44bcb67795df70498f7e3e1b51afce5
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: PALA Matte Black
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: fe1c1fdd1cf206545b8168ab70714d58
+      m_SubObjectName:
+      m_SubObjectType:
+  StatusDisplay: {fileID: 1709254077376921, guid: a2cb9380f481e3843ac8cccc08604d16, type: 2}
+  HUDExtras: {fileID: 1709254077376921, guid: f0cdc377a128a0648a929382afac4db2, type: 2}
+  takeoffMusic: {fileID: 8300000, guid: 15d046b8408571a48bf2e26c453c1f73, type: 3}
+  AoAEffects:
+    AudioClip: {fileID: 8300000, guid: 5778034f4d3240b449f63de2ee04a282, type: 3}
+    OnsetSpeed: 30
+    FullVolumeSpeed: 200
+    OnsetAlpha: 5
+    FullVolumeAlpha: 45
+    ShakeFactor: 0.1
+  aircraftGLimit: 9
+  PIDReferenceAirspeed: 180
+  maxSpeed: 600
+  takeoffSpeed: 35
+  takeoffDistance: 100
+  verticalLanding: 1
+  turningRadius: 1200
+  cornerSpeed: 180
+  approachSpeed: 45
+  landingSpeed: 100
+  shortLandingSpeed: 30
+  cruiseThrottle: 0.8
+  minimumRadarAlt: 50
+  levelBias: 0.15
+  hoverTiltFactor: 1
+  collectivePID: {x: 0, y: 0, z: 0}
+  hoverPID: {x: 0.1, y: 0.001, z: 0.15}
+  tiltPID: {x: 0, y: 0, z: 0}
+  groundTurningRadius: 12

@@ -1,0 +1,2389 @@
+{
+    "JsonVersion": 4,
+    "WorkshopId": 0,
+    "MapKey": {
+        "Type": 0,
+        "TypeName": "",
+        "Path": ""
+    },
+    "missionSettings": {
+        "description": "Use various SEAD/DEAD abilities unique to the EW-25 Medusa to facilitate an attack against a heavily defended ammo dump.",
+        "Tags": [],
+        "playerMode": 1,
+        "allowRespawn": false,
+        "playerStartingRank": 0,
+        "rankMultiplier": 1.0,
+        "successfulSortieBonus": 0.25,
+        "nuclearEscalationThreshold": 0.0,
+        "strategicEscalationThreshold": 0.0,
+        "minRankTacticalWarhead": 0,
+        "minRankStrategicWarhead": 0,
+        "cameraStartPosition": {
+            "IsOverride": false,
+            "Value": {
+                "Position": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0
+                },
+                "Rotation": {
+                    "x": 0.0,
+                    "y": 0.0,
+                    "z": 0.0,
+                    "w": 0.0
+                }
+            }
+        },
+        "missionRoads": {
+            "roads": []
+        },
+        "wrecksMaxNumber": -1,
+        "wrecksDecayTime": -1.0
+    },
+    "environment": {
+        "timeOfDay": 6.668379783630371,
+        "timeFactor": 0.0,
+        "weatherIntensity": 0.5156077742576599,
+        "cloudAltitude": 1800.0,
+        "windSpeed": 0.0,
+        "windTurbulence": 0.0,
+        "windHeading": 0.0,
+        "windRandomHeading": 0.0
+    },
+    "aircraft": [
+        {
+            "type": "Darkreach",
+            "faction": "Boscali",
+            "UniqueName": "Darkreach",
+            "globalPosition": {
+                "x": 13234.677734375,
+                "y": 152.05877685546876,
+                "z": 20846.197265625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8482246398925781,
+                "z": 0.0,
+                "w": 0.5296367406845093
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    4,
+                    0,
+                    0,
+                    4
+                ]
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "bomb_penetrator1_internalx3"
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": "bomb_penetrator1_internalx2"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 0.0
+        },
+        {
+            "type": "Darkreach",
+            "faction": "Boscali",
+            "UniqueName": "Darkreach_1",
+            "globalPosition": {
+                "x": 13199.6376953125,
+                "y": 152.1777801513672,
+                "z": 20864.166015625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8482246398925781,
+                "z": 0.0,
+                "w": 0.5296367406845093
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    4,
+                    0,
+                    0,
+                    4
+                ]
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "bomb_penetrator1_internalx3"
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": "bomb_penetrator1_internalx2"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 0.0
+        },
+        {
+            "type": "EW1",
+            "faction": "Boscali",
+            "UniqueName": "EW1",
+            "globalPosition": {
+                "x": 13401.126953125,
+                "y": 147.24267578125,
+                "z": 20551.693359375
+            },
+            "rotation": {
+                "x": 0.0010445952648296953,
+                "y": 0.2188979834318161,
+                "z": -0.004809271078556776,
+                "w": 0.9757353663444519
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": true,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    1,
+                    1,
+                    0,
+                    1,
+                    1
+                ]
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "laser_EW1"
+                    },
+                    {
+                        "Key": "ARM1_internalx2"
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": "JammingPod1"
+                    },
+                    {
+                        "Key": "ARM1_double"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 0.0
+        },
+        {
+            "type": "Darkreach",
+            "faction": "Boscali",
+            "UniqueName": "Darkreach_2",
+            "globalPosition": {
+                "x": 12794.2626953125,
+                "y": 143.15977478027345,
+                "z": 19339.189453125
+            },
+            "rotation": {
+                "x": -0.002772966865450144,
+                "y": 0.2190643846988678,
+                "z": -0.002772966865450144,
+                "w": 0.9757025241851807
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    4,
+                    0,
+                    0,
+                    4
+                ]
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "bomb_penetrator1_internalx3"
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": "bomb_penetrator1_internalx2"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 0.0
+        },
+        {
+            "type": "Darkreach",
+            "faction": "Boscali",
+            "UniqueName": "Darkreach_3",
+            "globalPosition": {
+                "x": 12817.7421875,
+                "y": 143.3404541015625,
+                "z": 19386.8984375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.219064399600029,
+                "z": 0.0,
+                "w": 0.9757104516029358
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "playerControlled": false,
+            "playerControlledPriority": 0,
+            "loadout": {
+                "weaponSelections": [
+                    4,
+                    0,
+                    0,
+                    4
+                ]
+            },
+            "savedLoadout": {
+                "Selected": [
+                    {
+                        "Key": "bomb_penetrator1_internalx3"
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": ""
+                    },
+                    {
+                        "Key": "bomb_penetrator1_internalx2"
+                    }
+                ]
+            },
+            "livery": 0,
+            "liveryType": 0,
+            "liveryName": "",
+            "fuel": 1.0,
+            "skill": 1.0,
+            "bravery": 0.5,
+            "startingSpeed": 0.0
+        }
+    ],
+    "vehicles": [
+        {
+            "type": "HLT-M",
+            "faction": "Primeva",
+            "UniqueName": "HLT-M",
+            "globalPosition": {
+                "x": 13988.421875,
+                "y": 147.0029296875,
+                "z": -7906.4326171875
+            },
+            "rotation": {
+                "x": -0.029834376648068429,
+                "y": 0.21306250989437104,
+                "z": -0.013029412366449833,
+                "w": -0.9764961004257202
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-M",
+            "faction": "Primeva",
+            "UniqueName": "HLT-M_3",
+            "globalPosition": {
+                "x": 14040.27734375,
+                "y": 148.44454956054688,
+                "z": -7887.46923828125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9809758067131043,
+                "z": 0.0,
+                "w": 0.19413000345230103
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-M",
+            "faction": "Primeva",
+            "UniqueName": "HLT-M_4",
+            "globalPosition": {
+                "x": 14105.2734375,
+                "y": 145.90048217773438,
+                "z": -7941.5517578125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9799541234970093,
+                "z": 0.0,
+                "w": 0.1992233246564865
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "SAMTrailer1",
+            "globalPosition": {
+                "x": 13443.205078125,
+                "y": 143.52005004882813,
+                "z": -6838.9365234375
+            },
+            "rotation": {
+                "x": 0.004924310836941004,
+                "y": 0.9764384031295776,
+                "z": -0.008387106470763684,
+                "w": 0.2155771553516388
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.46446630358695986,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "SAMTrailer1_1",
+            "globalPosition": {
+                "x": 13256.5791015625,
+                "y": 144.14669799804688,
+                "z": -6714.4521484375
+            },
+            "rotation": {
+                "x": -0.0014898576773703099,
+                "y": 0.6816571950912476,
+                "z": 0.002783756237477064,
+                "w": -0.7316648960113525
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.5211874842643738,
+            "waypoints": []
+        },
+        {
+            "type": "SAMTrailer1",
+            "faction": "Primeva",
+            "UniqueName": "SAMTrailer1_2",
+            "globalPosition": {
+                "x": 13453.3125,
+                "y": 144.3677520751953,
+                "z": -6597.11181640625
+            },
+            "rotation": {
+                "x": -0.0013728701742365957,
+                "y": 0.23625493049621583,
+                "z": -0.0016074152663350106,
+                "w": 0.9716888070106506
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.4913341999053955,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-M",
+            "faction": "Primeva",
+            "UniqueName": "HLT-M_6",
+            "globalPosition": {
+                "x": 13352.783203125,
+                "y": 143.13092041015626,
+                "z": -6727.72216796875
+            },
+            "rotation": {
+                "x": 0.0011258103186264635,
+                "y": 0.7247447371482849,
+                "z": 0.003072072984650731,
+                "w": 0.6890097260475159
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-T",
+            "faction": "Primeva",
+            "UniqueName": "HLT-T",
+            "globalPosition": {
+                "x": 13388.3017578125,
+                "y": 143.10501098632813,
+                "z": -6734.62060546875
+            },
+            "rotation": {
+                "x": 0.00044948977301828563,
+                "y": 0.28936079144477847,
+                "z": 0.0012265525292605162,
+                "w": 0.9572192430496216
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-T",
+            "faction": "Primeva",
+            "UniqueName": "HLT-T_1",
+            "globalPosition": {
+                "x": 13395.5390625,
+                "y": 143.07821655273438,
+                "z": -6739.07275390625
+            },
+            "rotation": {
+                "x": 0.0013436414301395417,
+                "y": 0.28936055302619936,
+                "z": 0.000020653184037655592,
+                "w": 0.9572192430496216
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-T",
+            "faction": "Primeva",
+            "UniqueName": "HLT-T_2",
+            "globalPosition": {
+                "x": 13402.8056640625,
+                "y": 143.04397583007813,
+                "z": -6743.53515625
+            },
+            "rotation": {
+                "x": 0.0013436414301395417,
+                "y": 0.28936055302619936,
+                "z": 0.000020653184037655592,
+                "w": 0.9572192430496216
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "RadarSAM1",
+            "faction": "Primeva",
+            "UniqueName": "RadarSAM1",
+            "globalPosition": {
+                "x": 14158.568359375,
+                "y": 145.99273681640626,
+                "z": -7805.447265625
+            },
+            "rotation": {
+                "x": 0.04895089566707611,
+                "y": 0.9924176931381226,
+                "z": -0.006194327026605606,
+                "w": -0.11257271468639374
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LCV45",
+            "faction": "Primeva",
+            "UniqueName": "LCV45",
+            "globalPosition": {
+                "x": 14141.5625,
+                "y": 145.71371459960938,
+                "z": -7893.6396484375
+            },
+            "rotation": {
+                "x": -0.00516957463696599,
+                "y": 0.20245671272277833,
+                "z": 0.01219957135617733,
+                "w": -0.97920161485672
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LCV45",
+            "faction": "Primeva",
+            "UniqueName": "LCV45_1",
+            "globalPosition": {
+                "x": 14032.1572265625,
+                "y": 147.4233856201172,
+                "z": -7971.068359375
+            },
+            "rotation": {
+                "x": -0.003420064225792885,
+                "y": 0.8093458414077759,
+                "z": 0.007692669052630663,
+                "w": 0.5872721076011658
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": false,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-L",
+            "faction": "Primeva",
+            "UniqueName": "HLT-L",
+            "globalPosition": {
+                "x": 14018.6064453125,
+                "y": 146.7908172607422,
+                "z": -7973.66259765625
+            },
+            "rotation": {
+                "x": -0.0041366457007825378,
+                "y": 0.9789223670959473,
+                "z": 0.00930445920675993,
+                "w": 0.20397867262363435
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-L",
+            "faction": "Primeva",
+            "UniqueName": "HLT-L_1",
+            "globalPosition": {
+                "x": 14090.1728515625,
+                "y": 145.13943481445313,
+                "z": -7890.2626953125
+            },
+            "rotation": {
+                "x": 0.021058399230241777,
+                "y": 0.8383622169494629,
+                "z": -0.0422450453042984,
+                "w": -0.5430660247802734
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-L",
+            "faction": "Primeva",
+            "UniqueName": "HLT-L_2",
+            "globalPosition": {
+                "x": 14033.677734375,
+                "y": 145.37661743164063,
+                "z": -7915.18798828125
+            },
+            "rotation": {
+                "x": 0.020425498485565187,
+                "y": 0.8383728265762329,
+                "z": -0.042345814406871799,
+                "w": -0.5430660843849182
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-L",
+            "faction": "Primeva",
+            "UniqueName": "HLT-L_3",
+            "globalPosition": {
+                "x": 14021.5908203125,
+                "y": 145.2821807861328,
+                "z": -7920.39013671875
+            },
+            "rotation": {
+                "x": -0.00396512309089303,
+                "y": 0.8388177752494812,
+                "z": -0.03805682435631752,
+                "w": -0.5430660247802734
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-L",
+            "faction": "Primeva",
+            "UniqueName": "HLT-L_4",
+            "globalPosition": {
+                "x": 14107.6357421875,
+                "y": 145.10467529296876,
+                "z": -7882.044921875
+            },
+            "rotation": {
+                "x": 0.018068602308630945,
+                "y": 0.8465864658355713,
+                "z": -0.03481031581759453,
+                "w": -0.5308042764663696
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "Linebreaker_SAM",
+            "faction": "Primeva",
+            "UniqueName": "Linebreaker_SAM",
+            "globalPosition": {
+                "x": 14075.3017578125,
+                "y": 145.64889526367188,
+                "z": -7940.2998046875
+            },
+            "rotation": {
+                "x": 0.00506248977035284,
+                "y": 0.9755246639251709,
+                "z": 0.039653971791267398,
+                "w": 0.21622596681118012
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-M",
+            "faction": "Boscali",
+            "UniqueName": "HLT-M_7",
+            "globalPosition": {
+                "x": 13176.8720703125,
+                "y": 145.3480224609375,
+                "z": 20776.57421875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8517051339149475,
+                "z": 0.0,
+                "w": 0.5240214467048645
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-FT",
+            "faction": "Boscali",
+            "UniqueName": "HLT-FT",
+            "globalPosition": {
+                "x": 13173.1240234375,
+                "y": 145.3480224609375,
+                "z": 20768.44921875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.8517051339149475,
+                "z": 0.0,
+                "w": 0.5240214467048645
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-M",
+            "faction": "Boscali",
+            "UniqueName": "HLT-M_8",
+            "globalPosition": {
+                "x": 13308.8486328125,
+                "y": 142.99607849121095,
+                "z": 20043.041015625
+            },
+            "rotation": {
+                "x": 0.004864990711212158,
+                "y": 0.8500308990478516,
+                "z": 0.006386086344718933,
+                "w": 0.5266716480255127
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-FT",
+            "faction": "Boscali",
+            "UniqueName": "HLT-FT_1",
+            "globalPosition": {
+                "x": 13303.99609375,
+                "y": 142.9524688720703,
+                "z": 20033.9296875
+            },
+            "rotation": {
+                "x": -0.00022425626229960471,
+                "y": 0.8500545024871826,
+                "z": 0.0049257040955126289,
+                "w": 0.5266716480255127
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-FT",
+            "faction": "Boscali",
+            "UniqueName": "HLT-FT_2",
+            "globalPosition": {
+                "x": 12925.50390625,
+                "y": 137.16429138183595,
+                "z": 19260.919921875
+            },
+            "rotation": {
+                "x": -0.009507495909929276,
+                "y": 0.863695502281189,
+                "z": -0.009609192609786988,
+                "w": 0.5038327574729919
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-M",
+            "faction": "Boscali",
+            "UniqueName": "HLT-M_9",
+            "globalPosition": {
+                "x": 12931.7158203125,
+                "y": 137.3531494140625,
+                "z": 19271.744140625
+            },
+            "rotation": {
+                "x": -0.009507495909929276,
+                "y": 0.863695502281189,
+                "z": -0.009609192609786988,
+                "w": 0.5038327574729919
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "RadarSAM1",
+            "faction": "Primeva",
+            "UniqueName": "RadarSAM1_1",
+            "globalPosition": {
+                "x": 13351.333984375,
+                "y": 147.3975830078125,
+                "z": -7708.09912109375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.22410286962985993,
+                "z": 0.0,
+                "w": -0.9745655059814453
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-T",
+            "faction": "Primeva",
+            "UniqueName": "HLT-T_3",
+            "globalPosition": {
+                "x": 13954.8359375,
+                "y": 145.28875732421876,
+                "z": -7947.240234375
+            },
+            "rotation": {
+                "x": 0.026912640780210496,
+                "y": 0.8199211955070496,
+                "z": -0.01726091094315052,
+                "w": -0.5715829730033875
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LCV45",
+            "faction": "Primeva",
+            "UniqueName": "LCV45_2",
+            "globalPosition": {
+                "x": 7688.966796875,
+                "y": 781.90673828125,
+                "z": -12379.6787109375
+            },
+            "rotation": {
+                "x": 0.002619123784825206,
+                "y": 0.02714710123836994,
+                "z": 0.0030052808579057457,
+                "w": 0.9996235370635986
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LCV45",
+            "faction": "Primeva",
+            "UniqueName": "LCV45_3",
+            "globalPosition": {
+                "x": 29588.12109375,
+                "y": 631.8120727539063,
+                "z": -6425.49658203125
+            },
+            "rotation": {
+                "x": -0.0016984764952212573,
+                "y": 0.6185724139213562,
+                "z": -0.0878591239452362,
+                "w": -0.7807983756065369
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "LCV45",
+            "faction": "Boscali",
+            "UniqueName": "LCV45_4",
+            "globalPosition": {
+                "x": 13502.634765625,
+                "y": 443.61505126953127,
+                "z": 6647.208984375
+            },
+            "rotation": {
+                "x": 0.0015936670824885369,
+                "y": 0.7079589366912842,
+                "z": 0.05622733756899834,
+                "w": -0.704010009765625
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-R",
+            "faction": "Primeva",
+            "UniqueName": "HLT-R_1",
+            "globalPosition": {
+                "x": 13386.7607421875,
+                "y": 142.97265625,
+                "z": -6702.83203125
+            },
+            "rotation": {
+                "x": 0.0009849906200543047,
+                "y": 0.6340915560722351,
+                "z": 0.002687809057533741,
+                "w": -0.7732527256011963
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 2.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "RadarSAM1",
+            "faction": "Primeva",
+            "UniqueName": "RadarSAM1_2",
+            "globalPosition": {
+                "x": 7750.13525390625,
+                "y": 721.9009399414063,
+                "z": -12565.474609375
+            },
+            "rotation": {
+                "x": 0.04034210368990898,
+                "y": 0.8858233094215393,
+                "z": 0.04559245705604553,
+                "w": 0.46001192927360537
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": [
+                {
+                    "position": {
+                        "x": 13358.810546875,
+                        "y": 144.04934692382813,
+                        "z": -6759.56201171875
+                    },
+                    "objective": "Unit Spawn"
+                }
+            ]
+        },
+        {
+            "type": "HLT-M",
+            "faction": "Boscali",
+            "UniqueName": "HLT-M_10",
+            "globalPosition": {
+                "x": 18979.33203125,
+                "y": 133.7154541015625,
+                "z": 12590.6806640625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9501391053199768,
+                "z": 0.0,
+                "w": 0.3118264079093933
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-FT",
+            "faction": "Boscali",
+            "UniqueName": "HLT-FT_3",
+            "globalPosition": {
+                "x": 18986.58203125,
+                "y": 133.7154541015625,
+                "z": 12596.724609375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9501391053199768,
+                "z": 0.0,
+                "w": 0.3118264079093933
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-M",
+            "faction": "Boscali",
+            "UniqueName": "HLT-M_11",
+            "globalPosition": {
+                "x": -10340.1923828125,
+                "y": 137.26185607910157,
+                "z": -6474.0654296875
+            },
+            "rotation": {
+                "x": 0.0004252367652952671,
+                "y": 0.9948175549507141,
+                "z": -0.0025589275173842909,
+                "w": 0.1016431599855423
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "HLT-FT",
+            "faction": "Boscali",
+            "UniqueName": "HLT-FT_4",
+            "globalPosition": {
+                "x": -10331.11328125,
+                "y": 137.26075744628907,
+                "z": -6472.98583984375
+            },
+            "rotation": {
+                "x": 0.0004201205156277865,
+                "y": 0.9948174953460693,
+                "z": -0.0025771884247660639,
+                "w": 0.1016431599855423
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        },
+        {
+            "type": "RadarSAM1",
+            "faction": "Primeva",
+            "UniqueName": "RadarSAM1_3",
+            "globalPosition": {
+                "x": 27496.158203125,
+                "y": 137.26422119140626,
+                "z": -19564.38671875
+            },
+            "rotation": {
+                "x": -0.00008339129999512807,
+                "y": 0.0757288932800293,
+                "z": 0.0002978429838549346,
+                "w": 0.997128427028656
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "holdPosition": true,
+            "skill": 0.699999988079071,
+            "waypoints": []
+        }
+    ],
+    "ships": [],
+    "buildings": [
+        {
+            "type": "VehicleDepot1",
+            "faction": "Primeva",
+            "UniqueName": "VehicleDepot1",
+            "globalPosition": {
+                "x": 14043.734375,
+                "y": 145.58645629882813,
+                "z": -7983.890625
+            },
+            "rotation": {
+                "x": 0.005087339784950018,
+                "y": -0.20764710009098054,
+                "z": 0.001079924521036446,
+                "w": 0.978190004825592
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "VehicleDepot1",
+            "faction": "Primeva",
+            "UniqueName": "VehicleDepot1_1",
+            "globalPosition": {
+                "x": 14174.4482421875,
+                "y": 144.119873046875,
+                "z": -7921.931640625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.19906730949878694,
+                "z": 0.0,
+                "w": 0.9799858331680298
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "VehicleDepot1",
+            "faction": "Primeva",
+            "UniqueName": "VehicleDepot1_2",
+            "globalPosition": {
+                "x": 14099.8271484375,
+                "y": 146.3072509765625,
+                "z": -7843.0625
+            },
+            "rotation": {
+                "x": 0.004335151985287666,
+                "y": 0.9795604348182678,
+                "z": -0.021234925836324693,
+                "w": 0.19997920095920564
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "shelter1",
+            "globalPosition": {
+                "x": 14038.69921875,
+                "y": 147.5445556640625,
+                "z": -7884.20361328125
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9788815379142761,
+                "z": 0.0,
+                "w": 0.20442846417427064
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "shelter1_1",
+            "globalPosition": {
+                "x": 13988.654296875,
+                "y": 145.77032470703126,
+                "z": -7906.79150390625
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.9788815379142761,
+                "z": 0.0,
+                "w": 0.20442846417427064
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "shelter1_2",
+            "globalPosition": {
+                "x": 14030.4287109375,
+                "y": 147.58026123046876,
+                "z": -7865.427734375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.979022741317749,
+                "z": 0.0,
+                "w": 0.2037511169910431
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "shelter1_3",
+            "globalPosition": {
+                "x": 13980.4228515625,
+                "y": 145.63372802734376,
+                "z": -7888.00341796875
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": 0.979022741317749,
+                "z": 0.0,
+                "w": 0.2037511169910431
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "shelter1_4",
+            "globalPosition": {
+                "x": 14104.2099609375,
+                "y": 145.00042724609376,
+                "z": -7940.2958984375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.20944884419441224,
+                "z": 0.0,
+                "w": 0.9778196215629578
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 50.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        },
+        {
+            "type": "shelter1",
+            "faction": "Primeva",
+            "UniqueName": "shelter1_5",
+            "globalPosition": {
+                "x": 14112.458984375,
+                "y": 145.031494140625,
+                "z": -7958.859375
+            },
+            "rotation": {
+                "x": 0.0,
+                "y": -0.20944884419441224,
+                "z": 0.0,
+                "w": 0.9778196215629578
+            },
+            "CaptureStrength": {
+                "IsOverride": false,
+                "Value": 0.0
+            },
+            "CaptureDefense": {
+                "IsOverride": false,
+                "Value": 50.0
+            },
+            "unitCustomID": "",
+            "spawnTiming": "",
+            "capturable": false,
+            "Airbase": "",
+            "factoryOptions": {
+                "productionType": "",
+                "productionTime": 900.0
+            },
+            "placementOffset": 0.0
+        }
+    ],
+    "scenery": [],
+    "factions": [
+        {
+            "factionName": "Boscali",
+            "preventJoin": false,
+            "preventDonation": true,
+            "supplies": [],
+            "startingBalance": 0.0,
+            "playerJoinAllowance": 20.0,
+            "playerTaxRate": 0.20000000298023225,
+            "regularIncome": 5.0,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 0,
+            "extraReservesPerPlayer": 0,
+            "AIAircraftLimit": 16,
+            "reduceAIPerFriendlyPlayer": 0.0,
+            "addAIPerEnemyPlayer": 0.0,
+            "objectives": [],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        },
+        {
+            "factionName": "Primeva",
+            "preventJoin": true,
+            "preventDonation": true,
+            "supplies": [],
+            "startingBalance": 0.0,
+            "playerJoinAllowance": 20.0,
+            "playerTaxRate": 0.20000000298023225,
+            "regularIncome": 5.0,
+            "killReward": 1.0,
+            "startingWarheads": 0,
+            "reserveWarheads": 0,
+            "reserveAirframes": 0,
+            "extraReservesPerPlayer": 0,
+            "AIAircraftLimit": 16,
+            "reduceAIPerFriendlyPlayer": 0.0,
+            "addAIPerEnemyPlayer": 0.0,
+            "objectives": [],
+            "restrictions": {
+                "aircraft": [],
+                "weapons": []
+            },
+            "cameraStartPosition": {
+                "IsOverride": false,
+                "Value": {
+                    "Position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "Rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0,
+                        "w": 0.0
+                    }
+                }
+            }
+        }
+    ],
+    "airbases": [],
+    "unitInventories": [],
+    "objectives": {
+        "Objectives": [
+            {
+                "UniqueName": "Mission Start",
+                "Faction": "",
+                "DisplayName": "",
+                "Hidden": true,
+                "Type": 0,
+                "TypeName": "None",
+                "Data": [],
+                "Outcomes": [
+                    "StartingObjectives"
+                ]
+            },
+            {
+                "UniqueName": "Taxi",
+                "Faction": "Boscali",
+                "DisplayName": "Taxi",
+                "Hidden": false,
+                "Type": 3,
+                "TypeName": "ReachWaypoints",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 50.0,
+                        "VectorValue": {
+                            "x": 13334.9248046875,
+                            "y": 144.4887237548828,
+                            "z": 20757.041015625
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "StartTakeOff",
+                    "Message2"
+                ]
+            },
+            {
+                "UniqueName": "TakeOff",
+                "Faction": "Boscali",
+                "DisplayName": "Take Off",
+                "Hidden": false,
+                "Type": 3,
+                "TypeName": "ReachWaypoints",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 500.0,
+                        "VectorValue": {
+                            "x": 12670.037109375,
+                            "y": 286.6219787597656,
+                            "z": 19459.96484375
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "StartShowObjectiveLocation",
+                    "Message3"
+                ]
+            },
+            {
+                "UniqueName": "Target Location",
+                "Faction": "Boscali",
+                "DisplayName": "Target Location",
+                "Hidden": false,
+                "Type": 3,
+                "TypeName": "ReachWaypoints",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 14086.06640625,
+                            "y": 143.90557861328126,
+                            "z": -7906.79541015625
+                        }
+                    }
+                ],
+                "Outcomes": []
+            },
+            {
+                "UniqueName": "DestroyAmmo",
+                "Faction": "Boscali",
+                "DisplayName": "DestroyAmmo",
+                "Hidden": true,
+                "Type": 1,
+                "TypeName": "DestroyUnits",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "HLT-M",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "HLT-M_3",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "HLT-M_4",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "StartDelayedVictory",
+                    "HideTargetLocation"
+                ]
+            },
+            {
+                "UniqueName": "OrbitLocation",
+                "Faction": "Boscali",
+                "DisplayName": "OrbitLocation",
+                "Hidden": true,
+                "Type": 3,
+                "TypeName": "ReachWaypoints",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": -888.6640625,
+                            "y": 261.5001220703125,
+                            "z": 11649.84765625
+                        }
+                    }
+                ],
+                "Outcomes": []
+            },
+            {
+                "UniqueName": "OrbitTimer",
+                "Faction": "Boscali",
+                "DisplayName": "OrbitTimer",
+                "Hidden": true,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 30.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "StopOrbit"
+                ]
+            },
+            {
+                "UniqueName": "StartMessageDelay",
+                "Faction": "Boscali",
+                "DisplayName": "StartMessageDelay",
+                "Hidden": false,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 2.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "StartMessage"
+                ]
+            },
+            {
+                "UniqueName": "DelayedVictory",
+                "Faction": "Boscali",
+                "DisplayName": "DelayedVictory",
+                "Hidden": true,
+                "Type": 4,
+                "TypeName": "WaitSeconds",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 6.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ],
+                "Outcomes": [
+                    "WinMessage",
+                    "Victory"
+                ]
+            }
+        ],
+        "Outcomes": [
+            {
+                "UniqueName": "StartingObjectives",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "Taxi",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "DestroyAmmo",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "StartMessageDelay",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartTakeOff",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "TakeOff",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Message2",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "Suppress or destroy any radar-based launchers to ensure the bombers can destroy the ammo dump. The target area is protected by a Stratolance battery and at least two Boltstrikes.",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartShowObjectiveLocation",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "OrbitLocation",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "OrbitTimer",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Target Location",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Message3",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "There may be more radars active in the area - make sure you are making productive use of your missiles. There may not be enough time to re-arm.",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartDelayedVictory",
+                "Type": 1,
+                "TypeName": "StartObjective",
+                "Data": [
+                    {
+                        "StringValue": "DelayedVictory",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "HideTargetLocation",
+                "Type": 2,
+                "TypeName": "StopOrCompleteObjective",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "Target Location",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StopOrbit",
+                "Type": 2,
+                "TypeName": "StopOrCompleteObjective",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "OrbitLocation",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "StartMessage",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "Our target is a large ammo dump nearby the refinery. It's hardened, and will require the use of the Darkreaches' GPO-2P Auger to destroy it.",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "WinMessage",
+                "Type": 3,
+                "TypeName": "ShowMessage",
+                "Data": [
+                    {
+                        "StringValue": "Target Destroyed. Excellent work.",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 1.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            },
+            {
+                "UniqueName": "Victory",
+                "Type": 8,
+                "TypeName": "EndGame",
+                "Data": [
+                    {
+                        "StringValue": "",
+                        "FloatValue": 0.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    },
+                    {
+                        "StringValue": "",
+                        "FloatValue": 10.0,
+                        "VectorValue": {
+                            "x": 0.0,
+                            "y": 0.0,
+                            "z": 0.0
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

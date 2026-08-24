@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1068d80d46d674bb5ba8d372cacd329, type: 3}
+  m_Name: Boscali
+  m_EditorClassIdentifier:
+  LeaderboardOrder: 1
+  factionName: Boscali
+  factionTag: BDF
+  factionExtendedName: Boscali Defense Force
+  factionHeaderSprite: {fileID: 21300000, guid: 3d4f3ffb2e188394cbd19763987cf79d, type: 2}
+  factionGrayscaleLogo: {fileID: 21300000, guid: a6a0ab9d5f2742c4288b5ae1b8c91d57, type: 2}
+  factionColorLogo: {fileID: 21300000, guid: 5e56abfad7777524695885ae65ee2ac1, type: 2}
+  color: {r: 0.6564373, g: 0.4198113, b: 1, a: 1}
+  selectedColor: {r: 0, g: 1, b: 1, a: 1}
+  theme: {fileID: 8300000, guid: 7d13a3bb8c2e5bb4090dcedaddf45d74, type: 3}
+  idleTheme: {fileID: 8300000, guid: d6833f6884bea0c4d99fc16a7b247f04, type: 3}
+  convoyGroups:
+  - Name: BDF Tank Platoon
+    Constituents:
+    - Type: {fileID: 11400000, guid: ab136237de5ec4f47a02531eb15588a2, type: 2}
+      Count: 4
+  - Name: BDF Mechanized Company Group
+    Constituents:
+    - Type: {fileID: 11400000, guid: c6a0b608f2855cf40abc1f1ef3e412a8, type: 2}
+      Count: 4
+    - Type: {fileID: 11400000, guid: 1bd222c7feeed69468332bff1a09e4d0, type: 2}
+      Count: 4
+    - Type: {fileID: 11400000, guid: 9b3c6550b59cb75448e4e513933f8cf9, type: 2}
+      Count: 1
+  - Name: BDF Armoured Company Group
+    Constituents:
+    - Type: {fileID: 11400000, guid: ab136237de5ec4f47a02531eb15588a2, type: 2}
+      Count: 8
+    - Type: {fileID: 11400000, guid: f780156cb4ee07843bcdbc91a47dfa77, type: 2}
+      Count: 1
+    - Type: {fileID: 11400000, guid: 00ef80ed10b1e7f49914fad1d3d97ac2, type: 2}
+      Count: 2
+  - Name: BDF Combined Arms Company
+    Constituents:
+    - Type: {fileID: 11400000, guid: e1f3271b4a58d7b4f817df038b86a33b, type: 2}
+      Count: 1
+    - Type: {fileID: 11400000, guid: bb7654be4a395564e823ff9e5f86ab0b, type: 2}
+      Count: 2
+    - Type: {fileID: 11400000, guid: c6a0b608f2855cf40abc1f1ef3e412a8, type: 2}
+      Count: 4
+    - Type: {fileID: 11400000, guid: 1bd222c7feeed69468332bff1a09e4d0, type: 2}
+      Count: 4
+    - Type: {fileID: 11400000, guid: ab136237de5ec4f47a02531eb15588a2, type: 2}
+      Count: 8
+    - Type: {fileID: 11400000, guid: 10cec17169532754094382949fa3a9c2, type: 2}
+      Count: 1
+    - Type: {fileID: 11400000, guid: a6017c73a4fe48048a7b0756eb23a4bb, type: 2}
+      Count: 1
+    - Type: {fileID: 11400000, guid: 15a051c0953f2034a8c159a5624bd46e, type: 2}
+      Count: 1
+    - Type: {fileID: 11400000, guid: 13c188089947bcf48aa5960c85cec0bb, type: 2}
+      Count: 1

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b289d0cab92dd36afcea8c0202f50c4f, type: 3}
+  m_Name: AssaultCarrier1
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 1
+    air: 0
+    missile: 0
+    radar: 0.645
+    strategic: 0.5
+  roleIdentity:
+    antiSurface: 0.95
+    antiAir: 0.95
+    antiMissile: 0.95
+    antiRadar: 0
+  jsonKey: AssaultCarrier1
+  unitName: Annex Class Carrier
+  bogeyName:
+  description: An amphibious assault ship which can support rotary wing and V/STOL aircraft operations. It has a well deck from which it can launch landing craft, and it can perform shore bombardment with its 76mm cannon and dual-purpose 40mm point defence guns.
+  code: SHP
+  visibleRange: 50000
+  iconRange: 40000
+  radarSize: 1
+  friendlyIcon: {fileID: 21300000, guid: adb8468a69f095e4fabced8a2659e974, type: 2}
+  hostileIcon: {fileID: 21300000, guid: ccb3d29c8a798304591e031e675ca2b8, type: 2}
+  mapIcon: {fileID: 21300000, guid: 5b14d824dd8159947a73811e3a889732, type: 2}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 1
+  mapIconSize: 2
+  captureCapacity: 100
+  captureStrength: 50
+  captureDefense: 0
+  length: 242
+  width: 40
+  height: 50
+  value: 3500
+  mass: 40124700
+  manpower: 2000
+  armorTier: 5
+  damageTolerance: 35
+  CanSlingLoad: 0
+  unitPrefab: {fileID: 1709254077376921, guid: c2af87fa89957fd4fbc3abdcfd42b81b, type: 2}
+  spawnOffset: {x: 0, y: 5.5, z: 0}
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
+  minEditorHeight: 0
+  maxEditorHeight: 10000
+  shipInfo:
+    mass: 3500000
+    topSpeed: 60
+  shipType: 1

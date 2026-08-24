@@ -1,0 +1,263 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e56ddb8681eb8af5865ab2fc54350bc, type: 3}
+  m_Name: COINParameters
+  m_EditorClassIdentifier:
+  aircraftName: CI-22 Cricket
+  rankRequired: 0
+  airfoils:
+  - name: COIN_wing
+    liftCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14169
+        value: 0
+        inSlope: 2.0718234
+        outSlope: 2.0718234
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.1271649
+      - serializedVersion: 3
+        time: -1.492233
+        value: -0.002766233
+        inSlope: -2.0885763
+        outSlope: -2.0885763
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.2777585
+      - serializedVersion: 3
+        time: -0.785
+        value: -0.9
+        inSlope: -0.023071505
+        outSlope: -0.023071505
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.38426352
+      - serializedVersion: 3
+        time: -0.365
+        value: -0.695
+        inSlope: 0.84208614
+        outSlope: 0.84208614
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 1
+      - serializedVersion: 3
+        time: -0.26
+        value: -1
+        inSlope: 0.019799538
+        outSlope: 0.019799538
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.61614555
+      - serializedVersion: 3
+        time: -0.00012555812
+        value: 0.00042958115
+        inSlope: 5.7064605
+        outSlope: 5.7064605
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.14042649
+      - serializedVersion: 3
+        time: 0.26
+        value: 1.0034726
+        inSlope: -0.053375985
+        outSlope: -0.053375985
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.16995811
+        outWeight: 1
+      - serializedVersion: 3
+        time: 0.36484918
+        value: 0.6949963
+        inSlope: 0.9726828
+        outSlope: 0.9726828
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.19688879
+      - serializedVersion: 3
+        time: 0.785
+        value: 0.9
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.57
+        value: 0.0073467577
+        inSlope: -1.9635154
+        outSlope: -1.9635154
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.08661534
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 3.14159
+        value: 0
+        inSlope: 2.5731626
+        outSlope: 2.5731626
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.046898335
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -3.14159
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: -1.51
+        value: 1.7
+        inSlope: -0.005174054
+        outSlope: -0.005174054
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.59302485
+      - serializedVersion: 3
+        time: -0.2
+        value: 0.15099941
+        inSlope: -1.2430803
+        outSlope: -1.2430803
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.3467535
+      - serializedVersion: 3
+        time: 0
+        value: 0.008
+        inSlope: 7.164541E-08
+        outSlope: 7.164541E-08
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.1560833
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.2
+        value: 0.149876
+        inSlope: 1.3356287
+        outSlope: 1.3356287
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.2706716
+        outWeight: 0.079623565
+      - serializedVersion: 3
+        time: 1.51
+        value: 1.7
+        inSlope: 0.00041207878
+        outSlope: 0.00041207878
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.51644635
+        outWeight: 0.4459198
+      - serializedVersion: 3
+        time: 3.14159
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  loadouts:
+  - weapons:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - weapons:
+    - {fileID: 11400000, guid: 02c810502afd0904eb4f1a892ebb977a, type: 2}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: fef1b07d4660540468641409533eefa6, type: 2}
+    - {fileID: 11400000, guid: ce910436c6e71e145a278851076a85d5, type: 2}
+    - {fileID: 11400000, guid: 431b2ede029d51a46a63129fff5d7212, type: 2}
+    - {fileID: 11400000, guid: ebd7320e2c09da44e850b8666ccd0de5, type: 2}
+  StandardLoadouts: []
+  DefaultFuelLevel: 0.3
+  liveries:
+  - name: BDF Matte Gray
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: 1e63c392742230a44b50b98441fc4457
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: BDF Temperate Camo
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: 1002d59228b11ee45a857556980803f8
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: PALA Desert Camo
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: a4f1542187357204b916779e7b104fa0
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: PALA Matte Black
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: 9f0f3a667c318a549b09b6549b3c7325
+      m_SubObjectName:
+      m_SubObjectType:
+  StatusDisplay: {fileID: 1709254077376921, guid: cdef5aff59a5f3e4cb8a0257d550c91c, type: 2}
+  HUDExtras: {fileID: 1709254077376921, guid: 0c1f71d351dc02148a4b00e520d5e5f3, type: 2}
+  takeoffMusic: {fileID: 8300000, guid: 262772ab3a6348e49aa73868b730313b, type: 3}
+  AoAEffects:
+    AudioClip: {fileID: 8300000, guid: 5778034f4d3240b449f63de2ee04a282, type: 3}
+    OnsetSpeed: 30
+    FullVolumeSpeed: 200
+    OnsetAlpha: 5
+    FullVolumeAlpha: 45
+    ShakeFactor: 0.1
+  aircraftGLimit: 6.5
+  PIDReferenceAirspeed: 100
+  maxSpeed: 175
+  takeoffSpeed: 50
+  takeoffDistance: 100
+  verticalLanding: 0
+  turningRadius: 1000
+  cornerSpeed: 90
+  approachSpeed: 60
+  landingSpeed: 50
+  shortLandingSpeed: 50
+  cruiseThrottle: 1
+  minimumRadarAlt: 30
+  levelBias: 0.15
+  hoverTiltFactor: 1
+  collectivePID: {x: 0, y: 0, z: 0}
+  hoverPID: {x: 0, y: 0, z: 0}
+  tiltPID: {x: 0, y: 0, z: 0}
+  groundTurningRadius: 10

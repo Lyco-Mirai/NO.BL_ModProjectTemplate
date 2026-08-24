@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01bf628dec7dd250e4a1d21f43b281e, type: 3}
+  m_Name: SAMTurret1
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 1
+    air: 0
+    missile: 0
+    radar: 0
+    strategic: 0
+  roleIdentity:
+    antiSurface: 0
+    antiAir: 0.75
+    antiMissile: 0.75
+    antiRadar: 0
+  jsonKey: SAMTurret1
+  unitName: Boltstrike RAM45 Launcher
+  bogeyName:
+  description: This transportable air defense missile launcher capable of engaging aerial targets within 15km. It can be deployed by a utility aircraft and obtains target info from a nearby radar.
+  code: SAM R
+  visibleRange: 6000
+  iconRange: 0
+  radarSize: 1
+  friendlyIcon: {fileID: 21300000, guid: c068aa0ef63c2914984d41daa9548de8, type: 2}
+  hostileIcon: {fileID: 21300000, guid: 4653627aac672dd4cbe0d629439af719, type: 2}
+  mapIcon: {fileID: 21300000, guid: f84817cde00e8dd4cbba0d344da5b068, type: 2}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 1
+  mapIconSize: 1
+  captureCapacity: 0
+  captureStrength: 0
+  captureDefense: 0
+  length: 4.8
+  width: 1.6
+  height: 1.6
+  value: 7
+  mass: 6000
+  manpower: 0
+  armorTier: 1
+  damageTolerance: 0
+  CanSlingLoad: 1
+  unitPrefab: {fileID: 1709254077376921, guid: 87fcefa45ef01a44f91a6b9f5775c4a0, type: 2}
+  spawnOffset: {x: 0, y: 0.38, z: 0}
+  disabled: 1
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 1
+  minEditorHeight: 0
+  maxEditorHeight: 10000
+  vehicleType: 8

@@ -1,0 +1,241 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e56ddb8681eb8af5865ab2fc54350bc, type: 3}
+  m_Name: UtilityHelo1_Parameters
+  m_EditorClassIdentifier:
+  aircraftName: UH-80 Ibis
+  rankRequired: 1
+  airfoils:
+  - name: UtilityHelo1_wing
+    liftCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -1.492233
+        value: -0.002766233
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: -0.44749996
+        value: -1.2474182
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: -0.00012555812
+        value: 0.00042958115
+        inSlope: 7.6312733
+        outSlope: 7.6312733
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.03542821
+      - serializedVersion: 3
+        time: 0.4512102
+        value: 1.2937167
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.4954445
+        value: 0.0073467577
+        inSlope: 0.03151323
+        outSlope: 0.03151323
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.13650277
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    dragCoef:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: -1.4926803
+        value: 0.5758908
+        inSlope: -0.038458936
+        outSlope: -0.038458936
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.71009433
+      - serializedVersion: 3
+        time: -0.19616336
+        value: 0.15099941
+        inSlope: -0.81499016
+        outSlope: -0.81499016
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.12394079
+      - serializedVersion: 3
+        time: 0.00023387838
+        value: 0.00330832
+        inSlope: 7.164541E-08
+        outSlope: 7.164541E-08
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.1560833
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.19595608
+        value: 0.149876
+        inSlope: 0.8656081
+        outSlope: 0.8656081
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.15020706
+        outWeight: 0.03133865
+      - serializedVersion: 3
+        time: 1.4944664
+        value: 0.5699501
+        inSlope: 0.011035963
+        outSlope: 0.011035963
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.51644635
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  loadouts:
+  - weapons:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  - weapons:
+    - {fileID: 11400000, guid: 73e2dbd335971334b8be8e967734baa8, type: 2}
+    - {fileID: 11400000, guid: d3cda714ee3637445ba9e6cffd058a6c, type: 2}
+    - {fileID: 11400000, guid: 95daa02aa0eab9f4e9acdcb14357c055, type: 2}
+    - {fileID: 0}
+    - {fileID: 11400000, guid: 863a9b283c7829e4ea0e68a45e7508a5, type: 2}
+    - {fileID: 11400000, guid: 8b643044f2ea7e34c9978ac298555e7a, type: 2}
+    - {fileID: 11400000, guid: 9d085a59fdad91049ae16245ff8f3c51, type: 2}
+  StandardLoadouts:
+  - disabled: 0
+    Name: Gunship
+    loadout:
+      weapons:
+      - {fileID: 11400000, guid: c529ec1bdf255c0479d4afccadfe323b, type: 2}
+      - {fileID: 11400000, guid: 73e2dbd335971334b8be8e967734baa8, type: 2}
+      - {fileID: 11400000, guid: e49d0372e250d304e8e33770724276a6, type: 2}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: 863a9b283c7829e4ea0e68a45e7508a5, type: 2}
+      - {fileID: 0}
+      - {fileID: 0}
+    FuelRatio: 0.401
+  - disabled: 0
+    Name: Vehicle Rearming
+    loadout:
+      weapons:
+      - {fileID: 11400000, guid: 93aaa6fdc6066734483e0ed838aa9ec8, type: 2}
+      - {fileID: 11400000, guid: 73e2dbd335971334b8be8e967734baa8, type: 2}
+      - {fileID: 11400000, guid: 95daa02aa0eab9f4e9acdcb14357c055, type: 2}
+      - {fileID: 11400000, guid: 7bd57e79e2daad844b28f10b70601e2b, type: 2}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    FuelRatio: 0.401
+  - disabled: 0
+    Name: Naval Rearming
+    loadout:
+      weapons:
+      - {fileID: 11400000, guid: 93aaa6fdc6066734483e0ed838aa9ec8, type: 2}
+      - {fileID: 11400000, guid: 73e2dbd335971334b8be8e967734baa8, type: 2}
+      - {fileID: 11400000, guid: 95daa02aa0eab9f4e9acdcb14357c055, type: 2}
+      - {fileID: 11400000, guid: c398f49688539b94c975601572e3fabe, type: 2}
+      - {fileID: 0}
+      - {fileID: 0}
+      - {fileID: 0}
+    FuelRatio: 0.401
+  - disabled: 0
+    Name: UGV Mixed
+    loadout:
+      weapons:
+      - {fileID: 11400000, guid: 93aaa6fdc6066734483e0ed838aa9ec8, type: 2}
+      - {fileID: 11400000, guid: 73e2dbd335971334b8be8e967734baa8, type: 2}
+      - {fileID: 11400000, guid: 95daa02aa0eab9f4e9acdcb14357c055, type: 2}
+      - {fileID: 0}
+      - {fileID: 11400000, guid: 8b643044f2ea7e34c9978ac298555e7a, type: 2}
+      - {fileID: 11400000, guid: 1066cfd45192ca84babb6a704bbe9a12, type: 2}
+      - {fileID: 11400000, guid: 9d085a59fdad91049ae16245ff8f3c51, type: 2}
+    FuelRatio: 0.401
+  DefaultFuelLevel: 0.5
+  liveries:
+  - name: PALA Navy
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: 570f93ca280bff74fa2cf750446f79e5
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: PALA Matte Black
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: 4cc570212fa5d2c419c13a75d96efa29
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: PALA Desert Stripe
+    faction: {fileID: 11400000, guid: fb39a29b444e8c24dad9803469f78c5e, type: 2}
+    assetReference:
+      m_AssetGUID: e430b055b1977044a94a19489d0eb1f0
+      m_SubObjectName:
+      m_SubObjectType:
+  - name: BDF Temperate Camo
+    faction: {fileID: 11400000, guid: 977872352c9b3f74fa37af611b9095d7, type: 2}
+    assetReference:
+      m_AssetGUID: fbbdda09726bea94590b05d4c521d3f8
+      m_SubObjectName:
+      m_SubObjectType:
+  StatusDisplay: {fileID: 1709254077376921, guid: cef4fe2bb0b3a0e47b76101a1b5cc7d2, type: 2}
+  HUDExtras: {fileID: 1709254077376921, guid: 75a2ce0a524359e4a815ea0ee5155ddf, type: 2}
+  takeoffMusic: {fileID: 8300000, guid: 012781bd53becad4dba432d9ced20daf, type: 3}
+  AoAEffects:
+    AudioClip: {fileID: 8300000, guid: 5778034f4d3240b449f63de2ee04a282, type: 3}
+    OnsetSpeed: 30
+    FullVolumeSpeed: 200
+    OnsetAlpha: 5
+    FullVolumeAlpha: 45
+    ShakeFactor: 0.1
+  aircraftGLimit: 3.5
+  PIDReferenceAirspeed: 0
+  maxSpeed: 134
+  takeoffSpeed: 0
+  takeoffDistance: 0
+  verticalLanding: 1
+  turningRadius: 750
+  cornerSpeed: 120
+  approachSpeed: 60
+  landingSpeed: 30
+  shortLandingSpeed: 30
+  cruiseThrottle: 0.9
+  minimumRadarAlt: 30
+  levelBias: 0.15
+  hoverTiltFactor: 0.5
+  collectivePID: {x: 0, y: 0, z: 0}
+  hoverPID: {x: 0.05, y: 0.001, z: 0.3}
+  tiltPID: {x: 0, y: 0, z: 0}
+  groundTurningRadius: 10

@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36704ca81c6ab30ebc821c5fcbe70505, type: 3}
+  m_Name: Bomb_cluster1
+  m_EditorClassIdentifier:
+  typeIdentity:
+    surface: 0
+    air: 0
+    missile: 1
+    radar: 0
+    strategic: 0
+  roleIdentity:
+    antiSurface: 1
+    antiAir: 0.1
+    antiMissile: 0
+    antiRadar: 0
+  jsonKey: bomb_cluster_1
+  unitName: CBO-400
+  bogeyName:
+  description: This 400kg cluster bomb dispenses 8 GS25 submunitions capable of independently finding and targeting hostile units in the vicinity.
+  code: BOMB
+  visibleRange: 3000
+  iconRange: 0
+  radarSize: 0.15
+  friendlyIcon: {fileID: 21300000, guid: f39845c1fa31e4547a0a9073d390afa6, type: 2}
+  hostileIcon: {fileID: 21300000, guid: f39845c1fa31e4547a0a9073d390afa6, type: 2}
+  mapIcon: {fileID: 21300000, guid: 9c03d65a4680dd74f87808e65900d622, type: 2}
+  mapOrient: 1
+  IsObstacle: 1
+  iconSize: 0.5
+  mapIconSize: 0.5
+  captureCapacity: 0
+  captureStrength: 0
+  captureDefense: 0
+  length: 2.7
+  width: 0.4
+  height: 0.4
+  value: 0.36
+  mass: 400
+  manpower: 0
+  armorTier: 1
+  damageTolerance: 1
+  CanSlingLoad: 0
+  unitPrefab: {fileID: 1709254077376921, guid: dac6cffe16b70a44893dbd1b9767eac2, type: 2}
+  spawnOffset: {x: 0, y: 0.188, z: 0}
+  disabled: 1
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 1
+  minEditorHeight: 0
+  maxEditorHeight: 10000

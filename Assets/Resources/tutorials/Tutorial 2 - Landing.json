@@ -1,0 +1,748 @@
+{
+  "JsonVersion": 6,
+  "MapKey": {
+    "Type": "None",
+    "Path": ""
+  },
+  "missionSettings": {
+    "description": "Learn how to prepare for and perform a landing. For this lesson you will be piloting the T/A-30 Compass trainer aircraft.",
+    "allowEventContent": false,
+    "Tags": [],
+    "playerMode": "Singleplayer",
+    "allowRespawn": false,
+    "playerStartingRank": 0,
+    "rankMultiplier": 1.0,
+    "successfulSortieBonus": 0.25,
+    "nuclearEscalationThreshold": 0.0,
+    "strategicEscalationThreshold": 0.0,
+    "minRankTacticalWarhead": 0,
+    "minRankStrategicWarhead": 0,
+    "cameraStartPosition": {
+      "IsOverride": false,
+      "Value": {
+        "Position": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "Rotation": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0,
+          "w": 0.0
+        }
+      }
+    },
+    "missionRoads": {
+      "roads": []
+    },
+    "missionSeaLanes": {
+      "roads": []
+    },
+    "wrecksMaxNumber": 0,
+    "wrecksDecayTime": 0.0
+  },
+  "environment": {
+    "timeOfDay": 8.334217,
+    "timeFactor": 0.0,
+    "weatherIntensity": 0.276679516,
+    "cloudAltitude": 2205.83325,
+    "windSpeed": 0.0,
+    "windTurbulence": 0.0,
+    "windHeading": 0.0,
+    "windRandomHeading": 0.0,
+    "moonPhase": 14.0
+  },
+  "aircraft": [
+    {
+      "type": "trainer",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 27341.97,
+        "y": 544.0879,
+        "z": -25992.4355
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.032282982,
+        "z": 0.0,
+        "w": 0.999478757
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "trainer",
+      "playerControlled": true,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "TailHook_Trainer"
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 202.609192
+    },
+    {
+      "type": "trainer",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 27652.6621,
+        "y": 135.105,
+        "z": -18937.7773
+      },
+      "rotation": {
+        "x": 0.00149419555,
+        "y": 0.9687001,
+        "z": 0.00601781346,
+        "w": -0.248156652
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "trainer_1",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 0.0
+    },
+    {
+      "type": "trainer",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 27395.543,
+        "y": 2866.399,
+        "z": -29415.0039
+      },
+      "rotation": {
+        "x": 0.00277296687,
+        "y": 0.0166378021,
+        "z": -0.00277296687,
+        "w": 0.9998539
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "trainer_2",
+      "playerControlled": false,
+      "playerControlledPriority": 0,
+      "savedLoadout": {
+        "Selected": [
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": ""
+          },
+          {
+            "Key": "TailHook_Trainer"
+          }
+        ]
+      },
+      "livery": 2,
+      "liveryType": "Builtin",
+      "liveryName": "",
+      "fuel": 1.0,
+      "skill": 1.0,
+      "bravery": 0.5,
+      "startingSpeed": 109.959816
+    }
+  ],
+  "vehicles": [
+    {
+      "type": "HLT-L",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 27760.7168,
+        "y": 135.698639,
+        "z": -19150.5234
+      },
+      "rotation": {
+        "x": -3.239323E-05,
+        "y": 0.0294168741,
+        "z": 0.00011569709,
+        "w": 0.9995673
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-L",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 27577.0742,
+        "y": 134.322357,
+        "z": -18997.0449
+      },
+      "rotation": {
+        "x": 0.00731299026,
+        "y": 0.8718125,
+        "z": 0.0131929768,
+        "w": 0.4896075
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-L_1",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    },
+    {
+      "type": "HLT-L",
+      "faction": "Primeva",
+      "globalPosition": {
+        "x": 27567.0039,
+        "y": 136.304077,
+        "z": -19381.2949
+      },
+      "rotation": {
+        "x": 0.00244402047,
+        "y": 0.5667886,
+        "z": -0.00171762041,
+        "w": 0.823857844
+      },
+      "CaptureStrength": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "CaptureDefense": {
+        "IsOverride": false,
+        "Value": 0.0
+      },
+      "UniqueName": "HLT-L_2",
+      "holdPosition": true,
+      "skill": 0.7,
+      "waypoints": []
+    }
+  ],
+  "ships": [],
+  "buildings": [],
+  "scenery": [],
+  "containers": [],
+  "missiles": [],
+  "pilots": [],
+  "factions": [
+    {
+      "factionName": "Boscali",
+      "preventJoin": true,
+      "preventDonation": false,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 0.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    },
+    {
+      "factionName": "Primeva",
+      "preventJoin": false,
+      "preventDonation": false,
+      "supplies": [],
+      "startingBalance": 0.0,
+      "playerJoinAllowance": 20.0,
+      "playerTaxRate": 0.2,
+      "regularIncome": 0.0,
+      "excessFundsDistributePercent": 0.25,
+      "killReward": 1.0,
+      "airSkillMultiplier": 1.0,
+      "surfaceSkillMultiplier": 1.0,
+      "startingWarheads": 0,
+      "reserveWarheads": 0,
+      "reserveAirframes": 0,
+      "extraReservesPerPlayer": 1,
+      "AIAircraftLimit": 6,
+      "reduceAIPerFriendlyPlayer": 1.0,
+      "addAIPerEnemyPlayer": 1.0,
+      "restrictions": {
+        "aircraft": [],
+        "weapons": []
+      },
+      "cameraStartPosition": {
+        "IsOverride": false,
+        "Value": {
+          "Position": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+          },
+          "Rotation": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0,
+            "w": 0.0
+          }
+        }
+      }
+    }
+  ],
+  "airbases": [
+    {
+      "IsOverride": true,
+      "faction": "Primeva",
+      "UniqueName": "Sandrift Airbase",
+      "DisplayName": "Sandrift Airbase",
+      "Disabled": false,
+      "Capturable": true,
+      "CaptureDefense": 1.0,
+      "CaptureRange": 975.0,
+      "Center": {
+        "x": 27810.69,
+        "y": 138.233459,
+        "z": -19056.1543
+      },
+      "SelectionPosition": {
+        "x": 27574.4785,
+        "y": 135.432465,
+        "z": -19351.6035
+      },
+      "Tower": "",
+      "VerticalLandingPoints": [],
+      "ServicePoints": [],
+      "roads": {
+        "roads": []
+      },
+      "runways": []
+    }
+  ],
+  "objectives": [
+    {
+      "Type": "None",
+      "UniqueName": "Mission Start",
+      "Faction": "",
+      "DisplayName": "",
+      "Hidden": true,
+      "Outcomes": [
+        "open box 1"
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "Box 1 - Prepare for Landing",
+      "Faction": "Primeva",
+      "DisplayName": "Box 1 - Prepare for Landing",
+      "Hidden": false,
+      "Outcomes": [],
+      "title": "Prepare for Landing",
+      "body": "The airstrip you'll be landing at is directly infront of you. Start by reducing your throttle <bind=Throttle:neg> to zero - this will deploy the airbrake.\n\u000bTry to bring your speed down to at most 375kph (200 knots) before the next waypoint.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Go to box 2",
+      "Faction": "Primeva",
+      "DisplayName": "Use Airbakes",
+      "Hidden": false,
+      "Outcomes": [
+        "open box 2"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 27660.8,
+            "y": 267.1,
+            "z": -21834.4
+          },
+          "Range": 300.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "Box 2 - Deploy Gear",
+      "Faction": "Primeva",
+      "DisplayName": "Box 2 - Deploy Gear",
+      "Hidden": false,
+      "Outcomes": [],
+      "title": "Deploy Gear",
+      "body": "Lower your landing gear using <bind=Gear> or the radial menu <bind=Radial Menu> + <bind=Radial Menu Horizontal>\n\nYour flaps will automatically lower to landing position at slower speeds - you will notice a change in handling.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Go to box 3",
+      "Faction": "Primeva",
+      "DisplayName": "Deploy Gear",
+      "Hidden": false,
+      "Outcomes": [
+        "open box 3"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 27726.2422,
+            "y": 236.955368,
+            "z": -21039.97
+          },
+          "Range": 300.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "Box 3 - Landing Assist",
+      "Faction": "Primeva",
+      "DisplayName": "Box 3 - Landing Assist",
+      "Hidden": false,
+      "Outcomes": [
+        "open box 3.1"
+      ],
+      "title": "Landing Assist                   1/3",
+      "body": "Lowering your gear has also activated the landing assist on the HUD.\u000b\u000bIt has two features: The Glideslope indicator, and the Angle of Attack (AoA) Indexer",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "Box 3.1 - Landing Assist Pt1",
+      "Faction": "Primeva",
+      "DisplayName": "Box 3.1 - Landing Assist Pt1",
+      "Hidden": false,
+      "Outcomes": [
+        "open box 3.2"
+      ],
+      "title": "Glideslope indicator          2/3",
+      "body": "The line coming out of the runway with a small circle at the end is your glideslope indicator.\n\nAs you glide, steer so that your velocity vector envelops the small circle at the end of the glideslope.",
+      "button": "Next",
+      "factionOnly": false
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "Box 3.2 - Landing Assist Pt2",
+      "Faction": "Primeva",
+      "DisplayName": "Box 3.2 - Landing Assist Pt2",
+      "Hidden": false,
+      "Outcomes": [],
+      "title": "Angle of Attack Indexer     3/3",
+      "body": "On the left side of the HUD is your angle of attack indexer. Green is too slow, yellow is on speed, and red is too fast.\u000bWhile steering, adjust the throttle to keep the AoA indexer showing a yellow circle. Continue until you touch down.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Go to box 4",
+      "Faction": "Primeva",
+      "DisplayName": "Touch Down",
+      "Hidden": false,
+      "Outcomes": [
+        "start wait for box 4"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 27841.9551,
+            "y": 135.5592,
+            "z": -19505.5645
+          },
+          "Range": 100.0
+        }
+      ]
+    },
+    {
+      "Type": "WaitSeconds",
+      "UniqueName": "wait for box 4",
+      "Faction": "Primeva",
+      "DisplayName": "wait for box 4",
+      "Hidden": false,
+      "Outcomes": [
+        "open box 4"
+      ],
+      "seconds": 3.0
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "Box 4 - Brake",
+      "Faction": "Primeva",
+      "DisplayName": "Box 4 - Brake",
+      "Hidden": false,
+      "Outcomes": [
+        "start coming to a stop"
+      ],
+      "title": "Wheel Brakes",
+      "body": "Hold down the wheelbrake button <bind=Brake> to bring the plane to a stop.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Come to a stop",
+      "Faction": "Primeva",
+      "DisplayName": "Come to a stop",
+      "Hidden": true,
+      "Outcomes": [
+        "open box 5"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 28348.2344,
+            "y": 128.202148,
+            "z": -17750.373
+          },
+          "Range": 4000.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "Box 5 - Taxi",
+      "Faction": "Primeva",
+      "DisplayName": "Box 5 - Taxi",
+      "Hidden": false,
+      "Outcomes": [],
+      "title": "Successful Landing",
+      "body": "Well done. Normally, you wouldn't come to a complete stop, as it is important to keep the runway clear.\u000b\u000bUse one of the two marked ramps to exit the runway.",
+      "button": "Ok",
+      "factionOnly": false
+    },
+    {
+      "Type": "ReachWaypoints",
+      "UniqueName": "Taxi",
+      "Faction": "Primeva",
+      "DisplayName": "Taxi",
+      "Hidden": false,
+      "Outcomes": [
+        "open box 6"
+      ],
+      "completeOrder": "CompleteAny",
+      "completeSomePercent": 0.5,
+      "completeOnEnterRange": false,
+      "waypoints": [
+        {
+          "Position": {
+            "x": 27835.17,
+            "y": 134.091187,
+            "z": -18955.21
+          },
+          "Range": 50.0
+        },
+        {
+          "Position": {
+            "x": 27858.8945,
+            "y": 133.9772,
+            "z": -18622.1367
+          },
+          "Range": 50.0
+        }
+      ]
+    },
+    {
+      "Type": "DialogueBox",
+      "UniqueName": "Box 6",
+      "Faction": "Primeva",
+      "DisplayName": "Box 6",
+      "Hidden": false,
+      "Outcomes": [
+        "Win"
+      ],
+      "title": "Landing Complete",
+      "body": "When you come to a stop at an airbase, you can disembark the plane using the Eject key <bind=Eject>\u000b\u000bThis will return your plane to your inventory. This will be important later.",
+      "button": "Ok",
+      "factionOnly": false
+    }
+  ],
+  "outcomes": [
+    {
+      "Type": "StartObjective",
+      "UniqueName": "open box 1",
+      "objectivesToStart": [
+        "Box 1 - Prepare for Landing",
+        "Go to box 2"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "open box 2",
+      "objectivesToStart": [
+        "Box 2 - Deploy Gear",
+        "Go to box 3"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "open box 3",
+      "objectivesToStart": [
+        "Box 3 - Landing Assist",
+        "Go to box 4"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "open box 3.1",
+      "objectivesToStart": [
+        "Box 3.1 - Landing Assist Pt1"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "open box 3.2",
+      "objectivesToStart": [
+        "Box 3.2 - Landing Assist Pt2"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start wait for box 4",
+      "objectivesToStart": [
+        "wait for box 4"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "open box 4",
+      "objectivesToStart": [
+        "Box 4 - Brake"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "start coming to a stop",
+      "objectivesToStart": [
+        "Come to a stop"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "open box 5",
+      "objectivesToStart": [
+        "Taxi",
+        "Box 5 - Taxi"
+      ]
+    },
+    {
+      "Type": "StartObjective",
+      "UniqueName": "open box 6",
+      "objectivesToStart": [
+        "Box 6"
+      ]
+    },
+    {
+      "Type": "EndGame",
+      "UniqueName": "Win",
+      "endType": "Victory",
+      "endDelay": 0.0
+    }
+  ]
+}

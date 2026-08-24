@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa816120540204c189ec573df0a0723a, type: 3}
+  m_Name: CargoHook_info
+  m_EditorClassIdentifier:
+  weaponPrefab: {fileID: 0}
+  effectiveness:
+    antiSurface: 0
+    antiAir: 0
+    antiMissile: 0
+    antiRadar: 0
+  targetRequirements:
+    lineOfSight: 0
+    minAltitude: 0
+    maxAltitude: 50
+    minRange: 0
+    maxRange: 50
+    maxSpeed: 0
+    minIR: 0
+    minRadar: 0
+    minAlignment: 30
+    minOwnerSpeed: 0
+    minValue: 0
+  pK: 0.01
+  weaponName: Cargo Hook
+  shortName: SLING
+  description: A cargo hook with a 20m (65ft) line for slinging external loads and recovering downed pilots.
+  fireInterval: 0.5
+  muzzleVelocity: 0
+  maxSpeed: -1
+  dragCoef: 0
+  gravMult: 1
+  pierceDamage: 0
+  blastDamage: 0
+  weaponIcon: {fileID: 21300000, guid: 554593b2bb0d51a42a70d1435a7187d2, type: 2}
+  armorTierEffectiveness: 0
+  airburstHeight: 0
+  visibilityWhenFired: 0
+  costPerRound: 0
+  massPerRound: 0
+  useWeaponDoors: 0
+  boresight: 0
+  laserGuided: 0
+  missile: 0
+  bomb: 0
+  glideBomb: 0
+  gun: 0
+  overHorizon: 0
+  nuclear: 0
+  strategic: 0
+  energy: 0
+  jammer: 0
+  troops: 0
+  hideInDisplay: 0
+  cargo: 0
+  rearmGround: 0
+  rearmShip: 0
+  sling: 1

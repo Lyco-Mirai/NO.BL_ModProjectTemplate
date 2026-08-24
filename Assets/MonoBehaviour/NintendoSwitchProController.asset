@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3faf763ade534d222b4449357f0cf9d8, type: 3}
+  m_Name: NintendoSwitchProController
+  m_EditorClassIdentifier:
+  _baseKeys:
+  - controller/nintendo_switch_pro_controller
+  - controller/nintendo_switch2_pro_controller
+  _glyphs:
+  - _key: left_stick/horizontal
+    _value: {fileID: 21300000, guid: f16608e41c07a2243a6d80841ae66851, type: 2}
+  - _key: left_stick/right
+    _value: {fileID: 21300000, guid: b47bb93694d45394b83b30a63cec32c3, type: 2}
+  - _key: left_stick/left
+    _value: {fileID: 21300000, guid: 330f129af8f4aec4f8e87dafe757c35c, type: 2}
+  - _key: left_stick/vertical
+    _value: {fileID: 21300000, guid: 00a7046e82409864aa20eb288fd64e64, type: 2}
+  - _key: left_stick/up
+    _value: {fileID: 21300000, guid: d985000b70b90d144ba8658ef2fb7b1a, type: 2}
+  - _key: left_stick/down
+    _value: {fileID: 21300000, guid: 7620305774699144cb8ee231ab6596b5, type: 2}
+  - _key: right_stick/horizontal
+    _value: {fileID: 21300000, guid: 37da8d57019308241882ace1a1c7cc4e, type: 2}
+  - _key: right_stick/right
+    _value: {fileID: 21300000, guid: 49bfc454854e2424ab1f89bfef70b677, type: 2}
+  - _key: right_stick/left
+    _value: {fileID: 21300000, guid: bcea7e78bdf919243a4503da3e34e790, type: 2}
+  - _key: right_stick/vertical
+    _value: {fileID: 21300000, guid: d67530e653794c2409d46913405c98d8, type: 2}
+  - _key: right_stick/up
+    _value: {fileID: 21300000, guid: 616d93f3de660394b8486182b3df2b41, type: 2}
+  - _key: right_stick/down
+    _value: {fileID: 21300000, guid: 53857bf74034d8a459306d851c6c0da9, type: 2}
+  - _key: b
+    _value: {fileID: 21300000, guid: 08589287faa939b4fb11332aeb202454, type: 2}
+  - _key: a
+    _value: {fileID: 21300000, guid: 9e620d0daad91274a827ac8ae110cdb9, type: 2}
+  - _key: y
+    _value: {fileID: 21300000, guid: 9c456f13621e824458b7ebe719f798e3, type: 2}
+  - _key: x
+    _value: {fileID: 21300000, guid: a435a0529cb670542927f925f95510b9, type: 2}
+  - _key: l
+    _value: {fileID: 21300000, guid: a9bc9b7b5ef89c2449ac4933b8344a7b, type: 2}
+  - _key: r
+    _value: {fileID: 21300000, guid: 5f5185a45f9bb474b97a3ca9ee4bf290, type: 2}
+  - _key: zl
+    _value: {fileID: 21300000, guid: 85d35a0d857bac746b542058e729cf65, type: 2}
+  - _key: zr
+    _value: {fileID: 21300000, guid: b8062ddefb5fc5e4fac4c262e9f578be, type: 2}
+  - _key: minus
+    _value: {fileID: 21300000, guid: 5229ed1a417c24647b95a6dc125aead6, type: 2}
+  - _key: plus
+    _value: {fileID: 21300000, guid: f8bac66ff5574324d8a05ed02314325a, type: 2}
+  - _key: capture
+    _value: {fileID: 21300000, guid: cb3975991c4fd884fa3120cc731b714e, type: 2}
+  - _key: home
+    _value: {fileID: 21300000, guid: ba56e40150b25064a9eca24c65484f9c, type: 2}
+  - _key: left_stick/button
+    _value: {fileID: 21300000, guid: 029a16355d52ca640859577b084c3f77, type: 2}
+  - _key: right_stick/button
+    _value: {fileID: 21300000, guid: db949eae991f82449881909341af2968, type: 2}
+  - _key: dpad/up
+    _value: {fileID: 21300000, guid: 8708635ba3e04e04f97adeb2e6de7430, type: 2}
+  - _key: dpad/right
+    _value: {fileID: 21300000, guid: 1c199abfb4051b14c90e7db5a86493de, type: 2}
+  - _key: dpad/down
+    _value: {fileID: 21300000, guid: 4891949b4039dbc46b64ebd0e7c05017, type: 2}
+  - _key: dpad/left
+    _value: {fileID: 21300000, guid: ddd15c6414fa6be41815e64aa6f4f854, type: 2}
+  - _key: left_stick
+    _value: {fileID: 21300000, guid: e506f05db9e6d574883d7bb4e7ff4935, type: 2}
+  - _key: right_stick
+    _value: {fileID: 21300000, guid: 305020de005ca414eab733ffaf3047f0, type: 2}
+  - _key: dpad
+    _value: {fileID: 21300000, guid: 742555978281df649a118317238af0fe, type: 2}
+  - _key: dpad/horizontal
+    _value: {fileID: 21300000, guid: 6d1c886808ac0534fa7c8b4fa3d3e78b, type: 2}
+  - _key: dpad/vertical
+    _value: {fileID: 21300000, guid: 1529e94ddc35e464d970ffea0c33e76d, type: 2}
+  - _key: c
+    _value: {fileID: 21300000, guid: 640b228c9bfc0d743b4aa0b9b3632dbc, type: 2}

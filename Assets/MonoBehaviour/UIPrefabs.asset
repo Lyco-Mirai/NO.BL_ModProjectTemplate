@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af35774cdbb93f2075266938343063a5, type: 3}
+  m_Name: UIPrefabs
+  m_EditorClassIdentifier:
+  TextPrefab: {fileID: 114618682377417806, guid: 4ec1fe26e524c5b4cb416f516c29b5ea, type: 2}
+  GroupBoxPrefab: {fileID: 224730242686860875, guid: 068f79f6d18a2ff40b5eb3f8dc4ec07c, type: 2}
+  VectorFieldPrefab: {fileID: 114705390221481576, guid: 032061cd2cba92d4d9caa44b65cff053, type: 2}
+  FloatFieldPrefab: {fileID: 114025901758691103, guid: e290a4eff3a7aa84bb984953dc05f49f, type: 2}
+  StringFieldPrefab: {fileID: 114243736805655561, guid: bfba76b643dff264a88984453d907e3c, type: 2}
+  BoolFieldPrefab: {fileID: 114061268324235159, guid: 0a19c0c695a371549b3bc1f503182e02, type: 2}
+  ReferenceListPrefab: {fileID: 114880619614767448, guid: 4da9dc440282f1843ac47230e7381069, type: 2}
+  ReferenceDataPrefab: {fileID: 114384403120170545, guid: ecd6863a6a769d247a51f9b1edb4cca9, type: 2}
+  DataListPrefab: {fileID: 114711914853252429, guid: b4ed325252396b442a013fc352566884, type: 2}
+  Dropdown: {fileID: 114977153420339851, guid: 1f213a94fd74ce9448f736233c33b6f8, type: 2}
+  WaypointEditor: {fileID: 114061268324235159, guid: cd0b61e9de95d1442a4031d366ccb1a3, type: 2}
+  OverrideField: {fileID: 114099118695303065, guid: 838c0cd863c4b7949b78a2ebc9b422ba, type: 2}
+  FactionDataPrefab: {fileID: 114336590748365959, guid: 9897b7a2ec52d76419509fe8e35779ca, type: 2}
+  HorizontalGroupPrefab: {fileID: 114724804207875695, guid: e3cb8b0a2fa98ea4688dcc56ff25dd97, type: 2}
+  VerticalGroupPrefab: {fileID: 114724804207875695, guid: dd6969e66a2ace84099041928ffa8b31, type: 2}
+  GroupBoxPadding: 20
