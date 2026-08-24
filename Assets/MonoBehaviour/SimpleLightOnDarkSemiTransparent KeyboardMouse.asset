@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d3e37cf522f004622404a87bd1b3228, type: 3}
+  m_Name: SimpleLightOnDarkSemiTransparent KeyboardMouse
+  m_EditorClassIdentifier:
+  _sets:
+  - {fileID: 11400000, guid: 0e2d6e4d4d9c27c44b9c47f023ebc7eb, type: 2}
+  - {fileID: 11400000, guid: bc92312a69bd40f419bb0537621e7485, type: 2}
+  _collections: []

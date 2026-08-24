@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa816120540204c189ec573df0a0723a, type: 3}
+  m_Name: Gun30mm_Rotary
+  m_EditorClassIdentifier:
+  weaponPrefab: {fileID: 0}
+  effectiveness:
+    antiSurface: 0.3
+    antiAir: 0.29
+    antiMissile: 0
+    antiRadar: 0
+  targetRequirements:
+    lineOfSight: 1
+    minAltitude: 0
+    maxAltitude: 100000
+    minRange: 0
+    maxRange: 3000
+    maxSpeed: 100000
+    minIR: 0
+    minRadar: 0
+    minAlignment: 30
+    minOwnerSpeed: 0
+    minValue: 0
+  pK: 0.01
+  weaponName: 30mm Rotary Cannon
+  shortName: GUN 30MM ROT
+  description: Occupying three structural hardpoints and weighing in at 1.6 tons loaded, this seven-barrelled, twin motor behemoth fires a mixed belt of 30mm armour piercing incendiary & HE rounds at 3000rpm. Can be made effective against the majority of enemy vehicles, buildings, and slow moving aircraft.
+  fireInterval: 0
+  muzzleVelocity: 1100
+  maxSpeed: -1
+  dragCoef: 0.3
+  gravMult: 1
+  pierceDamage: 650
+  blastDamage: 0.03
+  weaponIcon: {fileID: 21300000, guid: b59f15b4c5ad72f4288fd03041134b2b, type: 2}
+  armorTierEffectiveness: 5
+  airburstHeight: 0
+  visibilityWhenFired: 3000
+  costPerRound: 6E-05
+  massPerRound: 0.85
+  useWeaponDoors: 0
+  boresight: 1
+  laserGuided: 0
+  missile: 0
+  bomb: 0
+  glideBomb: 0
+  gun: 1
+  overHorizon: 0
+  nuclear: 0
+  strategic: 0
+  energy: 0
+  jammer: 0
+  troops: 0
+  hideInDisplay: 0
+  cargo: 0
+  rearmGround: 0
+  rearmShip: 0
+  sling: 0

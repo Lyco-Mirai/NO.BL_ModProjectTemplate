@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 250344640, guid: 57c9a3e5193e26c4b968cc86e528416d, type: 3}
+  m_Name: NightVisionPostProcessing
+  m_EditorClassIdentifier:
+  components:
+  - {fileID: 11400000, guid: f870e482266079a448ab560474fb9c74, type: 2}
+  - {fileID: 11400000, guid: 8c65b3abc0351224cafd69ce2e2e28e5, type: 2}
+  - {fileID: 11400000, guid: 54b39e8807880ac44b477d23652b435f, type: 2}
+  - {fileID: 11400000, guid: f8dafda61ed2b084295d628db1c6981e, type: 2}
+  - {fileID: 11400000, guid: 21a0d98c94a4aa24882381acba5d588a, type: 2}
+  - {fileID: 11400000, guid: 43500eafc5fdd354e9df1cb9ac08ffd7, type: 2}
+  - {fileID: 11400000, guid: 8413028917104ad43841eefb97cdbe8b, type: 2}

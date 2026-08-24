@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 744778b62e754d06b4fef59a246aef54, type: 3}
+  m_Name: gun_30mm_rotary_pod
+  m_EditorClassIdentifier:
+  prefab: {fileID: 1709254077376921, guid: 29a8fd6bd5899784d8fe87390cfa50a1, type: 2}
+  jsonKey: gun_30mm_rotary_pod
+  info: {fileID: 11400000, guid: dde246172ba6c374fb1f720875eefdd8, type: 2}
+  mountName: 30mm Rotary Cannon (1200 rounds)
+  ammo: 1200
+  turret: 0
+  missileBay: 0
+  radar: 0
+  tailHook: 0
+  slingloadHook: 0
+  countermeasure: 0
+  colorable: 1
+  Cargo: 0
+  Troops: 0
+  sortWeapons: 1
+  GearSafety: 1
+  GroundSafety: 1
+  GunAmmo: 0
+  emptyCost: 0.5
+  emptyMass: 600
+  mass: 400
+  drag: 0.07
+  emptyDrag: 0.07
+  RCS: 0.012
+  emptyRCS: 0.012
+  disabled: 0
+  isEventContent: 0
+  dontAutomaticallyAddToEncyclopedia: 0
