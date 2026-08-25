@@ -43,6 +43,8 @@ namespace BL.UnityEditor
         [MenuItem("Assets/Pack/Manual/Generate Patch Manifests")]
         public static void GenerateAllPackManifests()
         {
+            AutomateAllPackManifests();
+
             ClearConsole();
 
             BL.Common.Debug.Log($"Attempting to generate Patch manifests!");
@@ -282,11 +284,12 @@ namespace BL.UnityEditor
                             {
                                 WeaponMountEntry vehicleEntry = weaponPylonAddition.addMountToVehicles[_y];   
                                 BlueprinterWeaponManager vehicleWeaponManager = new BlueprinterWeaponManager();
-                                vehicleWeaponManager.helperName = Path.GetFileName(vehicleEntry.vehicle.inspectorName);
+                                VehicleModelType vehicleInfo = VehicleModelTypeDatabase.GetVehicleModelInfo(vehicleEntry.vehicle);
+                                vehicleWeaponManager.helperName = vehicleInfo.name;
                                 vehicleWeaponManager.GameAsset = new BlueprinterGameAsset();
-                                vehicleWeaponManager.GameAsset.asset = vehicleEntry.vehicle.blueprinterAsset;
+                                vehicleWeaponManager.GameAsset.asset = vehicleInfo.blueprinterAsset;
                                 vehicleWeaponManager.GameAsset.asset.type = "WeaponManager, Assembly-CSharp";
-                                vehicleWeaponManager.GameAsset.id = $"{vehicleWeaponManager.helperName} [{vehicleEntry.vehicle.vehicleModel.ToString()}] | {vehicleWeaponManager.GameAsset.asset.type} | {vehicleEntry.vehicle.blueprinterAsset.locator}";
+                                vehicleWeaponManager.GameAsset.id = $"{vehicleWeaponManager.helperName} [{vehicleInfo.vehicleModel.ToString()}] | {vehicleWeaponManager.GameAsset.asset.type} | {vehicleInfo.blueprinterAsset.locator}";
                                 vehicleWeaponManager.hardpointSetIndices = vehicleEntry.pylonIndexes;
                                 vehicleWeaponManagers[_y] = vehicleWeaponManager;
                             }
@@ -323,7 +326,6 @@ namespace BL.UnityEditor
         [MenuItem("Assets/Pack/Build AssetBundles")]
         public static void BuildAllAssetBundles()
         {
-            AutomateAllPackManifests();
             GenerateAllPackManifests();
 
             string assetBundleDirectory = "Assets/StreamingAssets";
