@@ -8,7 +8,14 @@ namespace BL.Blueprinter {
     {
         public string name;
         public string locator;
-        public string type;
+        public string type;    
+        public BlueprinterAsset(){}
+        public BlueprinterAsset(string initName, string initLocator, string initType)
+        {
+            name = initName;
+            locator = initLocator;
+            type = initType;
+        }
     }
     [System.Serializable]
     public class BlueprinterGameAsset

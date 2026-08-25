@@ -11,6 +11,17 @@ using BL.Common;
 
 namespace BL.Common
 {
+    public static class Debug
+    {
+        public static void Log(string logText)
+        {
+            UnityEngine.Debug.Log(logText);
+        }
+        public static void LogWarning(string logText)
+        {
+            UnityEngine.Debug.LogWarning(logText);
+        }
+    }
     public static class T
     {
         public static T[] AddRaw<T>(T[] array, T newElement)
