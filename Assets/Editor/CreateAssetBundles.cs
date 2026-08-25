@@ -142,7 +142,7 @@ namespace BL.UnityEditor
                 // Toggle to allow for the PatchManifestDefinition to also be packaged if wanted ...
                 string assetPath = AssetDatabase.GetAssetPath(patchManifest);
                 AssetImporter patchDefinitionImporter = AssetImporter.GetAtPath(assetPath);
-                if (!patchManifest.copyDefinitionToAssetbundle) {
+                if (!patchManifest.copyPatchDefinitionToAssetBundle) {
                     Debug.Log($"Attempting to wipe PatchManifest Definition from all bundles ...");
                     patchDefinitionImporter.SetAssetBundleNameAndVariant("", "");
                     patchDefinitionImporter.SaveAndReimport();
@@ -211,6 +211,81 @@ namespace BL.UnityEditor
                 }
                 // Generate Patches
                 // Generate Operations
+                if (patchManifest.autoAddOperations)
+                {
+                    List<PatchManifestOperation> generatedOperations = new List<PatchManifestOperation>(); 
+                    // Add Units to Encyclopedia
+                        PatchManifestOperation AddUnitsToEncyclopediaOperation = new PatchManifestOperation();
+                        AddUnitsToEncyclopediaOperation.helperName = "Add Units to Encyclopedia";
+                        AddUnitsToEncyclopediaOperation.opType = BlueprinterOpID.OpAddToEncyclopedia;
+                        BlueprinterOperationPayload AddUnitsToEncyclopediaOperationPayload = new BlueprinterOperationPayload();
+                        BlueprinterAsset[] AddUnitsToEncyclopediaOperationPayloadEntries = new BlueprinterAsset[patchManifest.AddedUnits.Length];
+                        for (int _x = 0; _x < patchManifest.AddedUnits.Length; _x++)
+                        {
+                            UnitDefinition unit = patchManifest.AddedUnits[_x];
+                            string entryNamespace = unit.GetType().Namespace;
+                            if ((entryNamespace == "") || (entryNamespace == null)) {entryNamespace = "Assembly-CSharp"; }
+                            string path = AssetDatabase.GetAssetPath(unit);
+                            BlueprinterAsset assetReferance = new BlueprinterAsset();
+                            assetReferance.name = $"{unit.name}";
+                            assetReferance.locator = $"{path}";
+                            assetReferance.type = $"{unit.GetType().Name}, {entryNamespace}";
+                            AddUnitsToEncyclopediaOperationPayloadEntries[_x] = assetReferance;
+                        }
+                        AddUnitsToEncyclopediaOperationPayload.entries = AddUnitsToEncyclopediaOperationPayloadEntries;
+                        AddUnitsToEncyclopediaOperation.payload = AddUnitsToEncyclopediaOperationPayload;
+                        generatedOperations.Add(AddUnitsToEncyclopediaOperation);
+                    // Add WeaponMounts to Encyclopedia
+                        PatchManifestOperation AddWeaponMountsToEncyclopediaOperation = new PatchManifestOperation();
+                        AddWeaponMountsToEncyclopediaOperation.helperName = "Add Weapon Mounts to Encyclopedia";
+                        AddWeaponMountsToEncyclopediaOperation.opType = BlueprinterOpID.OpAddToEncyclopedia;
+                        BlueprinterOperationPayload AddWeaponMountsToEncyclopediaOperationPayload = new BlueprinterOperationPayload();
+                        BlueprinterAsset[] AddWeaponMountsToEncyclopediaOperationPayloadEntries = new BlueprinterAsset[patchManifest.AddedWeaponMounts.Length];
+                        for (int _x = 0; _x < patchManifest.AddedWeaponMounts.Length; _x++)
+                        {
+                            WeaponMount weaponMount = patchManifest.AddedWeaponMounts[_x];
+                            string entryNamespace = weaponMount.GetType().Namespace;
+                            if ((entryNamespace == "") || (entryNamespace == null)) {entryNamespace = "Assembly-CSharp"; }
+                            string path = AssetDatabase.GetAssetPath(weaponMount);
+                            BlueprinterAsset assetReferance = new BlueprinterAsset();
+                            assetReferance.name = $"{weaponMount.name}";
+                            assetReferance.locator = $"{path}";
+                            assetReferance.type = $"{weaponMount.GetType().Name}, {entryNamespace}";
+                            AddWeaponMountsToEncyclopediaOperationPayloadEntries[_x] = assetReferance;
+                        }
+                        AddWeaponMountsToEncyclopediaOperationPayload.entries = AddWeaponMountsToEncyclopediaOperationPayloadEntries;
+                        AddWeaponMountsToEncyclopediaOperation.payload = AddWeaponMountsToEncyclopediaOperationPayload;
+                        generatedOperations.Add(AddWeaponMountsToEncyclopediaOperation);
+                    // Add WeaponMounts to Vehicles
+                        for (int _x = 0; _x < patchManifest.AddedPylonsToVehicle.Length; _x++)
+                        {
+                            WeaponPylonAddition weaponPylonAddition = patchManifest.AddedPylonsToVehicle[_x];   
+                            WeaponMount weaponMount = weaponPylonAddition.weaponMount;        
+                            string entryNamespace = weaponMount.GetType().Namespace;
+                            if ((entryNamespace == "") || (entryNamespace == null)) {entryNamespace = "Assembly-CSharp"; }
+                            string path = AssetDatabase.GetAssetPath(weaponMount);
+                            
+                            PatchManifestOperation operation = new PatchManifestOperation();
+                            operation.helperName = $"Add WeaponMount '{weaponMount.name}' to Vehicles";
+                            operation.opType = BlueprinterOpID.OpAddWeaponMountToWeaponManager;
+                            BlueprinterOperationPayload operationPayload = new BlueprinterOperationPayload();
+                            
+                            BlueprinterAsset assetReferance = new BlueprinterAsset();
+                            assetReferance.name = $"{weaponMount.name}";
+                            assetReferance.locator = $"{path}";
+                            assetReferance.type = $"{weaponMount.GetType().Name}, {entryNamespace}";
+                            operationPayload.bundleAsset = assetReferance;
+
+                            operation.payload = operationPayload;
+                            generatedOperations.Add(operation);
+                        }
+                    // Combine and push Operations to the Patch Manifest
+                        patchManifest.Ops = new PatchManifestOperation[generatedOperations.Count()];
+                        for (int _x = 0; _x < generatedOperations.Count(); _x++)
+                        {
+                            patchManifest.Ops[_x] = generatedOperations[_x];
+                        }
+                }
             }
         }
         [MenuItem("Assets/Pack/Manual/Automate Patch Manifests")]
