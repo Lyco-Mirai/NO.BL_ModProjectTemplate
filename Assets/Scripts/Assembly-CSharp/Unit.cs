@@ -1227,7 +1227,7 @@ public class Unit : NetworkBehaviour, IEditorSelectable, IIgnoreTerrainCheck
 		}
 		PooledNetworkWriter writer = NetworkWriterPool.GetWriter();
 		writer.WriteByteExtension(stationIndex);
-		GeneratedNetworkCode._Write_System_002EReadOnlySpan_00601_003CPersistentID_003E_WithLength(writer, targetIDs, 128);
+		//GeneratedNetworkCode._Write_System_002EReadOnlySpan_00601_003CPersistentID_003E_WithLength(writer, targetIDs, 128);
 		ServerRpcSender.Send(this, 9, writer, Mirage.Channel.Reliable, requireAuthority: true);
 		writer.Release();
 	}
@@ -1241,7 +1241,7 @@ public class Unit : NetworkBehaviour, IEditorSelectable, IIgnoreTerrainCheck
 		}
 		PooledNetworkWriter writer = NetworkWriterPool.GetWriter();
 		writer.WriteByteExtension(stationIndex);
-		GeneratedNetworkCode._Write_System_002EReadOnlySpan_00601_003CPersistentID_003E(writer, targetIDs);
+		//GeneratedNetworkCode._Write_System_002EReadOnlySpan_00601_003CPersistentID_003E(writer, targetIDs);
 		ClientRpcSender.Send(this, 10, writer, Mirage.Channel.Reliable, excludeOwner: false);
 		writer.Release();
 	}
@@ -2047,7 +2047,7 @@ public class Unit : NetworkBehaviour, IEditorSelectable, IIgnoreTerrainCheck
 
 	protected static void Skeleton_CmdSetStationTargets_872088460(NetworkBehaviour behaviour, NetworkReader reader, INetworkPlayer senderConnection, int replyId)
 	{
-		((Unit)behaviour).UserCode_CmdSetStationTargets_872088460(reader.ReadByteExtension(), GeneratedNetworkCode._Read_System_002EReadOnlySpan_00601_003CPersistentID_003E_WithLength(reader, 128));
+		//((Unit)behaviour).UserCode_CmdSetStationTargets_872088460(reader.ReadByteExtension(), GeneratedNetworkCode._Read_System_002EReadOnlySpan_00601_003CPersistentID_003E_WithLength(reader, 128));
 	}
 
 	public virtual void UserCode_RpcSetStationTargets_1363862903(byte stationIndex, ReadOnlySpan<PersistentID> targetIDs)
@@ -2064,7 +2064,7 @@ public class Unit : NetworkBehaviour, IEditorSelectable, IIgnoreTerrainCheck
 
 	protected static void Skeleton_RpcSetStationTargets_1363862903(NetworkBehaviour behaviour, NetworkReader reader, INetworkPlayer senderConnection, int replyId)
 	{
-		((Unit)behaviour).UserCode_RpcSetStationTargets_1363862903(reader.ReadByteExtension(), GeneratedNetworkCode._Read_System_002EReadOnlySpan_00601_003CPersistentID_003E(reader));
+		//((Unit)behaviour).UserCode_RpcSetStationTargets_1363862903(reader.ReadByteExtension(), GeneratedNetworkCode._Read_System_002EReadOnlySpan_00601_003CPersistentID_003E(reader));
 	}
 
 	private void UserCode_CmdClaimHit__002D1122942669(PersistentID hitID, Vector3Compressed relativePosCompressed, Vector3Compressed bulletVelocityCompressed, byte weaponStationIndex)

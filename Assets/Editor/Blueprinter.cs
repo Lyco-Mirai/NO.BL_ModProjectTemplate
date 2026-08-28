@@ -50,7 +50,7 @@ namespace BL.Blueprinter {
     public class BlueprinterWeaponManager
     {
         public string helperName = "Vehicle";
-        public BlueprinterGameAsset GameAsset;
+        public BlueprinterAsset gameAsset;
         public int[] hardpointSetIndices;
     }
     [System.Serializable]

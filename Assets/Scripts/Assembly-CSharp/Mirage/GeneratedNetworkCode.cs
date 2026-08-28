@@ -5,6 +5,7 @@ using Mirage.Authentication;
 using Mirage.RemoteCalls;
 using Mirage.Serialization;
 using Mirage.Serialization.BrotliCompression;
+using Microsoft.Win32;
 using NuclearOption;
 using NuclearOption.NetworkTransforms;
 using NuclearOption.Networking;
@@ -3016,6 +3017,7 @@ namespace Mirage
 			return new Unit.JamEventArgs();
 		}
 
+		/*
 		public static void _Write_System_002EReadOnlySpan_00601_003CPersistentID_003E_WithLength(NetworkWriter writer, ReadOnlySpan<PersistentID> value, int maxLength)
 		{
 			writer.WriteReadOnlySpan(value, maxLength);
@@ -3034,7 +3036,7 @@ namespace Mirage
 		public static ReadOnlySpan<PersistentID> _Read_System_002EReadOnlySpan_00601_003CPersistentID_003E(NetworkReader reader)
 		{
 			return reader.ReadReadOnlySpan<PersistentID>();
-		}
+		}*/
 
 		public static void _Write_DamageInfo(NetworkWriter writer, DamageInfo value)
 		{

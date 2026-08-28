@@ -671,7 +671,7 @@ namespace NuclearOption.Networking
 				return;
 			}
 			PooledNetworkWriter writer = NetworkWriterPool.GetWriter();
-			GeneratedNetworkCode._Write_NuclearOption_002EReserveNotice(writer, reserveNotice);
+			//GeneratedNetworkCode._Write_NuclearOption_002EReserveNotice(writer, reserveNotice);
 			ClientRpcSender.SendTarget(this, 2, writer, Mirage.Channel.Reliable, null);
 			writer.Release();
 		}
@@ -1188,7 +1188,7 @@ namespace NuclearOption.Networking
 				return;
 			}
 			PooledNetworkWriter writer = NetworkWriterPool.GetWriter();
-			GeneratedNetworkCode._Write_FactionHQ(writer, newHQ);
+			//GeneratedNetworkCode._Write_FactionHQ(writer, newHQ);
 			ServerRpcSender.Send(this, 13, writer, Mirage.Channel.Reliable, requireAuthority: true);
 			writer.Release();
 		}
@@ -1264,7 +1264,7 @@ namespace NuclearOption.Networking
 				writer.WriteSingleConverter(PlayerScore);
 				writer.WritePackedInt32(PlayerRank);
 				writer.WriteSingleConverter(Allocation);
-				GeneratedNetworkCode._Write_System_002ENullable_00601_003CNuclearOption_002EOwnedAirframe_003E(writer, AirframeInUse);
+				//GeneratedNetworkCode._Write_System_002ENullable_00601_003CNuclearOption_002EOwnedAirframe_003E(writer, AirframeInUse);
 				return true;
 			}
 			writer.Write((ulong)((long)syncVarDirtyBits >> 1), 8);
@@ -1323,7 +1323,7 @@ namespace NuclearOption.Networking
 				PlayerRank = reader.ReadPackedInt32();
 				float num3 = Allocation;
 				Allocation = reader.ReadSingleConverter();
-				AirframeInUse = GeneratedNetworkCode._Read_System_002ENullable_00601_003CNuclearOption_002EOwnedAirframe_003E(reader);
+				//AirframeInUse = GeneratedNetworkCode._Read_System_002ENullable_00601_003CNuclearOption_002EOwnedAirframe_003E(reader);
 				if (!base.IsServer && !SyncVarEqual(num, PlayerIndex))
 				{
 					OnPlayerIndexChanged(num, PlayerIndex);
@@ -1399,7 +1399,7 @@ namespace NuclearOption.Networking
 			}
 			if ((num4 & 0x80L) != 0L)
 			{
-				AirframeInUse = GeneratedNetworkCode._Read_System_002ENullable_00601_003CNuclearOption_002EOwnedAirframe_003E(reader);
+				//AirframeInUse = GeneratedNetworkCode._Read_System_002ENullable_00601_003CNuclearOption_002EOwnedAirframe_003E(reader);
 			}
 		}
 

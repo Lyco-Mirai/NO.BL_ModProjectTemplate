@@ -286,10 +286,9 @@ namespace BL.UnityEditor
                                 BlueprinterWeaponManager vehicleWeaponManager = new BlueprinterWeaponManager();
                                 VehicleModelType vehicleInfo = VehicleModelTypeDatabase.GetVehicleModelInfo(vehicleEntry.vehicle);
                                 vehicleWeaponManager.helperName = vehicleInfo.name;
-                                vehicleWeaponManager.GameAsset = new BlueprinterGameAsset();
-                                vehicleWeaponManager.GameAsset.asset = vehicleInfo.blueprinterAsset;
-                                vehicleWeaponManager.GameAsset.asset.type = "WeaponManager, Assembly-CSharp";
-                                vehicleWeaponManager.GameAsset.id = $"{vehicleWeaponManager.helperName} [{vehicleInfo.vehicleModel.ToString()}] | {vehicleWeaponManager.GameAsset.asset.type} | {vehicleInfo.blueprinterAsset.locator}";
+                                vehicleWeaponManager.gameAsset = new BlueprinterAsset();
+                                vehicleWeaponManager.gameAsset = vehicleInfo.blueprinterAsset;
+                                vehicleWeaponManager.gameAsset.type = "WeaponManager, Assembly-CSharp";
                                 vehicleWeaponManager.hardpointSetIndices = vehicleEntry.pylonIndexes;
                                 vehicleWeaponManagers[_y] = vehicleWeaponManager;
                             }

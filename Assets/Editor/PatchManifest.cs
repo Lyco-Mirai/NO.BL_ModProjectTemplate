@@ -72,6 +72,7 @@ namespace BL.Blueprinter
             string type = "";
             switch(vehicle) 
             {
+                // Vanilla Aircraft
                 case VehicleModel.COIN: return new VehicleModelType("CI-22 'Cricket'", "0.19.0", vehicle, new BlueprinterAsset("COIN", "BaseGame", type));
                 case VehicleModel.SFB: return new VehicleModelType("SFB-81 'Darkreach'", "0.19.0", vehicle, new BlueprinterAsset("SFB", "BaseGame", type));
                 case VehicleModel.Fighter1: return new VehicleModelType("FS-12 'Revoker'", "0.19.0", vehicle, new BlueprinterAsset("Fighter1", "BaseGame", type));
@@ -85,17 +86,21 @@ namespace BL.Blueprinter
                 case VehicleModel.CAS1: return new VehicleModelType("A-19 'Brawler'", "0.32.0", vehicle, new BlueprinterAsset("CAS1", "BaseGame", type));
                 case VehicleModel.FastBomber1: return new VehicleModelType("AB-4 'Alkyon'", "0.33.0", vehicle, new BlueprinterAsset("FastBomber1", "BaseGame", type));
                 case VehicleModel.VTOLTrainer1: return new VehicleModelType("VT-7 'Vagrant'", "0.34.0", vehicle, new BlueprinterAsset("VTOLTrainer1", "BaseGame", type));
-                /*
-                [InspectorName("Vanilla/Navy/Shard-class Corvette")] Corvette1, // Version 0.26
-                [InspectorName("Vanilla/Navy/Hyperion-class Fleet Carrier")] FleetCarrier1, // Version 0.28
-                [InspectorName("Vanilla/Navy/Dynamo-class Destroyer")] Destroyer1, // Version 0.29
-                [InspectorName("Vanilla/Navy/Annex-class Assault Carrier")] AssaultCarrier1, // Version 0.30
-                [InspectorName("Vanilla/Navy/OTB-31 LCAC")] LandingCraft1, // Version 0.30
-                [InspectorName("Vanilla/Navy/Argus-class Missile Frigate")] Frigate1, // Version 0.33
-                [InspectorName("Vanilla/Navy/Cursor-class LFD")] SmallCarrier1, // Version 0.33
-                [InspectorName("Vanilla/Navy/Surf-class Patrol Boat")] PatrolBoat1, // Version 0.34
-                */
-                default: return new VehicleModelType("0.0.0", VehicleModel.None, new BlueprinterAsset("ERROR_NO_VEHICLE", "ERROR", type));
+                // Vanilla Seacraft
+                case VehicleModel.Corvette1: return new VehicleModelType("Shard-class Corvette", "0.26.0", vehicle, new BlueprinterAsset("Corvette1", "BaseGame", type));
+                case VehicleModel.FleetCarrier1: return new VehicleModelType("Hyperion-class Fleet Carrier", "0.28.0", vehicle, new BlueprinterAsset("FleetCarrier1", "BaseGame", type));
+                case VehicleModel.Destroyer1: return new VehicleModelType("Dynamo-class Destroyer", "0.29.0", vehicle, new BlueprinterAsset("Destroyer1", "BaseGame", type));
+                case VehicleModel.AssaultCarrier1: return new VehicleModelType("Annex-class Assault Carrier", "0.30.0", vehicle, new BlueprinterAsset("AssaultCarrier1", "BaseGame", type));
+                case VehicleModel.LandingCraft1: return new VehicleModelType("OTB-31 LCAC", "0.30.0", vehicle, new BlueprinterAsset("LandingCraft1", "BaseGame", type));
+                case VehicleModel.Frigate1: return new VehicleModelType("Argus-class Missile Frigate", "0.33.0", vehicle, new BlueprinterAsset("Frigate1", "BaseGame", type));
+                case VehicleModel.SmallCarrier1: return new VehicleModelType("Cursor-class LFD", "0.33.0", vehicle, new BlueprinterAsset("SmallCarrier1", "BaseGame", type));
+                case VehicleModel.PatrolBoat1: return new VehicleModelType("Surf-class Patrol Boat", "0.34.0", vehicle, new BlueprinterAsset("PatrolBoat1", "BaseGame", type));
+                // Aryx3D
+                case VehicleModel.Aryx_F16M_KingViper: return new VehicleModelType("F-16M 'King Viper'", "0.0.0", vehicle, new BlueprinterAsset("Aryx_F16M_KingViper", "BaseGame", type));
+                case VehicleModel.Aryx_LightFighter1: return new VehicleModelType("F-99 'Shrike'", "0.0.0", vehicle, new BlueprinterAsset("Aryx_LightFighter1", "BaseGame", type));
+                // Default
+                case VehicleModel.None: return new VehicleModelType("ERROR: Null Vehicle!", "0.0.0", vehicle, new BlueprinterAsset("ERROR_NULL_VEHICLE", "BaseGame", type));
+                default: return new VehicleModelType("ERROR: No Vehicle!", "0.0.0", VehicleModel.None, new BlueprinterAsset("ERROR_NO_VEHICLE", "ERROR", type));
             }
         }
     }

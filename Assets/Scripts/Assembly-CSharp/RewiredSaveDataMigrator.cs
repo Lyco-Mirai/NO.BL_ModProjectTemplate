@@ -23,6 +23,7 @@ public static class RewiredSaveDataMigrator
 		string text = "Software\\" + Application.companyName + "\\" + Application.productName;
 		List<(string, string)> list = new List<(string, string)>();
 		List<(string, string)> list2 = new List<(string, string)>();
+		/*
 		using (RegistryKey registryKey = Registry.CurrentUser.OpenSubKey(text))
 		{
 			if (registryKey == null)
@@ -52,7 +53,7 @@ public static class RewiredSaveDataMigrator
 					}
 				}
 			}
-		}/*
+		}
 		Dictionary<string, List<(string, string)>> dictionary = (from k in list2
 			group k by k.sig).ToDictionary((IGrouping<string, (string full, string sig)> g) => g.Key, (IGrouping<string, (string full, string sig)> g) => g.ToList());
 		foreach (IGrouping<string, (string, string)> item4 in from k in list
