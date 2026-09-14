@@ -151,161 +151,16 @@ namespace BL.UnityEditor
                 }
             }
 
-            UnitDefinition[] addedUnits = patchManifest.AddedUnits;
-            WeaponMount[] addedWeaponMounts = patchManifest.AddedWeaponMounts;
-            WeaponInfo[] addedWeaponInfos = patchManifest.AddedWeaponInfos;
-
             // Stop automation from poetentially wiping hand-written referances
             if (overwriteMode)
             {
                 BL.Common.Debug.Log($"PatchManifest has overwrite mode enabled ...");
                 string assetBundleIdentifierName = $"{assetBundleName}.nobp";
 
-                List<UnitDefinition> allBundleUnitDefinitions = new List<UnitDefinition>();
-                List<WeaponMount> allBundleWeaponMounts = new List<WeaponMount>();
-                List<WeaponInfo> allBundleWeaponInfos = new List<WeaponInfo>();
-                // Debug Check to see if the PatchManifestDefinition's bundle even exists 
-                bool bundleExists = AssetDatabase.GetAllAssetBundleNames().Contains(assetBundleIdentifierName);
-                if (bundleExists) { BL.Common.Debug.Log($"PatchManifest is a member of this AssetBundle: {assetBundleIdentifierName}"); }
-                else { BL.Common.Debug.LogWarning($"PatchManifest is a member of this AssetBundle: {assetBundleIdentifierName}, Which does not exist!"); }
-                // Find and list all definitions not already added to the PatchManifestDefinition
-                string[] assetBundleContentPaths = AssetDatabase.GetAssetPathsFromAssetBundle(assetBundleIdentifierName);
-                BL.Common.Debug.Log($"AssetBundle contains the following '{assetBundleContentPaths.Length}' asset paths: {string.Join(", ", assetBundleContentPaths)}");
-                foreach (string assetPath in assetBundleContentPaths)
-                {
-                    UnitDefinition unit = AssetDatabase.LoadAssetAtPath<UnitDefinition>(assetPath);
-                    WeaponMount weaponMount = AssetDatabase.LoadAssetAtPath<WeaponMount>(assetPath);
-                    WeaponInfo weaponInfo = AssetDatabase.LoadAssetAtPath<WeaponInfo>(assetPath);
-                    if (unit != null) { allBundleUnitDefinitions.Add(unit); }
-                    if (weaponMount != null) { allBundleWeaponMounts.Add(weaponMount); }
-                    if (weaponInfo != null) { allBundleWeaponInfos.Add(weaponInfo); }
-                }
-                // Add new found definitions to the PatchManifestDefinition
-                foreach (UnitDefinition unit in allBundleUnitDefinitions)
-                {
-                    if (!addedUnits.Contains(unit))
-                    {
-                        BL.Common.Debug.Log($"PatchManifest does not referance added Definition of '{unit}' ...");
-                        UnitDefinition[] newAddedUnits = T.Add(addedUnits, unit);
-                        patchManifest.AddedUnits = newAddedUnits;
-                        addedUnits = patchManifest.AddedUnits;
-                    }
-                }
-                foreach (WeaponMount weaponMount in allBundleWeaponMounts)
-                {
-                    if (!addedWeaponMounts.Contains(weaponMount))
-                    {
-                        BL.Common.Debug.Log($"PatchManifest does not referance added Definition of '{weaponMount}' ...");
-                        WeaponMount[] newAddedWeaponMounts = T.Add(addedWeaponMounts, weaponMount);
-                        patchManifest.AddedWeaponMounts = newAddedWeaponMounts;
-                        addedWeaponMounts = patchManifest.AddedWeaponMounts;
-                    }
-                }
-                foreach (WeaponInfo weaponInfo in allBundleWeaponInfos)
-                {
-                    if (!addedWeaponInfos.Contains(weaponInfo))
-                    {
-                        BL.Common.Debug.Log($"PatchManifest does not referance added Definition of '{weaponInfo}' ...");
-                        WeaponInfo[] newWeaponInfos = T.Add(addedWeaponInfos, weaponInfo);
-                        patchManifest.AddedWeaponInfos = newWeaponInfos;
-                        addedWeaponInfos = patchManifest.AddedWeaponInfos;
-                    }
-                }
-                // Generate Patches
-                // Generate Operations
-                if (patchManifest.autoAddOperations)
-                {
-                    List<PatchManifestOperation> generatedOperations = new List<PatchManifestOperation>(); 
-                    // Add Units to Encyclopedia
-                        if (patchManifest.AddedUnits.Length > 0) { // Sanity check to ensure operation is only added when there is something to add...
-                        PatchManifestOperation AddUnitsToEncyclopediaOperation = new PatchManifestOperation();
-                        AddUnitsToEncyclopediaOperation.helperName = "Add Units to Encyclopedia";
-                        AddUnitsToEncyclopediaOperation.opType = BlueprinterOpID.OpAddToEncyclopedia;
-                        BlueprinterOperationPayload AddUnitsToEncyclopediaOperationPayload = new BlueprinterOperationPayload();
-                        BlueprinterAsset[] AddUnitsToEncyclopediaOperationPayloadEntries = new BlueprinterAsset[patchManifest.AddedUnits.Length];
-                        for (int _x = 0; _x < patchManifest.AddedUnits.Length; _x++)
-                        {
-                            UnitDefinition unit = patchManifest.AddedUnits[_x];
-                            string entryNamespace = unit.GetType().Namespace;
-                            if ((entryNamespace == "") || (entryNamespace == null)) {entryNamespace = "Assembly-CSharp"; }
-                            string path = AssetDatabase.GetAssetPath(unit);
-                            BlueprinterAsset assetReferance = new BlueprinterAsset($"{unit.name}", $"{path}", $"{unit.GetType().Name}, {entryNamespace}");
-                            AddUnitsToEncyclopediaOperationPayloadEntries[_x] = assetReferance;
-                        }
-                        AddUnitsToEncyclopediaOperationPayload.entries = AddUnitsToEncyclopediaOperationPayloadEntries;
-                        AddUnitsToEncyclopediaOperation.payload = AddUnitsToEncyclopediaOperationPayload;
-                        generatedOperations.Add(AddUnitsToEncyclopediaOperation);
-                        }
-                    // Add WeaponMounts to Encyclopedia
-                        if (patchManifest.AddedWeaponMounts.Length > 0) { // Sanity check to ensure operation is only added when there is something to add...
-                        PatchManifestOperation AddWeaponMountsToEncyclopediaOperation = new PatchManifestOperation();
-                        AddWeaponMountsToEncyclopediaOperation.helperName = "Add Weapon Mounts to Encyclopedia";
-                        AddWeaponMountsToEncyclopediaOperation.opType = BlueprinterOpID.OpAddToEncyclopedia;
-                        BlueprinterOperationPayload AddWeaponMountsToEncyclopediaOperationPayload = new BlueprinterOperationPayload();
-                        BlueprinterAsset[] AddWeaponMountsToEncyclopediaOperationPayloadEntries = new BlueprinterAsset[patchManifest.AddedWeaponMounts.Length];
-                        for (int _x = 0; _x < patchManifest.AddedWeaponMounts.Length; _x++)
-                        {
-                            WeaponMount weaponMount = patchManifest.AddedWeaponMounts[_x];
-                            string entryNamespace = weaponMount.GetType().Namespace;
-                            if ((entryNamespace == "") || (entryNamespace == null)) {entryNamespace = "Assembly-CSharp"; }
-                            string path = AssetDatabase.GetAssetPath(weaponMount);
-                            BlueprinterAsset assetReferance = new BlueprinterAsset($"{weaponMount.name}", $"{path}", $"{weaponMount.GetType().Name}, {entryNamespace}");
-                            AddWeaponMountsToEncyclopediaOperationPayloadEntries[_x] = assetReferance;
-                        }
-                        AddWeaponMountsToEncyclopediaOperationPayload.entries = AddWeaponMountsToEncyclopediaOperationPayloadEntries;
-                        AddWeaponMountsToEncyclopediaOperation.payload = AddWeaponMountsToEncyclopediaOperationPayload;
-                        generatedOperations.Add(AddWeaponMountsToEncyclopediaOperation);
-                        }
-                    // Add WeaponMounts to Vehicles
-
-                        BL.Common.Debug.Log($"Found {patchManifest.AddedPylonsToVehicle.Length} pylons to add to weapon managers ...");
-                        if (patchManifest.AddedPylonsToVehicle.Length > 0) { // Sanity check to ensure no errors are produced
-                        for (int _x = 0; _x < patchManifest.AddedPylonsToVehicle.Length; _x++)
-                        {
-                            WeaponPylonAddition weaponPylonAddition = patchManifest.AddedPylonsToVehicle[_x];   
-                            WeaponMount weaponMount = weaponPylonAddition.weaponMount;        
-                            string entryNamespace = weaponMount.GetType().Namespace;
-                            if ((entryNamespace == "") || (entryNamespace == null)) { entryNamespace = "Assembly-CSharp"; }
-                            string path = AssetDatabase.GetAssetPath(weaponMount);
-                            
-                            PatchManifestOperation operation = new PatchManifestOperation();
-                            operation.helperName = $"Add WeaponMount '{weaponMount.name}' to Vehicles";
-                            operation.opType = BlueprinterOpID.OpAddWeaponMountToWeaponManager;
-                            BlueprinterOperationPayload operationPayload = new BlueprinterOperationPayload();
-
-                            
-                            BL.Common.Debug.Log($"Attempting to pass bundle asset to weapon manager: {weaponMount.name} ...");
-                            operationPayload.bundleAsset = new BlueprinterAsset($"{weaponMount.name}", $"{path}", $"{weaponMount.GetType().Name}, {entryNamespace}");
-                            BL.Common.Debug.Log($"{operationPayload.bundleAsset} ...");
-                            
-                            int weaponPylonAdditionSize = weaponPylonAddition.addMountToVehicles.Length;
-                            BlueprinterWeaponManager[] vehicleWeaponManagers = new BlueprinterWeaponManager[weaponPylonAdditionSize];
-                            for (int _y = 0; _y < weaponPylonAdditionSize; _y++)
-                            {
-                                WeaponMountEntry vehicleEntry = weaponPylonAddition.addMountToVehicles[_y];   
-                                BlueprinterWeaponManager vehicleWeaponManager = new BlueprinterWeaponManager();
-                                VehicleModelType vehicleInfo = VehicleModelTypeDatabase.GetVehicleModelInfo(vehicleEntry.vehicle);
-                                vehicleWeaponManager.helperName = vehicleInfo.name;
-                                vehicleWeaponManager.gameAsset = new BlueprinterAsset();
-                                vehicleWeaponManager.gameAsset = vehicleInfo.blueprinterAsset;
-                                vehicleWeaponManager.gameAsset.type = "WeaponManager, Assembly-CSharp";
-                                vehicleWeaponManager.hardpointSetIndices = vehicleEntry.pylonIndexes;
-                                vehicleWeaponManagers[_y] = vehicleWeaponManager;
-                            }
-
-                            operationPayload.weaponManagers = vehicleWeaponManagers;
-                            operation.payload = operationPayload;
-                            generatedOperations.Add(operation);
-                        }}
-                    // Combine and push Operations to the Patch Manifest
-                        patchManifest.Ops = new PatchManifestOperation[generatedOperations.Count()];
-                        for (int _x = 0; _x < generatedOperations.Count(); _x++)
-                        {
-                            patchManifest.Ops[_x] = generatedOperations[_x];
-                        }
-                }
+                patchManifest.Generate();
             }
         }
+        
         [MenuItem("Assets/Pack/Manual/Automate Patch Manifests")]
         public static void AutomateAllPackManifests()
         {

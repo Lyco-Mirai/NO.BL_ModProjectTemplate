@@ -6,8 +6,6 @@ using System.Linq;
 using System.Reflection;
 using System.Collections.Generic;
 using Microsoft.VisualBasic;
-using BL.Blueprinter;
-using BL.Common;
 
 namespace BL.Common
 {
@@ -48,8 +46,12 @@ namespace BL.Common
         }
         public static T[] Add<T>(T[] array, T newElement)
         {
-            T[] newArray = AddRaw(array, newElement);
-            return RemoveNulls(newArray);
+            if (array != null && newElement != null) {
+                T[] newArray = AddRaw(array, newElement);
+                return RemoveNulls(newArray);
+            } else {
+                return new T[0];
+            }
         }
     }
 }
